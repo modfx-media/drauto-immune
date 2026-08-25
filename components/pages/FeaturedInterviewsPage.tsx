@@ -29,7 +29,7 @@ const INTERVIEWS = [
     show: "The Autoimmune Hour with Sharon Sayler",
     title: "Understanding Root Causes Behind Autoimmune Symptoms",
     description:
-      "In this conversation with Sharon Sayler, Dr. Ian explains how stress, diet, toxins, mold and blood sugar imbalances contribute to autoimmune issues — and why intestinal permeability is often overlooked.",
+      "In this conversation with Sharon Sayler, Dr. Ian explains how stress, diet, toxins, mold and blood sugar imbalances contribute to autoimmune issues, and why intestinal permeability is often overlooked.",
     image: "/images/migrated/featured-interviews/original.webp",
     cta: "Listen Now",
     href: "https://www.spreaker.com/episode/uncovering-the-root-causes-of-your-autoimmune-issues--43857027",
@@ -38,7 +38,7 @@ const INTERVIEWS = [
     show: "The Perfect Stool with Lindsey Parsons",
     title: "Gut Health, Autoimmunity & Intestinal Hyperpermeability",
     description:
-      "Dr. Ian discusses the connection between gut health, hormones, anemia, gluten sensitivity, estrogen detox, adrenal function and autoimmune expression — offering a clear look at how gut-driven patterns develop.",
+      "Dr. Ian discusses the connection between gut health, hormones, anemia, gluten sensitivity, estrogen detox, adrenal function and autoimmune expression, offering a clear look at how gut-driven patterns develop.",
     image: "/images/migrated/featured-interviews/large.webp",
     cta: "Listen Now",
     href: "https://open.spotify.com/episode/6HUdnQ7dWOdQVP3L4eJqIl",

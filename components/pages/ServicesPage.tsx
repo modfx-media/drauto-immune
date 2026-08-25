@@ -58,7 +58,7 @@ export default function ServicesPage() {
         eyebrow="Services"
         title="Personalized Functional Medicine Services"
         accent="Functional Medicine"
-        subhead="Every pathway into care — from your first evaluation to ongoing wellness support."
+        subhead="Every pathway into care, from your first evaluation to ongoing wellness support."
         image={{ src: "/images/services/new-patient-evaluation.jpg", alt: "Doctor listening to a patient's heartbeat with a stethoscope" }}
       />
 

@@ -13,7 +13,6 @@ import TikTokVideos2 from "@/components/home2/TikTokVideos2";
 import Testimonials2 from "@/components/home2/Testimonials2";
 import Faq2 from "@/components/home2/Faq2";
 import ContactBand2 from "@/components/home2/ContactBand2";
-import FindUs2 from "@/components/home2/FindUs2";
 
 /**
  * Isolated visual-redesign variant of the homepage for side-by-side
@@ -45,7 +44,6 @@ export default function Home2Page() {
       <Testimonials2 />
       <Faq2 />
       <ContactBand2 />
-      <FindUs2 />
     </>
   );
 }

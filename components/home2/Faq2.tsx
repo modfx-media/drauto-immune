@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Container from "@/components/ui/Container";
 import Icon from "@/components/ui/Icon";
 import { FAQ } from "@/content/home-content";
@@ -12,9 +11,8 @@ import { SECTION_PADDING, TEXT } from "./theme";
  * FAQ accordion matching the real `FAQ.items` data shape (`answer: string`
  * plus an optional `list: string[]`) — a Home2-local component since the
  * shared `FaqAccordion` expects `answer: string[]`, a different shape.
- * Two-column layout: accordion on the left, a supporting consultation
- * photo on the right (hidden on mobile, where the accordion runs full
- * width).
+ * Two-column layout mirroring the Home1 FAQ section: a sticky heading on
+ * the left, a numbered accordion list on the right (no supporting image).
  */
 export default function Faq2() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -22,14 +20,16 @@ export default function Faq2() {
   return (
     <section className={`${SECTION_PADDING} bg-white`}>
       <Container>
-        <SectionHeading
-          eyebrow="Common Questions"
-          heading={FAQ.heading}
-          intro="Straightforward answers about our root-cause, functional medicine approach."
-        />
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] lg:gap-16">
+          <div className="lg:sticky lg:top-32 lg:self-start">
+            <SectionHeading
+              eyebrow="Common Questions"
+              heading={FAQ.heading}
+              intro="Straightforward answers about our root-cause, functional medicine approach."
+            />
+          </div>
 
-        <div className="mt-14 grid grid-cols-1 items-start gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12">
-          <div className="divide-y divide-gray rounded-2xl border border-gray bg-white px-6 sm:px-8">
+          <div className="divide-y divide-gray">
             {FAQ.items.map((item, i) => {
               const isOpen = openIndex === i;
               return (
@@ -38,9 +38,16 @@ export default function Faq2() {
                     type="button"
                     onClick={() => setOpenIndex(isOpen ? null : i)}
                     aria-expanded={isOpen}
-                    className="flex w-full items-center justify-between gap-4 py-6 text-left transition-colors hover:text-primary"
+                    className="group flex w-full items-center justify-between gap-4 rounded-lg py-5 text-left transition-colors duration-200 hover:bg-sage/40"
                   >
-                    <span className={`${TEXT.h3} text-lg`}>{item.question}</span>
+                    <span className="flex items-center gap-3">
+                      <span
+                        className={`font-mono text-xs transition-colors duration-200 ${isOpen ? "text-primary" : "text-primary/40 group-hover:text-primary/70"}`}
+                      >
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      <span className={`${TEXT.h3} text-lg`}>{item.question}</span>
+                    </span>
                     <span
                       className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary transition-transform duration-200 ${isOpen ? "rotate-45" : ""}`}
                     >
@@ -49,7 +56,7 @@ export default function Faq2() {
                   </button>
 
                   {isOpen && (
-                    <div className="pb-6">
+                    <div className="pb-5 pl-8">
                       <p className={TEXT.body}>{item.answer}</p>
                       {item.list && (
                         <ul className="mt-3 space-y-2">
@@ -66,16 +73,6 @@ export default function Faq2() {
                 </div>
               );
             })}
-          </div>
-
-          <div className="relative hidden aspect-[4/5] w-full overflow-hidden rounded-2xl border border-gray lg:block">
-            <Image
-              src="/images/approach/main.webp"
-              alt="Functional medicine consultation between a doctor and a patient"
-              fill
-              sizes="(min-width: 1024px) 40vw, 100vw"
-              className="object-cover"
-            />
           </div>
         </div>
       </Container>

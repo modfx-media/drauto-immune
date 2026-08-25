@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Accent, Badge, Button, Card, Container, Section } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Design System — Dr. Autoimmune",
+  title: "Design System · Dr. Autoimmune",
   robots: "noindex, nofollow",
 };
 
@@ -31,7 +31,7 @@ export default function StyleGuidePage() {
             Calm, clinical, <Accent>quietly confident</Accent>.
           </h1>
           <p className="mt-4 max-w-xl text-lg text-ink-soft">
-            The brand system for Dr. Autoimmune — green/sage/neutral palette,
+            The brand system for Dr. Autoimmune, green/sage/neutral palette,
             Open Sans for body, headings, and UI everywhere.
           </p>
         </Container>
@@ -64,7 +64,7 @@ export default function StyleGuidePage() {
               </h2>
               <h3>Comprehensive new patient evaluation</h3>
               <p className="max-w-2xl text-lg text-ink-soft">
-                Body copy in Open Sans Light — quiet, legible, unhurried. Used
+                Body copy in Open Sans Light, quiet, legible, unhurried. Used
                 for paragraphs, descriptions, and long-form migrated content.
               </p>
               <p className="max-w-2xl text-ink-soft">
@@ -72,7 +72,7 @@ export default function StyleGuidePage() {
                 copy throughout the interface.
               </p>
               <p className="font-mono text-xs uppercase tracking-[0.08em] text-ink-soft">
-                Label / meta face — DM Mono
+                Label / meta face: DM Mono
               </p>
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function StyleGuidePage() {
               <Card
                 badge="Condition"
                 title="Hashimoto's &amp; Graves' Disease"
-                description="A functional medicine approach to thyroid autoimmunity — root-cause testing and personalized protocols."
+                description="A functional medicine approach to thyroid autoimmunity, root-cause testing and personalized protocols."
                 footer={
                   <Button variant="secondary" size="sm">
                     Read more

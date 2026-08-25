@@ -73,7 +73,7 @@ export default function BookAnAppointmentPage() {
         eyebrow="Book An Appointment"
         title="The Dr. Autoimmune Solution"
         accent="Solution"
-        subhead="Nationwide functional medicine care — from the privacy of your own home."
+        subhead="Nationwide functional medicine care, from the privacy of your own home."
         image={{ src: "/images/services/new-patient-evaluation.jpg", alt: "Doctor listening to a patient's heartbeat with a stethoscope" }}
       />
 
@@ -84,12 +84,12 @@ export default function BookAnAppointmentPage() {
           <Reveal className={`mx-auto max-w-3xl ${CARD_CLASSES} overflow-hidden p-6 sm:p-10`}>
             <h2 className="text-xl font-extrabold text-ink sm:text-2xl">Book Your Discovery Call</h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-              Take the first step toward healing — wherever you may be.
+              Take the first step toward healing, wherever you may be.
             </p>
             <div className="mt-6">
               <GhlBookingWidget
                 src="https://link.drautoimmune.com/widget/booking/tJKXoDdUiNVIbNXTR5yA"
-                title="Dr. Autoimmune Discovery Call — booking calendar"
+                title="Dr. Autoimmune Discovery Call: booking calendar"
               />
             </div>
           </Reveal>

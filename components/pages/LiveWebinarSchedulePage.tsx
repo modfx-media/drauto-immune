@@ -39,7 +39,7 @@ export default function LiveWebinarSchedulePage() {
         eyebrow="Live Webinars"
         title="Join Our Live Webinar Schedule"
         accent="Live Webinar Schedule"
-        subhead="Live educational sessions with Dr. Ian on root-cause approaches to autoimmune and thyroid health — reserve your seat below."
+        subhead="Live educational sessions with Dr. Ian on root-cause approaches to autoimmune and thyroid health, reserve your seat below."
         image={{ src: "/images/live-webinar-schedule/laptop-video-call.jpg", alt: "Person joining a video call webinar on a laptop", dim: 0.7 }}
       />
 
@@ -81,7 +81,7 @@ export default function LiveWebinarSchedulePage() {
                       <h3 className="mt-1 text-lg font-extrabold text-ink">{session.title}</h3>
                       {isPending && (
                         <p className="mt-2 text-sm leading-relaxed text-ink-soft">
-                          Details to be announced — registration isn&apos;t open yet.
+                          Details to be announced. Registration isn&apos;t open yet.
                         </p>
                       )}
                     </div>

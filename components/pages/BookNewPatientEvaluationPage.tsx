@@ -24,7 +24,7 @@ const EVALUATION_STEPS: { title: string; description: string }[] = [
   {
     title: "Comprehensive Case Review",
     description:
-      "We take the time to carefully review your symptoms, health history, and timeline so we can understand your unique situation — not just a diagnosis, but the full picture.",
+      "We take the time to carefully review your symptoms, health history, and timeline so we can understand your unique situation, not just a diagnosis, but the full picture.",
   },
   {
     title: "In-Depth Blood Panel Analysis",
@@ -41,7 +41,7 @@ const EVALUATION_STEPS: { title: string; description: string }[] = [
 const STORY_TESTIMONIALS: { quote: string; name: string }[] = [
   {
     quote:
-      "For the first time, someone explained what my labs meant and why I was feeling this way. I left the call with answers — and hope.",
+      "For the first time, someone explained what my labs meant and why I was feeling this way. I left the call with answers, and hope.",
     name: "Alyssa D.",
   },
   {
@@ -83,7 +83,7 @@ const FAQ_ITEMS: FaqItem[] = [
     answer: [
       "Functional medicine is not typically covered by insurance because it focuses on a deeper, more comprehensive level of evaluation and care than standard medical visits. We recognize that investing in your health is a significant decision, and we are committed to making this process as accessible as possible.",
       "Many patients use HSA or FSA funds for the exam and labs, and we also partner with Care Credit and Affirm to offer flexible financing options. Our team will work with you to find a plan that fits your budget and timeline.",
-      "When considering cost, it can help to think about what it takes to stay unwell — time, frustration, missed opportunities, and uncertainty. Our goal is to help you gain clarity and direction so you can make informed choices that truly support your well-being.",
+      "When considering cost, it can help to think about what it takes to stay unwell: time, frustration, missed opportunities, and uncertainty. Our goal is to help you gain clarity and direction so you can make informed choices that truly support your well-being.",
     ],
   },
   {
@@ -144,7 +144,7 @@ export default function BookNewPatientEvaluationPage() {
   return (
     <>
       <InnerPageHero
-        eyebrow="Nationwide Functional Medicine Care — from the Privacy of Your Own Home"
+        eyebrow="Nationwide Functional Medicine Care, from the Privacy of Your Own Home"
         title="Get Answers that Finally Make Sense"
         accent="Make Sense"
         subhead="A guided health review with a member of Dr. Ian Hollaman's clinical team, designed to uncover the patterns behind your symptoms."
@@ -214,7 +214,7 @@ export default function BookNewPatientEvaluationPage() {
           <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-14">
             <Reveal>
               <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">
-                When No One Else Has Given You Answers — We Will
+                When No One Else Has Given You Answers, We Will
               </h2>
               <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
                 <p>
@@ -228,7 +228,7 @@ export default function BookNewPatientEvaluationPage() {
                   fatigue, pain, inflammation, and autoimmunity.
                 </p>
                 <p>
-                  Our goal is to give you more than temporary relief — we give you clarity, direction, and a plan
+                  Our goal is to give you more than temporary relief, we give you clarity, direction, and a plan
                   that fits your life, all from the comfort of your home.
                 </p>
               </div>
@@ -253,7 +253,7 @@ export default function BookNewPatientEvaluationPage() {
               so that it can be more easily corrected. I would recommend him to anyone who needs to work on their
               health.&rdquo;
             </p>
-            <p className="mt-4 text-sm font-medium text-ink-soft">&mdash; Debbie Crume</p>
+            <p className="mt-4 text-sm font-medium text-ink-soft">Debbie Crume</p>
           </Reveal>
         </Container>
       </Section>
@@ -308,7 +308,7 @@ export default function BookNewPatientEvaluationPage() {
             </p>
             <BookingCta label="Start My Path to Clarity" className="mt-6" />
             <p className="mt-4 text-sm italic text-ink-soft">
-              Your Discovery Call is an important first step — it allows our team to prepare your background and
+              Your Discovery Call is an important first step, it allows our team to prepare your background and
               labs so your visit can stay fully focused on you.
             </p>
           </Reveal>

@@ -105,7 +105,7 @@ export default function ConditionsWeSupportPage() {
         eyebrow="Services"
         title="Conditions We Support"
         accent="We Support"
-        subhead="A comprehensive functional medicine approach designed to uncover root causes, elevate wellbeing, and help you feel and function at your best — all delivered through 100% remote telehealth care."
+        subhead="A comprehensive functional medicine approach designed to uncover root causes, elevate wellbeing, and help you feel and function at your best, all delivered through 100% remote telehealth care."
         image={{ src: "/images/migrated/conditions-we-support/large-7.webp", alt: "Doctor reviewing notes at her desk" }}
       />
 
@@ -248,7 +248,7 @@ export default function ConditionsWeSupportPage() {
 
           <Reveal delay={0.15} className="mx-auto mt-16 max-w-3xl rounded-card border border-primary/15 bg-sage/60 p-8 text-center shadow-card sm:p-10">
             <p className="text-lg font-medium text-ink">
-              These stories began with a simple conversation — yours can too.
+              These stories began with a simple conversation. Yours can too.
             </p>
             <p className="mt-2 text-base text-ink-soft">
               If you&rsquo;re wondering whether this kind of support could help you, we would love to talk.

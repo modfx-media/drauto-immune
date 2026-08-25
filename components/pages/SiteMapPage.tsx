@@ -9,7 +9,6 @@ import Section from "@/components/ui/Section";
 import Reveal from "@/components/home/Reveal";
 import { CLINIC_LOCATION } from "@/components/layout/footer-links";
 import { DISCOVERY_CALL_HREF, SITE_CONTACT } from "@/components/layout/nav-links";
-import { HOURS } from "@/content/home-content";
 
 interface DirectoryLink {
   label: string;
@@ -182,7 +181,7 @@ export default function SiteMapPage() {
                 Main <Accent>Pages</Accent>
               </h2>
               <p className="mt-4 text-base leading-relaxed text-ink-soft">
-                The core navigational pages that make up the site — start here if you&rsquo;re getting oriented.
+                The core navigational pages that make up the site, start here if you&rsquo;re getting oriented.
               </p>
             </Reveal>
             <Reveal delay={0.1}>
@@ -206,7 +205,7 @@ export default function SiteMapPage() {
                 Services & <Accent>Getting Started</Accent>
               </h2>
               <p className="mt-4 text-base leading-relaxed text-ink-soft">
-                Every way to begin care with us — from a free introductory call to booking your first evaluation and
+                Every way to begin care with us, from a free introductory call to booking your first evaluation and
                 managing visits through our patient portal.
               </p>
               <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="mt-6 uppercase tracking-wide">
@@ -242,7 +241,7 @@ export default function SiteMapPage() {
               Conditions We <Accent>Treat</Accent>
             </h2>
             <p className="mt-4 text-base leading-relaxed text-ink-soft">
-              Fourteen conditions, grouped by body system — every one gets a dedicated page covering our root-cause
+              Fourteen conditions, grouped by body system, every one gets a dedicated page covering our root-cause
               approach.
             </p>
           </Reveal>
@@ -313,7 +312,7 @@ export default function SiteMapPage() {
       <Section bg="cream-wash" id="visit">
         <Container>
           <Reveal>
-            <div className="grid grid-cols-1 gap-10 rounded-card border border-gray bg-white p-8 shadow-card sm:p-10 lg:grid-cols-[1.4fr_1fr]">
+            <div className="rounded-card border border-gray bg-white p-8 shadow-card sm:p-10">
               <div>
                 <Badge className="mb-4 inline-flex">Visit & Contact</Badge>
                 <h2>
@@ -352,22 +351,6 @@ export default function SiteMapPage() {
                 <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="mt-8 uppercase tracking-wide">
                   Book your Discovery Call
                 </Button>
-              </div>
-              <div className="rounded-lg bg-sage p-6">
-                <div className="flex items-center gap-3">
-                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-white text-primary">
-                    <Icon name="clock" className="h-[18px] w-[18px]" />
-                  </span>
-                  <h3 className="text-base font-extrabold text-ink">{HOURS.heading}</h3>
-                </div>
-                <dl className="mt-4 divide-y divide-primary/10">
-                  {HOURS.rows.map((row) => (
-                    <div key={row.day} className="flex items-center justify-between py-2 text-sm">
-                      <dt className="font-medium text-ink">{row.day}</dt>
-                      <dd className={row.time === "Closed" ? "text-ink-soft/60" : "text-ink-soft"}>{row.time}</dd>
-                    </div>
-                  ))}
-                </dl>
               </div>
             </div>
           </Reveal>

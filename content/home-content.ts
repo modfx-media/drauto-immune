@@ -84,7 +84,7 @@ export const SERVICES = {
     },
     {
       category: "Service",
-      image: "/images/services/new-patient-evaluation.jpg",
+      image: "/images/services/new-patient-evaluation.png",
       title: "New Patient Evaluation",
       description:
         "An in-depth, personalized evaluation to uncover the root cause of your symptoms and build a targeted plan for lasting wellness.",
@@ -92,7 +92,7 @@ export const SERVICES = {
     },
     {
       category: "Service",
-      image: "/images/services/conditions-we-support.png",
+      image: "/images/services/conditions-we-support-v2.png",
       title: "Conditions We Support",
       description:
         "A wide range of autoimmune and chronic conditions, especially those that haven't improved with standard medical care.",
@@ -119,7 +119,7 @@ export const SERVICES = {
       image: "/images/migrated/graves-disease/b311e27464f7d6f6e62ee48003f089b2.webp",
       title: "Graves Disease",
       description:
-        "Root-cause support for Graves' disease — identifying immune triggers and restoring balance without over-suppressing the thyroid.",
+        "Root-cause support for Graves' disease, identifying immune triggers and restoring balance without over-suppressing the thyroid.",
       href: "/graves-disease/",
     },
     {
@@ -132,7 +132,7 @@ export const SERVICES = {
     },
     {
       category: "Condition",
-      image: "/images/migrated/type-1-diabetes/type-1-diabetes-1280x853-1.jpg",
+      image: "/images/conditions/type-1-diabetes.jpg",
       title: "Type 1 Diabetes",
       description:
         "Functional medicine support for Type 1 Diabetes focused on immune modulation, gut health, and nutritional resilience.",
@@ -143,7 +143,7 @@ export const SERVICES = {
       image: "/images/migrated/inflammatory-bowel-disease/632bc0a75b290964bff995f1_Prosper-Nutrition-Inflammatory-Bowel-Disease.jpg",
       title: "Inflammatory Bowel Disease",
       description:
-        "Targeted, root-cause care for Crohn's and ulcerative colitis — restoring the gut lining, microbiome, and immune balance.",
+        "Targeted, root-cause care for Crohn's and ulcerative colitis, restoring the gut lining, microbiome, and immune balance.",
       href: "/inflammatory-bowel-disease/",
     },
     {
@@ -159,7 +159,7 @@ export const SERVICES = {
       image: "/images/migrated/multiple-sclerosis/2177627.jpg",
       title: "Multiple Sclerosis",
       description:
-        "A whole-body approach to MS — addressing the environmental, gut, and immune triggers behind relapses and progression.",
+        "A whole-body approach to MS, addressing the environmental, gut, and immune triggers behind relapses and progression.",
       href: "/multiple-sclerosis/",
     },
     {
@@ -175,7 +175,7 @@ export const SERVICES = {
       image: "/images/migrated/sjogrens-syndrome/full-shot-sad-woman-holding-pillow-bed-scaled.jpg",
       title: "Sjögren's Syndrome",
       description:
-        "Beyond symptom relief — a functional plan for Sjögren's that addresses the deeper autoimmune and hormonal patterns.",
+        "Beyond symptom relief, a functional plan for Sjögren's that addresses the deeper autoimmune and hormonal patterns.",
       href: "/sjogrens-syndrome/",
     },
     {
@@ -183,7 +183,7 @@ export const SERVICES = {
       image: "/images/migrated/anxiety-depression/Untitled-design-13-768x512-1-1.jpg",
       title: "Anxiety & Depression",
       description:
-        "A biochemistry-first look at anxiety and depression — nutrients, gut, hormones, and inflammation, not just neurotransmitters.",
+        "A biochemistry-first look at anxiety and depression: nutrients, gut, hormones, and inflammation, not just neurotransmitters.",
       href: "/anxiety-depression/",
     },
     {
@@ -199,7 +199,7 @@ export const SERVICES = {
       image: "/images/migrated/other-autoimmune-conditions/image-6.jpeg",
       title: "Other Autoimmune Conditions",
       description:
-        "If your condition isn't listed, we still likely support it — the functional medicine framework applies to virtually every autoimmune presentation.",
+        "If your condition isn't listed, we still likely support it, the functional medicine framework applies to virtually every autoimmune presentation.",
       href: "/other-autoimmune-conditions/",
     },
     {
@@ -207,7 +207,7 @@ export const SERVICES = {
       image: "/images/migrated/raynauds-phenomenon/1800x1200_raynauds_disease_and_raynauds_syndrome_bigbead.webp",
       title: "Raynaud's Phenomenon",
       description:
-        "Root-cause care for Raynaud's — targeting circulation, autoimmune drivers, and the systemic patterns behind episodes.",
+        "Root-cause care for Raynaud's, targeting circulation, autoimmune drivers, and the systemic patterns behind episodes.",
       href: "/raynauds-phenomenon/",
     },
   ],
@@ -222,7 +222,7 @@ export const SPECIALTIES = {
   eyebrow: "Our Specialties",
   heading: "Care crafted around you",
   accent: "around you",
-  intro: "Safe, natural strategies — from thyroid conditions to complex autoimmune care.",
+  intro: "Safe, natural strategies, from thyroid conditions to complex autoimmune care.",
   items: [
     {
       title: "Thyroid Conditions",
@@ -241,14 +241,14 @@ export const SPECIALTIES = {
     {
       title: "Rheumatoid Arthritis",
       description:
-        "Advanced testing and a personalized plan to uncover what's driving joint inflammation and calm the autoimmune response — without over-relying on immunosuppressants.",
+        "Advanced testing and a personalized plan to uncover what's driving joint inflammation and calm the autoimmune response, without over-relying on immunosuppressants.",
       image: "/images/migrated/rheumatoid-arthritis/close-up-old-patient-with-wrist-issues-scaled.jpg",
       href: "/rheumatoid-arthritis/",
     },
     {
       title: "Inflammatory Bowel Disease",
       description:
-        "Targeted, root-cause care for Crohn's and ulcerative colitis — restoring the gut lining, microbiome, and immune balance for lasting relief.",
+        "Targeted, root-cause care for Crohn's and ulcerative colitis, restoring the gut lining, microbiome, and immune balance for lasting relief.",
       image: "/images/migrated/inflammatory-bowel-disease/632bc0a75b290964bff995f1_Prosper-Nutrition-Inflammatory-Bowel-Disease.jpg",
       href: "/inflammatory-bowel-disease/",
     },
@@ -262,7 +262,7 @@ export const SPECIALTIES = {
     {
       title: "Multiple Sclerosis",
       description:
-        "A whole-body approach to MS — addressing the environmental, gut, and immune triggers behind relapses and progression.",
+        "A whole-body approach to MS, addressing the environmental, gut, and immune triggers behind relapses and progression.",
       image: "/images/migrated/multiple-sclerosis/2177627.jpg",
       href: "/multiple-sclerosis/",
     },
@@ -316,7 +316,7 @@ export const TESTIMONIALS = {
     },
     {
       quote:
-        "After years of feeling dismissed by other doctors, Dr. Hollaman actually listened. His team dug into the root cause and finally I have answers — and a plan that's working.",
+        "After years of feeling dismissed by other doctors, Dr. Hollaman actually listened. His team dug into the root cause and finally I have answers, and a plan that's working.",
       author: "Sarah M.",
       condition: "Hashimoto's Thyroiditis",
       rating: 5,
@@ -385,7 +385,7 @@ export const PROCESS = {
     },
     {
       title: "Comprehensive New Patient Evaluation",
-      image: "/images/process/comprehensive-evaluation.webp",
+      image: "/images/process/comprehensive-new-patient-evaluation.jpg",
       description:
         "In this thorough evaluation with a member of Dr. Hollaman's clinical team, we bring together your clinical history, symptom patterns, and blood analysis to begin identifying the root drivers of your condition. Your evaluation helps clarify the connections in your health history and guides the creation of your individualized care plan.",
     },
@@ -441,17 +441,6 @@ export const CONSULTATION = {
   cta: { label: "Book your Discovery Call", href: "/discovery-call/" },
 };
 
-export const HOURS = {
-  heading: "Hours By Appointment",
-  rows: [
-    { day: "Mon", time: "9am – 4pm" },
-    { day: "Tue", time: "8am – 4pm" },
-    { day: "Wed", time: "9am - 6pm" },
-    { day: "Thu", time: "9am – 6pm" },
-    { day: "Fri", time: "Closed" },
-  ],
-};
-
 export const PRODUCTS = {
   heading: "Explore Our Wellness Products",
   intro: "Clinically selected supplements designed to support your overall health and daily foundation.",
@@ -470,7 +459,7 @@ export const PRODUCTS_CATALOG = [
     name: "GutPower",
     tagline: "Mucosa & Digestive Support",
     description:
-      "Hydrochloric acid + Zinc Carnosine — supports stomach acid, mucosal lining, and healthy digestion.",
+      "Hydrochloric acid + Zinc Carnosine: supports stomach acid, mucosal lining, and healthy digestion.",
     image: "/images/products/gut-power.png",
     href: "https://shop.drautoimmune.com/products/gutpower",
   },
@@ -537,7 +526,7 @@ export const WHY_CHOOSE_US = {
     {
       title: "Proven Patient Results",
       description:
-        "Patients come to us after years of frustration — and finally experience clarity, direction, and meaningful change through our process.",
+        "Patients come to us after years of frustration, and finally experience clarity, direction, and meaningful change through our process.",
     },
   ],
 };
@@ -551,7 +540,7 @@ export const BLOG_INSIGHTS = {
       image: "/images/migrated/home/Screenshot-2026-07-28-at-2.16.11-AM.png",
       title: "The Hidden Link Between Gut Health and Autoimmune Disease",
       excerpt:
-        "The gut is home to 70% of the immune system — understanding how leaky gut, dysbiosis, and inflammation drive autoimmune disease.",
+        "The gut is home to 70% of the immune system: understanding how leaky gut, dysbiosis, and inflammation drive autoimmune disease.",
       category: "Gut Health",
       readTime: "8 min read",
       href: "/the-hidden-link-between-gut-health-and-autoimmune-disease/",
@@ -560,7 +549,7 @@ export const BLOG_INSIGHTS = {
       image: "/images/migrated/home/Screenshot-2026-07-20-at-6.48.44-PM.png",
       title: "If My ANA Is Positive Do I Have an Autoimmune Disease?",
       excerpt:
-        "A positive ANA is only one piece of the puzzle. Learn what it does — and doesn't — tell you about your immune health.",
+        "A positive ANA is only one piece of the puzzle. Learn what it does, and doesn't, tell you about your immune health.",
       category: "Diagnosis",
       readTime: "5 min read",
       href: "/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/",
@@ -569,7 +558,7 @@ export const BLOG_INSIGHTS = {
       image: "/images/migrated/home/Screenshot-2026-07-13-at-8.30.50-PM.png",
       title: "I Eat Clean Why Do I Still Feel Sick?",
       excerpt:
-        "Clean eating alone often isn't enough. Explore the hidden triggers behind chronic symptoms — from mold to gut dysbiosis.",
+        "Clean eating alone often isn't enough. Explore the hidden triggers behind chronic symptoms, from mold to gut dysbiosis.",
       category: "Nutrition",
       readTime: "6 min read",
       href: "/i-eat-clean-why-do-i-still-feel-sick/",
@@ -583,7 +572,7 @@ export const FAQ = {
     {
       question: "How is your approach different from traditional medicine?",
       answer:
-        "We use functional medicine, focusing on the whole person—body, mind, environment, and lifestyle. We aim to identify the root cause of your condition and create a personalized wellness plan for lasting health.",
+        "We use functional medicine, focusing on the whole person: body, mind, environment, and lifestyle. We aim to identify the root cause of your condition and create a personalized wellness plan for lasting health.",
     },
     {
       question: "What conditions do you treat?",

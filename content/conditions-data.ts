@@ -259,7 +259,7 @@ export const CONDITIONS: ConditionPageData[] = [
     },
     whatIsHeading: "What is Rheumatoid Arthritis?",
     whatIsParagraphs: [
-      "Rheumatoid arthritis is an autoimmune disease, meaning that the immune system attacks its own body (specifically the joints, but can also damage your eyes and other organs). Life with rheumatoid arthritis can be miserable — the aches, the burn, the feeling of stiffness that lasts throughout the day — but there is hope!",
+      "Rheumatoid arthritis is an autoimmune disease, meaning that the immune system attacks its own body (specifically the joints, but can also damage your eyes and other organs). Life with rheumatoid arthritis can be miserable: the aches, the burn, the feeling of stiffness that lasts throughout the day, but there is hope!",
     ],
     symptoms: {
       heading: "Rheumatoid Arthritis Symptoms",
@@ -361,7 +361,7 @@ export const CONDITIONS: ConditionPageData[] = [
     },
     whatIsHeading: "What is Inflammatory Bowel Disease?",
     whatIsParagraphs: [
-      "Inflammatory bowel disease (IBD) refers to a group of conditions, including autoimmune Crohn's disease and ulcerative colitis. IBD affects 3 million people in the US, yet conventional medicine still hasn't identified the cause or cure. The good news is — there is hope!",
+      "Inflammatory bowel disease (IBD) refers to a group of conditions, including autoimmune Crohn's disease and ulcerative colitis. IBD affects 3 million people in the US, yet conventional medicine still hasn't identified the cause or cure. The good news is: there is hope!",
     ],
     symptoms: {
       heading: "Inflammatory Bowel Disease Symptoms",

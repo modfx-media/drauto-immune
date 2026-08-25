@@ -89,7 +89,7 @@ export default function WellnessServicesPage() {
           <Reveal className="mx-auto max-w-3xl space-y-6 text-center">
             <Badge className="mb-2 inline-flex">Ongoing Support</Badge>
             <p className="text-lg leading-relaxed text-ink-soft">
-              Getting well is rarely a single appointment — it is a process of testing, adjusting, and learning
+              Getting well is rarely a single appointment. It is a process of testing, adjusting, and learning
               what your body responds to. Our wellness services are built to support that process from start to
               finish, with a care team that stays engaged with you at every step.
             </p>
@@ -142,7 +142,7 @@ export default function WellnessServicesPage() {
                 alongside your body rather than staying static.
               </p>
               <p className="mt-4 text-lg leading-relaxed text-ink-soft">
-                Testing, nutrition, supplementation, and lifestyle strategies all work together — and ongoing
+                Testing, nutrition, supplementation, and lifestyle strategies all work together, and ongoing
                 care is what keeps them aligned as you move forward.
               </p>
             </Reveal>
@@ -192,7 +192,7 @@ export default function WellnessServicesPage() {
             <h2 className="text-white">Ready to Feel Supported Every Step of the Way?</h2>
             <p className="mt-6 text-lg leading-relaxed text-white/85">
               A discovery call is the easiest way to see how our wellness services could fit your specific
-              situation — no pressure, just a conversation about what moving forward could look like.
+              situation, no pressure, just a conversation about what moving forward could look like.
             </p>
             <div className="mt-8">
               <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg" className="uppercase tracking-wide">

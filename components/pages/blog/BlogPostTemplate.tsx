@@ -118,7 +118,7 @@ function MidCta() {
       <div className="relative mx-auto max-w-xl">
         <h2 className="text-2xl font-extrabold text-sage sm:text-3xl">Ready to Find Your Root Cause?</h2>
         <p className="mt-3 text-base text-white/75">
-          Book a discovery call and talk through your symptoms with our team — no obligation.
+          Book a discovery call and talk through your symptoms with our team, no obligation.
         </p>
         <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6 uppercase tracking-wide">
           Book your Discovery Call

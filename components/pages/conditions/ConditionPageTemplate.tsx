@@ -44,7 +44,7 @@ function MidCta({ image }: { image?: ConditionImage }) {
       <div className={`relative ${image ? "sm:flex-1" : "mx-auto max-w-xl"}`}>
         <h2 className="text-2xl font-extrabold text-sage sm:text-3xl">Start Your Health Consultation</h2>
         <p className="mt-3 text-base text-white/75">
-          Take the first step toward better health—personalized care, real answers, and lasting wellness start here.
+          Take the first step toward better health. Personalized care, real answers, and lasting wellness start here.
         </p>
         <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6 uppercase tracking-wide">
           Book your Discovery Call

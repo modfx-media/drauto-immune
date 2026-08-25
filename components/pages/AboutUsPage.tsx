@@ -70,7 +70,7 @@ export default function AboutUsPage() {
             <p className="text-lg leading-relaxed text-ink-soft">
               Most of the people who find their way to Dr. Autoimmune have already been through a long and
               difficult journey. They have seen multiple providers, received conflicting information, and still
-              do not feel well. Our practice was created for them — for the people who know something deeper is
+              do not feel well. Our practice was created for them, for the people who know something deeper is
               going on and want a team who will finally take the time to understand it.
             </p>
             <p className="text-lg leading-relaxed text-ink-soft">
@@ -131,7 +131,7 @@ export default function AboutUsPage() {
             credentials="Metabolic Coordinator / Functional Nutritionist"
             paragraphs={[
               "Stevie Chaddock is a Functional Nutritional Therapy Practitioner and Clinical Nutritionist with a master's degree in Nutrition Science. She specializes in gut microbiome dysfunction and autoimmune conditions, bringing both clinical insight and genuine warmth to every patient interaction.",
-              "Stevie believes that food is information — a reflection of physiology, habits, emotions, and lived experiences. With this perspective, she takes the time to understand not just what patients eat, but how and why they eat. Stevie uses this insight to create personalized nutrition strategies that feel supportive and realistic. Her approach is encouraging, practical, and compassionate, helping patients make steady progress with confidence. All of Stevie's nutrition visits are conducted remotely, giving patients flexible, convenient support throughout their care plan.",
+              "Stevie believes that food is information, a reflection of physiology, habits, emotions, and lived experiences. With this perspective, she takes the time to understand not just what patients eat, but how and why they eat. Stevie uses this insight to create personalized nutrition strategies that feel supportive and realistic. Her approach is encouraging, practical, and compassionate, helping patients make steady progress with confidence. All of Stevie's nutrition visits are conducted remotely, giving patients flexible, convenient support throughout their care plan.",
               "Originally from the Midwest, Stevie now lives in Oregon with her husband and two children.",
             ]}
             reverse
@@ -152,7 +152,7 @@ export default function AboutUsPage() {
               Our mission is to elevate how autoimmune, thyroid, and chronic conditions are understood and cared
               for. We believe patients deserve more time, deeper investigation, and personalized plans that
               reflect their unique physiology. Our focus is on providing clarity, connection, and long-term
-              support — so you can finally understand what is driving your symptoms and what meaningful progress
+              support, so you can finally understand what is driving your symptoms and what meaningful progress
               looks like for you.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-ink-soft">

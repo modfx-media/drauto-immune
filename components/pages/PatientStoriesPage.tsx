@@ -19,12 +19,12 @@ const TESTIMONIALS = [
     condition: "Complex Chronic History",
   },
   {
-    quote: "Every visit felt respectful and compassionate, even for hard to treat issues — I finally had a doctor who listened.",
+    quote: "Every visit felt respectful and compassionate, even for hard to treat issues, I finally had a doctor who listened.",
     name: "Yulia L.",
     condition: "Musculoskeletal / Pain Issues",
   },
   {
-    quote: "After frustration with traditional care, I found talented, caring support that helped my recovery — and I recommend them wholeheartedly.",
+    quote: "After frustration with traditional care, I found talented, caring support that helped my recovery, and I recommend them wholeheartedly.",
     name: "Colton W.",
     condition: "Injury Recovery / Chronic Pain",
   },
@@ -54,7 +54,7 @@ const TESTIMONIALS = [
     condition: "Autoimmune / Chronic Symptoms",
   },
   {
-    quote: "I found hope again — after years of unexplained symptoms, I'm finally seeing clarity and progress.",
+    quote: "I found hope again. After years of unexplained symptoms, I'm finally seeing clarity and progress.",
     name: "Marc M.",
     condition: "Lyme & Complex Health History",
   },
@@ -69,12 +69,12 @@ const TESTIMONIALS = [
     condition: "Hormonal & Skin Issues",
   },
   {
-    quote: "After exhaustive conventional testing, Dr. Autoimmune identified the root cause — and I finally got relief.",
+    quote: "After exhaustive conventional testing, Dr. Autoimmune identified the root cause, and I finally got relief.",
     name: "Kara W.",
     condition: "Digestive / Gut Health Issues",
   },
   {
-    quote: "Two years in, and I still rely on their personalized care — I know my health is stable because I understand my body.",
+    quote: "Two years in, and I still rely on their personalized care. I know my health is stable because I understand my body.",
     name: "Debbie C.",
     condition: "Long-Term Patient",
   },
@@ -85,11 +85,11 @@ const VIDEOS = [
   { id: "hXaRVdGnjP4", title: "Jennifer's Polymyalgia Rheumatica Testimonial" },
   { id: "ynnhLAQ89a8", title: "John's Testimonial" },
   { id: "1lON3qtFem0", title: "How I Got My Life Back After Months of Being Sick" },
-  { id: "wshDrbMJyJM", title: "7 Years of No Answers—Until Dr. Ian | Real Family Story" },
+  { id: "wshDrbMJyJM", title: "7 Years of No Answers: Until Dr. Ian | Real Family Story" },
   { id: "m4e7Mcq7MvQ", title: "\u201cDr. Ian Changed My Life\u201d | Real Patient Story" },
-  { id: "DGQQSby21mM", title: "Diagnosed With MS—Then Everything Changed | Dr. Ian" },
+  { id: "DGQQSby21mM", title: "Diagnosed With MS: Then Everything Changed | Dr. Ian" },
   { id: "puLRCDWdZ6M", title: "Chronic GI Issues Nearly Ended Her Career" },
-  { id: "hmmI1TawGxQ", title: "Pain Took My Life Away—Dr. Ian Gave It Back" },
+  { id: "hmmI1TawGxQ", title: "Pain Took My Life Away: Dr. Ian Gave It Back" },
 ];
 
 const EASE = [0.22, 1, 0.36, 1] as const;

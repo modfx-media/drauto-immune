@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
 import ApproachSection from "@/components/home/ApproachSection";
 import BlogInsights from "@/components/home/BlogInsights";
-import ContactBand from "@/components/home/ContactBand";
 import DoctorSpotlight from "@/components/home/DoctorSpotlight";
 import Faq from "@/components/home/Faq";
 import Hero from "@/components/home/Hero";
@@ -41,7 +40,6 @@ export default function Home() {
       <TikTokSection />
       <Faq />
       <Testimonials />
-      <ContactBand />
     </>
   );
 }

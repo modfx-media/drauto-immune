@@ -23,7 +23,7 @@ export default function WhyChooseUs2() {
         <SectionHeading eyebrow="Why Us" heading={WHY_CHOOSE_US.heading} align="center" />
 
         <p className="mx-auto mt-6 max-w-2xl text-center text-base leading-relaxed text-ink-soft">
-          A different kind of practice — built around your body, your history, and your goals.
+          A different kind of practice, built around your body, your history, and your goals.
         </p>
 
         <ul className="mx-auto mt-6 flex max-w-2xl flex-wrap items-center justify-center gap-2">

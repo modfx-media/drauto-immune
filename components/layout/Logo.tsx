@@ -19,7 +19,7 @@ export default function Logo({ condensed = false }: { condensed?: boolean }) {
     >
       <Image
         src="/images/logo/DA-Tagline-Color-Large-removebg-preview.png"
-        alt="Dr. Autoimmune — Let Your Health Soar"
+        alt="Dr. Autoimmune: Let Your Health Soar"
         width={440}
         height={79}
         preload={true}

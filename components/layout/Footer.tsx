@@ -1,9 +1,5 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
-import { motion } from "motion/react";
 import Container from "@/components/ui/Container";
 import SocialIcon from "./SocialIcon";
 import {
@@ -56,36 +52,6 @@ function LinkList({
   );
 }
 
-function NewsletterForm() {
-  const [status, setStatus] = useState<"idle" | "ok">("idle");
-  return (
-    <form
-      className="mt-4 flex flex-col gap-2 sm:flex-row"
-      onSubmit={(e) => {
-        e.preventDefault();
-        setStatus("ok");
-      }}
-    >
-      <label htmlFor="footer-newsletter" className="sr-only">
-        Email address
-      </label>
-      <input
-        id="footer-newsletter"
-        type="email"
-        required
-        placeholder="you@email.com"
-        className="min-w-0 flex-1 rounded-pill border border-white/25 bg-white/10 px-5 py-3 text-sm text-white placeholder:text-white/50 focus-visible:border-sage focus-visible:bg-white/15 focus-visible:outline-none"
-      />
-      <button
-        type="submit"
-        className="inline-flex items-center justify-center gap-1.5 rounded-pill bg-sage px-6 py-3 text-sm font-medium text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
-      >
-        {status === "ok" ? "Subscribed ✓" : "Subscribe"}
-      </button>
-    </form>
-  );
-}
-
 /** Small inline icon glyphs used across the brand column. */
 function PhoneGlyph({ className = "" }: { className?: string }) {
   return (
@@ -118,12 +84,10 @@ function MailGlyph({ className = "" }: { className?: string }) {
 
 /**
  * Site footer — precise, modern, aligned dark-primary composition:
- *   1. Newsletter CTA banner at the very top (matches the utility bar's
- *      "Subscribe To Our Newsletter" pattern).
- *   2. Four-column info grid: brand + contact / Quick Links / Services /
+ *   1. Four-column info grid: brand + contact / Quick Links / Services /
  *      Conditions.
- *   3. Divider line.
- *   4. Bottom bar: copyright | Sitemap · Accessibility · Contact |
+ *   2. Divider line.
+ *   3. Bottom bar: copyright | Sitemap · Accessibility · Contact |
  *      Powered by MODFXMedia — one row at md+, three stacked at mobile.
  */
 export default function Footer() {
@@ -143,39 +107,15 @@ export default function Footer() {
         style={{ background: "rgba(223,232,221,0.07)" }}
       />
 
-      <Container className="relative">
-        {/* 1. Newsletter CTA banner */}
-        <motion.section
-          initial={{ y: 24, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: true, amount: 0.4 }}
-          transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-          className="-mt-10 mb-16 flex flex-col gap-4 rounded-card border border-white/20 bg-white/[0.08] p-6 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.35)] backdrop-blur-sm sm:p-8 lg:-mt-16 lg:flex-row lg:items-center lg:gap-10 lg:p-10"
-        >
-          <div className="flex-1 min-w-0">
-            <p className="font-mono text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-sage">
-              Stay In The Loop
-            </p>
-            <h3 className="mt-3 text-2xl font-extrabold leading-tight text-white sm:text-3xl">
-              Insights, research & wellness tips — straight to your inbox.
-            </h3>
-            <p className="mt-2 text-sm text-white/85 sm:text-base">
-              Join the Dr. Autoimmune newsletter. Zero spam, one-click unsubscribe.
-            </p>
-          </div>
-          <div className="lg:w-[380px] lg:shrink-0">
-            <NewsletterForm />
-          </div>
-        </motion.section>
-
-        {/* 2. Info grid */}
+      <Container className="relative pt-16 lg:pt-20">
+        {/* Info grid */}
         <div className="grid grid-cols-1 gap-12 pb-12 md:grid-cols-2 md:pb-16 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)] lg:gap-10 lg:pb-20">
           {/* Brand column */}
           <div className="flex flex-col gap-6 lg:pr-6">
             <Link href="/" className="inline-flex" aria-label="Dr. Autoimmune home">
               <Image
                 src="/images/brand/dr-autoimmune-logo.webp"
-                alt="Dr. Autoimmune — Let Your Health Soar"
+                alt="Dr. Autoimmune: Let Your Health Soar"
                 width={320}
                 height={80}
                 className="h-11 w-auto brightness-0 invert"
@@ -262,7 +202,7 @@ export default function Footer() {
         </div>
       </Container>
 
-      {/* 3. Divider + 4. Bottom bar */}
+      {/* Divider + bottom bar */}
       <div className="relative border-t border-white/15">
         <Container>
           <div className="grid grid-cols-1 items-center gap-3 py-6 text-xs text-white/85 sm:grid-cols-3">

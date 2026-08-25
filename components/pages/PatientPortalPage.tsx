@@ -45,7 +45,7 @@ export default function PatientPortalPage() {
         eyebrow="Patient Portal"
         title="Your Health Records, Always Within Reach"
         accent="Always Within Reach"
-        subhead="Securely message your care team, review lab results, and manage your visits — all in one place."
+        subhead="Securely message your care team, review lab results, and manage your visits, all in one place."
         image={{ src: "/images/approach/main.webp", alt: "Doctor reviewing a patient's chart" }}
       />
 
@@ -55,7 +55,7 @@ export default function PatientPortalPage() {
           <Reveal className={`mx-auto max-w-2xl ${CARD_CLASSES} p-8 text-center sm:p-12`}>
             <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">Access Your Patient Portal</h2>
             <p className="mt-4 text-base leading-relaxed text-ink-soft">
-              Our secure patient portal keeps your care in one place — message your team, review your results, and
+              Our secure patient portal keeps your care in one place, message your team, review your results, and
               stay on top of your appointments, wherever you are.
             </p>
             <Button href={PORTAL_URL} target="_blank" rel="noopener noreferrer" variant="primary" size="lg" className="mt-6">

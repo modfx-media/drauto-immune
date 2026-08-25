@@ -82,8 +82,8 @@ function ApproachCollage() {
         {/* Main image — spans 2/3 width, top row */}
         <div className="relative col-span-2 row-span-1 aspect-[4/3] overflow-hidden rounded-card">
           <Image
-            src="/images/approach/main.webp"
-            alt="Functional medicine consultation between a doctor and a patient"
+            src="/images/approach/telehealth-consultation.png"
+            alt="A couple reviewing their telehealth appointment together on a laptop"
             fill
             sizes="(min-width: 1024px) 340px, (min-width: 640px) 60vw, 66vw"
             className="object-cover"
@@ -166,8 +166,8 @@ function ApproachContent() {
       <p className="text-base leading-relaxed text-ink-soft">{APPROACH.intro}</p>
 
       <p className="text-base leading-relaxed text-ink-soft">
-        Every plan starts with listening — a comprehensive look at your history,
-        labs, and lifestyle — so care fits your biology, not a template. We
+        Every plan starts with listening: a comprehensive look at your history,
+        labs, and lifestyle, so care fits your biology, not a template. We
         translate advanced testing into a clear roadmap and stay alongside you
         as your body responds.
       </p>

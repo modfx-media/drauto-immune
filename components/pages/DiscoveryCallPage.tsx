@@ -52,7 +52,7 @@ export default function DiscoveryCallPage() {
               <div className="mt-6">
                 <GhlBookingWidget
                   src="https://link.drautoimmune.com/widget/booking/tJKXoDdUiNVIbNXTR5yA"
-                  title="Dr. Autoimmune Discovery Call — booking calendar"
+                  title="Dr. Autoimmune Discovery Call: booking calendar"
                 />
               </div>
             </Reveal>

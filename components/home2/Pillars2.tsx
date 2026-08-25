@@ -26,8 +26,8 @@ export default function Pillars2() {
         />
 
         <p className={`mt-4 max-w-3xl ${TEXT.body}`}>
-          Every plan starts with listening — a comprehensive look at your history,
-          labs, and lifestyle — so care fits your biology, not a template. We
+          Every plan starts with listening: a comprehensive look at your history,
+          labs, and lifestyle, so care fits your biology, not a template. We
           translate advanced testing into a clear roadmap and stay alongside you
           as your body responds.
         </p>

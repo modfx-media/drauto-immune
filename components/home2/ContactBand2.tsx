@@ -14,8 +14,7 @@ const QUICK_FACTS = [
 /**
  * Closing consultation band — same content as the original homepage's
  * consultation section (`CONSULTATION`), restyled with no dark gradient
- * background. Office hours/phone/location now live solely in `FindUs2`
- * (the dedicated map section) instead of being repeated here.
+ * background.
  */
 export default function ContactBand2() {
   return (
@@ -25,7 +24,7 @@ export default function ContactBand2() {
           <p className={TEXT.caption}>Get In Touch</p>
           <h3 className={`mt-3 ${TEXT.h2}`}>Real people, real care</h3>
           <p className="mt-4 text-base leading-relaxed text-ink-soft">
-            Book a discovery call, drop us a note, or just say hi — our care team responds within one business day.
+            Book a discovery call, drop us a note, or just say hi, our care team responds within one business day.
           </p>
           <ul className="mt-6 flex flex-wrap items-center justify-center gap-2">
             {QUICK_FACTS.map((p) => (

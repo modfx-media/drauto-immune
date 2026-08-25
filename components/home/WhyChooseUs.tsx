@@ -66,7 +66,7 @@ export default function WhyChooseUs() {
             Why <Accent>Choose Us</Accent>
           </h2>
           <p className="mt-6 text-base leading-relaxed text-ink-soft">
-            A different kind of practice — built around your body, your history, and your goals.
+            A different kind of practice, built around your body, your history, and your goals.
           </p>
           {/* Quick-fact pills */}
           <ul className="mt-6 flex flex-wrap items-center justify-center gap-2">
