@@ -106,9 +106,9 @@ export default function AboutUsPage() {
       <Section bg="cream-wash">
         <Container>
           <BioCard
-            image={{ src: "/images/migrated/about-us/Untitled-design-29.png", alt: "Dr. Ian Hollaman" }}
-            name="Meet Dr. Ian Hollaman"
-            credentials="DC, MSc, FMCP"
+            image={{ src: "/images/migrated/about-us/Untitled-design-29.png", alt: "Dr. Ian Hollaman, DC, MSc, FMCP" }}
+            name="Meet Dr. Ian Hollaman, DC, MSc, FMCP"
+            credentials="Meet Your Doctor"
             paragraphs={[
               "Dr. Ian Hollaman became passionate about functional medicine after facing his own health challenges during graduate school. After months of worsening symptoms and little clarity from multiple providers, he finally found a functional medicine doctor who looked deeper, connected the dots, and helped him understand what was truly going on. That experience reshaped both his health and his career path.",
               "For more than 16 years, Dr. Ian has helped patients with autoimmune, gastrointestinal, thyroid, and chronic conditions that have not improved with standard care. His approach combines advanced functional medicine, nutrition, supplementation, and lifestyle strategies to create personalized plans that match each patient's unique needs.",
