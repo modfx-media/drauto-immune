@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import { openSans } from "./fonts";
@@ -24,6 +25,14 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Script id="knock-knock-config" strategy="afterInteractive">
+          {`window.company_id = '6a872b568d06085e05e32947';`}
+        </Script>
+        <Script
+          id="knock-knock-widget"
+          src="https://api.knock-knockapp.com/widget/widget.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
