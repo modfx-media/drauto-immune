@@ -1,0 +1,148 @@
+{
+  "key": "leaky-gut-signs-causes-and-functional-fixes",
+  "path": "/leaky-gut-signs-causes-and-functional-fixes/",
+  "liveUrl": "https://drautoimmune.com/leaky-gut-signs-causes-and-functional-fixes/",
+  "isPost": true,
+  "title": "Leaky Gut Signs, Causes, and Functional Fixes",
+  "metaDescription": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Leaky Gut Signs, Causes, and Functional Fixes\".",
+  "canonical": "https://drautoimmune.com/leaky-gut-signs-causes-and-functional-fixes/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "title": "Leaky Gut Signs, Causes, and Functional Fixes",
+    "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Leaky Gut Signs, Causes, and Functional Fixes\".",
+    "url": "https://drautoimmune.com/leaky-gut-signs-causes-and-functional-fixes/",
+    "site_name": "Dr. Autoimmune",
+    "updated_time": "2026-08-26T19:18:29+00:00",
+    "image": "https://drautoimmune.com/images/og/leaky-gut-signs-causes-and-functional-fixes.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/leaky-gut-signs-causes-and-functional-fixes.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "Leaky Gut Signs, Causes, and Functional Fixes",
+    "image:type": "image/jpeg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Leaky Gut Signs, Causes, and Functional Fixes",
+    "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Leaky Gut Signs, Causes, and Functional Fixes\".",
+    "image": "https://drautoimmune.com/images/og/leaky-gut-signs-causes-and-functional-fixes.jpg",
+    "label1": "Written by",
+    "data1": "developer",
+    "label2": "Time to read",
+    "data2": "7 minutes"
+  },
+  "jsonLd": [
+    {
+      "source": "rank-math-schema",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": [
+              "Person",
+              "Organization"
+            ],
+            "@id": "https://drautoimmune.com/#person",
+            "name": "Dr. Autoimmune"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com",
+            "name": "Dr. Autoimmune",
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://drautoimmune.com/images/og/leaky-gut-signs-causes-and-functional-fixes.jpg",
+            "url": "https://drautoimmune.com/images/og/leaky-gut-signs-causes-and-functional-fixes.jpg",
+            "width": "1242",
+            "height": "826",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/leaky-gut-signs-causes-and-functional-fixes/#webpage",
+            "url": "https://drautoimmune.com/leaky-gut-signs-causes-and-functional-fixes/",
+            "name": "Leaky Gut Signs, Causes, and Functional Fixes",
+            "datePublished": "2026-08-26T13:08:30+00:00",
+            "dateModified": "2026-08-26T19:18:29+00:00",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/images/og/leaky-gut-signs-causes-and-functional-fixes.jpg"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://drautoimmune.com/author/developer/",
+            "name": "developer",
+            "url": "https://drautoimmune.com/author/developer/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "caption": "developer",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "http://drautoimmune.com"
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Leaky Gut Signs, Causes, and Functional Fixes",
+            "datePublished": "2026-08-26T13:08:30+00:00",
+            "dateModified": "2026-08-26T19:18:29+00:00",
+            "articleSection": "Uncategorized",
+            "author": {
+              "@id": "https://drautoimmune.com/author/developer/",
+              "name": "developer"
+            },
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "description": "Discover expert advice from Boulder&#039;s most trusted gut health specialist. Read our latest post titled &quot;Leaky Gut Signs, Causes, and Functional Fixes&quot;.",
+            "name": "Leaky Gut Signs, Causes, and Functional Fixes",
+            "@id": "https://drautoimmune.com/leaky-gut-signs-causes-and-functional-fixes/#richSnippet",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/leaky-gut-signs-causes-and-functional-fixes/#webpage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/images/og/leaky-gut-signs-causes-and-functional-fixes.jpg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://drautoimmune.com/leaky-gut-signs-causes-and-functional-fixes/#webpage"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/leaky-gut-signs-causes-and-functional-fixes/image-2-1024x683.png",
+      "alt": "image-2-1024x683",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/08/image-2-1024x683.png",
+      "originalFilename": "image-2-1024x683.png"
+    }
+  ],
+  "bodyMarkdown": "## **Why Your Gut May Be Leaking and Why No One Mentioned It**\n\nThe term **“leaky gut”** sounds dramatic, but at its core, it describes a simple concept. Your small intestine is lined with a thin layer of cells that act like a smart coffee filter, allowing nutrients to pass through while keeping larger, potentially irritating particles out. With leaky gut, also known as increased intestinal permeability, that protective barrier becomes more porous. Food particles, bacteria, and toxins can slip into the bloodstream, triggering an immune response.\n\nIn a healthy gut, tight junctions between cells open and close in a controlled way. Digestion breaks food down into very small components, allowing nutrients to be absorbed without provoking the immune system. When the lining becomes irritated over time, those tight junctions can loosen. Instead of acting as a selective barrier, the gut becomes more like a screen door with several broken sections, allowing unwanted substances to pass through and potentially affect the entire body.\n\nMany conventional medical visits focus on labeling and managing symptoms rather than asking why those symptoms developed in the first place. If your lab work appears “normal” and you are not experiencing severe weight loss or bleeding, leaky gut may never even be discussed. You may simply be told your symptoms are IBS, stress, or part of getting older. At Dr. Autoimmune, we view leaky gut as an important piece of the root-cause puzzle, especially when autoimmune conditions and chronic digestive symptoms are involved.\n\nFor many people, this can appear as persistent bloating, gas, brain fog, joint stiffness, skin flare-ups, fatigue that doesn’t match their lifestyle, or autoimmune symptoms that seem to come out of nowhere. When we recognize the gut as a central control center for immune health, these seemingly unrelated symptoms begin to make sense.\n\n[![image-2-1024x683](/images/migrated/leaky-gut-signs-causes-and-functional-fixes/image-2-1024x683.png)](https://www.tiktok.com/@drautoimmune/video/7494001285390142750?_r=1&_t=ZP-98lqHt7Aqid)\n**The Hidden Triggers That Quietly Damage Your Gut Lining**\n\nLeaky gut rarely develops overnight. It is usually the result of multiple daily habits and environmental exposures that slowly weaken the intestinal barrier.\n\nHighly processed foods, refined sugars, unhealthy oils, and frequent fast food can irritate the intestinal lining while feeding harmful bacteria. For people with sensitivities, gluten may also contribute to ongoing inflammation.\n\nAlcohol is another commonly overlooked contributor. Regular alcohol consumption can increase intestinal permeability while disrupting the balance of healthy bacteria. Add chronic stress and poor sleep, and the gut becomes even more vulnerable. When the body remains in a constant fight-or-flight state, digestion slows, blood flow to the intestines decreases, and the body’s ability to repair the gut lining is compromised.\n\nCertain medications may also contribute to gut dysfunction. Frequent use of NSAIDs, repeated rounds of antibiotics, and long-term acid-blocking medications can all alter the gut environment. While antibiotics are often necessary, they eliminate beneficial bacteria along with harmful organisms. Acid blockers may also interfere with proper digestion by reducing stomach acid, allowing undesirable microbes to survive and reach the intestines.\n\nHidden infections, environmental toxins, mold exposure, and food sensitivities may further damage the intestinal barrier over time. This is why our functional medicine team looks beyond basic lab work to identify the underlying factors contributing to chronic digestive symptoms.\n\n* * *\n\n## **Want to Learn More About Healing Leaky Gut?**\n\nIf you’re wondering whether a leaky gut could be contributing to digestive problems, chronic inflammation, or autoimmune symptoms, we’d love to help you better understand the connection.\n\nJoin [**Dr. Ian Hollaman**, **DC, MSc, FMCP**](/about-us/),for our next [**_FREE LIVE Educational Webinar_**](https://us02web.zoom.us/webinar/register/WN_Ss9LSJghQ9eGS0SmEuBYGw)on **Wednesday, September 2, at 5:00 PM Mountain Time**, where he’ll explain how leaky gut develops, why it matters, and how functional medicine addresses the underlying causes rather than simply masking symptoms.\n\nDuring this webinar, you’ll learn:\n\n*   What leaky gut is and why it matters\n*   How increased intestinal permeability may contribute to inflammation and autoimmune conditions\n*   Common triggers that can damage the gut lining\n*   Functional medicine strategies that support gut healing and long-term wellness\n\n[**Reserve your FREE spot by registering here.**](https://us02web.zoom.us/webinar/register/WN_Ss9LSJghQ9eGS0SmEuBYGw)\n\n* * *\n\n## **How Leaky Gut Fuels Autoimmunity and Inflammation**\n\nWhen the gut lining becomes compromised, larger food fragments, bacterial toxins, and other unwanted particles can pass into the bloodstream. Your immune system recognizes these substances as foreign and begins mounting an inflammatory response. If this process continues day after day, inflammation can become chronic.\n\nOver time, chronic inflammation may contribute to autoimmune conditions. At Dr. Autoimmune, we commonly work with individuals living with Hashimoto’s thyroiditis, rheumatoid arthritis, psoriasis, and other autoimmune disorders. In many cases, the immune system gradually loses its ability to distinguish between harmful invaders and healthy tissue. Increased intestinal permeability may contribute to this ongoing immune confusion.\n\nThe effects often extend far beyond digestion. Chronic inflammation can contribute to brain fog, anxiety, low mood, hormone imbalances, skin conditions, joint discomfort, and persistent fatigue.\n\nOne of the most important concepts in functional medicine is immune tolerance. A healthy immune system knows when to respond and when to remain calm. Supporting the gut barrier helps reduce unnecessary immune activation and allows the immune system to function more appropriately.\n\n* * *\n\n## **What Your Regular Doctor May Be Missing**\n\nMany people with leaky gut spend years searching for answers. Short office visits often leave little time to discuss nutrition, stress, environmental exposures, or digestive health. When standard laboratory work appears normal, patients are frequently told that everything looks fine despite ongoing symptoms.\n\nImportant questions are often overlooked, including:\n\n*   Processed food intake\n*   Daily sugar consumption\n*   Chronic stress\n*   Blood sugar regulation\n*   Gut microbiome diversity\n\nTraditional treatments often focus on symptom relief using medications such as antacids, laxatives, steroids, or immune-suppressing drugs. While these treatments may provide temporary relief, they rarely address why the gut became damaged in the first place.\n\nAt Dr. Autoimmune, Dr. Ian Hollaman and our team take a more investigative approach. We use advanced stool testing, inflammatory markers, food sensitivity testing, and specialized laboratory evaluations to identify the underlying contributors affecting your digestive and immune health.\n\n[**DOWNLOAD THE FREE POTS ROOT CAUSE ASSESSMENT**](https://pots.drautoimmune.com/opt-in?_gl=1*wfekdg*_ga*MzAyODkyNTM5LjE3ODIzMjU5MTI.*_ga_MK4GCF2L9J*czE3ODc2Nzc0NTAkbzQzJGcwJHQxNzg3Njc3NDUwJGo2MCRsMCRoMA..)\n\n* * *\n\n## **A Functional Medicine Roadmap to Healing Leaky Gut**\n\nHealing a leaky gut isn’t about finding one miracle supplement or following the latest diet trend. Instead, functional medicine follows a structured approach that focuses on identifying and correcting the underlying problems.\n\nOur approach generally follows four simple steps:\n\n**Remove** harmful triggers such as processed foods, inflammatory foods, infections, or medications when appropriate.\n\n**Replace** digestive support that may be lacking, including stomach acid, digestive enzymes, or bile support.\n\n**Reinoculate** the gut with beneficial bacteria using targeted probiotics and prebiotic nutrition.\n\n**Repair** the intestinal lining with nutrients and lifestyle strategies that support healing.\n\nNutrition remains the foundation of treatment. We typically recommend an anti-inflammatory eating plan centered around whole, nutrient-dense foods while temporarily removing foods that testing or symptoms suggest may be problematic.\n\nSpecific nutritional supplements, targeted probiotics, and gut-supportive nutrients may be recommended depending on each patient’s needs.\n\nLifestyle also plays a significant role. Sleep quality, stress management, regular movement, and healthy daily habits all influence how well the gut can repair itself. Every care plan is personalized to fit each individual’s lifestyle, health history, and goals.\n\n* * *\n\n## **Your Next Step Toward Better Gut and Immune Health**\n\nDigestive symptoms are often your body’s early warning signs. Persistent bloating, alternating constipation and diarrhea, chronic fatigue, food sensitivities, and autoimmune flare-ups should not be ignored.\n\nUnderstanding the connection between the gut and the immune system allows you to take meaningful steps toward improving your long-term health.\n\nIf you’re interested in learning more before scheduling a consultation, we invite you to join our upcoming [**FREE LIVE Educational Webinar on September 2 at 5:00 PM Mountain Time**](https://us02web.zoom.us/webinar/register/WN_Ss9LSJghQ9eGS0SmEuBYGw), where [Dr. Ian Hollaman, DC, MSc, FMCP](/about-us/) will explain how functional medicine evaluates leaky gut and the practical steps that can support long-term healing.\n\n## **Take the Next Step Toward Better Gut Health**\n\nIf you’re ready to address the root causes of your digestive symptoms and autoimmune concerns, the team at [**Dr. Autoimmune**](/) is here to help.\n\n[**Dr. Ian Hollaman, DC, MSc, FMCP**](/about-us/)**,** also known as **Dr. Autoimmune**, has more than 17 years of experience working with chronic, unresolved health conditions. His work focuses on helping people better understand the underlying contributors to symptoms involving dizziness, fatigue, nervous system dysregulation, post viral syndromes, immune imbalance, circulation issues, digestive dysfunction, and chronic inflammation.\n\nTogether, we’ll review your health history, identify potential underlying contributors, and develop a personalized plan designed to support both your gut and your overall health.\n\nWhether you’ve struggled with digestive issues for years or are just beginning to explore the connection between gut health and autoimmune disease, we’re here to help you take the next step toward lasting wellness.\n\n[**_Click here to book your Discovery call_**](https://link.drautoimmune.com/widget/bookings/call-with-dr-ian?_gl=1*gx86h*_ga*MzAyODkyNTM5LjE3ODIzMjU5MTI.*_ga_MK4GCF2L9J*czE3ODc3NDkyOTYkbzQ1JGcxJHQxNzg3NzUwMDczJGozNyRsMCRoMA..)today and begin your journey toward better gut health.",
+  "featuredImage": {
+    "src": "/images/migrated/leaky-gut-signs-causes-and-functional-fixes/Screenshot-2026-08-26-at-6.08.08-PM.png",
+    "alt": "Leaky Gut Signs, Causes, and Functional Fixes",
+    "originalUrl": "https://drautoimmune.com/images/og/leaky-gut-signs-causes-and-functional-fixes.jpg",
+    "originalFilename": "Screenshot-2026-08-26-at-6.08.08-PM.png"
+  },
+  "datePublished": "2026-08-26T13:08:30+00:00",
+  "dateModified": "2026-08-26T19:18:29+00:00",
+  "readingTime": "7 minutes"
+}

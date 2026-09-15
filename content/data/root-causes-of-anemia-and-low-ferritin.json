@@ -1,0 +1,148 @@
+{
+  "key": "root-causes-of-anemia-and-low-ferritin",
+  "path": "/root-causes-of-anemia-and-low-ferritin/",
+  "liveUrl": "https://drautoimmune.com/root-causes-of-anemia-and-low-ferritin/",
+  "isPost": true,
+  "title": "Root Causes of Anemia and Low Ferritin",
+  "metaDescription": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Root Causes of Anemia and Low Ferritin\".",
+  "canonical": "https://drautoimmune.com/root-causes-of-anemia-and-low-ferritin/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "title": "Root Causes of Anemia and Low Ferritin",
+    "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Root Causes of Anemia and Low Ferritin\".",
+    "url": "https://drautoimmune.com/root-causes-of-anemia-and-low-ferritin/",
+    "site_name": "Dr. Autoimmune",
+    "updated_time": "2026-09-10T11:10:06+00:00",
+    "image": "https://drautoimmune.com/images/og/root-causes-of-anemia-and-low-ferritin.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/root-causes-of-anemia-and-low-ferritin.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "Root Causes of Anemia and Low Ferritin",
+    "image:type": "image/jpeg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Root Causes of Anemia and Low Ferritin",
+    "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Root Causes of Anemia and Low Ferritin\".",
+    "image": "https://drautoimmune.com/images/og/root-causes-of-anemia-and-low-ferritin.jpg",
+    "label1": "Written by",
+    "data1": "developer",
+    "label2": "Time to read",
+    "data2": "8 minutes"
+  },
+  "jsonLd": [
+    {
+      "source": "rank-math-schema",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": [
+              "Person",
+              "Organization"
+            ],
+            "@id": "https://drautoimmune.com/#person",
+            "name": "Dr. Autoimmune"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com",
+            "name": "Dr. Autoimmune",
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://drautoimmune.com/images/og/root-causes-of-anemia-and-low-ferritin.jpg",
+            "url": "https://drautoimmune.com/images/og/root-causes-of-anemia-and-low-ferritin.jpg",
+            "width": "648",
+            "height": "363",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/root-causes-of-anemia-and-low-ferritin/#webpage",
+            "url": "https://drautoimmune.com/root-causes-of-anemia-and-low-ferritin/",
+            "name": "Root Causes of Anemia and Low Ferritin",
+            "datePublished": "2026-09-10T10:41:19+00:00",
+            "dateModified": "2026-09-10T11:10:06+00:00",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/images/og/root-causes-of-anemia-and-low-ferritin.jpg"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://drautoimmune.com/author/developer/",
+            "name": "developer",
+            "url": "https://drautoimmune.com/author/developer/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "caption": "developer",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "http://drautoimmune.com"
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Root Causes of Anemia and Low Ferritin",
+            "datePublished": "2026-09-10T10:41:19+00:00",
+            "dateModified": "2026-09-10T11:10:06+00:00",
+            "articleSection": "Uncategorized",
+            "author": {
+              "@id": "https://drautoimmune.com/author/developer/",
+              "name": "developer"
+            },
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "description": "Discover expert advice from Boulder&#039;s most trusted gut health specialist. Read our latest post titled &quot;Root Causes of Anemia and Low Ferritin&quot;.",
+            "name": "Root Causes of Anemia and Low Ferritin",
+            "@id": "https://drautoimmune.com/root-causes-of-anemia-and-low-ferritin/#richSnippet",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/root-causes-of-anemia-and-low-ferritin/#webpage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/images/og/root-causes-of-anemia-and-low-ferritin.jpg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://drautoimmune.com/root-causes-of-anemia-and-low-ferritin/#webpage"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/root-causes-of-anemia-and-low-ferritin/image-1024x683.png",
+      "alt": "image-1024x683",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/09/image-1024x683.png",
+      "originalFilename": "image-1024x683.png"
+    }
+  ],
+  "bodyMarkdown": "**_Why You Can Be “Anemic” Even When Your Doctor Says Your Iron Is Fine_**\n\nFatigue that doesn’t improve with sleep. Hair falling out in the shower. Cold hands, brittle nails, brain fog, and a heart that races when you climb the stairs. Many people living with these symptoms are told their bloodwork is “normal,” only to keep feeling worse. In our experience at [Dr. Autoimmune](/), one of the most commonly missed pieces of this puzzle is **low ferritin**, the body’s stored form of iron, even when a standard complete blood count (CBC) looks acceptable.\n\nAnemia is not a diagnosis in itself. It is a _sign_ that something upstream is off, whether that’s absorption, chronic inflammation, blood loss, thyroid function, or an autoimmune process quietly running in the background. Conventional visits often stop once hemoglobin falls within a wide reference range. Ferritin, iron saturation, total iron-binding capacity, and the deeper “why” behind the numbers are frequently left unexamined.\n\nAt Dr. Autoimmune, we treat anemia and low ferritin as a starting point for investigation, not an endpoint. If your labs look borderline, your iron supplement isn’t working, or you’ve been told your fatigue is “just stress,” this article walks through the root causes we look for and how a functional medicine approach differs from simply refilling an iron prescription.\n\n### **Want to Learn More About the Root Causes of Anemia and Low Ferritin?**\n\nIf you’re struggling with fatigue, brain fog, low energy, or low ferritin—even when you’ve been told your iron levels are “normal”—we’d love to help you better understand what may be going on.\n\nJoin **Dr. Ian Hollaman, DC, MSc, FMCP**, for our next **FREE LIVE Educational Webinar** on [**Wednesday, September 16, at 5:00 PM Mountain Time**](https://us02web.zoom.us/webinar/register/WN_2_E2WIq0TFWvjKqEjeBE6A), where he’ll explain why anemia and low ferritin develop, what routine labs may miss, and how a functional medicine approach looks beyond the numbers to uncover potential underlying causes.\n\nDuring this webinar, you’ll learn:\n\n*   What ferritin actually measures and why “normal” ranges can still leave you symptomatic\n*   How gut health, chronic inflammation, and autoimmune activity can affect iron absorption and storage\n*   Common root causes of low ferritin that are frequently overlooked\n*   Functional medicine strategies that support healthy iron levels and long-term energy  \n\n[**Reserve your FREE spot by registering here.**](https://us02web.zoom.us/webinar/register/WN_2_E2WIq0TFWvjKqEjeBE6A)\n\n## **Ferritin 101: The Difference Between “Iron” and “Stored Iron”**\n\nMost people only hear about “iron” in the context of red blood cells, but ferritin tells a different part of the story. Ferritin is the protein that stores iron inside your cells for later use, essentially your body’s iron savings account. Serum iron and hemoglobin reflect what’s circulating right now, while ferritin reflects your _reserves._\n\nThis distinction matters clinically. Ferritin can drop for months, sometimes years, before hemoglobin or a standard CBC ever flags a problem. By the time hemoglobin is low enough to be labeled “anemia,” the underlying iron depletion has often been building for a long time. This is why so many people feel exhausted, foggy, and unwell while being told their labs are unremarkable; the test that would catch the problem early, ferritin, is frequently left off the standard panel altogether.\n\nIt’s also worth noting that ferritin is an **acute-phase reactant**, meaning it can rise in response to inflammation, even when true iron stores are low. This is one reason ferritin should never be interpreted alone. A thorough evaluation typically pairs ferritin with iron, total iron-binding capacity (TIBC), transferrin saturation, and inflammatory markers like CRP, so the full picture, not just one number, guides the plan.\n\n[![image-1024x683](/images/migrated/root-causes-of-anemia-and-low-ferritin/image-1024x683.png)](https://www.tiktok.com/@drautoimmune/video/7633844578780466463?_r=1&_t=ZP-99SVW1468li)\n## **The Root Causes Behind Low Ferritin and Anemia**\n\nLow ferritin rarely has a single cause. In our clinic, we look across several systems at once to understand why your body isn’t holding onto or absorbing enough iron.\n\n**_1. Poor Gut Absorption and Digestive Dysfunction_**\n\nIron is absorbed primarily in the small intestine, and that process depends on adequate stomach acid and a healthy intestinal lining. Low stomach acid, chronic use of acid-blocking medications, [increased intestinal permeability (leaky gut)](/leaky-gut-signs-causes-and-functional-fixes/), and small intestinal bacterial overgrowth (SIBO) can all interfere with how much iron actually makes it into your bloodstream, no matter how much you’re eating or supplementing.\n\n**_2. Celiac Disease and Gluten-Related Gut Damage_**\n\nUnexplained iron-deficiency anemia is one of the most common presenting signs of [celiac disease and gluten sensitivity](/celiac-disease-and-gluten-intolerance/). Ongoing gluten exposure in a sensitive person damages the villi lining the small intestine, the same tissue responsible for absorbing iron, B12, and folate. Anemia that doesn’t respond to supplementation is a classic reason we screen for celiac disease and non-celiac gluten sensitivity.\n\n**_3. Chronic Inflammation and Autoimmune Activity_**\n\nPersistent inflammation triggers the release of a hormone called hepcidin, which blocks iron from being absorbed in the gut and locks existing iron away in storage instead of releasing it for use. This pattern, known as _anemia of chronic disease_, is common in people with inflammatory bowel disease, rheumatoid arthritis, lupus, and other autoimmune conditions. It’s a key reason ferritin can look “normal” or even elevated on paper while true iron availability to your tissues stays low.\n\n**_4. Thyroid Dysfunction_**\n\nThyroid hormone helps regulate stomach acid production and red blood cell formation. When thyroid function is low, or when [autoimmune thyroid disease is present even with a normal TSH](/autoimmune-thyroid-symptoms-when-tsh-looks-normal/), iron metabolism often suffers alongside it. We frequently see low ferritin and sluggish thyroid function occurring together, each one making the other harder to resolve until both are addressed.\n\n**_5. Heavy Menstrual Cycles and Unrecognized Blood Loss_**\n\nHeavy or prolonged periods, fibroids, and slow gastrointestinal blood loss (from ulcers, hemorrhoids, or inflammatory conditions) are straightforward but frequently overlooked contributors to falling ferritin. Because this blood loss can be gradual, it’s easy to underestimate just how much iron is being lost over time.\n\n**_6. Diet, Nutrient Cofactors, and Absorption Blockers_**\n\nLow intake of iron-rich foods, especially in vegetarian and vegan diets, plays a role, but it’s rarely the whole story. Iron absorption also depends on adequate vitamin C, B12, copper, and stomach acid. Frequent coffee or tea with meals, high-calcium supplements taken alongside iron, and certain medications can all blunt how much iron your body actually takes up.\n\n**_7. Chronic Stress, Poor Sleep, and Blood Sugar Swings_**\n\nChronic stress and unstable blood sugar keep the body in a heightened inflammatory state, which, as noted above, can suppress iron absorption through the same hepcidin pathway. Poor sleep further limits the body’s capacity for tissue repair and healthy red blood cell turnover.\n\n## **What a Standard Iron Panel Often Misses**\n\nMany people are told their iron is “fine” after a CBC alone, or after ferritin is checked once without the surrounding context. Questions that are often left unasked include:\n\n*   Is ferritin being interpreted alongside inflammatory markers, or in isolation?\n*   Has celiac disease or gluten sensitivity ever been ruled out?\n*   Is there an undiagnosed autoimmune or thyroid condition driving chronic inflammation?\n*   Is stomach acid adequate, and are digestive symptoms being taken seriously?\n*   Is menstrual blood loss, or another source of ongoing blood loss, being accounted for?\n\nStandard care often responds to low iron with a generic supplement and a recheck in a few months. When levels don’t improve, or symptoms persist despite “normal” numbers, that is usually a sign the underlying driver hasn’t been identified yet, not that the anemia is imaginary. At Dr. Autoimmune, we use expanded lab panels, including ferritin, iron saturation, TIBC, inflammatory markers, B12, folate, and thyroid antibodies where appropriate, to see the full picture rather than a single data point. Learn more about the [conditions we support](/conditions-we-support/) and how root-cause testing fits into your overall care.\n\n## **A Functional Medicine Roadmap for Anemia and Low Ferritin**\n\nCorrecting low ferritin isn’t just about taking more iron. Our approach generally follows four steps:\n\n**Test** thoroughly, looking beyond hemoglobin to ferritin, iron saturation, TIBC, inflammatory markers, and relevant nutrient and thyroid panels to understand the full pattern.\n\n**Identify** the underlying driver, whether that’s gut absorption, celiac disease, autoimmune inflammation, thyroid dysfunction, or ongoing blood loss.\n\n**Replenish** iron stores using a form and dose appropriate to your gut tolerance and absorption capacity, paired with supportive nutrients like vitamin C, B12, and folate as needed.\n\n**Repair** the systems that allowed ferritin to drop in the first place, supporting gut healing, calming autoimmune activity, and optimizing thyroid and blood sugar balance so your levels stay stable long-term.\n\nNutrition remains foundational. We typically recommend nutrient-dense, anti-inflammatory eating patterns rich in well-absorbed iron sources, while identifying and temporarily removing foods that testing or symptoms suggest may be problematic, such as gluten in the case of confirmed sensitivity or celiac disease. Every plan is personalized based on your labs, symptoms, and history, since the right approach for someone with [Hashimoto’s thyroiditis](/hashimotos-thyroiditis-graves/) will look different from the right approach for someone with heavy menstrual cycles or undiagnosed celiac disease.\n\n## **Why the Gut-Immune Connection Matters Here Too**\n\nBecause so many root causes of low ferritin trace back to the gut and immune system, we often evaluate anemia alongside broader gut and autoimmune health. If you’d like to understand this connection in more depth, our articles on [the hidden link between gut health and autoimmune disease](/the-hidden-link-between-gut-health-and-autoimmune-disease/) and [leaky gut signs, causes, and functional fixes](/leaky-gut-signs-causes-and-functional-fixes/) walk through how a compromised gut lining can quietly drive inflammation throughout the body, iron metabolism included.\n\n## **Take the Next Step Toward Understanding Your Fatigue**\n\nJoin our upcoming **FREE LIVE Educational Webinar on**[**Wednesday, September 16 at 5:00 PM Mountain Time**](https://us02web.zoom.us/webinar/register/WN_2_E2WIq0TFWvjKqEjeBE6A), where **Dr. Ian Hollaman, DC, MSc, FMCP** will explain the **root causes of anemia and low ferritin**, why routine labs may not always tell the full story, and how a functional medicine approach.\n\nlooks deeper to identify factors affecting iron absorption and storage.\n\nIf you’re ready to move beyond a generic iron supplement and get real answers, our team at [Dr. Autoimmune](/) is here to help. We’ll review your health history, evaluate your complete iron and inflammatory picture, and build a personalized plan designed to restore your energy and support long-term wellness.\n\n[Click here to book your Discovery Call](https://link.drautoimmune.com/widget/bookings/call-with-dr-ian) today and start your journey toward understanding what’s really behind your fatigue. If you have questions before scheduling, feel free to [contact our team](/contact-us/), we’re here to help guide you toward better energy and long-term health.",
+  "featuredImage": {
+    "src": "/images/migrated/root-causes-of-anemia-and-low-ferritin/Screenshot-2026-09-10-at-3.39.43-PM.png",
+    "alt": "Root Causes of Anemia and Low Ferritin",
+    "originalUrl": "https://drautoimmune.com/images/og/root-causes-of-anemia-and-low-ferritin.jpg",
+    "originalFilename": "Screenshot-2026-09-10-at-3.39.43-PM.png"
+  },
+  "datePublished": "2026-09-10T10:41:19+00:00",
+  "dateModified": "2026-09-10T11:10:06+00:00",
+  "readingTime": "8 minutes"
+}

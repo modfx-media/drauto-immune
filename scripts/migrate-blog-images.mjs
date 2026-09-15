@@ -25,6 +25,10 @@ import path from "node:path";
 // script can't import a .ts module directly without a transpile step, same
 // reason migrate-content.mjs keeps its own copy).
 const blogPostSlugs = [
+  "root-causes-of-anemia-and-low-ferritin",
+  "leaky-gut-signs-causes-and-functional-fixes",
+  "pots-treatment-looking-beyond-salt-and-medications-with-functional-medicine",
+  "autoimmune-thyroid-symptoms-when-tsh-looks-normal",
   "the-hidden-link-between-gut-health-and-autoimmune-disease",
   "if-my-ana-is-positive-do-i-have-an-autoimmune-disease",
   "i-eat-clean-why-do-i-still-feel-sick",
@@ -58,6 +62,15 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 const DATA_DIR = path.join(ROOT, "content", "data");
 const IMAGES_DIR = path.join(ROOT, "public", "images", "migrated");
 const IMAGE_PROXY = "https://images.weserv.nl/?url=";
+
+// Once a post's openGraph.image has already been localized (by this script or
+// migrate-og-images.mjs), re-running against the full slug list 404s on the
+// now-local/absolute-prod URL and wipes its featuredImage — always scope
+// re-runs to just-added slugs via --only=slug1,slug2.
+const onlyArg = process.argv.find((a) => a.startsWith("--only="));
+const targetSlugs = onlyArg
+  ? onlyArg.slice("--only=".length).split(",")
+  : blogPostSlugs;
 
 function basenameFromUrl(url) {
   try {
@@ -120,7 +133,7 @@ function findReadingTime(twitter, bodyMarkdown) {
 }
 
 async function run() {
-  for (const slug of blogPostSlugs) {
+  for (const slug of targetSlugs) {
     const file = path.join(DATA_DIR, `${slug}.json`);
     const record = JSON.parse(await readFile(file, "utf8"));
 

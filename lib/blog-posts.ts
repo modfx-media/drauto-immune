@@ -6,6 +6,9 @@
  * so it can be safely imported from client components too.
  */
 export const blogPostSlugs = [
+  "root-causes-of-anemia-and-low-ferritin",
+  "leaky-gut-signs-causes-and-functional-fixes",
+  "pots-treatment-looking-beyond-salt-and-medications-with-functional-medicine",
   "autoimmune-thyroid-symptoms-when-tsh-looks-normal",
   "the-hidden-link-between-gut-health-and-autoimmune-disease",
   "if-my-ana-is-positive-do-i-have-an-autoimmune-disease",

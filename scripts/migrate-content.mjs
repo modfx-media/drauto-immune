@@ -25,6 +25,10 @@ import * as cheerio from "cheerio";
 // Kept in sync with the readonly array in lib/blog-posts.ts (source of truth
 // for the [slug] dynamic route's generateStaticParams).
 const blogPostSlugs = [
+  "root-causes-of-anemia-and-low-ferritin",
+  "leaky-gut-signs-causes-and-functional-fixes",
+  "pots-treatment-looking-beyond-salt-and-medications-with-functional-medicine",
+  "autoimmune-thyroid-symptoms-when-tsh-looks-normal",
   "the-hidden-link-between-gut-health-and-autoimmune-disease",
   "if-my-ana-is-positive-do-i-have-an-autoimmune-disease",
   "i-eat-clean-why-do-i-still-feel-sick",
