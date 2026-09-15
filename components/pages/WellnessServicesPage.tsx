@@ -79,7 +79,11 @@ export default function WellnessServicesPage() {
         title="Your Personalized Functional Medicine Support"
         accent="Functional Medicine"
         subhead="Ongoing, root-cause care built around your body, your history, and your goals."
-        image={{ src: "/images/services/wellness-services.jpg", alt: "Couple enjoying improved wellness outdoors" }}
+        image={{
+          src: "/images/services/wellness-services.jpg",
+          alt: "Couple enjoying improved wellness outdoors",
+          position: "center 20%",
+        }}
       />
 
       {/* Intro */}

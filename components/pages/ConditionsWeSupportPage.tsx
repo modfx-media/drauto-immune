@@ -106,7 +106,12 @@ export default function ConditionsWeSupportPage() {
         title="Conditions We Support"
         accent="We Support"
         subhead="A comprehensive functional medicine approach designed to uncover root causes, elevate wellbeing, and help you feel and function at your best, all delivered through 100% remote telehealth care."
-        image={{ src: "/images/migrated/conditions-we-support/large-7.webp", alt: "Doctor reviewing notes at her desk" }}
+        image={{
+          src: "/images/migrated/conditions-we-support/large-7.webp",
+          alt: "Doctor reviewing notes at her desk",
+          position: "center 10%",
+          dim: 0.15,
+        }}
       />
 
       {/* Intro */}

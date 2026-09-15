@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState, type MouseEvent as ReactMouseEvent } from "react";
 import { motion, useInView, useMotionValue, useReducedMotion, useSpring } from "motion/react";
@@ -143,8 +144,8 @@ const TAG_HREF: Record<string, string> = {
 
 const BADGE_POSITION = [
   "-left-6 top-10 sm:-left-10",
-  "-right-4 top-1/2 -translate-y-1/2 sm:-right-8",
-  "-left-4 bottom-10 sm:-left-8",
+  "-right-12 top-1/2 -translate-y-1/2 sm:-right-28",
+  "-left-4 bottom-40 sm:-left-8",
 ] as const;
 
 /**
@@ -183,32 +184,18 @@ function FloatingBadge({ tag, index }: { tag: string; index: number }) {
 }
 
 /**
- * Framed video panel: a rounded, glowing "specimen window" holding the
- * antibody/virus animation, with a subtle cursor-reactive 3D tilt and a
- * looping glow-border pulse. Contained (not full-bleed) so the left copy
- * column always sits on a clean, legible solid background instead of
- * competing with a busy moving image.
+ * Framed portrait panel: a rounded "specimen window" holding Dr. Ian
+ * Hollaman's portrait, with a subtle cursor-reactive 3D tilt, a looping
+ * glow-border pulse, and a floating years-of-experience badge. Contained
+ * (not full-bleed) so the left copy column always sits on a clean,
+ * legible solid background instead of competing with a busy image.
  */
-function VideoFrame() {
+function PortraitFrame() {
   const reduce = useReducedMotion();
-  const videoRef = useRef<HTMLVideoElement>(null);
   const rotateX = useMotionValue(0);
   const rotateY = useMotionValue(0);
   const springRotateX = useSpring(rotateX, { stiffness: 120, damping: 16 });
   const springRotateY = useSpring(rotateY, { stiffness: 120, damping: 16 });
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-    if (reduce) {
-      video.pause();
-    } else {
-      video.play().catch(() => {
-        // Autoplay can be blocked by the browser — the poster frame still
-        // renders, so there's no broken/empty state either way.
-      });
-    }
-  }, [reduce]);
 
   function handleMove(e: ReactMouseEvent<HTMLDivElement>) {
     if (reduce) return;
@@ -241,20 +228,50 @@ function VideoFrame() {
         transition={{ duration: 0.8, delay: 0.5, ease: EASE }}
         className="relative aspect-[4/5] w-full overflow-hidden rounded-[2rem] border border-white/15 shadow-2xl"
       >
-        <video
-          ref={videoRef}
-          className="h-full w-full object-cover"
-          poster="/images/migrated/home/hand-touching-throat-patient-scaled-e1765825864596.jpg"
-          autoPlay={!reduce}
-          muted
-          loop
-          playsInline
-          preload="metadata"
-        >
-          <source src="/videos/antibody-virus-particle-animation.mp4" type="video/mp4" />
-        </video>
-        <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-ink/20" />
+        <Image
+          src="/images/team/ian-hollaman-hero-portrait.webp"
+          alt="Dr. Ian Hollaman, DC, MSc, FMCP"
+          fill
+          sizes="(min-width: 1024px) 448px, 100vw"
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink/75 via-ink/15 to-transparent" />
         <div className="absolute inset-0 rounded-[2rem] ring-1 ring-inset ring-white/10" />
+
+        {/* Name, title, credentials, and years-of-experience — highlights who he is and his experience */}
+        <div className="absolute inset-x-5 bottom-5 flex items-end justify-between gap-3">
+          <div>
+            <p className="font-mono text-[0.65rem] font-medium uppercase tracking-[0.14em] text-sage">
+              Founder &middot; Lead Practitioner
+            </p>
+            <p className="mt-1 text-lg font-medium leading-tight text-white sm:text-xl">Dr. Ian Hollaman</p>
+            <p className="text-xs text-white/70">DC, MSc, FMCP</p>
+          </div>
+          <div className="flex shrink-0 items-center gap-2 rounded-pill border border-white/60 bg-white/90 px-3.5 py-2 shadow-card backdrop-blur-md">
+            <span className="accent-serif text-lg leading-none text-primary">17+</span>
+            <span className="text-[0.65rem] font-medium leading-tight text-ink">
+              Years
+              <br />
+              Experience
+            </span>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Floating credential pill — reinforces his experience alongside the tag badges */}
+      <motion.div
+        className="absolute -top-4 right-8 hidden items-center gap-2 rounded-pill border border-white/60 bg-white/90 px-4 py-2 shadow-card backdrop-blur-md sm:flex"
+        initial={{ y: 20, scale: 0.85 }}
+        animate={reduce ? { y: 0, scale: 1 } : { y: [0, -5, 0], scale: 1 }}
+        transition={
+          reduce
+            ? { duration: 0.6, delay: 0.9, ease: EASE }
+            : { y: { duration: 3.6, repeat: Infinity, ease: "easeInOut", delay: 1.1 }, scale: { duration: 0.6, delay: 0.9, ease: EASE } }
+        }
+      >
+        <Icon name="shield" className="h-3.5 w-3.5 text-primary" />
+        <span className="text-xs font-medium text-ink">FMCP Certified</span>
       </motion.div>
 
       {HERO.tags.map((tag, i) => (
@@ -419,9 +436,9 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Right: framed video panel */}
+        {/* Right: framed portrait panel */}
         <div className="flex w-full justify-center lg:w-[46%] lg:justify-end">
-          <VideoFrame />
+          <PortraitFrame />
         </div>
       </Container>
     </section>

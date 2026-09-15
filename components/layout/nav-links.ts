@@ -27,14 +27,13 @@ export interface NavItem {
  * Top-level order otherwise matches the live site exactly: About Us,
  * Services, Conditions, Patient Stories, Blog, Shop, Contact Us — Shop/
  * Contact Us are separate top-level items (not folded into a "More" menu).
- * A "Home" item (internal-only, not on the live site) was added back with
- * a dropdown linking to the `/home-2/` design-variant page for comparison.
+ * A "Home" item (internal-only, not on the live site) was added back for
+ * consistency with the rest of the nav.
  */
 export const NAV_LINKS: readonly NavItem[] = [
   {
     label: "Home",
     href: "/",
-    children: [{ label: "Home 2", href: "/home-2/" }],
   },
   {
     label: "About Us",

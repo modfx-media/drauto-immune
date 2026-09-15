@@ -3,7 +3,6 @@ export const QUICK_LINKS = [
   { label: "About Us", href: "/about-us/" },
   { label: "Featured Interviews", href: "/featured-interviews/" },
   { label: "Blog", href: "/blog/" },
-  { label: "Live Webinar Schedule", href: "/live-webinar-schedule/" },
   { label: "Contact Us", href: "/contact-us/" },
   { label: "Shop", href: "https://shop.drautoimmune.com/", external: true },
 ] as const;

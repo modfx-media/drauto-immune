@@ -89,12 +89,6 @@ const CONDITION_CATEGORIES: { label: string; icon: IconName; links: DirectoryLin
 
 /** Resources & further reading, plus the one external storefront link. */
 const RESOURCE_LINKS: (DirectoryLink & { tag: string })[] = [
-  {
-    tag: "Webinar",
-    label: "Live Webinar Schedule",
-    href: "/live-webinar-schedule/",
-    description: "Upcoming live sessions with registration links for each date.",
-  },
   { tag: "Article", label: "Blog", href: "/blog/", description: "Ongoing research-backed articles & updates." },
   { tag: "Stories", label: "Patient Stories", href: "/patient-stories/", description: "First-hand patient experiences." },
   { tag: "Interviews", label: "Featured Interviews", href: "/featured-interviews/", description: "Podcasts and press appearances." },

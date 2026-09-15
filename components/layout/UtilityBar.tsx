@@ -1,16 +1,14 @@
-import Button from "@/components/ui/Button";
-import Icon from "@/components/ui/Icon";
 import { SITE_CONTACT } from "./nav-links";
 
 /**
- * Top utility strip — contact info + live webinar schedule CTA. Hidden on
- * small screens to keep the mobile header compact (matches the migrated
- * site's own "hidden on mobile" utility row).
+ * Top utility strip — contact info. Hidden on small screens to keep the
+ * mobile header compact (matches the migrated site's own "hidden on
+ * mobile" utility row).
  */
 export default function UtilityBar() {
   return (
     <div className="hidden bg-gradient-to-r from-primary to-[#2c5b4a] text-white md:block">
-      <div className="mx-auto flex w-full max-w-[var(--container-max)] items-center justify-between gap-6 px-6 py-2 md:px-10">
+      <div className="mx-auto flex w-full max-w-[var(--container-max)] items-center justify-center gap-6 px-6 py-2 md:px-10">
         <div className="flex items-center gap-4 font-mono text-xs tracking-[0.02em]">
           <a
             href={SITE_CONTACT.phoneHref}
@@ -48,21 +46,6 @@ export default function UtilityBar() {
             <span>{SITE_CONTACT.email}</span>
           </a>
         </div>
-
-        <Button
-          href="/live-webinar-schedule/"
-          variant="primary"
-          size="sm"
-          className="group shadow-[0_2px_10px_rgba(0,0,0,0.18)]"
-        >
-          <span className="flex items-center gap-1.5">
-            Live Webinar Schedule
-            <Icon
-              name="arrow-right"
-              className="h-3.5 w-3.5 -translate-x-1 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-            />
-          </span>
-        </Button>
       </div>
     </div>
   );

@@ -32,7 +32,11 @@ export default function DiscoveryCallPage() {
         title="Let's Talk About Your Health"
         accent="Your Health"
         subhead="A no-obligation call with our care team to see if functional medicine is the right next step for you."
-        image={{ src: "/images/discovery-call/doctor-consultation-desk.png", alt: "Doctor writing notes at a desk next to an open laptop" }}
+        image={{
+          src: "/images/discovery-call/dr-ian-consultation.png",
+          alt: "Doctor writing notes at a desk next to an open laptop",
+          position: "center 40%",
+        }}
       />
 
       <Section bg="white" className="relative">

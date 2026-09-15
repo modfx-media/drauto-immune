@@ -22,7 +22,11 @@ export default function StorePage() {
         title="Explore Our Wellness Products"
         accent="Wellness Products"
         subhead={PRODUCTS.intro}
-        image={{ src: "/images/services/wellness-services.jpg", alt: "Couple enjoying improved wellness outdoors" }}
+        image={{
+          src: "/images/services/wellness-services.jpg",
+          alt: "Couple enjoying improved wellness outdoors",
+          position: "center 20%",
+        }}
       />
 
       <Section bg="white" className="relative overflow-hidden">

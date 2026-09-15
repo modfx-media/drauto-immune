@@ -106,7 +106,7 @@ export default function AboutUsPage() {
       <Section bg="cream-wash">
         <Container>
           <BioCard
-            image={{ src: "/images/migrated/about-us/Untitled-design-29.png", alt: "Dr. Ian Hollaman, DC, MSc, FMCP" }}
+            image={{ src: "/images/migrated/about-us/dr-ian-hollaman.png", alt: "Dr. Ian Hollaman, DC, MSc, FMCP" }}
             name="Meet Dr. Ian Hollaman, DC, MSc, FMCP"
             credentials="Meet Your Doctor"
             paragraphs={[

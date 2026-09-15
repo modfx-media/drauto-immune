@@ -15,9 +15,9 @@ interface CarouselProps {
 }
 
 /**
- * Shared prev/next + dot-indicator carousel, reused across both the
- * homepage and the Home2 design variant (Testimonials, Wellness Products,
- * TikTok videos, etc.) for a consistent scroll-snap carousel interaction.
+ * Shared prev/next + dot-indicator carousel, reused across the homepage
+ * (Testimonials, Wellness Products, TikTok videos, etc.) for a consistent
+ * scroll-snap carousel interaction.
  */
 export default function Carousel({ slides, ariaLabel, itemClassName = "" }: CarouselProps) {
   const trackRef = useRef<HTMLDivElement>(null);

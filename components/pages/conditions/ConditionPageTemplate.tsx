@@ -64,12 +64,12 @@ function MidCta({ image }: { image?: ConditionImage }) {
 
 /**
  * Shared bespoke template for all 13 individual condition pages. Renders
- * the dark checkered `InnerPageHero` banner (no photo — matches the rest
- * of the site's inner pages), a sticky `ConditionSidebar`, the
- * per-condition content pulled from `content/conditions-data.ts` as a
- * stack of bordered "card" blocks (modeled on renoregen.com/joint-injections'
- * card-based layout rhythm), and a `StickyDiscoveryCTA` that fades in
- * once the visitor scrolls past the hero.
+ * the `InnerPageHero` banner with each condition's intro photo as a
+ * tinted background, a sticky `ConditionSidebar`, the per-condition
+ * content pulled from `content/conditions-data.ts` as a stack of bordered
+ * "card" blocks (modeled on renoregen.com/joint-injections' card-based
+ * layout rhythm), and a `StickyDiscoveryCTA` that fades in once the
+ * visitor scrolls past the hero.
  */
 export default function ConditionPageTemplate({ slug }: { slug: string }) {
   const data = getConditionData(slug);
@@ -128,7 +128,13 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
 
   return (
     <>
-      <InnerPageHero eyebrow="Conditions We Support" title={name} accent={name} subhead={heroDescription} image={introImage} />
+      <InnerPageHero
+        eyebrow="Conditions We Support"
+        title={name}
+        accent={name}
+        subhead={heroDescription}
+        image={{ ...(ctaImage ?? introImage), dim: 0.15 }}
+      />
 
       <Section bg="white" className="relative">
         <SectionAmbient tone="sage" variant="dots" />
@@ -138,13 +144,27 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
 
             <div className="min-w-0 flex-1 space-y-6">
               <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
-                <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">{whatIsHeading}</h2>
-                <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
-                  {whatIsParagraphs.map((p) => (
-                    <p key={p.slice(0, 40)}>{p}</p>
-                  ))}
+                <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
+                  <div className="min-w-0 flex-1">
+                    <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">{whatIsHeading}</h2>
+                    <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
+                      {whatIsParagraphs.map((p) => (
+                        <p key={p.slice(0, 40)}>{p}</p>
+                      ))}
+                    </div>
+                    {whatIsBullets && <StaggerList items={whatIsBullets} />}
+                  </div>
+                  {/* Same photo used behind the hero banner, shown in full here alongside the intro copy. */}
+                  <div className="relative aspect-[4/3] w-full shrink-0 overflow-hidden rounded-card shadow-card lg:w-72">
+                    <Image
+                      src={introImage.src}
+                      alt={introImage.alt}
+                      fill
+                      sizes="(min-width: 1024px) 288px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
-                {whatIsBullets && <StaggerList items={whatIsBullets} />}
               </Reveal>
 
               {leadInBullets && (

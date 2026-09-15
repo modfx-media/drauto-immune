@@ -13,7 +13,7 @@ import GlowOrb from "./GlowOrb";
 import Reveal from "./Reveal";
 
 const DOCTOR_STATS = [
-  { value: "15+", label: "Years in functional medicine" },
+  { value: "17+", label: "Years in functional medicine" },
   { value: "100%", label: "Remote care, nationwide" },
   { value: "IFM", label: "Institute of Functional Medicine" },
 ] as const;
