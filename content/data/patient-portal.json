@@ -14,14 +14,20 @@
     "description": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Patient Portal page to learn about our wellness services.",
     "url": "https://drautoimmune.com/patient-portal/",
     "site_name": "Dr. Autoimmune",
-    "updated_time": "2025-11-14T12:51:03+00:00"
+    "updated_time": "2025-11-14T12:51:03+00:00",
+    "image": "https://drautoimmune.com/images/og/default.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/default.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg"
   },
   "twitter": {
     "card": "summary_large_image",
     "title": "Patient Portal | Boulder Autoimmune Specialist",
     "description": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Patient Portal page to learn about our wellness services.",
     "label1": "Time to read",
-    "data1": "Less than a minute"
+    "data1": "Less than a minute",
+    "image": "https://drautoimmune.com/images/og/default.jpg"
   },
   "jsonLd": [],
   "videos": [],

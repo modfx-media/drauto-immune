@@ -32,23 +32,11 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg",
-      "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg"
-    ],
-    "image:width": [
-      "1500",
-      "1500"
-    ],
-    "image:height": [
-      "1000",
-      "1000"
-    ],
-    "image:type": [
-      "image/jpeg",
-      "image/jpeg"
-    ],
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg",
+    "image": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
+    "image:secure_url": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg",
     "image:alt": "skin rashes"
   },
   "twitter": {
@@ -59,7 +47,7 @@
     "data2": "7 minutes",
     "title": "Skin Autoimmunity Signs Linked to Hidden Gut Issues",
     "description": "Explore autoimmune skin signs and how a gut health specialist in Boulder, Colorado can uncover root causes with testing and personalized care",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg"
+    "image": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg"
   },
   "jsonLd": [
     {
@@ -87,7 +75,7 @@
             "image": {
               "@id": "https://drautoimmune.com/autoimmune-skin-clues-gut-health-trouble/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg",
             "articleSection": [
               "Autoimmune Skin Diseases"
             ],
@@ -116,7 +104,7 @@
             "image": {
               "@id": "https://drautoimmune.com/autoimmune-skin-clues-gut-health-trouble/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg",
             "datePublished": "2026-06-28T17:00:00+00:00",
             "author": {
               "@id": "https://drautoimmune.com/#/schema/person/1d507fe513284cb591968fca43de749c"
@@ -138,8 +126,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/autoimmune-skin-clues-gut-health-trouble/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg",
+            "url": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg",
             "width": 1500,
             "height": 1000,
             "caption": "skin rashes"
@@ -220,8 +208,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg",
+            "@id": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg",
+            "url": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg",
             "width": "1500",
             "height": "1000",
             "caption": "skin rashes",
@@ -238,7 +226,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg"
+              "@id": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -278,7 +266,7 @@
               "@id": "https://drautoimmune.com/autoimmune-skin-clues-gut-health-trouble/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg"
+              "@id": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -295,7 +283,7 @@
   "featuredImage": {
     "src": "/images/migrated/autoimmune-skin-clues-gut-health-trouble/rashes-2149561610.jpg",
     "alt": "skin rashes",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg",
+    "originalUrl": "https://drautoimmune.com/images/og/autoimmune-skin-clues-gut-health-trouble.jpg",
     "originalFilename": "rashes-2149561610.jpg"
   },
   "datePublished": "2026-06-28T17:00:00+00:00",

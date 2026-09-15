@@ -14,10 +14,10 @@
     "description": "Learn what happens in a first visit, including labs, costs, and prep tips for a functional medicine consultation in Boulder, all from home with remote care",
     "url": "https://drautoimmune.com/first-autoimmune-functional-medicine-visit-guide/",
     "site_name": "Dr. Autoimmune",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
-    "image:width": "1920",
-    "image:height": "1280",
+    "image": "https://drautoimmune.com/images/og/first-autoimmune-functional-medicine-visit-guide.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/first-autoimmune-functional-medicine-visit-guide.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "Functional Medicine",
     "image:type": "image/jpeg"
   },
@@ -25,7 +25,7 @@
     "card": "summary_large_image",
     "title": "First Autoimmune Functional Medicine Visit Guide",
     "description": "Learn what happens in a first visit, including labs, costs, and prep tips for a functional medicine consultation in Boulder, all from home with remote care",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
+    "image": "https://drautoimmune.com/images/og/first-autoimmune-functional-medicine-visit-guide.jpg",
     "label1": "Written by",
     "data1": "developer",
     "label2": "Time to read",
@@ -57,8 +57,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
+            "@id": "https://drautoimmune.com/images/og/first-autoimmune-functional-medicine-visit-guide.jpg",
+            "url": "https://drautoimmune.com/images/og/first-autoimmune-functional-medicine-visit-guide.jpg",
             "width": "1920",
             "height": "1280",
             "caption": "Functional Medicine",
@@ -75,7 +75,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg"
+              "@id": "https://drautoimmune.com/images/og/first-autoimmune-functional-medicine-visit-guide.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -115,7 +115,7 @@
               "@id": "https://drautoimmune.com/first-autoimmune-functional-medicine-visit-guide/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg"
+              "@id": "https://drautoimmune.com/images/og/first-autoimmune-functional-medicine-visit-guide.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -132,7 +132,7 @@
   "featuredImage": {
     "src": "/images/migrated/first-autoimmune-functional-medicine-visit-guide/getty-images-aeVclBoyScE-unsplash.jpg",
     "alt": "Functional Medicine",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
+    "originalUrl": "https://drautoimmune.com/images/og/first-autoimmune-functional-medicine-visit-guide.jpg",
     "originalFilename": "getty-images-aeVclBoyScE-unsplash.jpg"
   },
   "datePublished": "2026-05-03T17:00:00+00:00",

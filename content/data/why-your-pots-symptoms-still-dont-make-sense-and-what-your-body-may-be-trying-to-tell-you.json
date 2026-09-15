@@ -4,7 +4,7 @@
   "liveUrl": "https://drautoimmune.com/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/",
   "isPost": true,
   "title": "Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You - Dr. Autoimmune",
-  "metaDescription": "Learn why POTS symptoms may persist and how root cause functional medicine can help uncover deeper patterns.",
+  "metaDescription": "Learn why POTS symptoms may persist despite normal test results, and how root-cause functional medicine can help uncover the deeper patterns behind them.",
   "canonical": "https://drautoimmune.com/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/",
   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
   "openGraph": {
@@ -21,8 +21,8 @@
       "Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You"
     ],
     "description": [
-      "Learn why POTS symptoms may persist and how root cause functional medicine can help uncover deeper patterns.",
-      "Learn why POTS symptoms may persist and how root cause functional medicine can help uncover deeper patterns."
+      "Learn why POTS symptoms may persist despite normal test results, and how root-cause functional medicine can help uncover the deeper patterns behind them.",
+      "Learn why POTS symptoms may persist despite normal test results, and how root-cause functional medicine can help uncover the deeper patterns behind them."
     ],
     "url": [
       "https://drautoimmune.com/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/",
@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png",
-      "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png"
-    ],
-    "image:width": [
-      "934",
-      "934"
-    ],
-    "image:height": [
-      "523",
-      "523"
-    ],
-    "image:type": [
-      "image/png",
-      "image/png"
-    ],
+    "image": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-06-29T16:32:24+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png",
+    "image:secure_url": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg",
     "image:alt": "Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You"
   },
   "twitter": {
@@ -59,8 +47,8 @@
     "label2": "Time to read",
     "data2": "11 minutes",
     "title": "Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You",
-    "description": "Learn why POTS symptoms may persist and how root cause functional medicine can help uncover deeper patterns.",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png"
+    "description": "Learn why POTS symptoms may persist despite normal test results, and how root-cause functional medicine can help uncover the deeper patterns behind them.",
+    "image": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg"
   },
   "jsonLd": [
     {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg",
             "articleSection": [
               "POTS",
               "Functional Medicine"
@@ -119,7 +107,7 @@
             "image": {
               "@id": "https://drautoimmune.com/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg",
             "datePublished": "2026-06-29T13:20:12+00:00",
             "dateModified": "2026-06-29T16:32:24+00:00",
             "author": {
@@ -142,8 +130,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png",
+            "url": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg",
             "width": 934,
             "height": 523
           },
@@ -223,8 +211,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png",
+            "@id": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg",
+            "url": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg",
             "width": "934",
             "height": "523",
             "inLanguage": "en-US"
@@ -240,7 +228,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png"
+              "@id": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -273,14 +261,14 @@
             "publisher": {
               "@id": "https://drautoimmune.com/#person"
             },
-            "description": "Learn why POTS symptoms may persist and how root cause functional medicine can help uncover deeper patterns.",
+            "description": "Learn why POTS symptoms may persist despite normal test results, and how root-cause functional medicine can help uncover the deeper patterns behind them.",
             "name": "Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You",
             "@id": "https://drautoimmune.com/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/#richSnippet",
             "isPartOf": {
               "@id": "https://drautoimmune.com/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png"
+              "@id": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -297,7 +285,7 @@
   "featuredImage": {
     "src": "/images/migrated/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/Screenshot-2026-06-29-at-6.25.12-PM.png",
     "alt": "Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png",
+    "originalUrl": "https://drautoimmune.com/images/og/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you.jpg",
     "originalFilename": "Screenshot-2026-06-29-at-6.25.12-PM.png"
   },
   "datePublished": "2026-06-29T13:20:12+00:00",

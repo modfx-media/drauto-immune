@@ -32,14 +32,11 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-scaled.jpg",
-      "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-1024x768.jpg"
-    ],
+    "image": "https://drautoimmune.com/images/og/rheumatoid-arthritis.jpg",
     "updated_time": "2026-04-07T18:13:51+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-1024x768.jpg",
-    "image:width": "800",
-    "image:height": "600",
+    "image:secure_url": "https://drautoimmune.com/images/og/rheumatoid-arthritis.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "Rheumatoid Arthritis",
     "image:type": "image/jpeg"
   },
@@ -49,7 +46,7 @@
     "data1": "2 minutes",
     "title": "Rheumatoid Arthritis Support and Management | Dr. Autoimmune",
     "description": "Stop letting rheumatoid arthritis pain hold you back. We focus on gut health and inflammation to help your joints feel better. Explore your options today!",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-1024x768.jpg"
+    "image": "https://drautoimmune.com/images/og/rheumatoid-arthritis.jpg"
   },
   "jsonLd": [
     {
@@ -71,7 +68,7 @@
             "image": {
               "@id": "https://drautoimmune.com/rheumatoid-arthritis/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-scaled.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/rheumatoid-arthritis.jpg",
             "datePublished": "2025-11-11T21:40:58+00:00",
             "dateModified": "2026-04-07T18:13:51+00:00",
             "breadcrumb": {
@@ -91,8 +88,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/rheumatoid-arthritis/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-scaled.jpg",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-scaled.jpg",
+            "url": "https://drautoimmune.com/images/og/rheumatoid-arthritis.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/rheumatoid-arthritis.jpg",
             "width": 2560,
             "height": 1920
           },
@@ -181,7 +178,7 @@
     {
       "src": "/images/migrated/rheumatoid-arthritis/close-up-old-patient-with-wrist-issues-scaled.jpg",
       "alt": "close-up-old-patient-with-wrist-issues-scaled",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-scaled.jpg",
+      "originalUrl": "https://drautoimmune.com/images/og/rheumatoid-arthritis.jpg",
       "originalFilename": "close-up-old-patient-with-wrist-issues-scaled.jpg"
     },
     {

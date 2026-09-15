@@ -32,14 +32,11 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2025/11/vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-scaled.jpg",
-      "https://drautoimmune.com/wp-content/uploads/2025/11/vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-1024x683.jpg"
-    ],
+    "image": "https://drautoimmune.com/images/og/thyroid-conditions.jpg",
     "updated_time": "2026-03-28T00:05:14+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-1024x683.jpg",
-    "image:width": "800",
-    "image:height": "534",
+    "image:secure_url": "https://drautoimmune.com/images/og/thyroid-conditions.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "Thyroid Conditions",
     "image:type": "image/jpeg"
   },
@@ -49,7 +46,7 @@
     "data1": "2 minutes",
     "title": "Thyroid Conditions | Thyroid Specialist Near Boulder, CO",
     "description": "Need help with thyroid issues? Our Boulder specialist looks for the root cause of your low energy and brain fog. Book your consultation today!",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-1024x683.jpg"
+    "image": "https://drautoimmune.com/images/og/thyroid-conditions.jpg"
   },
   "jsonLd": [
     {
@@ -71,7 +68,7 @@
             "image": {
               "@id": "https://drautoimmune.com/thyroid-conditions/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-scaled.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/thyroid-conditions.jpg",
             "datePublished": "2025-11-11T21:32:59+00:00",
             "dateModified": "2026-03-28T00:05:14+00:00",
             "breadcrumb": {
@@ -91,8 +88,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/thyroid-conditions/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-scaled.jpg",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-scaled.jpg",
+            "url": "https://drautoimmune.com/images/og/thyroid-conditions.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/thyroid-conditions.jpg",
             "width": 2560,
             "height": 1707,
             "caption": "Cervical lymphadenitis of the right side in a woman"
@@ -182,7 +179,7 @@
     {
       "src": "/images/migrated/thyroid-conditions/vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-scaled.jpg",
       "alt": "vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-scaled",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-scaled.jpg",
+      "originalUrl": "https://drautoimmune.com/images/og/thyroid-conditions.jpg",
       "originalFilename": "vecteezy_cervical-lymphadenitis-of-the-right-side-in-a-woman_51694990-scaled.jpg"
     },
     {

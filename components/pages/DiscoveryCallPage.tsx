@@ -45,7 +45,7 @@ export default function DiscoveryCallPage() {
           <div className="mx-auto max-w-3xl">
             <Reveal className={`${CARD_CLASSES} overflow-hidden p-6 sm:p-10`}>
               <div className="flex flex-wrap items-center justify-between gap-3">
-                <h1 className="text-xl font-extrabold text-ink sm:text-2xl">Dr. Autoimmune Discovery Call</h1>
+                <h2 className="text-xl font-extrabold text-ink sm:text-2xl">Dr. Autoimmune Discovery Call</h2>
                 <Badge>20 min</Badge>
               </div>
               <p className="mt-3 text-sm leading-relaxed text-ink-soft">

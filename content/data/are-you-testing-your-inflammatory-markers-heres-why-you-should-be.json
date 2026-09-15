@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp",
-      "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp"
-    ],
-    "image:width": [
-      "799",
-      "799"
-    ],
-    "image:height": [
-      "534",
-      "534"
-    ],
-    "image:type": [
-      "image/webp",
-      "image/webp"
-    ],
+    "image": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-05-20T22:09:08+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp",
+    "image:secure_url": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg",
     "image:alt": "Are You Testing Your Inflammatory Markers? Here’s Why You Should Be!"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "3 minutes",
     "title": "Why Testing Your Inflammatory Markers is Important",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Are You Testing Your Inflammatory Markers? Here’s Why",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp"
+    "image": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg"
   },
   "jsonLd": [
     {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/are-you-testing-your-inflammatory-markers-heres-why-you-should-be/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg",
             "articleSection": [
               "Chronic Inflammation"
             ],
@@ -118,7 +106,7 @@
             "image": {
               "@id": "https://drautoimmune.com/are-you-testing-your-inflammatory-markers-heres-why-you-should-be/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg",
             "datePublished": "2025-11-12T18:06:45+00:00",
             "dateModified": "2026-05-20T22:09:08+00:00",
             "author": {
@@ -141,8 +129,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/are-you-testing-your-inflammatory-markers-heres-why-you-should-be/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp",
+            "url": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg",
             "width": 799,
             "height": 534
           },
@@ -222,8 +210,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp",
+            "@id": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg",
+            "url": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg",
             "width": "799",
             "height": "534",
             "inLanguage": "en-US"
@@ -239,7 +227,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp"
+              "@id": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -279,7 +267,7 @@
               "@id": "https://drautoimmune.com/are-you-testing-your-inflammatory-markers-heres-why-you-should-be/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp"
+              "@id": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -296,7 +284,7 @@
   "featuredImage": {
     "src": "/images/migrated/are-you-testing-your-inflammatory-markers-heres-why-you-should-be/large-6.webp",
     "alt": "Are You Testing Your Inflammatory Markers? Here’s Why You Should Be!",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-6.webp",
+    "originalUrl": "https://drautoimmune.com/images/og/are-you-testing-your-inflammatory-markers-heres-why-you-should-be.jpg",
     "originalFilename": "large-6.webp"
   },
   "datePublished": "2025-11-12T18:06:45+00:00",

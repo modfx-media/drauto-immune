@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp",
-      "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp"
-    ],
-    "image:width": [
-      "799",
-      "799"
-    ],
-    "image:height": [
-      "533",
-      "533"
-    ],
-    "image:type": [
-      "image/webp",
-      "image/webp"
-    ],
+    "image": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-01-18T21:32:37+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp",
+    "image:secure_url": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg",
     "image:alt": "A Guide to Dysbiosis & Autoimmunity"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "3 minutes",
     "title": "A Guide to Dysbiosis & Autoimmunity",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"A Guide to Dysbiosis & Autoimmunity\".",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp"
+    "image": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg"
   },
   "jsonLd": [
     {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/a-guide-to-dysbiosis-autoimmunity/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg",
             "articleSection": [
               "Gut Health"
             ],
@@ -118,7 +106,7 @@
             "image": {
               "@id": "https://drautoimmune.com/a-guide-to-dysbiosis-autoimmunity/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg",
             "datePublished": "2025-11-12T18:01:37+00:00",
             "dateModified": "2026-01-18T21:32:37+00:00",
             "author": {
@@ -141,8 +129,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/a-guide-to-dysbiosis-autoimmunity/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp",
+            "url": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg",
             "width": 799,
             "height": 533
           },
@@ -222,8 +210,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp",
+            "@id": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg",
+            "url": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg",
             "width": "799",
             "height": "533",
             "inLanguage": "en-US"
@@ -239,7 +227,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp"
+              "@id": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -279,7 +267,7 @@
               "@id": "https://drautoimmune.com/a-guide-to-dysbiosis-autoimmunity/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp"
+              "@id": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -296,7 +284,7 @@
   "featuredImage": {
     "src": "/images/migrated/a-guide-to-dysbiosis-autoimmunity/large-3.webp",
     "alt": "A Guide to Dysbiosis & Autoimmunity",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-3.webp",
+    "originalUrl": "https://drautoimmune.com/images/og/a-guide-to-dysbiosis-autoimmunity.jpg",
     "originalFilename": "large-3.webp"
   },
   "datePublished": "2025-11-12T18:01:37+00:00",

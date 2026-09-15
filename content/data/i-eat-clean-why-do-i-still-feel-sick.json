@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png",
-      "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png"
-    ],
-    "image:width": [
-      "1238",
-      "1238"
-    ],
-    "image:height": [
-      "818",
-      "818"
-    ],
-    "image:type": [
-      "image/png",
-      "image/png"
-    ],
+    "image": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-07-13T15:32:08+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png",
+    "image:secure_url": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg",
     "image:alt": "I Eat Clean Why Do I Still Feel Sick?"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "7 minutes",
     "title": "I Eat Clean Why Do I Still Feel Sick?",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"I Eat Clean Why Do I Still Feel Sick?\".",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png"
+    "image": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg"
   },
   "jsonLd": [
     {
@@ -88,7 +76,7 @@
             "image": {
               "@id": "https://drautoimmune.com/i-eat-clean-why-do-i-still-feel-sick/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg",
             "inLanguage": "en-US"
           },
           {
@@ -105,7 +93,7 @@
             "image": {
               "@id": "https://drautoimmune.com/i-eat-clean-why-do-i-still-feel-sick/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg",
             "datePublished": "2026-07-13T15:32:06+00:00",
             "dateModified": "2026-07-13T15:32:08+00:00",
             "author": {
@@ -128,8 +116,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/i-eat-clean-why-do-i-still-feel-sick/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png",
+            "url": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg",
             "width": 1238,
             "height": 818
           },
@@ -209,8 +197,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png",
+            "@id": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg",
+            "url": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg",
             "width": "1238",
             "height": "818",
             "inLanguage": "en-US"
@@ -226,7 +214,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png"
+              "@id": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -266,7 +254,7 @@
               "@id": "https://drautoimmune.com/i-eat-clean-why-do-i-still-feel-sick/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png"
+              "@id": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -283,7 +271,7 @@
   "featuredImage": {
     "src": "/images/migrated/i-eat-clean-why-do-i-still-feel-sick/Screenshot-2026-07-13-at-8.30.50-PM.png",
     "alt": "I Eat Clean Why Do I Still Feel Sick?",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png",
+    "originalUrl": "https://drautoimmune.com/images/og/i-eat-clean-why-do-i-still-feel-sick.jpg",
     "originalFilename": "Screenshot-2026-07-13-at-8.30.50-PM.png"
   },
   "datePublished": "2026-07-13T15:32:06+00:00",

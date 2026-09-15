@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png",
-      "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png"
-    ],
-    "image:width": [
-      "1592",
-      "1592"
-    ],
-    "image:height": [
-      "906",
-      "906"
-    ],
-    "image:type": [
-      "image/png",
-      "image/png"
-    ],
+    "image": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-02-12T13:53:38+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png",
+    "image:secure_url": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg",
     "image:alt": "A person wearing a light-colored long-sleeve shirt, with an illustrated graphic of the human digestive system superimposed over their abdomen."
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "8 minutes",
     "title": "Unveiling the 7 Mechanisms of Leaky Gut",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Unveiling the 7 Mechanisms of Leaky Gut\".",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png"
+    "image": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg"
   },
   "jsonLd": [
     {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/unveiling-the-7-mechanisms-of-leaky-gut/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg",
             "articleSection": [
               "Gut Health"
             ],
@@ -118,7 +106,7 @@
             "image": {
               "@id": "https://drautoimmune.com/unveiling-the-7-mechanisms-of-leaky-gut/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg",
             "datePublished": "2026-02-12T13:53:37+00:00",
             "dateModified": "2026-02-12T13:53:38+00:00",
             "author": {
@@ -141,8 +129,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/unveiling-the-7-mechanisms-of-leaky-gut/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png",
+            "url": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg",
             "width": 1592,
             "height": 906,
             "caption": "A person wearing a light-colored long-sleeve shirt, with an illustrated graphic of the human digestive system superimposed over their abdomen."
@@ -223,8 +211,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png",
+            "@id": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg",
+            "url": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg",
             "width": "1592",
             "height": "906",
             "caption": "A person wearing a light-colored long-sleeve shirt, with an illustrated graphic of the human digestive system superimposed over their abdomen.",
@@ -241,7 +229,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png"
+              "@id": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -281,7 +269,7 @@
               "@id": "https://drautoimmune.com/unveiling-the-7-mechanisms-of-leaky-gut/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png"
+              "@id": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -298,7 +286,7 @@
   "featuredImage": {
     "src": "/images/migrated/unveiling-the-7-mechanisms-of-leaky-gut/Screenshot-2026-02-12-at-6.52.48-PM.png",
     "alt": "A person wearing a light-colored long-sleeve shirt, with an illustrated graphic of the human digestive system superimposed over their abdomen.",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.52.48-PM.png",
+    "originalUrl": "https://drautoimmune.com/images/og/unveiling-the-7-mechanisms-of-leaky-gut.jpg",
     "originalFilename": "Screenshot-2026-02-12-at-6.52.48-PM.png"
   },
   "datePublished": "2026-02-12T13:53:37+00:00",

@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg",
-      "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg"
-    ],
-    "image:width": [
-      "1500",
-      "1500"
-    ],
-    "image:height": [
-      "791",
-      "791"
-    ],
-    "image:type": [
-      "image/jpeg",
-      "image/jpeg"
-    ],
+    "image": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-04-08T05:47:16+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg",
     "image:alt": "autoimmune symptoms"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "6 minutes",
     "title": "Why Mold Illness Often Mimics Autoimmune Disease Symptoms",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Why Mold Illness Often Mimics Autoimmune Disease",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg"
+    "image": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg"
   },
   "jsonLd": [
     {
@@ -88,7 +76,7 @@
             "image": {
               "@id": "https://drautoimmune.com/mold-illness-often-mimics-autoimmune-disease-symptoms/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg",
             "articleSection": [
               "Autoimmune Diseases"
             ],
@@ -108,7 +96,7 @@
             "image": {
               "@id": "https://drautoimmune.com/mold-illness-often-mimics-autoimmune-disease-symptoms/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg",
             "datePublished": "2026-04-06T05:38:25+00:00",
             "dateModified": "2026-04-08T05:47:16+00:00",
             "author": {
@@ -131,8 +119,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/mold-illness-often-mimics-autoimmune-disease-symptoms/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg",
+            "url": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg",
             "width": 1500,
             "height": 791,
             "caption": "autoimmune symptoms"
@@ -213,8 +201,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg",
+            "@id": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg",
+            "url": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg",
             "width": "1500",
             "height": "791",
             "caption": "autoimmune symptoms",
@@ -231,7 +219,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg"
+              "@id": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -271,7 +259,7 @@
               "@id": "https://drautoimmune.com/mold-illness-often-mimics-autoimmune-disease-symptoms/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg"
+              "@id": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -288,7 +276,7 @@
   "featuredImage": {
     "src": "/images/migrated/mold-illness-often-mimics-autoimmune-disease-symptoms/496254.jpg",
     "alt": "autoimmune symptoms",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/496254.jpg",
+    "originalUrl": "https://drautoimmune.com/images/og/mold-illness-often-mimics-autoimmune-disease-symptoms.jpg",
     "originalFilename": "496254.jpg"
   },
   "datePublished": "2026-04-06T05:38:25+00:00",

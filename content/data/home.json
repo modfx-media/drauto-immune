@@ -14,7 +14,12 @@
     "description": "Learn the root cause of your symptoms with help from Dr. Autoimmune. Our Boulder immune health doctor provides wellness services to help you feel better.",
     "url": "https://drautoimmune.com/",
     "site_name": "Dr. Autoimmune",
-    "updated_time": "2026-05-20T22:16:59+00:00"
+    "updated_time": "2026-05-20T22:16:59+00:00",
+    "image": "https://drautoimmune.com/images/og/default.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/default.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg"
   },
   "twitter": {
     "card": "summary_large_image",
@@ -23,7 +28,8 @@
     "label1": "Written by",
     "data1": "developer",
     "label2": "Time to read",
-    "data2": "14 minutes"
+    "data2": "14 minutes",
+    "image": "https://drautoimmune.com/images/og/default.jpg"
   },
   "jsonLd": [
     {
@@ -56,8 +62,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2025/12/provide-healthy-eating-information.jpg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/12/provide-healthy-eating-information.jpg",
+            "@id": "https://drautoimmune.com/images/migrated/home/provide-healthy-eating-information.jpg",
+            "url": "https://drautoimmune.com/images/migrated/home/provide-healthy-eating-information.jpg",
             "width": "200",
             "height": "200",
             "inLanguage": "en-US"
@@ -76,7 +82,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2025/12/provide-healthy-eating-information.jpg"
+              "@id": "https://drautoimmune.com/images/migrated/home/provide-healthy-eating-information.jpg"
             },
             "inLanguage": "en-US"
           }
@@ -89,7 +95,7 @@
         "@context": "https://schema.org",
         "@type": "MedicalBusiness",
         "name": "Dr. Autoimmune",
-        "image": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1-1.webp",
+        "image": "https://drautoimmune.com/images/og/default.jpg",
         "@id": "https://drautoimmune.com/",
         "url": "https://drautoimmune.com/",
         "telephone": "+1-720-656-9123",
@@ -119,7 +125,7 @@
     {
       "src": "/images/migrated/home/provide-healthy-eating-information.jpg",
       "alt": "",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/12/provide-healthy-eating-information.jpg",
+      "originalUrl": "https://drautoimmune.com/images/migrated/home/provide-healthy-eating-information.jpg",
       "originalFilename": "provide-healthy-eating-information.jpg"
     },
     {

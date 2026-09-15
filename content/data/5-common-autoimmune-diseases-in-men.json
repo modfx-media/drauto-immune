@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg",
-      "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg"
-    ],
-    "image:width": [
-      "612",
-      "612"
-    ],
-    "image:height": [
-      "408",
-      "408"
-    ],
-    "image:type": [
-      "image/jpeg",
-      "image/jpeg"
-    ],
+    "image": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-02-12T13:47:06+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg",
+    "image:secure_url": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg",
     "image:alt": "Three men sitting outdoors, smiling and enjoying a conversation in a pleasant setting."
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "7 minutes",
     "title": "5 Common Autoimmune Diseases in Men",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"5 Common Autoimmune Diseases in Men\".",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg"
+    "image": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg"
   },
   "jsonLd": [
     {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/5-common-autoimmune-diseases-in-men/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg",
             "articleSection": [
               "Autoimmune Diseases"
             ],
@@ -118,7 +106,7 @@
             "image": {
               "@id": "https://drautoimmune.com/5-common-autoimmune-diseases-in-men/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg",
             "datePublished": "2026-02-12T13:47:04+00:00",
             "dateModified": "2026-02-12T13:47:06+00:00",
             "author": {
@@ -141,8 +129,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/5-common-autoimmune-diseases-in-men/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg",
+            "url": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg",
             "width": 612,
             "height": 408,
             "caption": "Three men sitting outdoors, smiling and enjoying a conversation in a pleasant setting."
@@ -223,8 +211,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg",
+            "@id": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg",
+            "url": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg",
             "width": "612",
             "height": "408",
             "caption": "Three men sitting outdoors, smiling and enjoying a conversation in a pleasant setting.",
@@ -241,7 +229,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg"
+              "@id": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -281,7 +269,7 @@
               "@id": "https://drautoimmune.com/5-common-autoimmune-diseases-in-men/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg"
+              "@id": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -298,7 +286,7 @@
   "featuredImage": {
     "src": "/images/migrated/5-common-autoimmune-diseases-in-men/image-1.jpeg",
     "alt": "Three men sitting outdoors, smiling and enjoying a conversation in a pleasant setting.",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-1.jpeg",
+    "originalUrl": "https://drautoimmune.com/images/og/5-common-autoimmune-diseases-in-men.jpg",
     "originalFilename": "image-1.jpeg"
   },
   "datePublished": "2026-02-12T13:47:04+00:00",

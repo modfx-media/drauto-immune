@@ -32,23 +32,11 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg",
-      "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg"
-    ],
-    "image:width": [
-      "1500",
-      "1500"
-    ],
-    "image:height": [
-      "998",
-      "998"
-    ],
-    "image:type": [
-      "image/jpeg",
-      "image/jpeg"
-    ],
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg",
+    "image": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
+    "image:secure_url": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg",
     "image:alt": "functional medicine doctor"
   },
   "twitter": {
@@ -59,7 +47,7 @@
     "data2": "6 minutes",
     "title": "Root-Cause Care to Calm Autoimmune Flare-Ups",
     "description": "Learn how functional medicine targets triggers, lowers inflammation, and may help reverse autoimmune disease in Boulder with personalized remote care plans.",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg"
+    "image": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg"
   },
   "jsonLd": [
     {
@@ -86,7 +74,7 @@
             "image": {
               "@id": "https://drautoimmune.com/functional-medicine-doctor-help-autoimmune-flares/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg",
             "articleSection": [
               "Functional Medicine"
             ],
@@ -106,7 +94,7 @@
             "image": {
               "@id": "https://drautoimmune.com/functional-medicine-doctor-help-autoimmune-flares/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg",
             "datePublished": "2026-04-26T17:00:00+00:00",
             "author": {
               "@id": "https://drautoimmune.com/#/schema/person/1d507fe513284cb591968fca43de749c"
@@ -128,8 +116,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/functional-medicine-doctor-help-autoimmune-flares/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg",
+            "url": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg",
             "width": 1500,
             "height": 998,
             "caption": "functional medicine doctor"
@@ -210,8 +198,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg",
+            "@id": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg",
+            "url": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg",
             "width": "1500",
             "height": "998",
             "caption": "functional medicine doctor",
@@ -228,7 +216,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg"
+              "@id": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -268,7 +256,7 @@
               "@id": "https://drautoimmune.com/functional-medicine-doctor-help-autoimmune-flares/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg"
+              "@id": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -285,7 +273,7 @@
   "featuredImage": {
     "src": "/images/migrated/functional-medicine-doctor-help-autoimmune-flares/2149941526.jpg",
     "alt": "functional medicine doctor",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/2149941526.jpg",
+    "originalUrl": "https://drautoimmune.com/images/og/functional-medicine-doctor-help-autoimmune-flares.jpg",
     "originalFilename": "2149941526.jpg"
   },
   "datePublished": "2026-04-26T17:00:00+00:00",

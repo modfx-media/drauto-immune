@@ -15,18 +15,18 @@
     "url": "https://drautoimmune.com/raynauds-phenomenon/",
     "site_name": "Dr. Autoimmune",
     "updated_time": "2026-04-07T18:09:45+00:00",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/1800x1200_raynauds_disease_and_raynauds_syndrome_bigbead.webp",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/1800x1200_raynauds_disease_and_raynauds_syndrome_bigbead.webp",
-    "image:width": "1800",
-    "image:height": "1200",
+    "image": "https://drautoimmune.com/images/og/raynauds-phenomenon.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/raynauds-phenomenon.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "Raynaud’s Phenomenon",
-    "image:type": "image/webp"
+    "image:type": "image/jpeg"
   },
   "twitter": {
     "card": "summary_large_image",
     "title": "Support for Raynaud's Phenomenon | Dr. Autoimmune",
     "description": "Tired of cold hands and feet? We help manage Raynaud’s Phenomenon by improving your circulation and immune health. Find out how we can help you!",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/1800x1200_raynauds_disease_and_raynauds_syndrome_bigbead.webp",
+    "image": "https://drautoimmune.com/images/og/raynauds-phenomenon.jpg",
     "label1": "Time to read",
     "data1": "2 minutes"
   },
@@ -74,7 +74,7 @@
     {
       "src": "/images/migrated/raynauds-phenomenon/1800x1200_raynauds_disease_and_raynauds_syndrome_bigbead.webp",
       "alt": "1800x1200_raynauds_disease_and_raynauds_syndrome_bigbead",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/1800x1200_raynauds_disease_and_raynauds_syndrome_bigbead.webp",
+      "originalUrl": "https://drautoimmune.com/images/og/raynauds-phenomenon.jpg",
       "originalFilename": "1800x1200_raynauds_disease_and_raynauds_syndrome_bigbead.webp"
     },
     {

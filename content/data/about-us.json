@@ -32,16 +32,13 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
-      "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png"
-    ],
+    "image": "https://drautoimmune.com/images/og/about-us.jpg",
     "updated_time": "2026-05-20T22:17:17+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
-    "image:width": "500",
-    "image:height": "500",
+    "image:secure_url": "https://drautoimmune.com/images/og/about-us.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "About Us",
-    "image:type": "image/png"
+    "image:type": "image/jpeg"
   },
   "twitter": {
     "card": "summary_large_image",
@@ -49,7 +46,7 @@
     "data1": "4 minutes",
     "title": "Meet Your Functional Medicine Doctors in Boulder, CO",
     "description": "Meet our holistic doctors in Boulder, CO. We're here to support your health journey, focusing on the whole person and not just symptoms. Learn more about us!",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png"
+    "image": "https://drautoimmune.com/images/og/about-us.jpg"
   },
   "jsonLd": [
     {
@@ -71,7 +68,7 @@
             "image": {
               "@id": "https://drautoimmune.com/about-us/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/about-us.jpg",
             "datePublished": "2025-11-11T21:26:19+00:00",
             "dateModified": "2026-05-20T22:17:17+00:00",
             "breadcrumb": {
@@ -91,8 +88,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/about-us/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
+            "url": "https://drautoimmune.com/images/og/about-us.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/about-us.jpg",
             "width": 500,
             "height": 500
           },
@@ -168,7 +165,7 @@
     {
       "src": "/images/migrated/about-us/Untitled-design-29.png",
       "alt": "Untitled-design-29",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
+      "originalUrl": "https://drautoimmune.com/images/og/about-us.jpg",
       "originalFilename": "Untitled-design-29.png"
     },
     {

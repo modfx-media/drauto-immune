@@ -79,8 +79,11 @@ export function buildMetadata(key: string): Metadata {
   if (!page) return {};
 
   const ogTitle = first(page.openGraph.title) ?? page.title;
-  const ogDescription =
-    first(page.openGraph.description) ?? page.metaDescription ?? undefined;
+  // Prefer the canonical meta description over `openGraph.description`: on
+  // ~34 migrated pages the live site emitted two conflicting og:description
+  // tags (a duplicate SEO plugin/theme tag), and `first()` would otherwise
+  // pick the wrong one (raw page body text) instead of the real description.
+  const ogDescription = page.metaDescription ?? first(page.openGraph.description) ?? undefined;
   const ogImage = first(page.openGraph.image);
   const ogType = first(page.openGraph.type);
 

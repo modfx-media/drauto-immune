@@ -22,7 +22,7 @@ export default function Logo({ condensed = false }: { condensed?: boolean }) {
         alt="Dr. Autoimmune: Let Your Health Soar"
         width={440}
         height={79}
-        preload={true}
+        priority
         className="h-7 w-auto"
       />
     </motion.div>

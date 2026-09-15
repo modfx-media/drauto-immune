@@ -93,6 +93,8 @@ const RESOURCE_LINKS: (DirectoryLink & { tag: string })[] = [
   { tag: "Stories", label: "Patient Stories", href: "/patient-stories/", description: "First-hand patient experiences." },
   { tag: "Interviews", label: "Featured Interviews", href: "/featured-interviews/", description: "Podcasts and press appearances." },
   { tag: "Directory", label: "Conditions We Support", href: "/conditions-we-support/", description: "Full clinical condition index." },
+  { tag: "Events", label: "Live Webinar Schedule", href: "/live-webinar-schedule/", description: "Upcoming live sessions on autoimmune & thyroid health." },
+  { tag: "Store", label: "Store", href: "/store/", description: "Wellness products available through our clinic." },
   {
     tag: "External",
     label: "Shop",

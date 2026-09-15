@@ -32,15 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2025/11/xlarge-1-e1763121534187.webp",
-      "https://drautoimmune.com/wp-content/uploads/2025/11/xlarge-1-e1763121534187.webp"
-    ],
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/xlarge-1-e1763121534187.webp",
-    "image:width": "1350",
-    "image:height": "1074",
+    "image": "https://drautoimmune.com/images/og/book-an-appointment.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/book-an-appointment.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "Book An Appointment",
-    "image:type": "image/webp"
+    "image:type": "image/jpeg"
   },
   "twitter": {
     "card": "summary_large_image",
@@ -48,7 +45,7 @@
     "data1": "1 minute",
     "title": "Book An Appointment | Boulder Autoimmune Specialist",
     "description": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Book An Appointment page to learn about our wellness services.",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/xlarge-1-e1763121534187.webp"
+    "image": "https://drautoimmune.com/images/og/book-an-appointment.jpg"
   },
   "jsonLd": [
     {
@@ -70,7 +67,7 @@
             "image": {
               "@id": "https://drautoimmune.com/book-an-appointment/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/xlarge-1-e1763121534187.webp",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/book-an-appointment.jpg",
             "datePublished": "2025-12-17T22:58:35+00:00",
             "breadcrumb": {
               "@id": "https://drautoimmune.com/book-an-appointment/#breadcrumb"
@@ -89,8 +86,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/book-an-appointment/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/xlarge-1-e1763121534187.webp",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/xlarge-1-e1763121534187.webp",
+            "url": "https://drautoimmune.com/images/og/book-an-appointment.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/book-an-appointment.jpg",
             "width": 1350,
             "height": 1074
           },
@@ -142,7 +139,7 @@
     {
       "src": "/images/migrated/book-an-appointment/xlarge-1-e1763121534187.webp",
       "alt": "xlarge-1-e1763121534187",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/xlarge-1-e1763121534187.webp",
+      "originalUrl": "https://drautoimmune.com/images/og/book-an-appointment.jpg",
       "originalFilename": "xlarge-1-e1763121534187.webp"
     },
     {

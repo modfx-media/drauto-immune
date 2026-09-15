@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png",
-      "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png"
-    ],
-    "image:width": [
-      "1234",
-      "1234"
-    ],
-    "image:height": [
-      "816",
-      "816"
-    ],
-    "image:type": [
-      "image/png",
-      "image/png"
-    ],
+    "image": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-07-06T14:24:02+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png",
+    "image:secure_url": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg",
     "image:alt": "Why Do I Still Have Symptoms When My TSH Is Normal?"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "10 minutes",
     "title": "Why Do I Still Have Symptoms When My TSH Is Normal?",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Why Do I Still Have Symptoms When My TSH Is Normal?\".",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png"
+    "image": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg"
   },
   "jsonLd": [
     {
@@ -88,7 +76,7 @@
             "image": {
               "@id": "https://drautoimmune.com/why-do-i-still-have-symptoms-when-my-tsh-is-normal/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg",
             "articleSection": [
               "Autoimmune Diseases"
             ],
@@ -108,7 +96,7 @@
             "image": {
               "@id": "https://drautoimmune.com/why-do-i-still-have-symptoms-when-my-tsh-is-normal/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg",
             "datePublished": "2026-07-06T14:23:14+00:00",
             "dateModified": "2026-07-06T14:24:02+00:00",
             "author": {
@@ -131,8 +119,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/why-do-i-still-have-symptoms-when-my-tsh-is-normal/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png",
+            "url": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg",
             "width": 1234,
             "height": 816
           },
@@ -212,8 +200,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png",
+            "@id": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg",
+            "url": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg",
             "width": "1234",
             "height": "816",
             "inLanguage": "en-US"
@@ -229,7 +217,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png"
+              "@id": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -269,7 +257,7 @@
               "@id": "https://drautoimmune.com/why-do-i-still-have-symptoms-when-my-tsh-is-normal/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png"
+              "@id": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -286,7 +274,7 @@
   "featuredImage": {
     "src": "/images/migrated/why-do-i-still-have-symptoms-when-my-tsh-is-normal/Screenshot-2026-07-06-at-7.20.19-PM.png",
     "alt": "Why Do I Still Have Symptoms When My TSH Is Normal?",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png",
+    "originalUrl": "https://drautoimmune.com/images/og/why-do-i-still-have-symptoms-when-my-tsh-is-normal.jpg",
     "originalFilename": "Screenshot-2026-07-06-at-7.20.19-PM.png"
   },
   "datePublished": "2026-07-06T14:23:14+00:00",

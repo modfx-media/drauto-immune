@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png",
-      "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png"
-    ],
-    "image:width": [
-      "972",
-      "972"
-    ],
-    "image:height": [
-      "612",
-      "612"
-    ],
-    "image:type": [
-      "image/png",
-      "image/png"
-    ],
+    "image": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-02-12T13:44:52+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png",
+    "image:secure_url": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg",
     "image:alt": "How Autoimmune Diseases Can Affect Your Skin"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "5 minutes",
     "title": "How Autoimmune Diseases Can Affect Your Skin",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"How Autoimmune Diseases Can Affect Your Skin\".",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png"
+    "image": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg"
   },
   "jsonLd": [
     {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/how-autoimmune-diseases-can-affect-your-skin/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg",
             "articleSection": [
               "Autoimmune Skin Diseases"
             ],
@@ -118,7 +106,7 @@
             "image": {
               "@id": "https://drautoimmune.com/how-autoimmune-diseases-can-affect-your-skin/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg",
             "datePublished": "2026-02-12T13:44:51+00:00",
             "dateModified": "2026-02-12T13:44:52+00:00",
             "author": {
@@ -141,8 +129,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/how-autoimmune-diseases-can-affect-your-skin/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png",
+            "url": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg",
             "width": 972,
             "height": 612
           },
@@ -222,8 +210,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png",
+            "@id": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg",
+            "url": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg",
             "width": "972",
             "height": "612",
             "inLanguage": "en-US"
@@ -239,7 +227,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png"
+              "@id": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -279,7 +267,7 @@
               "@id": "https://drautoimmune.com/how-autoimmune-diseases-can-affect-your-skin/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png"
+              "@id": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -296,7 +284,7 @@
   "featuredImage": {
     "src": "/images/migrated/how-autoimmune-diseases-can-affect-your-skin/Screenshot-2026-02-12-at-6.40.49-PM.png",
     "alt": "How Autoimmune Diseases Can Affect Your Skin",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-6.40.49-PM.png",
+    "originalUrl": "https://drautoimmune.com/images/og/how-autoimmune-diseases-can-affect-your-skin.jpg",
     "originalFilename": "Screenshot-2026-02-12-at-6.40.49-PM.png"
   },
   "datePublished": "2026-02-12T13:44:51+00:00",

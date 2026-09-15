@@ -15,10 +15,10 @@
     "url": "https://drautoimmune.com/celiac-disease-and-gluten-intolerance/",
     "site_name": "Dr. Autoimmune",
     "updated_time": "2026-04-07T18:15:49+00:00",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/colyak-hastaligi.jpg",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/colyak-hastaligi.jpg",
-    "image:width": "1280",
-    "image:height": "640",
+    "image": "https://drautoimmune.com/images/og/celiac-disease-and-gluten-intolerance.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/celiac-disease-and-gluten-intolerance.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "Celiac Disease and Gluten Intolerance",
     "image:type": "image/jpeg"
   },
@@ -26,7 +26,7 @@
     "card": "summary_large_image",
     "title": "Celiac Disease Doctor in Boulder, CO | Dr. Autoimmune",
     "description": "Meet our Boulder Celiac doctor who can help you navigate a gluten-free life. We focus on healing your gut and boosting nutrition. Contact us today!",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/colyak-hastaligi.jpg",
+    "image": "https://drautoimmune.com/images/og/celiac-disease-and-gluten-intolerance.jpg",
     "label1": "Time to read",
     "data1": "2 minutes"
   },
@@ -74,7 +74,7 @@
     {
       "src": "/images/migrated/celiac-disease-and-gluten-intolerance/colyak-hastaligi.jpg",
       "alt": "colyak-hastaligi",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/colyak-hastaligi.jpg",
+      "originalUrl": "https://drautoimmune.com/images/og/celiac-disease-and-gluten-intolerance.jpg",
       "originalFilename": "colyak-hastaligi.jpg"
     },
     {

@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png",
-      "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png"
-    ],
-    "image:width": [
-      "618",
-      "618"
-    ],
-    "image:height": [
-      "410",
-      "410"
-    ],
-    "image:type": [
-      "image/png",
-      "image/png"
-    ],
+    "image": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-07-27T21:18:29+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png",
+    "image:secure_url": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg",
     "image:alt": "The Hidden Link Between Gut Health and Autoimmune Disease"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "12 minutes",
     "title": "The Hidden Link Between Gut Health and Autoimmune Disease",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"The Hidden Link Between Gut Health and Autoimmune",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png"
+    "image": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg"
   },
   "jsonLd": [
     {
@@ -88,7 +76,7 @@
             "image": {
               "@id": "https://drautoimmune.com/the-hidden-link-between-gut-health-and-autoimmune-disease/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg",
             "inLanguage": "en-US"
           },
           {
@@ -105,7 +93,7 @@
             "image": {
               "@id": "https://drautoimmune.com/the-hidden-link-between-gut-health-and-autoimmune-disease/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg",
             "datePublished": "2026-07-27T21:18:26+00:00",
             "dateModified": "2026-07-27T21:18:29+00:00",
             "author": {
@@ -128,8 +116,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/the-hidden-link-between-gut-health-and-autoimmune-disease/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png",
+            "url": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg",
             "width": 618,
             "height": 410
           },
@@ -209,8 +197,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png",
+            "@id": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg",
+            "url": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg",
             "width": "618",
             "height": "410",
             "inLanguage": "en-US"
@@ -226,7 +214,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png"
+              "@id": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -266,7 +254,7 @@
               "@id": "https://drautoimmune.com/the-hidden-link-between-gut-health-and-autoimmune-disease/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png"
+              "@id": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -283,7 +271,7 @@
   "featuredImage": {
     "src": "/images/migrated/the-hidden-link-between-gut-health-and-autoimmune-disease/Screenshot-2026-07-28-at-2.16.11-AM.png",
     "alt": "The Hidden Link Between Gut Health and Autoimmune Disease",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png",
+    "originalUrl": "https://drautoimmune.com/images/og/the-hidden-link-between-gut-health-and-autoimmune-disease.jpg",
     "originalFilename": "Screenshot-2026-07-28-at-2.16.11-AM.png"
   },
   "datePublished": "2026-07-27T21:18:26+00:00",

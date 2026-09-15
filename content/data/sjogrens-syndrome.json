@@ -15,10 +15,10 @@
     "url": "https://drautoimmune.com/sjogrens-syndrome/",
     "site_name": "Dr. Autoimmune",
     "updated_time": "2026-04-07T18:21:08+00:00",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-4.jpg",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-4.jpg",
-    "image:width": "1600",
-    "image:height": "1067",
+    "image": "https://drautoimmune.com/images/og/sjogrens-syndrome.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/sjogrens-syndrome.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "Sjögren’s Syndrome",
     "image:type": "image/jpeg"
   },
@@ -26,7 +26,7 @@
     "card": "summary_large_image",
     "title": "Support for Sjogren's Syndrome | Dr. Autoimmune",
     "description": "We help patients with Sjogren’s Syndrome feel better every day. Learn how our natural approach can reduce your symptoms. Schedule a consultation now!",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-4.jpg",
+    "image": "https://drautoimmune.com/images/og/sjogrens-syndrome.jpg",
     "label1": "Time to read",
     "data1": "2 minutes"
   },
@@ -74,7 +74,7 @@
     {
       "src": "/images/migrated/sjogrens-syndrome/Untitled-design-4.jpg",
       "alt": "Untitled-design-4",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-4.jpg",
+      "originalUrl": "https://drautoimmune.com/images/og/sjogrens-syndrome.jpg",
       "originalFilename": "Untitled-design-4.jpg"
     },
     {

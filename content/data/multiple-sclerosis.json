@@ -15,10 +15,10 @@
     "url": "https://drautoimmune.com/multiple-sclerosis/",
     "site_name": "Dr. Autoimmune",
     "updated_time": "2026-04-07T18:16:15+00:00",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/2177627.jpg",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/2177627.jpg",
-    "image:width": "1000",
-    "image:height": "544",
+    "image": "https://drautoimmune.com/images/og/multiple-sclerosis.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/multiple-sclerosis.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "Multiple Sclerosis",
     "image:type": "image/jpeg"
   },
@@ -26,7 +26,7 @@
     "card": "summary_large_image",
     "title": "Multiple Sclerosis Specialist in Boulder CO | Dr. Autoimmune",
     "description": "Searching for an MS doctor in Boulder, CO? We provide functional care to help manage your symptoms and improve mobility. Schedule your consultation today.",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/2177627.jpg",
+    "image": "https://drautoimmune.com/images/og/multiple-sclerosis.jpg",
     "label1": "Time to read",
     "data1": "2 minutes"
   },
@@ -74,7 +74,7 @@
     {
       "src": "/images/migrated/multiple-sclerosis/2177627.jpg",
       "alt": "2177627",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/2177627.jpg",
+      "originalUrl": "https://drautoimmune.com/images/og/multiple-sclerosis.jpg",
       "originalFilename": "2177627.jpg"
     },
     {

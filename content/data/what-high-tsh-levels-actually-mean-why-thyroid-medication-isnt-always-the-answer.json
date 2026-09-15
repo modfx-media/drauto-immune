@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp",
-      "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp"
-    ],
-    "image:width": [
-      "800",
-      "800"
-    ],
-    "image:height": [
-      "532",
-      "532"
-    ],
-    "image:type": [
-      "image/webp",
-      "image/webp"
-    ],
+    "image": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-05-20T22:09:16+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp",
+    "image:secure_url": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg",
     "image:alt": "What High TSH Levels Actually Mean & Why Thyroid Medication Isn’t Always the Answer"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "3 minutes",
     "title": "Understanding High TSH Levels and Thyroid Health",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"What High TSH Levels Actually Mean & Why Thyroid",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp"
+    "image": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg"
   },
   "jsonLd": [
     {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg",
             "articleSection": [
               "Hormonal Health"
             ],
@@ -118,7 +106,7 @@
             "image": {
               "@id": "https://drautoimmune.com/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg",
             "datePublished": "2025-11-12T18:03:17+00:00",
             "dateModified": "2026-05-20T22:09:16+00:00",
             "author": {
@@ -141,8 +129,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp",
+            "url": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg",
             "width": 800,
             "height": 532
           },
@@ -222,8 +210,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp",
+            "@id": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg",
+            "url": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg",
             "width": "800",
             "height": "532",
             "inLanguage": "en-US"
@@ -239,7 +227,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp"
+              "@id": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -279,7 +267,7 @@
               "@id": "https://drautoimmune.com/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp"
+              "@id": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -296,7 +284,7 @@
   "featuredImage": {
     "src": "/images/migrated/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer/large-4.webp",
     "alt": "What High TSH Levels Actually Mean & Why Thyroid Medication Isn’t Always the Answer",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-4.webp",
+    "originalUrl": "https://drautoimmune.com/images/og/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer.jpg",
     "originalFilename": "large-4.webp"
   },
   "datePublished": "2025-11-12T18:03:17+00:00",

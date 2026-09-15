@@ -2,8 +2,7 @@ import type { MetadataRoute } from "next";
 import indexManifest from "@/content/data/index.json";
 import { isBlogPostSlug } from "@/lib/blog-posts";
 import { getPageContent } from "@/lib/content";
-
-const SITE_URL = "https://drautoimmune.com";
+import { SITE_URL } from "@/lib/site";
 
 /**
  * Site-wide sitemap covering every migrated route in `content/data/index.json`

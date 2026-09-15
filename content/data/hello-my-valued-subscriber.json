@@ -3,7 +3,7 @@
   "path": "/hello-my-valued-subscriber/",
   "liveUrl": "https://drautoimmune.com/hello-my-valued-subscriber/",
   "isPost": true,
-  "title": "Hello, my valued subscriber!  - Dr. Autoimmune",
+  "title": "Free Hypothyroid Healing Webinar Invitation - Dr. Autoimmune",
   "metaDescription": "We offer a free webinar on healing hypothyroid. Join Dr. Autoimmune today. We'll be live on our Zoom & TikTok platforms. We looking forward to having you!",
   "canonical": "https://drautoimmune.com/hello-my-valued-subscriber/",
   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
@@ -17,7 +17,7 @@
       "article"
     ],
     "title": [
-      "Hello, my valued subscriber!  - Dr. Autoimmune",
+      "Free Hypothyroid Healing Webinar Invitation - Dr. Autoimmune",
       "Join Our Free Webinar on Healing Hypothyroid"
     ],
     "description": [
@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
-      "https://drautoimmune.com/wp-content/uploads/2026/02/image.png"
-    ],
-    "image:width": [
-      "1200",
-      "1200"
-    ],
-    "image:height": [
-      "630",
-      "630"
-    ],
-    "image:type": [
-      "image/png",
-      "image/png"
-    ],
+    "image": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-05-20T22:35:33+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+    "image:secure_url": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg",
     "image:alt": "free live webinar on healing hypothyroid"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "1 minute",
     "title": "Join Our Free Webinar on Healing Hypothyroid",
     "description": "We offer a free webinar on healing hypothyroid. Join Dr. Autoimmune today. We'll be live on our Zoom & TikTok platforms. We looking forward to having you!",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png"
+    "image": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg"
   },
   "jsonLd": [
     {
@@ -78,7 +66,7 @@
               "name": "developer",
               "@id": "https://drautoimmune.com/#/schema/person/1d507fe513284cb591968fca43de749c"
             },
-            "headline": "Hello, my valued subscriber! ",
+            "headline": "Free Hypothyroid Healing Webinar Invitation",
             "datePublished": "2026-02-12T13:51:41+00:00",
             "dateModified": "2026-05-20T22:35:33+00:00",
             "mainEntityOfPage": {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg",
             "articleSection": [
               "Functional Medicine"
             ],
@@ -108,7 +96,7 @@
             "@type": "WebPage",
             "@id": "https://drautoimmune.com/hello-my-valued-subscriber/",
             "url": "https://drautoimmune.com/hello-my-valued-subscriber/",
-            "name": "Hello, my valued subscriber!  - Dr. Autoimmune",
+            "name": "Free Hypothyroid Healing Webinar Invitation - Dr. Autoimmune",
             "isPartOf": {
               "@id": "https://drautoimmune.com/#website"
             },
@@ -118,7 +106,7 @@
             "image": {
               "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg",
             "datePublished": "2026-02-12T13:51:41+00:00",
             "dateModified": "2026-05-20T22:35:33+00:00",
             "author": {
@@ -141,8 +129,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+            "url": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg",
             "width": 1200,
             "height": 630,
             "caption": "free live webinar on healing hypothyroid"
@@ -160,7 +148,7 @@
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Hello, my valued subscriber! "
+                "name": "Free Hypothyroid Healing Webinar Invitation"
               }
             ]
           },
@@ -223,8 +211,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+            "@id": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg",
+            "url": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg",
             "width": "1200",
             "height": "630",
             "caption": "free live webinar on healing hypothyroid",
@@ -241,7 +229,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png"
+              "@id": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -281,7 +269,7 @@
               "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png"
+              "@id": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -297,7 +285,7 @@
     {
       "src": "/images/migrated/hello-my-valued-subscriber/image.png",
       "alt": "free live webinar on healing hypothyroid",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+      "originalUrl": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg",
       "originalFilename": "image.png"
     },
     {
@@ -311,7 +299,7 @@
   "featuredImage": {
     "src": "/images/migrated/hello-my-valued-subscriber/image.png",
     "alt": "free live webinar on healing hypothyroid",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+    "originalUrl": "https://drautoimmune.com/images/og/hello-my-valued-subscriber.jpg",
     "originalFilename": "image.png"
   },
   "datePublished": "2026-02-12T13:51:41+00:00",

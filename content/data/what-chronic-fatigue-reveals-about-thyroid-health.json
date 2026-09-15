@@ -14,10 +14,10 @@
     "description": "Discover how autoimmune fatigue can signal thyroid issues, with insight from a chronic fatigue specialist in Boulder offering remote root cause care",
     "url": "https://drautoimmune.com/what-chronic-fatigue-reveals-about-thyroid-health/",
     "site_name": "Dr. Autoimmune",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-fnSI86py558-unsplash.jpg",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-fnSI86py558-unsplash.jpg",
-    "image:width": "1920",
-    "image:height": "1280",
+    "image": "https://drautoimmune.com/images/og/what-chronic-fatigue-reveals-about-thyroid-health.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/what-chronic-fatigue-reveals-about-thyroid-health.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "chronic fatigue",
     "image:type": "image/jpeg"
   },
@@ -25,7 +25,7 @@
     "card": "summary_large_image",
     "title": "Thyroid Clues Behind Autoimmune Fatigue and Exhaustion",
     "description": "Discover how autoimmune fatigue can signal thyroid issues, with insight from a chronic fatigue specialist in Boulder offering remote root cause care",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-fnSI86py558-unsplash.jpg",
+    "image": "https://drautoimmune.com/images/og/what-chronic-fatigue-reveals-about-thyroid-health.jpg",
     "label1": "Written by",
     "data1": "developer",
     "label2": "Time to read",
@@ -57,8 +57,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-fnSI86py558-unsplash.jpg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-fnSI86py558-unsplash.jpg",
+            "@id": "https://drautoimmune.com/images/og/what-chronic-fatigue-reveals-about-thyroid-health.jpg",
+            "url": "https://drautoimmune.com/images/og/what-chronic-fatigue-reveals-about-thyroid-health.jpg",
             "width": "1920",
             "height": "1280",
             "caption": "chronic fatigue",
@@ -75,7 +75,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-fnSI86py558-unsplash.jpg"
+              "@id": "https://drautoimmune.com/images/og/what-chronic-fatigue-reveals-about-thyroid-health.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -115,7 +115,7 @@
               "@id": "https://drautoimmune.com/what-chronic-fatigue-reveals-about-thyroid-health/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-fnSI86py558-unsplash.jpg"
+              "@id": "https://drautoimmune.com/images/og/what-chronic-fatigue-reveals-about-thyroid-health.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -132,7 +132,7 @@
   "featuredImage": {
     "src": "/images/migrated/what-chronic-fatigue-reveals-about-thyroid-health/getty-images-fnSI86py558-unsplash.jpg",
     "alt": "chronic fatigue",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-fnSI86py558-unsplash.jpg",
+    "originalUrl": "https://drautoimmune.com/images/og/what-chronic-fatigue-reveals-about-thyroid-health.jpg",
     "originalFilename": "getty-images-fnSI86py558-unsplash.jpg"
   },
   "datePublished": "2026-06-07T17:00:00+00:00",

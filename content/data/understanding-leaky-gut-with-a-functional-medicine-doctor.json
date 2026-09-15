@@ -14,10 +14,10 @@
     "description": "Learn what leaky gut is and how root-cause, remote functional care can help. Connect with a leaky gut specialist in Boulder for support",
     "url": "https://drautoimmune.com/understanding-leaky-gut-with-a-functional-medicine-doctor/",
     "site_name": "Dr. Autoimmune",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-PpzCwuFEfu4-unsplash.jpg",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-PpzCwuFEfu4-unsplash.jpg",
-    "image:width": "1920",
-    "image:height": "1318",
+    "image": "https://drautoimmune.com/images/og/understanding-leaky-gut-with-a-functional-medicine-doctor.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/understanding-leaky-gut-with-a-functional-medicine-doctor.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "functional medicine doctor",
     "image:type": "image/jpeg"
   },
@@ -25,7 +25,7 @@
     "card": "summary_large_image",
     "title": "Leaky Gut Care: Find a Specialist in Boulder",
     "description": "Learn what leaky gut is and how root-cause, remote functional care can help. Connect with a leaky gut specialist in Boulder for support",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-PpzCwuFEfu4-unsplash.jpg",
+    "image": "https://drautoimmune.com/images/og/understanding-leaky-gut-with-a-functional-medicine-doctor.jpg",
     "label1": "Written by",
     "data1": "developer",
     "label2": "Time to read",
@@ -57,8 +57,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-PpzCwuFEfu4-unsplash.jpg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-PpzCwuFEfu4-unsplash.jpg",
+            "@id": "https://drautoimmune.com/images/og/understanding-leaky-gut-with-a-functional-medicine-doctor.jpg",
+            "url": "https://drautoimmune.com/images/og/understanding-leaky-gut-with-a-functional-medicine-doctor.jpg",
             "width": "1920",
             "height": "1318",
             "caption": "functional medicine doctor",
@@ -75,7 +75,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-PpzCwuFEfu4-unsplash.jpg"
+              "@id": "https://drautoimmune.com/images/og/understanding-leaky-gut-with-a-functional-medicine-doctor.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -115,7 +115,7 @@
               "@id": "https://drautoimmune.com/understanding-leaky-gut-with-a-functional-medicine-doctor/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-PpzCwuFEfu4-unsplash.jpg"
+              "@id": "https://drautoimmune.com/images/og/understanding-leaky-gut-with-a-functional-medicine-doctor.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -132,7 +132,7 @@
   "featuredImage": {
     "src": "/images/migrated/understanding-leaky-gut-with-a-functional-medicine-doctor/getty-images-PpzCwuFEfu4-unsplash.jpg",
     "alt": "functional medicine doctor",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-PpzCwuFEfu4-unsplash.jpg",
+    "originalUrl": "https://drautoimmune.com/images/og/understanding-leaky-gut-with-a-functional-medicine-doctor.jpg",
     "originalFilename": "getty-images-PpzCwuFEfu4-unsplash.jpg"
   },
   "datePublished": "2026-05-10T17:00:00+00:00",

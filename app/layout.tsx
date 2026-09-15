@@ -2,11 +2,19 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
+import { SITE_URL } from "@/lib/site";
 import { openSans } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dr. Autoimmune",
+  metadataBase: new URL(SITE_URL),
+  // Template is a passthrough ("%s") — every route sets its own full title
+  // via `buildMetadata()`, this only provides a safe fallback + resolves
+  // relative OG/canonical URLs via `metadataBase` above.
+  title: {
+    default: "Dr. Autoimmune",
+    template: "%s",
+  },
   description:
     "Functional medicine care for autoimmune conditions from Dr. Autoimmune.",
 };

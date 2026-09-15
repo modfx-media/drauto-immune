@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png",
-      "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png"
-    ],
-    "image:width": [
-      "623",
-      "623"
-    ],
-    "image:height": [
-      "414",
-      "414"
-    ],
-    "image:type": [
-      "image/png",
-      "image/png"
-    ],
+    "image": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-07-20T14:32:24+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png",
+    "image:secure_url": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg",
     "image:alt": "If My ANA Is Positive Do I Have an Autoimmune Disease?"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "9 minutes",
     "title": "If My ANA Is Positive Do I Have an Autoimmune Disease?",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"If My ANA Is Positive Do I Have an Autoimmune Disease?\".",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png"
+    "image": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg"
   },
   "jsonLd": [
     {
@@ -88,7 +76,7 @@
             "image": {
               "@id": "https://drautoimmune.com/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg",
             "inLanguage": "en-US"
           },
           {
@@ -105,7 +93,7 @@
             "image": {
               "@id": "https://drautoimmune.com/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg",
             "datePublished": "2026-07-20T13:50:11+00:00",
             "dateModified": "2026-07-20T14:32:24+00:00",
             "author": {
@@ -128,8 +116,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png",
+            "url": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg",
             "width": 623,
             "height": 414
           },
@@ -209,8 +197,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png",
+            "@id": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg",
+            "url": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg",
             "width": "623",
             "height": "414",
             "inLanguage": "en-US"
@@ -226,7 +214,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png"
+              "@id": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -266,7 +254,7 @@
               "@id": "https://drautoimmune.com/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png"
+              "@id": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -283,7 +271,7 @@
   "featuredImage": {
     "src": "/images/migrated/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/Screenshot-2026-07-20-at-6.48.44-PM.png",
     "alt": "If My ANA Is Positive Do I Have an Autoimmune Disease?",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png",
+    "originalUrl": "https://drautoimmune.com/images/og/if-my-ana-is-positive-do-i-have-an-autoimmune-disease.jpg",
     "originalFilename": "Screenshot-2026-07-20-at-6.48.44-PM.png"
   },
   "datePublished": "2026-07-20T13:50:11+00:00",

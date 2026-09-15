@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg",
-      "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg"
-    ],
-    "image:width": [
-      "1000",
-      "1000"
-    ],
-    "image:height": [
-      "750",
-      "750"
-    ],
-    "image:type": [
-      "image/jpeg",
-      "image/jpeg"
-    ],
+    "image": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-02-12T13:49:19+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg",
+    "image:secure_url": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg",
     "image:alt": "A microscopic view of bacteria and microorganisms"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "4 minutes",
     "title": "Unmasking the Link Between COVID-19 and Gut Issues",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Unmasking the Link Between COVID-19 and Gut Issues\".",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg"
+    "image": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg"
   },
   "jsonLd": [
     {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/unmasking-the-link-between-covid-19-and-gut-issues/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg",
             "articleSection": [
               "Gut Health"
             ],
@@ -118,7 +106,7 @@
             "image": {
               "@id": "https://drautoimmune.com/unmasking-the-link-between-covid-19-and-gut-issues/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg",
             "datePublished": "2026-02-12T13:49:17+00:00",
             "dateModified": "2026-02-12T13:49:19+00:00",
             "author": {
@@ -141,8 +129,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/unmasking-the-link-between-covid-19-and-gut-issues/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg",
+            "url": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg",
             "width": 1000,
             "height": 750,
             "caption": "A microscopic view of bacteria and microorganisms"
@@ -223,8 +211,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg",
+            "@id": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg",
+            "url": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg",
             "width": "1000",
             "height": "750",
             "caption": "A microscopic view of bacteria and microorganisms",
@@ -241,7 +229,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg"
+              "@id": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -281,7 +269,7 @@
               "@id": "https://drautoimmune.com/unmasking-the-link-between-covid-19-and-gut-issues/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg"
+              "@id": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -298,7 +286,7 @@
   "featuredImage": {
     "src": "/images/migrated/unmasking-the-link-between-covid-19-and-gut-issues/image-2.jpeg",
     "alt": "A microscopic view of bacteria and microorganisms",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.jpeg",
+    "originalUrl": "https://drautoimmune.com/images/og/unmasking-the-link-between-covid-19-and-gut-issues.jpg",
     "originalFilename": "image-2.jpeg"
   },
   "datePublished": "2026-02-12T13:49:17+00:00",

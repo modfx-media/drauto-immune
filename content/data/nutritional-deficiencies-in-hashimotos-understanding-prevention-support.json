@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png",
-      "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png"
-    ],
-    "image:width": [
-      "1400",
-      "1400"
-    ],
-    "image:height": [
-      "789",
-      "789"
-    ],
-    "image:type": [
-      "image/png",
-      "image/png"
-    ],
+    "image": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-05-20T22:09:00+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png",
+    "image:secure_url": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg",
     "image:alt": "A collection of images featuring an egg, green cabbage, a woman in glasses yawning while seated in a chair, and a dish of fresh raspberries."
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "4 minutes",
     "title": "Preventing Nutritional Deficiencies in Hashimoto's",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Nutritional Deficiencies in Hashimoto's: Understanding,",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png"
+    "image": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg"
   },
   "jsonLd": [
     {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/nutritional-deficiencies-in-hashimotos-understanding-prevention-support/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg",
             "articleSection": [
               "Autoimmune Diseases"
             ],
@@ -118,7 +106,7 @@
             "image": {
               "@id": "https://drautoimmune.com/nutritional-deficiencies-in-hashimotos-understanding-prevention-support/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg",
             "datePublished": "2026-02-12T13:59:07+00:00",
             "dateModified": "2026-05-20T22:09:00+00:00",
             "author": {
@@ -141,8 +129,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/nutritional-deficiencies-in-hashimotos-understanding-prevention-support/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png",
+            "url": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg",
             "width": 1400,
             "height": 789,
             "caption": "A collection of images featuring an egg, green cabbage, a woman in glasses yawning while seated in a chair, and a dish of fresh raspberries."
@@ -223,8 +211,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png",
+            "@id": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg",
+            "url": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg",
             "width": "1400",
             "height": "789",
             "caption": "A collection of images featuring an egg, green cabbage, a woman in glasses yawning while seated in a chair, and a dish of fresh raspberries.",
@@ -241,7 +229,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png"
+              "@id": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -281,7 +269,7 @@
               "@id": "https://drautoimmune.com/nutritional-deficiencies-in-hashimotos-understanding-prevention-support/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png"
+              "@id": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -298,7 +286,7 @@
   "featuredImage": {
     "src": "/images/migrated/nutritional-deficiencies-in-hashimotos-understanding-prevention-support/image-2.png",
     "alt": "A collection of images featuring an egg, green cabbage, a woman in glasses yawning while seated in a chair, and a dish of fresh raspberries.",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-2.png",
+    "originalUrl": "https://drautoimmune.com/images/og/nutritional-deficiencies-in-hashimotos-understanding-prevention-support.jpg",
     "originalFilename": "image-2.png"
   },
   "datePublished": "2026-02-12T13:59:07+00:00",

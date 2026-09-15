@@ -32,14 +32,11 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-13-768x512-1-1.jpg",
-      "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-13-768x512-1-1.jpg"
-    ],
+    "image": "https://drautoimmune.com/images/og/anxiety-depression.jpg",
     "updated_time": "2026-04-07T18:21:55+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-13-768x512-1-1.jpg",
-    "image:width": "768",
-    "image:height": "512",
+    "image:secure_url": "https://drautoimmune.com/images/og/anxiety-depression.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "Anxiety & Depression",
     "image:type": "image/jpeg"
   },
@@ -49,7 +46,7 @@
     "data1": "2 minutes",
     "title": "Addressing Anxiety and Depression With Functional Care",
     "description": "Tired of feeling low? Dr. Autoimmune helps you find the physical causes of anxiety and depression. Learn how nutrition and balance can help. Call us today!",
-    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-13-768x512-1-1.jpg"
+    "image": "https://drautoimmune.com/images/og/anxiety-depression.jpg"
   },
   "jsonLd": [
     {
@@ -71,7 +68,7 @@
             "image": {
               "@id": "https://drautoimmune.com/anxiety-depression/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-13-768x512-1-1.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/anxiety-depression.jpg",
             "datePublished": "2025-11-11T21:40:58+00:00",
             "dateModified": "2026-04-07T18:21:55+00:00",
             "breadcrumb": {
@@ -91,8 +88,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/anxiety-depression/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-13-768x512-1-1.jpg",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-13-768x512-1-1.jpg",
+            "url": "https://drautoimmune.com/images/og/anxiety-depression.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/anxiety-depression.jpg",
             "width": 768,
             "height": 512
           },
@@ -181,7 +178,7 @@
     {
       "src": "/images/migrated/anxiety-depression/Untitled-design-13-768x512-1-1.jpg",
       "alt": "Untitled-design-13-768x512-1-1",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-13-768x512-1-1.jpg",
+      "originalUrl": "https://drautoimmune.com/images/og/anxiety-depression.jpg",
       "originalFilename": "Untitled-design-13-768x512-1-1.jpg"
     },
     {

@@ -15,8 +15,8 @@
     "url": "https://drautoimmune.com/how-functional-medicine-can-heal-your-eczema/",
     "site_name": "Dr. Autoimmune",
     "updated_time": "2026-02-12T14:57:25+00:00",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
+    "image": "https://drautoimmune.com/images/og/how-functional-medicine-can-heal-your-eczema.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/how-functional-medicine-can-heal-your-eczema.jpg",
     "image:width": "1200",
     "image:height": "630",
     "image:alt": "A woman with curly hair is sitting on a couch, grimacing in pain as she rubs her neck and shoulder area.",
@@ -26,7 +26,7 @@
     "card": "summary_large_image",
     "title": "How Functional Medicine Can Heal Your Eczema",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"How Functional Medicine Can Heal Your Eczema\".",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
+    "image": "https://drautoimmune.com/images/og/how-functional-medicine-can-heal-your-eczema.jpg",
     "label1": "Written by",
     "data1": "developer",
     "label2": "Time to read",
@@ -58,8 +58,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
+            "@id": "https://drautoimmune.com/images/og/how-functional-medicine-can-heal-your-eczema.jpg",
+            "url": "https://drautoimmune.com/images/og/how-functional-medicine-can-heal-your-eczema.jpg",
             "width": "1200",
             "height": "630",
             "caption": "A woman with curly hair is sitting on a couch, grimacing in pain as she rubs her neck and shoulder area.",
@@ -76,7 +76,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg"
+              "@id": "https://drautoimmune.com/images/og/how-functional-medicine-can-heal-your-eczema.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -116,7 +116,7 @@
               "@id": "https://drautoimmune.com/how-functional-medicine-can-heal-your-eczema/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg"
+              "@id": "https://drautoimmune.com/images/og/how-functional-medicine-can-heal-your-eczema.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -133,7 +133,7 @@
   "featuredImage": {
     "src": "/images/migrated/how-functional-medicine-can-heal-your-eczema/image-6.jpeg",
     "alt": "A woman with curly hair is sitting on a couch, grimacing in pain as she rubs her neck and shoulder area.",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
+    "originalUrl": "https://drautoimmune.com/images/og/how-functional-medicine-can-heal-your-eczema.jpg",
     "originalFilename": "image-6.jpeg"
   },
   "datePublished": "2026-02-12T14:57:23+00:00",

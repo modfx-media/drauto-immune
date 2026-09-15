@@ -32,16 +32,13 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/03/In-Depth-Personalized-Evaluation-2-e1774885374262.png",
-      "https://drautoimmune.com/wp-content/uploads/2026/03/In-Depth-Personalized-Evaluation-2-e1774885374262.png"
-    ],
+    "image": "https://drautoimmune.com/images/og/book-new-patient-evaluation.jpg",
     "updated_time": "2026-05-20T22:18:01+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/03/In-Depth-Personalized-Evaluation-2-e1774885374262.png",
-    "image:width": "1080",
-    "image:height": "995",
+    "image:secure_url": "https://drautoimmune.com/images/og/book-new-patient-evaluation.jpg",
+    "image:width": "1200",
+    "image:height": "630",
     "image:alt": "a poster about the difference of conventional medicine vs function medicine",
-    "image:type": "image/png"
+    "image:type": "image/jpeg"
   },
   "twitter": {
     "card": "summary_large_image",
@@ -49,7 +46,7 @@
     "data1": "7 minutes",
     "title": "Schedule Your New Patient Evaluation | Dr. Autoimmune",
     "description": "Start your recovery with a full health review. Our team is ready to listen and help you feel like yourself again. Reserve your appointment online!",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/03/In-Depth-Personalized-Evaluation-2-e1774885374262.png"
+    "image": "https://drautoimmune.com/images/og/book-new-patient-evaluation.jpg"
   },
   "jsonLd": [
     {
@@ -71,7 +68,7 @@
             "image": {
               "@id": "https://drautoimmune.com/book-new-patient-evaluation/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/03/In-Depth-Personalized-Evaluation-2-e1774885374262.png",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/book-new-patient-evaluation.jpg",
             "datePublished": "2025-11-11T21:29:10+00:00",
             "dateModified": "2026-05-20T22:18:01+00:00",
             "breadcrumb": {
@@ -91,8 +88,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/book-new-patient-evaluation/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/03/In-Depth-Personalized-Evaluation-2-e1774885374262.png",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/03/In-Depth-Personalized-Evaluation-2-e1774885374262.png",
+            "url": "https://drautoimmune.com/images/og/book-new-patient-evaluation.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/book-new-patient-evaluation.jpg",
             "width": 1080,
             "height": 995,
             "caption": "a poster about the difference of conventional medicine vs function medicine"
@@ -182,7 +179,7 @@
     {
       "src": "/images/migrated/book-new-patient-evaluation/In-Depth-Personalized-Evaluation-2-e1774885374262.png",
       "alt": "a poster about the difference of conventional medicine vs function medicine",
-      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/03/In-Depth-Personalized-Evaluation-2-e1774885374262.png",
+      "originalUrl": "https://drautoimmune.com/images/og/book-new-patient-evaluation.jpg",
       "originalFilename": "In-Depth-Personalized-Evaluation-2-e1774885374262.png"
     },
     {

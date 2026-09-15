@@ -32,23 +32,11 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg",
-      "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg"
-    ],
-    "image:width": [
-      "1500",
-      "1500"
-    ],
-    "image:height": [
-      "1042",
-      "1042"
-    ],
-    "image:type": [
-      "image/jpeg",
-      "image/jpeg"
-    ],
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg",
+    "image": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
+    "image:secure_url": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg",
     "image:alt": "gut health"
   },
   "twitter": {
@@ -59,7 +47,7 @@
     "data2": "7 minutes",
     "title": "Signs Your Gut May Be Driving Autoimmune Flares",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Signs Your Gut May Be Driving Autoimmune Flares\".",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg"
+    "image": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg"
   },
   "jsonLd": [
     {
@@ -86,7 +74,7 @@
             "image": {
               "@id": "https://drautoimmune.com/signs-gut-may-be-driving-autoimmune-flares/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg",
             "articleSection": [
               "Gut Health"
             ],
@@ -106,7 +94,7 @@
             "image": {
               "@id": "https://drautoimmune.com/signs-gut-may-be-driving-autoimmune-flares/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg",
             "datePublished": "2026-04-12T17:00:00+00:00",
             "author": {
               "@id": "https://drautoimmune.com/#/schema/person/1d507fe513284cb591968fca43de749c"
@@ -128,8 +116,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/signs-gut-may-be-driving-autoimmune-flares/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg",
+            "url": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg",
             "width": 1500,
             "height": 1042,
             "caption": "gut health"
@@ -210,8 +198,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg",
+            "@id": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg",
+            "url": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg",
             "width": "1500",
             "height": "1042",
             "caption": "gut health",
@@ -228,7 +216,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg"
+              "@id": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -268,7 +256,7 @@
               "@id": "https://drautoimmune.com/signs-gut-may-be-driving-autoimmune-flares/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg"
+              "@id": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -285,7 +273,7 @@
   "featuredImage": {
     "src": "/images/migrated/signs-gut-may-be-driving-autoimmune-flares/3393.jpg",
     "alt": "gut health",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/3393.jpg",
+    "originalUrl": "https://drautoimmune.com/images/og/signs-gut-may-be-driving-autoimmune-flares.jpg",
     "originalFilename": "3393.jpg"
   },
   "datePublished": "2026-04-12T17:00:00+00:00",

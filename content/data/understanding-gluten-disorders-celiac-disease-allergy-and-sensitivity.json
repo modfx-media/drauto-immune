@@ -32,24 +32,12 @@
       "Dr. Autoimmune",
       "Dr. Autoimmune"
     ],
-    "image": [
-      "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
-      "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg"
-    ],
-    "image:width": [
-      "1024",
-      "1024"
-    ],
-    "image:height": [
-      "618",
-      "618"
-    ],
-    "image:type": [
-      "image/jpeg",
-      "image/jpeg"
-    ],
+    "image": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:type": "image/jpeg",
     "updated_time": "2026-05-20T22:08:47+00:00",
-    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+    "image:secure_url": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg",
     "image:alt": "Illustration comparing healthy intestinal villi on the left with damaged or atrophied villi on the right"
   },
   "twitter": {
@@ -60,7 +48,7 @@
     "data2": "3 minutes",
     "title": "Your Guide to Gluten Disorders and Celiac Disease",
     "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Understanding Gluten Disorders: Celiac Disease,",
-    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg"
+    "image": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg"
   },
   "jsonLd": [
     {
@@ -89,7 +77,7 @@
             "image": {
               "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg",
             "articleSection": [
               "Gut Health"
             ],
@@ -118,7 +106,7 @@
             "image": {
               "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#primaryimage"
             },
-            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+            "thumbnailUrl": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg",
             "datePublished": "2026-02-12T14:59:33+00:00",
             "dateModified": "2026-05-20T22:08:47+00:00",
             "author": {
@@ -141,8 +129,8 @@
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#primaryimage",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
-            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+            "url": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg",
+            "contentUrl": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg",
             "width": 1024,
             "height": 618,
             "caption": "Illustration comparing healthy intestinal villi on the left with damaged or atrophied villi on the right"
@@ -223,8 +211,8 @@
           },
           {
             "@type": "ImageObject",
-            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
-            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+            "@id": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg",
+            "url": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg",
             "width": "1024",
             "height": "618",
             "caption": "Illustration comparing healthy intestinal villi on the left with damaged or atrophied villi on the right",
@@ -241,7 +229,7 @@
               "@id": "https://drautoimmune.com/#website"
             },
             "primaryImageOfPage": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg"
+              "@id": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg"
             },
             "inLanguage": "en-US"
           },
@@ -281,7 +269,7 @@
               "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#webpage"
             },
             "image": {
-              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg"
+              "@id": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg"
             },
             "inLanguage": "en-US",
             "mainEntityOfPage": {
@@ -298,7 +286,7 @@
   "featuredImage": {
     "src": "/images/migrated/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/GettyImages-1094058742-1024x618-1.jpg",
     "alt": "Illustration comparing healthy intestinal villi on the left with damaged or atrophied villi on the right",
-    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+    "originalUrl": "https://drautoimmune.com/images/og/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity.jpg",
     "originalFilename": "GettyImages-1094058742-1024x618-1.jpg"
   },
   "datePublished": "2026-02-12T14:59:33+00:00",
