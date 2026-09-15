@@ -33,6 +33,16 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-MK4GCF2L9J"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-MK4GCF2L9J');`}
+        </Script>
         <Script id="knock-knock-config" strategy="afterInteractive">
           {`window.company_id = '6a872b568d06085e05e32947';`}
         </Script>
