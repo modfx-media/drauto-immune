@@ -209,3 +209,15 @@ body {
     transform: translate(0, -18px) scale(1.03);
   }
 }
+
+/* Testimonials marquee — a plain CSS animation (rather than JS-driven
+   transforms) so hovering can pause it with `animation-play-state` and
+   resume from the exact same spot, with no snap-back. */
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

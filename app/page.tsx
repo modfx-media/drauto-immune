@@ -14,17 +14,21 @@ import TikTokSection from "@/components/home/TikTokSection";
 import WellnessProducts from "@/components/home/WellnessProducts";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import { buildMetadata, getPageContent } from "@/lib/content";
+import { getDisplayedGoogleReviews, withGoogleReviewsSchema } from "@/lib/google-reviews";
 
 export function generateMetadata(): Metadata {
   return buildMetadata("home");
 }
 
-export default function Home() {
+export default async function Home() {
   const page = getPageContent("home");
+  // cache()-wrapped: one fetch per request, shared with anything else on
+  // this page that also calls getDisplayedGoogleReviews().
+  const googleReviews = await getDisplayedGoogleReviews();
 
   return (
     <>
-      {page && <JsonLd blocks={page.jsonLd} />}
+      {page && <JsonLd blocks={withGoogleReviewsSchema(page.jsonLd, googleReviews)} />}
 
       <PotsAssessmentPopup />
 
@@ -39,7 +43,12 @@ export default function Home() {
       <BlogInsights />
       <TikTokSection />
       <Faq />
-      <Testimonials />
+      <Testimonials
+        items={googleReviews.reviews}
+        rating={googleReviews.meta.rating}
+        reviewCount={googleReviews.meta.reviewCount}
+        reviewsUrl={googleReviews.meta.reviewsUrl}
+      />
     </>
   );
 }
