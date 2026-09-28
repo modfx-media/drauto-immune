@@ -1,0 +1,5688 @@
+{
+  "generatedAt": "2026-09-28T19:54:54.833Z",
+  "source": "gsc-report/Queries.csv + Pages.csv (Search Console export, all rows)",
+  "totals": {
+    "queryRows": 1000,
+    "pageRows": 383,
+    "totalImpressions": 164466,
+    "totalClicks": 5056
+  },
+  "locationsFound": [
+    "denver",
+    "boulder",
+    "fort collins"
+  ],
+  "strikingDistance": [
+    {
+      "query": "autoimmune doctor",
+      "clicks": 3,
+      "impressions": 3674,
+      "ctr": "0.08%",
+      "position": 30.76
+    },
+    {
+      "query": "autoimmune specialist denver",
+      "clicks": 0,
+      "impressions": 1200,
+      "ctr": "0%",
+      "position": 37.7
+    },
+    {
+      "query": "autoimmune dr",
+      "clicks": 0,
+      "impressions": 969,
+      "ctr": "0%",
+      "position": 12.16
+    },
+    {
+      "query": "pmf treatment",
+      "clicks": 2,
+      "impressions": 831,
+      "ctr": "0.24%",
+      "position": 10.55
+    },
+    {
+      "query": "auto immune doctor",
+      "clicks": 0,
+      "impressions": 727,
+      "ctr": "0%",
+      "position": 28.75
+    },
+    {
+      "query": "why are methylated vitamins better",
+      "clicks": 0,
+      "impressions": 416,
+      "ctr": "0%",
+      "position": 29.82
+    },
+    {
+      "query": "autoimmune specialist near me",
+      "clicks": 0,
+      "impressions": 415,
+      "ctr": "0%",
+      "position": 12.37
+    },
+    {
+      "query": "ana test for celiac disease",
+      "clicks": 0,
+      "impressions": 400,
+      "ctr": "0%",
+      "position": 24.61
+    },
+    {
+      "query": "doctor for autoimmune",
+      "clicks": 0,
+      "impressions": 332,
+      "ctr": "0%",
+      "position": 23.72
+    },
+    {
+      "query": "immune doctor",
+      "clicks": 0,
+      "impressions": 330,
+      "ctr": "0%",
+      "position": 29.95
+    },
+    {
+      "query": "black seed oil for ms",
+      "clicks": 5,
+      "impressions": 303,
+      "ctr": "1.65%",
+      "position": 8.52
+    },
+    {
+      "query": "magnesium and autoimmune disease",
+      "clicks": 2,
+      "impressions": 297,
+      "ctr": "0.67%",
+      "position": 10.63
+    },
+    {
+      "query": "nonautologous",
+      "clicks": 0,
+      "impressions": 292,
+      "ctr": "0%",
+      "position": 10.96
+    },
+    {
+      "query": "black seed oil and ms",
+      "clicks": 1,
+      "impressions": 279,
+      "ctr": "0.36%",
+      "position": 8
+    },
+    {
+      "query": "what does high ferritin indicate",
+      "clicks": 0,
+      "impressions": 277,
+      "ctr": "0%",
+      "position": 16.38
+    },
+    {
+      "query": "gut power",
+      "clicks": 1,
+      "impressions": 275,
+      "ctr": "0.36%",
+      "position": 10.83
+    },
+    {
+      "query": "collagen power",
+      "clicks": 1,
+      "impressions": 261,
+      "ctr": "0.38%",
+      "position": 13.35
+    },
+    {
+      "query": "power collagen",
+      "clicks": 0,
+      "impressions": 260,
+      "ctr": "0%",
+      "position": 22.14
+    },
+    {
+      "query": "immune power",
+      "clicks": 0,
+      "impressions": 249,
+      "ctr": "0%",
+      "position": 30.95
+    },
+    {
+      "query": "showgrens",
+      "clicks": 0,
+      "impressions": 247,
+      "ctr": "0%",
+      "position": 10.76
+    },
+    {
+      "query": "pmf therapy",
+      "clicks": 1,
+      "impressions": 218,
+      "ctr": "0.46%",
+      "position": 8.55
+    },
+    {
+      "query": "vitamin b pcos",
+      "clicks": 0,
+      "impressions": 216,
+      "ctr": "0%",
+      "position": 38.32
+    },
+    {
+      "query": "coconut oil for autoimmune disease",
+      "clicks": 0,
+      "impressions": 205,
+      "ctr": "0%",
+      "position": 15.95
+    },
+    {
+      "query": "dhea and lupus",
+      "clicks": 3,
+      "impressions": 200,
+      "ctr": "1.5%",
+      "position": 11.03
+    },
+    {
+      "query": "mag power",
+      "clicks": 0,
+      "impressions": 200,
+      "ctr": "0%",
+      "position": 14.91
+    },
+    {
+      "query": "b vitamins pcos",
+      "clicks": 0,
+      "impressions": 199,
+      "ctr": "0%",
+      "position": 37.75
+    },
+    {
+      "query": "methylated b vitamins mthfr",
+      "clicks": 0,
+      "impressions": 195,
+      "ctr": "0%",
+      "position": 30.25
+    },
+    {
+      "query": "lupus ana pattern",
+      "clicks": 2,
+      "impressions": 194,
+      "ctr": "1.03%",
+      "position": 14.51
+    },
+    {
+      "query": "vitamin b and pcos",
+      "clicks": 0,
+      "impressions": 194,
+      "ctr": "0%",
+      "position": 37.44
+    },
+    {
+      "query": "is black seed oil good for rheumatoid arthritis",
+      "clicks": 0,
+      "impressions": 191,
+      "ctr": "0%",
+      "position": 18.01
+    },
+    {
+      "query": "black seed oil and joint pain",
+      "clicks": 0,
+      "impressions": 191,
+      "ctr": "0%",
+      "position": 37.98
+    },
+    {
+      "query": "what is methylated vitamin b",
+      "clicks": 0,
+      "impressions": 190,
+      "ctr": "0%",
+      "position": 38.55
+    },
+    {
+      "query": "meat stock",
+      "clicks": 0,
+      "impressions": 188,
+      "ctr": "0%",
+      "position": 20.39
+    },
+    {
+      "query": "power gut repair",
+      "clicks": 0,
+      "impressions": 187,
+      "ctr": "0%",
+      "position": 30.91
+    },
+    {
+      "query": "magnesium for autoimmune disease",
+      "clicks": 1,
+      "impressions": 184,
+      "ctr": "0.54%",
+      "position": 10.7
+    },
+    {
+      "query": "methylated vitamin b",
+      "clicks": 1,
+      "impressions": 184,
+      "ctr": "0.54%",
+      "position": 26.93
+    },
+    {
+      "query": "zinc carnosine leaky gut",
+      "clicks": 0,
+      "impressions": 182,
+      "ctr": "0%",
+      "position": 14.34
+    },
+    {
+      "query": "auto immune dr",
+      "clicks": 0,
+      "impressions": 158,
+      "ctr": "0%",
+      "position": 10.51
+    },
+    {
+      "query": "autoimmune wellness specialists indianapolis",
+      "clicks": 0,
+      "impressions": 158,
+      "ctr": "0%",
+      "position": 33.18
+    },
+    {
+      "query": "estrogen dominance and insulin resistance",
+      "clicks": 1,
+      "impressions": 151,
+      "ctr": "0.66%",
+      "position": 11.62
+    },
+    {
+      "query": "is black seed oil good for arthritis",
+      "clicks": 0,
+      "impressions": 151,
+      "ctr": "0%",
+      "position": 27.34
+    },
+    {
+      "query": "black cumin seed oil immune system",
+      "clicks": 0,
+      "impressions": 148,
+      "ctr": "0%",
+      "position": 30.95
+    },
+    {
+      "query": "autoimmune fatigue doctor boulder",
+      "clicks": 0,
+      "impressions": 145,
+      "ctr": "0%",
+      "position": 17.18
+    },
+    {
+      "query": "autoimmune disease-associated hypertension",
+      "clicks": 0,
+      "impressions": 145,
+      "ctr": "0%",
+      "position": 29.37
+    },
+    {
+      "query": "dr for autoimmune",
+      "clicks": 0,
+      "impressions": 139,
+      "ctr": "0%",
+      "position": 15.82
+    },
+    {
+      "query": "benefits of methylated vitamins",
+      "clicks": 0,
+      "impressions": 139,
+      "ctr": "0%",
+      "position": 31.42
+    },
+    {
+      "query": "is magnesium good for autoimmune disease",
+      "clicks": 0,
+      "impressions": 129,
+      "ctr": "0%",
+      "position": 9.84
+    },
+    {
+      "query": "low dhea and autoimmune disease",
+      "clicks": 4,
+      "impressions": 126,
+      "ctr": "3.17%",
+      "position": 8.2
+    },
+    {
+      "query": "functional medicine approach to crohn's disease",
+      "clicks": 0,
+      "impressions": 124,
+      "ctr": "0%",
+      "position": 34.9
+    },
+    {
+      "query": "methyl vitamins",
+      "clicks": 0,
+      "impressions": 123,
+      "ctr": "0%",
+      "position": 39.07
+    },
+    {
+      "query": "nad+ autoimmune",
+      "clicks": 0,
+      "impressions": 122,
+      "ctr": "0%",
+      "position": 20.57
+    },
+    {
+      "query": "site:drautoimmune.com",
+      "clicks": 0,
+      "impressions": 121,
+      "ctr": "0%",
+      "position": 13.59
+    },
+    {
+      "query": "dr for autoimmune disease",
+      "clicks": 0,
+      "impressions": 121,
+      "ctr": "0%",
+      "position": 26.93
+    },
+    {
+      "query": "lupus specialist boulder co",
+      "clicks": 0,
+      "impressions": 118,
+      "ctr": "0%",
+      "position": 37.11
+    },
+    {
+      "query": "grd",
+      "clicks": 0,
+      "impressions": 117,
+      "ctr": "0%",
+      "position": 8.56
+    },
+    {
+      "query": "autoimmune disease stomach bloating",
+      "clicks": 0,
+      "impressions": 117,
+      "ctr": "0%",
+      "position": 31.55
+    },
+    {
+      "query": "long term diphenhydramine use",
+      "clicks": 0,
+      "impressions": 115,
+      "ctr": "0%",
+      "position": 19.77
+    },
+    {
+      "query": "functional approach crohn s",
+      "clicks": 0,
+      "impressions": 114,
+      "ctr": "0%",
+      "position": 26.39
+    },
+    {
+      "query": "methylated b multivitamin",
+      "clicks": 0,
+      "impressions": 113,
+      "ctr": "0%",
+      "position": 33.94
+    },
+    {
+      "query": "magnesium and autoimmune",
+      "clicks": 1,
+      "impressions": 112,
+      "ctr": "0.89%",
+      "position": 10.71
+    }
+  ],
+  "contentGaps": [
+    {
+      "query": "n acetylcysteine",
+      "clicks": 0,
+      "impressions": 1824,
+      "ctr": "0%",
+      "position": 63.49
+    },
+    {
+      "query": "clinical nutrition",
+      "clicks": 0,
+      "impressions": 1638,
+      "ctr": "0%",
+      "position": 79.62
+    },
+    {
+      "query": "hashimoto's disease",
+      "clicks": 0,
+      "impressions": 1594,
+      "ctr": "0%",
+      "position": 91.06
+    },
+    {
+      "query": "anemia symptoms in women",
+      "clicks": 0,
+      "impressions": 1487,
+      "ctr": "0%",
+      "position": 73.8
+    },
+    {
+      "query": "what is lupus",
+      "clicks": 0,
+      "impressions": 1383,
+      "ctr": "0%",
+      "position": 76.42
+    },
+    {
+      "query": "autoimmune disease doctor",
+      "clicks": 0,
+      "impressions": 1249,
+      "ctr": "0%",
+      "position": 53.95
+    },
+    {
+      "query": "methylated vitamins",
+      "clicks": 0,
+      "impressions": 1231,
+      "ctr": "0%",
+      "position": 42.98
+    },
+    {
+      "query": "what is nac supplement",
+      "clicks": 0,
+      "impressions": 1228,
+      "ctr": "0%",
+      "position": 64.8
+    },
+    {
+      "query": "n acetyl cysteine",
+      "clicks": 0,
+      "impressions": 1208,
+      "ctr": "0%",
+      "position": 56.47
+    },
+    {
+      "query": "symptoms of anemia in women",
+      "clicks": 0,
+      "impressions": 1027,
+      "ctr": "0%",
+      "position": 77.7
+    },
+    {
+      "query": "hashimoto disease",
+      "clicks": 0,
+      "impressions": 920,
+      "ctr": "0%",
+      "position": 93.22
+    },
+    {
+      "query": "positive ana test",
+      "clicks": 0,
+      "impressions": 859,
+      "ctr": "0%",
+      "position": 73.51
+    },
+    {
+      "query": "what is nac",
+      "clicks": 0,
+      "impressions": 824,
+      "ctr": "0%",
+      "position": 66.52
+    },
+    {
+      "query": "high ferritin",
+      "clicks": 0,
+      "impressions": 820,
+      "ctr": "0%",
+      "position": 71.95
+    },
+    {
+      "query": "signs of low iron in women",
+      "clicks": 0,
+      "impressions": 818,
+      "ctr": "0%",
+      "position": 61.65
+    },
+    {
+      "query": "hashimoto",
+      "clicks": 0,
+      "impressions": 814,
+      "ctr": "0%",
+      "position": 85.67
+    },
+    {
+      "query": "what are methylated vitamins",
+      "clicks": 0,
+      "impressions": 775,
+      "ctr": "0%",
+      "position": 46.47
+    },
+    {
+      "query": "ana positive",
+      "clicks": 0,
+      "impressions": 758,
+      "ctr": "0%",
+      "position": 77.06
+    },
+    {
+      "query": "dirty dozen foods",
+      "clicks": 0,
+      "impressions": 736,
+      "ctr": "0%",
+      "position": 54.85
+    },
+    {
+      "query": "n-acetyl cysteine",
+      "clicks": 0,
+      "impressions": 663,
+      "ctr": "0%",
+      "position": 50.58
+    },
+    {
+      "query": "hashimotos disease",
+      "clicks": 0,
+      "impressions": 660,
+      "ctr": "0%",
+      "position": 94.39
+    },
+    {
+      "query": "what causes lupus",
+      "clicks": 0,
+      "impressions": 653,
+      "ctr": "0%",
+      "position": 89.48
+    },
+    {
+      "query": "ana test positive",
+      "clicks": 0,
+      "impressions": 648,
+      "ctr": "0%",
+      "position": 74.07
+    },
+    {
+      "query": "autoimmune skin disease",
+      "clicks": 0,
+      "impressions": 633,
+      "ctr": "0%",
+      "position": 89.05
+    },
+    {
+      "query": "what is clinical nutrition",
+      "clicks": 0,
+      "impressions": 629,
+      "ctr": "0%",
+      "position": 50.58
+    },
+    {
+      "query": "ana test positive symptoms",
+      "clicks": 0,
+      "impressions": 628,
+      "ctr": "0%",
+      "position": 76.98
+    },
+    {
+      "query": "autoimmune skin conditions",
+      "clicks": 0,
+      "impressions": 611,
+      "ctr": "0%",
+      "position": 84.84
+    },
+    {
+      "query": "positive ana",
+      "clicks": 0,
+      "impressions": 541,
+      "ctr": "0%",
+      "position": 73.64
+    },
+    {
+      "query": "holistic autoimmune doctor",
+      "clicks": 0,
+      "impressions": 534,
+      "ctr": "0%",
+      "position": 41.23
+    },
+    {
+      "query": "signs of anemia in women",
+      "clicks": 0,
+      "impressions": 532,
+      "ctr": "0%",
+      "position": 64.18
+    },
+    {
+      "query": "what does a positive ana mean",
+      "clicks": 0,
+      "impressions": 520,
+      "ctr": "0%",
+      "position": 69.62
+    },
+    {
+      "query": "functional medicine approach to eczema",
+      "clicks": 0,
+      "impressions": 506,
+      "ctr": "0%",
+      "position": 52.72
+    },
+    {
+      "query": "autoimmune skin diseases",
+      "clicks": 0,
+      "impressions": 496,
+      "ctr": "0%",
+      "position": 87.31
+    },
+    {
+      "query": "acetylcysteine",
+      "clicks": 0,
+      "impressions": 494,
+      "ctr": "0%",
+      "position": 78.35
+    },
+    {
+      "query": "hashimoto autoimmune",
+      "clicks": 0,
+      "impressions": 488,
+      "ctr": "0%",
+      "position": 88.24
+    },
+    {
+      "query": "ana positive test",
+      "clicks": 0,
+      "impressions": 482,
+      "ctr": "0%",
+      "position": 73.12
+    },
+    {
+      "query": "can birth control affect your thyroid",
+      "clicks": 0,
+      "impressions": 471,
+      "ctr": "0%",
+      "position": 42.85
+    },
+    {
+      "query": "hashimotos",
+      "clicks": 0,
+      "impressions": 463,
+      "ctr": "0%",
+      "position": 94.4
+    },
+    {
+      "query": "dirty dozen list",
+      "clicks": 0,
+      "impressions": 455,
+      "ctr": "0%",
+      "position": 55.63
+    },
+    {
+      "query": "ferritin high",
+      "clicks": 0,
+      "impressions": 444,
+      "ctr": "0%",
+      "position": 73.07
+    },
+    {
+      "query": "what is hashimoto's disease",
+      "clicks": 0,
+      "impressions": 438,
+      "ctr": "0%",
+      "position": 85.58
+    },
+    {
+      "query": "hypothyroidism gluten",
+      "clicks": 0,
+      "impressions": 434,
+      "ctr": "0%",
+      "position": 70.71
+    },
+    {
+      "query": "methylation vitamins",
+      "clicks": 0,
+      "impressions": 432,
+      "ctr": "0%",
+      "position": 47.8
+    },
+    {
+      "query": "leaky gut symptoms",
+      "clicks": 0,
+      "impressions": 432,
+      "ctr": "0%",
+      "position": 88.12
+    },
+    {
+      "query": "raynaud's syndrome autoimmune",
+      "clicks": 0,
+      "impressions": 428,
+      "ctr": "0%",
+      "position": 64.51
+    },
+    {
+      "query": "low thyroid symptoms",
+      "clicks": 0,
+      "impressions": 411,
+      "ctr": "0%",
+      "position": 83.97
+    },
+    {
+      "query": "autoimmune doctor near me",
+      "clicks": 0,
+      "impressions": 403,
+      "ctr": "0%",
+      "position": 56.69
+    },
+    {
+      "query": "lupus causes",
+      "clicks": 0,
+      "impressions": 400,
+      "ctr": "0%",
+      "position": 87.71
+    },
+    {
+      "query": "vitamin d immune system",
+      "clicks": 0,
+      "impressions": 394,
+      "ctr": "0%",
+      "position": 70.77
+    },
+    {
+      "query": "autoimmune specialist",
+      "clicks": 0,
+      "impressions": 367,
+      "ctr": "0%",
+      "position": 68.5
+    },
+    {
+      "query": "birth control and hypothyroidism",
+      "clicks": 0,
+      "impressions": 357,
+      "ctr": "0%",
+      "position": 42.99
+    },
+    {
+      "query": "vitamin d and immune system",
+      "clicks": 0,
+      "impressions": 355,
+      "ctr": "0%",
+      "position": 64.2
+    },
+    {
+      "query": "rheumatoid arthritis functional medicine",
+      "clicks": 0,
+      "impressions": 353,
+      "ctr": "0%",
+      "position": 61.99
+    },
+    {
+      "query": "what does it mean when ana is positive",
+      "clicks": 0,
+      "impressions": 348,
+      "ctr": "0%",
+      "position": 76.53
+    },
+    {
+      "query": "how do you get lupus",
+      "clicks": 0,
+      "impressions": 346,
+      "ctr": "0%",
+      "position": 84.88
+    },
+    {
+      "query": "what does high ferritin mean",
+      "clicks": 0,
+      "impressions": 333,
+      "ctr": "0%",
+      "position": 43.33
+    },
+    {
+      "query": "low iron symptoms women",
+      "clicks": 0,
+      "impressions": 327,
+      "ctr": "0%",
+      "position": 76.38
+    },
+    {
+      "query": "black seed oil for immune system",
+      "clicks": 0,
+      "impressions": 323,
+      "ctr": "0%",
+      "position": 42.2
+    },
+    {
+      "query": "high ferritin level",
+      "clicks": 0,
+      "impressions": 319,
+      "ctr": "0%",
+      "position": 74.63
+    },
+    {
+      "query": "ana positive meaning",
+      "clicks": 0,
+      "impressions": 318,
+      "ctr": "0%",
+      "position": 71.69
+    },
+    {
+      "query": "hashimoto's",
+      "clicks": 0,
+      "impressions": 313,
+      "ctr": "0%",
+      "position": 94.05
+    },
+    {
+      "query": "is raynaud's syndrome an autoimmune disease",
+      "clicks": 0,
+      "impressions": 300,
+      "ctr": "0%",
+      "position": 67.92
+    },
+    {
+      "query": "long term antihistamine use",
+      "clicks": 0,
+      "impressions": 297,
+      "ctr": "0%",
+      "position": 49.02
+    },
+    {
+      "query": "can gluten free diet help hypothyroidism",
+      "clicks": 0,
+      "impressions": 294,
+      "ctr": "0%",
+      "position": 54.03
+    },
+    {
+      "query": "probiotics benefits",
+      "clicks": 0,
+      "impressions": 293,
+      "ctr": "0%",
+      "position": 88.82
+    },
+    {
+      "query": "iron deficiency symptoms in women",
+      "clicks": 0,
+      "impressions": 287,
+      "ctr": "0%",
+      "position": 79.84
+    },
+    {
+      "query": "iron levels for women",
+      "clicks": 0,
+      "impressions": 285,
+      "ctr": "0%",
+      "position": 90.62
+    },
+    {
+      "query": "high ferritin levels",
+      "clicks": 0,
+      "impressions": 283,
+      "ctr": "0%",
+      "position": 76.36
+    },
+    {
+      "query": "autoimmune supplements",
+      "clicks": 0,
+      "impressions": 282,
+      "ctr": "0%",
+      "position": 79.69
+    },
+    {
+      "query": "what is nac used for",
+      "clicks": 0,
+      "impressions": 281,
+      "ctr": "0%",
+      "position": 70.73
+    },
+    {
+      "query": "birth control and thyroid",
+      "clicks": 0,
+      "impressions": 272,
+      "ctr": "0%",
+      "position": 46.18
+    },
+    {
+      "query": "acetyl cysteine",
+      "clicks": 0,
+      "impressions": 265,
+      "ctr": "0%",
+      "position": 56.95
+    },
+    {
+      "query": "gut health and autoimmune disease",
+      "clicks": 0,
+      "impressions": 265,
+      "ctr": "0%",
+      "position": 59.83
+    },
+    {
+      "query": "signs of anemiin women",
+      "clicks": 0,
+      "impressions": 263,
+      "ctr": "0%",
+      "position": 55.05
+    },
+    {
+      "query": "methyl b complex benefits",
+      "clicks": 0,
+      "impressions": 259,
+      "ctr": "0%",
+      "position": 61.37
+    },
+    {
+      "query": "antihistamine side effects long term",
+      "clicks": 0,
+      "impressions": 258,
+      "ctr": "0%",
+      "position": 66.08
+    },
+    {
+      "query": "sjogrens",
+      "clicks": 0,
+      "impressions": 257,
+      "ctr": "0%",
+      "position": 87.4
+    },
+    {
+      "query": "gluten and thyroid",
+      "clicks": 0,
+      "impressions": 255,
+      "ctr": "0%",
+      "position": 83.5
+    },
+    {
+      "query": "bloating after meals",
+      "clicks": 0,
+      "impressions": 255,
+      "ctr": "0%",
+      "position": 86.71
+    },
+    {
+      "query": "is pots an autoimmune disease",
+      "clicks": 0,
+      "impressions": 251,
+      "ctr": "0%",
+      "position": 45.95
+    },
+    {
+      "query": "benefits of probiotics",
+      "clicks": 0,
+      "impressions": 250,
+      "ctr": "0%",
+      "position": 78.85
+    },
+    {
+      "query": "b vitamins methylation",
+      "clicks": 0,
+      "impressions": 249,
+      "ctr": "0%",
+      "position": 54.16
+    },
+    {
+      "query": "stem cell for joint pain",
+      "clicks": 0,
+      "impressions": 247,
+      "ctr": "0%",
+      "position": 79.11
+    },
+    {
+      "query": "gluten and hypothyroidism",
+      "clicks": 0,
+      "impressions": 245,
+      "ctr": "0%",
+      "position": 66.14
+    },
+    {
+      "query": "positive ana meaning",
+      "clicks": 0,
+      "impressions": 244,
+      "ctr": "0%",
+      "position": 71.61
+    },
+    {
+      "query": "gut health and autoimmune disorders",
+      "clicks": 0,
+      "impressions": 243,
+      "ctr": "0%",
+      "position": 57.63
+    },
+    {
+      "query": "skin autoimmune diseases",
+      "clicks": 0,
+      "impressions": 243,
+      "ctr": "0%",
+      "position": 84.04
+    },
+    {
+      "query": "holistic doctor for crohn's disease",
+      "clicks": 0,
+      "impressions": 241,
+      "ctr": "0%",
+      "position": 81.95
+    },
+    {
+      "query": "ana positive conditions",
+      "clicks": 0,
+      "impressions": 240,
+      "ctr": "0%",
+      "position": 84.41
+    },
+    {
+      "query": "lupus",
+      "clicks": 0,
+      "impressions": 235,
+      "ctr": "0%",
+      "position": 83.3
+    },
+    {
+      "query": "autoimmune diseases skin",
+      "clicks": 0,
+      "impressions": 231,
+      "ctr": "0%",
+      "position": 82.52
+    },
+    {
+      "query": "functional medicine and rheumatoid arthritis",
+      "clicks": 0,
+      "impressions": 230,
+      "ctr": "0%",
+      "position": 62.26
+    },
+    {
+      "query": "shockwave therapy for peyronie's disease",
+      "clicks": 0,
+      "impressions": 228,
+      "ctr": "0%",
+      "position": 68.36
+    },
+    {
+      "query": "antihistamine side effects long-term",
+      "clicks": 0,
+      "impressions": 226,
+      "ctr": "0%",
+      "position": 65.44
+    },
+    {
+      "query": "autoimmune rash",
+      "clicks": 0,
+      "impressions": 226,
+      "ctr": "0%",
+      "position": 96.47
+    },
+    {
+      "query": "holistic autoimmune doctor near me",
+      "clicks": 0,
+      "impressions": 224,
+      "ctr": "0%",
+      "position": 65.92
+    },
+    {
+      "query": "signs of leaky gut",
+      "clicks": 0,
+      "impressions": 224,
+      "ctr": "0%",
+      "position": 78.75
+    },
+    {
+      "query": "hashimoto autoimmune disease",
+      "clicks": 0,
+      "impressions": 224,
+      "ctr": "0%",
+      "position": 86.11
+    },
+    {
+      "query": "seropositive rheumatoid arthritis",
+      "clicks": 0,
+      "impressions": 222,
+      "ctr": "0%",
+      "position": 73.3
+    },
+    {
+      "query": "hashimotos autoimmune disease",
+      "clicks": 0,
+      "impressions": 222,
+      "ctr": "0%",
+      "position": 89.77
+    },
+    {
+      "query": "pediatric autoimmune diseases",
+      "clicks": 0,
+      "impressions": 219,
+      "ctr": "0%",
+      "position": 66.47
+    },
+    {
+      "query": "vitamin b12 for pcos",
+      "clicks": 0,
+      "impressions": 216,
+      "ctr": "0%",
+      "position": 55.18
+    },
+    {
+      "query": "nac benefits",
+      "clicks": 0,
+      "impressions": 215,
+      "ctr": "0%",
+      "position": 81.76
+    },
+    {
+      "query": "autoimmune functional medicine",
+      "clicks": 0,
+      "impressions": 213,
+      "ctr": "0%",
+      "position": 45.08
+    },
+    {
+      "query": "does hashimoto's cause vitamin d deficiency",
+      "clicks": 0,
+      "impressions": 213,
+      "ctr": "0%",
+      "position": 50.45
+    },
+    {
+      "query": "can stem cells regrow cartilage",
+      "clicks": 0,
+      "impressions": 213,
+      "ctr": "0%",
+      "position": 67.12
+    },
+    {
+      "query": "is ibs an autoimmune disease",
+      "clicks": 0,
+      "impressions": 210,
+      "ctr": "0%",
+      "position": 43.31
+    },
+    {
+      "query": "vitamin b12 and pcos",
+      "clicks": 0,
+      "impressions": 210,
+      "ctr": "0%",
+      "position": 53.33
+    },
+    {
+      "query": "what does a high ferritin level mean",
+      "clicks": 0,
+      "impressions": 208,
+      "ctr": "0%",
+      "position": 50.97
+    },
+    {
+      "query": "leaky gut syndrome symptoms",
+      "clicks": 0,
+      "impressions": 208,
+      "ctr": "0%",
+      "position": 90.9
+    },
+    {
+      "query": "autoimmune skin disorders",
+      "clicks": 0,
+      "impressions": 207,
+      "ctr": "0%",
+      "position": 90.96
+    },
+    {
+      "query": "skin autoimmune disease",
+      "clicks": 0,
+      "impressions": 206,
+      "ctr": "0%",
+      "position": 86.87
+    },
+    {
+      "query": "methylation vitamin b",
+      "clicks": 0,
+      "impressions": 204,
+      "ctr": "0%",
+      "position": 40.15
+    },
+    {
+      "query": "long term use benadryl",
+      "clicks": 0,
+      "impressions": 203,
+      "ctr": "0%",
+      "position": 56.03
+    },
+    {
+      "query": "pcos vitamin b",
+      "clicks": 0,
+      "impressions": 202,
+      "ctr": "0%",
+      "position": 43.28
+    },
+    {
+      "query": "hypothyroidism and gluten",
+      "clicks": 0,
+      "impressions": 201,
+      "ctr": "0%",
+      "position": 65.45
+    },
+    {
+      "query": "acetylcysteine uses",
+      "clicks": 0,
+      "impressions": 201,
+      "ctr": "0%",
+      "position": 72.65
+    },
+    {
+      "query": "ana positive means",
+      "clicks": 0,
+      "impressions": 201,
+      "ctr": "0%",
+      "position": 75.13
+    },
+    {
+      "query": "hashimoto s disease",
+      "clicks": 0,
+      "impressions": 201,
+      "ctr": "0%",
+      "position": 91.07
+    },
+    {
+      "query": "methylated b complex benefits",
+      "clicks": 0,
+      "impressions": 200,
+      "ctr": "0%",
+      "position": 52.86
+    },
+    {
+      "query": "what is n acetylcysteine",
+      "clicks": 0,
+      "impressions": 200,
+      "ctr": "0%",
+      "position": 61.44
+    },
+    {
+      "query": "neurofeedback training",
+      "clicks": 0,
+      "impressions": 200,
+      "ctr": "0%",
+      "position": 84.95
+    },
+    {
+      "query": "autologous",
+      "clicks": 0,
+      "impressions": 200,
+      "ctr": "0%",
+      "position": 91.05
+    },
+    {
+      "query": "signs of iron deficiency in women",
+      "clicks": 0,
+      "impressions": 198,
+      "ctr": "0%",
+      "position": 74.41
+    },
+    {
+      "query": "auto immune doctor near me",
+      "clicks": 0,
+      "impressions": 196,
+      "ctr": "0%",
+      "position": 45.54
+    },
+    {
+      "query": "hashimoto's autoimmune disease",
+      "clicks": 0,
+      "impressions": 196,
+      "ctr": "0%",
+      "position": 85.54
+    },
+    {
+      "query": "benefit of methylated vitamins",
+      "clicks": 0,
+      "impressions": 195,
+      "ctr": "0%",
+      "position": 41.07
+    },
+    {
+      "query": "vitamin b12 pcos",
+      "clicks": 0,
+      "impressions": 195,
+      "ctr": "0%",
+      "position": 52.91
+    },
+    {
+      "query": "benadryl long term side effects",
+      "clicks": 0,
+      "impressions": 195,
+      "ctr": "0%",
+      "position": 61.59
+    },
+    {
+      "query": "autoimmune disease rash",
+      "clicks": 0,
+      "impressions": 194,
+      "ctr": "0%",
+      "position": 95.2
+    },
+    {
+      "query": "vitamin d3 immune system",
+      "clicks": 0,
+      "impressions": 192,
+      "ctr": "0%",
+      "position": 52.34
+    },
+    {
+      "query": "what is hashimotos disease",
+      "clicks": 0,
+      "impressions": 192,
+      "ctr": "0%",
+      "position": 84.3
+    },
+    {
+      "query": "nac medicine",
+      "clicks": 0,
+      "impressions": 191,
+      "ctr": "0%",
+      "position": 64.71
+    },
+    {
+      "query": "what diseases can cause a positive ana",
+      "clicks": 0,
+      "impressions": 190,
+      "ctr": "0%",
+      "position": 86.66
+    },
+    {
+      "query": "lupus meaning",
+      "clicks": 0,
+      "impressions": 190,
+      "ctr": "0%",
+      "position": 91.86
+    },
+    {
+      "query": "n acetylcysteine uses",
+      "clicks": 0,
+      "impressions": 189,
+      "ctr": "0%",
+      "position": 70.96
+    },
+    {
+      "query": "functional medicine approach to rheumatoid arthritis",
+      "clicks": 0,
+      "impressions": 188,
+      "ctr": "0%",
+      "position": 53.54
+    },
+    {
+      "query": "pcos vitamin b12",
+      "clicks": 0,
+      "impressions": 188,
+      "ctr": "0%",
+      "position": 55.65
+    },
+    {
+      "query": "autoimmune near me",
+      "clicks": 0,
+      "impressions": 187,
+      "ctr": "0%",
+      "position": 67.17
+    },
+    {
+      "query": "vitamin b complex and pcos",
+      "clicks": 0,
+      "impressions": 186,
+      "ctr": "0%",
+      "position": 47.93
+    },
+    {
+      "query": "pots autoimmune",
+      "clicks": 0,
+      "impressions": 186,
+      "ctr": "0%",
+      "position": 54.74
+    },
+    {
+      "query": "anemia symptoms women",
+      "clicks": 0,
+      "impressions": 185,
+      "ctr": "0%",
+      "position": 68.52
+    },
+    {
+      "query": "vitamins for hashimoto's disease",
+      "clicks": 0,
+      "impressions": 185,
+      "ctr": "0%",
+      "position": 72.23
+    },
+    {
+      "query": "women iron deficiency symptoms",
+      "clicks": 0,
+      "impressions": 185,
+      "ctr": "0%",
+      "position": 75.15
+    },
+    {
+      "query": "what is lupus disease",
+      "clicks": 0,
+      "impressions": 185,
+      "ctr": "0%",
+      "position": 81.63
+    },
+    {
+      "query": "benadryl long term",
+      "clicks": 0,
+      "impressions": 184,
+      "ctr": "0%",
+      "position": 52.38
+    },
+    {
+      "query": "cupping for anxiety",
+      "clicks": 0,
+      "impressions": 182,
+      "ctr": "0%",
+      "position": 68.29
+    },
+    {
+      "query": "benadryl long term effects",
+      "clicks": 0,
+      "impressions": 181,
+      "ctr": "0%",
+      "position": 53.95
+    },
+    {
+      "query": "hashimoto's and vitamin d deficiency",
+      "clicks": 0,
+      "impressions": 180,
+      "ctr": "0%",
+      "position": 49.52
+    },
+    {
+      "query": "functional neurologist",
+      "clicks": 0,
+      "impressions": 180,
+      "ctr": "0%",
+      "position": 97.9
+    }
+  ],
+  "clusters": {
+    "hashimotos": {
+      "totalQueries": 47,
+      "totalImpressions": 9642,
+      "topQueries": [
+        {
+          "query": "hashimoto's disease",
+          "clicks": 0,
+          "impressions": 1594,
+          "ctr": "0%",
+          "position": 91.06
+        },
+        {
+          "query": "hashimoto disease",
+          "clicks": 0,
+          "impressions": 920,
+          "ctr": "0%",
+          "position": 93.22
+        },
+        {
+          "query": "hashimoto",
+          "clicks": 0,
+          "impressions": 814,
+          "ctr": "0%",
+          "position": 85.67
+        },
+        {
+          "query": "hashimotos disease",
+          "clicks": 0,
+          "impressions": 660,
+          "ctr": "0%",
+          "position": 94.39
+        },
+        {
+          "query": "hashimoto autoimmune",
+          "clicks": 0,
+          "impressions": 488,
+          "ctr": "0%",
+          "position": 88.24
+        },
+        {
+          "query": "hashimotos",
+          "clicks": 0,
+          "impressions": 463,
+          "ctr": "0%",
+          "position": 94.4
+        },
+        {
+          "query": "what is hashimoto's disease",
+          "clicks": 0,
+          "impressions": 438,
+          "ctr": "0%",
+          "position": 85.58
+        },
+        {
+          "query": "hashimoto's",
+          "clicks": 0,
+          "impressions": 313,
+          "ctr": "0%",
+          "position": 94.05
+        },
+        {
+          "query": "hashimoto autoimmune disease",
+          "clicks": 0,
+          "impressions": 224,
+          "ctr": "0%",
+          "position": 86.11
+        },
+        {
+          "query": "hashimotos autoimmune disease",
+          "clicks": 0,
+          "impressions": 222,
+          "ctr": "0%",
+          "position": 89.77
+        },
+        {
+          "query": "does hashimoto's cause vitamin d deficiency",
+          "clicks": 0,
+          "impressions": 213,
+          "ctr": "0%",
+          "position": 50.45
+        },
+        {
+          "query": "hashimoto s disease",
+          "clicks": 0,
+          "impressions": 201,
+          "ctr": "0%",
+          "position": 91.07
+        },
+        {
+          "query": "hashimoto's autoimmune disease",
+          "clicks": 0,
+          "impressions": 196,
+          "ctr": "0%",
+          "position": 85.54
+        },
+        {
+          "query": "what is hashimotos disease",
+          "clicks": 0,
+          "impressions": 192,
+          "ctr": "0%",
+          "position": 84.3
+        },
+        {
+          "query": "vitamins for hashimoto's disease",
+          "clicks": 0,
+          "impressions": 185,
+          "ctr": "0%",
+          "position": 72.23
+        },
+        {
+          "query": "hashimoto's and vitamin d deficiency",
+          "clicks": 0,
+          "impressions": 180,
+          "ctr": "0%",
+          "position": 49.52
+        },
+        {
+          "query": "hashimoto thyroid disease",
+          "clicks": 0,
+          "impressions": 159,
+          "ctr": "0%",
+          "position": 89.27
+        },
+        {
+          "query": "hashimoto's disease and vitamin d deficiency",
+          "clicks": 0,
+          "impressions": 127,
+          "ctr": "0%",
+          "position": 46.42
+        },
+        {
+          "query": "what is hashimoto's",
+          "clicks": 0,
+          "impressions": 123,
+          "ctr": "0%",
+          "position": 82.01
+        },
+        {
+          "query": "autoimmune disease hashimoto",
+          "clicks": 0,
+          "impressions": 105,
+          "ctr": "0%",
+          "position": 82.31
+        },
+        {
+          "query": "hashimotos' disease",
+          "clicks": 0,
+          "impressions": 105,
+          "ctr": "0%",
+          "position": 93.5
+        },
+        {
+          "query": "does hashimoto's make your immune system weaker",
+          "clicks": 0,
+          "impressions": 103,
+          "ctr": "0%",
+          "position": 37.55
+        },
+        {
+          "query": "what are hashimoto",
+          "clicks": 0,
+          "impressions": 103,
+          "ctr": "0%",
+          "position": 78.25
+        },
+        {
+          "query": "what is the cause of hashimoto's disease",
+          "clicks": 0,
+          "impressions": 103,
+          "ctr": "0%",
+          "position": 94.38
+        },
+        {
+          "query": "what is hashimoto disease",
+          "clicks": 0,
+          "impressions": 102,
+          "ctr": "0%",
+          "position": 90.79
+        }
+      ]
+    },
+    "graves": {
+      "totalQueries": 0,
+      "totalImpressions": 0,
+      "topQueries": []
+    },
+    "lupus": {
+      "totalQueries": 35,
+      "totalImpressions": 6051,
+      "topQueries": [
+        {
+          "query": "what is lupus",
+          "clicks": 0,
+          "impressions": 1383,
+          "ctr": "0%",
+          "position": 76.42
+        },
+        {
+          "query": "what causes lupus",
+          "clicks": 0,
+          "impressions": 653,
+          "ctr": "0%",
+          "position": 89.48
+        },
+        {
+          "query": "lupus causes",
+          "clicks": 0,
+          "impressions": 400,
+          "ctr": "0%",
+          "position": 87.71
+        },
+        {
+          "query": "how do you get lupus",
+          "clicks": 0,
+          "impressions": 346,
+          "ctr": "0%",
+          "position": 84.88
+        },
+        {
+          "query": "lupus",
+          "clicks": 0,
+          "impressions": 235,
+          "ctr": "0%",
+          "position": 83.3
+        },
+        {
+          "query": "dhea for lupus",
+          "clicks": 5,
+          "impressions": 200,
+          "ctr": "2.5%",
+          "position": 7.09
+        },
+        {
+          "query": "dhea and lupus",
+          "clicks": 3,
+          "impressions": 200,
+          "ctr": "1.5%",
+          "position": 11.03
+        },
+        {
+          "query": "lupus ana pattern",
+          "clicks": 2,
+          "impressions": 194,
+          "ctr": "1.03%",
+          "position": 14.51
+        },
+        {
+          "query": "lupus meaning",
+          "clicks": 0,
+          "impressions": 190,
+          "ctr": "0%",
+          "position": 91.86
+        },
+        {
+          "query": "what is lupus disease",
+          "clicks": 0,
+          "impressions": 185,
+          "ctr": "0%",
+          "position": 81.63
+        },
+        {
+          "query": "whats lupus",
+          "clicks": 0,
+          "impressions": 144,
+          "ctr": "0%",
+          "position": 74.76
+        },
+        {
+          "query": "lupus what is it",
+          "clicks": 0,
+          "impressions": 143,
+          "ctr": "0%",
+          "position": 75.3
+        },
+        {
+          "query": "what does lupus do",
+          "clicks": 0,
+          "impressions": 138,
+          "ctr": "0%",
+          "position": 77.48
+        },
+        {
+          "query": "define lupus",
+          "clicks": 0,
+          "impressions": 129,
+          "ctr": "0%",
+          "position": 78.24
+        },
+        {
+          "query": "what does lupus do to the body",
+          "clicks": 0,
+          "impressions": 129,
+          "ctr": "0%",
+          "position": 83.12
+        },
+        {
+          "query": "lupus specialist boulder co",
+          "clicks": 0,
+          "impressions": 118,
+          "ctr": "0%",
+          "position": 37.11
+        },
+        {
+          "query": "lupus disease",
+          "clicks": 0,
+          "impressions": 118,
+          "ctr": "0%",
+          "position": 88.03
+        },
+        {
+          "query": "what's lupus",
+          "clicks": 0,
+          "impressions": 117,
+          "ctr": "0%",
+          "position": 76.09
+        },
+        {
+          "query": "cause of lupus",
+          "clicks": 0,
+          "impressions": 105,
+          "ctr": "0%",
+          "position": 90.86
+        },
+        {
+          "query": "what is lupus disease and symptoms",
+          "clicks": 0,
+          "impressions": 104,
+          "ctr": "0%",
+          "position": 84.35
+        },
+        {
+          "query": "dhea lupus",
+          "clicks": 3,
+          "impressions": 100,
+          "ctr": "3%",
+          "position": 13.14
+        },
+        {
+          "query": "lupus autoimmune disease",
+          "clicks": 0,
+          "impressions": 96,
+          "ctr": "0%",
+          "position": 78.77
+        },
+        {
+          "query": "causes of lupus",
+          "clicks": 0,
+          "impressions": 88,
+          "ctr": "0%",
+          "position": 85.69
+        },
+        {
+          "query": "what ana pattern is associated with lupus",
+          "clicks": 0,
+          "impressions": 78,
+          "ctr": "0%",
+          "position": 12.86
+        },
+        {
+          "query": "lupus info",
+          "clicks": 0,
+          "impressions": 64,
+          "ctr": "0%",
+          "position": 87.84
+        }
+      ]
+    },
+    "sjogrens": {
+      "totalQueries": 7,
+      "totalImpressions": 2322,
+      "topQueries": [
+        {
+          "query": "sjögren's syndrome symptoms",
+          "clicks": 0,
+          "impressions": 980,
+          "ctr": "0%",
+          "position": 5.1
+        },
+        {
+          "query": "sjogrens symptoms",
+          "clicks": 0,
+          "impressions": 651,
+          "ctr": "0%",
+          "position": 4.96
+        },
+        {
+          "query": "sjogrens",
+          "clicks": 0,
+          "impressions": 257,
+          "ctr": "0%",
+          "position": 87.4
+        },
+        {
+          "query": "showgrens",
+          "clicks": 0,
+          "impressions": 247,
+          "ctr": "0%",
+          "position": 10.76
+        },
+        {
+          "query": "sjogren's symptoms",
+          "clicks": 0,
+          "impressions": 94,
+          "ctr": "0%",
+          "position": 4.71
+        },
+        {
+          "query": "symptoms of sjogren's syndrome",
+          "clicks": 0,
+          "impressions": 51,
+          "ctr": "0%",
+          "position": 4.75
+        },
+        {
+          "query": "sjogren's disease",
+          "clicks": 0,
+          "impressions": 42,
+          "ctr": "0%",
+          "position": 1.57
+        }
+      ]
+    },
+    "celiac": {
+      "totalQueries": 28,
+      "totalImpressions": 3520,
+      "topQueries": [
+        {
+          "query": "hypothyroidism gluten",
+          "clicks": 0,
+          "impressions": 434,
+          "ctr": "0%",
+          "position": 70.71
+        },
+        {
+          "query": "ana test for celiac disease",
+          "clicks": 0,
+          "impressions": 400,
+          "ctr": "0%",
+          "position": 24.61
+        },
+        {
+          "query": "can gluten free diet help hypothyroidism",
+          "clicks": 0,
+          "impressions": 294,
+          "ctr": "0%",
+          "position": 54.03
+        },
+        {
+          "query": "gluten and thyroid",
+          "clicks": 0,
+          "impressions": 255,
+          "ctr": "0%",
+          "position": 83.5
+        },
+        {
+          "query": "gluten and hypothyroidism",
+          "clicks": 0,
+          "impressions": 245,
+          "ctr": "0%",
+          "position": 66.14
+        },
+        {
+          "query": "hypothyroidism and gluten",
+          "clicks": 0,
+          "impressions": 201,
+          "ctr": "0%",
+          "position": 65.45
+        },
+        {
+          "query": "hypothyroidism and gluten free diet",
+          "clicks": 0,
+          "impressions": 174,
+          "ctr": "0%",
+          "position": 67.37
+        },
+        {
+          "query": "thyroid and gluten free diet",
+          "clicks": 0,
+          "impressions": 158,
+          "ctr": "0%",
+          "position": 67.52
+        },
+        {
+          "query": "gluten free diet for thyroid",
+          "clicks": 0,
+          "impressions": 144,
+          "ctr": "0%",
+          "position": 75.04
+        },
+        {
+          "query": "gluten free diet for underactive thyroid",
+          "clicks": 0,
+          "impressions": 139,
+          "ctr": "0%",
+          "position": 60.8
+        },
+        {
+          "query": "gluten and underactive thyroid",
+          "clicks": 0,
+          "impressions": 132,
+          "ctr": "0%",
+          "position": 76.43
+        },
+        {
+          "query": "low thyroid and gluten",
+          "clicks": 0,
+          "impressions": 120,
+          "ctr": "0%",
+          "position": 69.66
+        },
+        {
+          "query": "underactive thyroid and gluten free diet",
+          "clicks": 0,
+          "impressions": 103,
+          "ctr": "0%",
+          "position": 71.77
+        },
+        {
+          "query": "gluten free thyroid",
+          "clicks": 0,
+          "impressions": 62,
+          "ctr": "0%",
+          "position": 68.77
+        },
+        {
+          "query": "can going gluten free help thyroid",
+          "clicks": 0,
+          "impressions": 62,
+          "ctr": "0%",
+          "position": 71.79
+        },
+        {
+          "query": "hypothyroidism celiac",
+          "clicks": 0,
+          "impressions": 61,
+          "ctr": "0%",
+          "position": 63.92
+        },
+        {
+          "query": "gluten free and hashimoto's",
+          "clicks": 0,
+          "impressions": 61,
+          "ctr": "0%",
+          "position": 80.39
+        },
+        {
+          "query": "gluten free diet for hypothyroidism",
+          "clicks": 0,
+          "impressions": 60,
+          "ctr": "0%",
+          "position": 59.15
+        },
+        {
+          "query": "can going gluten free affect your thyroid",
+          "clicks": 0,
+          "impressions": 55,
+          "ctr": "0%",
+          "position": 70.85
+        },
+        {
+          "query": "thyroid and gluten",
+          "clicks": 0,
+          "impressions": 51,
+          "ctr": "0%",
+          "position": 73.69
+        },
+        {
+          "query": "gluten free for thyroid",
+          "clicks": 0,
+          "impressions": 50,
+          "ctr": "0%",
+          "position": 64.56
+        },
+        {
+          "query": "can gluten free diet cause hypothyroidism",
+          "clicks": 0,
+          "impressions": 50,
+          "ctr": "0%",
+          "position": 69.98
+        },
+        {
+          "query": "hypothyroidism and celiac",
+          "clicks": 0,
+          "impressions": 49,
+          "ctr": "0%",
+          "position": 73.69
+        },
+        {
+          "query": "gluten-free fad",
+          "clicks": 0,
+          "impressions": 48,
+          "ctr": "0%",
+          "position": 57.56
+        },
+        {
+          "query": "gluten free and hypothyroidism",
+          "clicks": 0,
+          "impressions": 48,
+          "ctr": "0%",
+          "position": 63.58
+        }
+      ]
+    },
+    "multiple-sclerosis": {
+      "totalQueries": 5,
+      "totalImpressions": 412,
+      "topQueries": [
+        {
+          "query": "ana titer 1:320 multiple sclerosis",
+          "clicks": 0,
+          "impressions": 128,
+          "ctr": "0%",
+          "position": 53.35
+        },
+        {
+          "query": "black seed oil multiple sclerosis",
+          "clicks": 3,
+          "impressions": 91,
+          "ctr": "3.3%",
+          "position": 7.71
+        },
+        {
+          "query": "ms olive oil",
+          "clicks": 0,
+          "impressions": 90,
+          "ctr": "0%",
+          "position": 8.33
+        },
+        {
+          "query": "multiple sclerosis specialist boulder co",
+          "clicks": 0,
+          "impressions": 59,
+          "ctr": "0%",
+          "position": 10.25
+        },
+        {
+          "query": "is ms an autoimmune disease",
+          "clicks": 0,
+          "impressions": 44,
+          "ctr": "0%",
+          "position": 91.95
+        }
+      ]
+    },
+    "rheumatoid-arthritis": {
+      "totalQueries": 13,
+      "totalImpressions": 1908,
+      "topQueries": [
+        {
+          "query": "rheumatoid arthritis functional medicine",
+          "clicks": 0,
+          "impressions": 353,
+          "ctr": "0%",
+          "position": 61.99
+        },
+        {
+          "query": "functional medicine and rheumatoid arthritis",
+          "clicks": 0,
+          "impressions": 230,
+          "ctr": "0%",
+          "position": 62.26
+        },
+        {
+          "query": "seropositive rheumatoid arthritis",
+          "clicks": 0,
+          "impressions": 222,
+          "ctr": "0%",
+          "position": 73.3
+        },
+        {
+          "query": "is black seed oil good for rheumatoid arthritis",
+          "clicks": 0,
+          "impressions": 191,
+          "ctr": "0%",
+          "position": 18.01
+        },
+        {
+          "query": "rheumatoid arthritis functional medicine boulder",
+          "clicks": 0,
+          "impressions": 188,
+          "ctr": "0%",
+          "position": 2.37
+        },
+        {
+          "query": "functional medicine approach to rheumatoid arthritis",
+          "clicks": 0,
+          "impressions": 188,
+          "ctr": "0%",
+          "position": 53.54
+        },
+        {
+          "query": "functional medicine rheumatoid arthritis",
+          "clicks": 0,
+          "impressions": 177,
+          "ctr": "0%",
+          "position": 61.81
+        },
+        {
+          "query": "functional medicine for rheumatoid arthritis",
+          "clicks": 0,
+          "impressions": 166,
+          "ctr": "0%",
+          "position": 62.67
+        },
+        {
+          "query": "seropositive",
+          "clicks": 0,
+          "impressions": 62,
+          "ctr": "0%",
+          "position": 49.56
+        },
+        {
+          "query": "seropositive vs seronegative",
+          "clicks": 0,
+          "impressions": 42,
+          "ctr": "0%",
+          "position": 32.29
+        },
+        {
+          "query": "seropositive arthritis",
+          "clicks": 0,
+          "impressions": 41,
+          "ctr": "0%",
+          "position": 54.78
+        },
+        {
+          "query": "seronegative arthritis types",
+          "clicks": 0,
+          "impressions": 41,
+          "ctr": "0%",
+          "position": 76.78
+        },
+        {
+          "query": "black seed oil for rheumatoid arthritis",
+          "clicks": 1,
+          "impressions": 7,
+          "ctr": "14.29%",
+          "position": 21.29
+        }
+      ]
+    },
+    "raynauds": {
+      "totalQueries": 7,
+      "totalImpressions": 1121,
+      "topQueries": [
+        {
+          "query": "raynaud's syndrome autoimmune",
+          "clicks": 0,
+          "impressions": 428,
+          "ctr": "0%",
+          "position": 64.51
+        },
+        {
+          "query": "is raynaud's syndrome an autoimmune disease",
+          "clicks": 0,
+          "impressions": 300,
+          "ctr": "0%",
+          "position": 67.92
+        },
+        {
+          "query": "is raynaud's an autoimmune disease",
+          "clicks": 0,
+          "impressions": 112,
+          "ctr": "0%",
+          "position": 66.82
+        },
+        {
+          "query": "raynaud's face",
+          "clicks": 0,
+          "impressions": 87,
+          "ctr": "0%",
+          "position": 28.84
+        },
+        {
+          "query": "raynaud syndrome hypothyroidism",
+          "clicks": 0,
+          "impressions": 83,
+          "ctr": "0%",
+          "position": 47.29
+        },
+        {
+          "query": "is raynaud's autoimmune",
+          "clicks": 0,
+          "impressions": 62,
+          "ctr": "0%",
+          "position": 54.11
+        },
+        {
+          "query": "raynaud's autoimmune",
+          "clicks": 0,
+          "impressions": 49,
+          "ctr": "0%",
+          "position": 50.16
+        }
+      ]
+    },
+    "pots": {
+      "totalQueries": 6,
+      "totalImpressions": 781,
+      "topQueries": [
+        {
+          "query": "is pots an autoimmune disease",
+          "clicks": 0,
+          "impressions": 251,
+          "ctr": "0%",
+          "position": 45.95
+        },
+        {
+          "query": "pots autoimmune",
+          "clicks": 0,
+          "impressions": 186,
+          "ctr": "0%",
+          "position": 54.74
+        },
+        {
+          "query": "pots autoimmune disease",
+          "clicks": 0,
+          "impressions": 154,
+          "ctr": "0%",
+          "position": 55.33
+        },
+        {
+          "query": "pots brain fog",
+          "clicks": 0,
+          "impressions": 81,
+          "ctr": "0%",
+          "position": 40.09
+        },
+        {
+          "query": "brain fog and pots",
+          "clicks": 0,
+          "impressions": 65,
+          "ctr": "0%",
+          "position": 38.43
+        },
+        {
+          "query": "pots syndrome autoimmune",
+          "clicks": 0,
+          "impressions": 44,
+          "ctr": "0%",
+          "position": 47
+        }
+      ]
+    },
+    "ibd": {
+      "totalQueries": 14,
+      "totalImpressions": 1252,
+      "topQueries": [
+        {
+          "query": "holistic doctor for crohn's disease",
+          "clicks": 0,
+          "impressions": 241,
+          "ctr": "0%",
+          "position": 81.95
+        },
+        {
+          "query": "is ibs an autoimmune disease",
+          "clicks": 0,
+          "impressions": 210,
+          "ctr": "0%",
+          "position": 43.31
+        },
+        {
+          "query": "functional medicine approach to crohn's disease",
+          "clicks": 0,
+          "impressions": 124,
+          "ctr": "0%",
+          "position": 34.9
+        },
+        {
+          "query": "is ibs autoimmune",
+          "clicks": 0,
+          "impressions": 119,
+          "ctr": "0%",
+          "position": 41.26
+        },
+        {
+          "query": "functional approach crohn s",
+          "clicks": 0,
+          "impressions": 114,
+          "ctr": "0%",
+          "position": 26.39
+        },
+        {
+          "query": "is irritable bowel syndrome an autoimmune disease",
+          "clicks": 0,
+          "impressions": 105,
+          "ctr": "0%",
+          "position": 36.16
+        },
+        {
+          "query": "ibs autoimmune",
+          "clicks": 0,
+          "impressions": 74,
+          "ctr": "0%",
+          "position": 47.27
+        },
+        {
+          "query": "irritable bowel syndrome without diarrhea",
+          "clicks": 0,
+          "impressions": 60,
+          "ctr": "0%",
+          "position": 94.95
+        },
+        {
+          "query": "holistic approach to crohn's disease",
+          "clicks": 0,
+          "impressions": 50,
+          "ctr": "0%",
+          "position": 78.88
+        },
+        {
+          "query": "is ibs an auto immune disease",
+          "clicks": 0,
+          "impressions": 49,
+          "ctr": "0%",
+          "position": 41.14
+        },
+        {
+          "query": "ibs autoimmune disease",
+          "clicks": 0,
+          "impressions": 48,
+          "ctr": "0%",
+          "position": 53.19
+        },
+        {
+          "query": "is irritable bowel disease an autoimmune disease",
+          "clicks": 0,
+          "impressions": 47,
+          "ctr": "0%",
+          "position": 48.6
+        },
+        {
+          "query": "zinc carnosine for ibs",
+          "clicks": 1,
+          "impressions": 10,
+          "ctr": "10%",
+          "position": 18.7
+        },
+        {
+          "query": "ibd functional medicine",
+          "clicks": 1,
+          "impressions": 1,
+          "ctr": "100%",
+          "position": 21
+        }
+      ]
+    },
+    "thyroid": {
+      "totalQueries": 46,
+      "totalImpressions": 6089,
+      "topQueries": [
+        {
+          "query": "can birth control affect your thyroid",
+          "clicks": 0,
+          "impressions": 471,
+          "ctr": "0%",
+          "position": 42.85
+        },
+        {
+          "query": "hypothyroidism gluten",
+          "clicks": 0,
+          "impressions": 434,
+          "ctr": "0%",
+          "position": 70.71
+        },
+        {
+          "query": "low thyroid symptoms",
+          "clicks": 0,
+          "impressions": 411,
+          "ctr": "0%",
+          "position": 83.97
+        },
+        {
+          "query": "birth control and hypothyroidism",
+          "clicks": 0,
+          "impressions": 357,
+          "ctr": "0%",
+          "position": 42.99
+        },
+        {
+          "query": "can gluten free diet help hypothyroidism",
+          "clicks": 0,
+          "impressions": 294,
+          "ctr": "0%",
+          "position": 54.03
+        },
+        {
+          "query": "birth control and thyroid",
+          "clicks": 0,
+          "impressions": 272,
+          "ctr": "0%",
+          "position": 46.18
+        },
+        {
+          "query": "gluten and thyroid",
+          "clicks": 0,
+          "impressions": 255,
+          "ctr": "0%",
+          "position": 83.5
+        },
+        {
+          "query": "gluten and hypothyroidism",
+          "clicks": 0,
+          "impressions": 245,
+          "ctr": "0%",
+          "position": 66.14
+        },
+        {
+          "query": "hypothyroidism and gluten",
+          "clicks": 0,
+          "impressions": 201,
+          "ctr": "0%",
+          "position": 65.45
+        },
+        {
+          "query": "hypothyroidism and birth control",
+          "clicks": 0,
+          "impressions": 176,
+          "ctr": "0%",
+          "position": 44.37
+        },
+        {
+          "query": "hypothyroidism and gluten free diet",
+          "clicks": 0,
+          "impressions": 174,
+          "ctr": "0%",
+          "position": 67.37
+        },
+        {
+          "query": "hashimoto thyroid disease",
+          "clicks": 0,
+          "impressions": 159,
+          "ctr": "0%",
+          "position": 89.27
+        },
+        {
+          "query": "thyroid and gluten free diet",
+          "clicks": 0,
+          "impressions": 158,
+          "ctr": "0%",
+          "position": 67.52
+        },
+        {
+          "query": "gluten free diet for thyroid",
+          "clicks": 0,
+          "impressions": 144,
+          "ctr": "0%",
+          "position": 75.04
+        },
+        {
+          "query": "gluten free diet for underactive thyroid",
+          "clicks": 0,
+          "impressions": 139,
+          "ctr": "0%",
+          "position": 60.8
+        },
+        {
+          "query": "gluten and underactive thyroid",
+          "clicks": 0,
+          "impressions": 132,
+          "ctr": "0%",
+          "position": 76.43
+        },
+        {
+          "query": "low thyroid and gluten",
+          "clicks": 0,
+          "impressions": 120,
+          "ctr": "0%",
+          "position": 69.66
+        },
+        {
+          "query": "thyroid detox",
+          "clicks": 0,
+          "impressions": 111,
+          "ctr": "0%",
+          "position": 37.77
+        },
+        {
+          "query": "symptoms of low thyroid",
+          "clicks": 0,
+          "impressions": 106,
+          "ctr": "0%",
+          "position": 82.82
+        },
+        {
+          "query": "lllt thyroid",
+          "clicks": 0,
+          "impressions": 103,
+          "ctr": "0%",
+          "position": 56.59
+        },
+        {
+          "query": "underactive thyroid and gluten free diet",
+          "clicks": 0,
+          "impressions": 103,
+          "ctr": "0%",
+          "position": 71.77
+        },
+        {
+          "query": "misconceptions of thyroid eye disease",
+          "clicks": 0,
+          "impressions": 100,
+          "ctr": "0%",
+          "position": 90.51
+        },
+        {
+          "query": "raynaud syndrome hypothyroidism",
+          "clicks": 0,
+          "impressions": 83,
+          "ctr": "0%",
+          "position": 47.29
+        },
+        {
+          "query": "thyroid cleanse",
+          "clicks": 0,
+          "impressions": 81,
+          "ctr": "0%",
+          "position": 41.89
+        },
+        {
+          "query": "can birth control cause hypothyroidism",
+          "clicks": 0,
+          "impressions": 77,
+          "ctr": "0%",
+          "position": 42.27
+        }
+      ]
+    },
+    "leaky-gut": {
+      "totalQueries": 33,
+      "totalImpressions": 3915,
+      "topQueries": [
+        {
+          "query": "leaky gut symptoms",
+          "clicks": 0,
+          "impressions": 432,
+          "ctr": "0%",
+          "position": 88.12
+        },
+        {
+          "query": "gut health and autoimmune disease",
+          "clicks": 0,
+          "impressions": 265,
+          "ctr": "0%",
+          "position": 59.83
+        },
+        {
+          "query": "gut health and autoimmune disorders",
+          "clicks": 0,
+          "impressions": 243,
+          "ctr": "0%",
+          "position": 57.63
+        },
+        {
+          "query": "signs of leaky gut",
+          "clicks": 0,
+          "impressions": 224,
+          "ctr": "0%",
+          "position": 78.75
+        },
+        {
+          "query": "leaky gut syndrome symptoms",
+          "clicks": 0,
+          "impressions": 208,
+          "ctr": "0%",
+          "position": 90.9
+        },
+        {
+          "query": "zinc carnosine leaky gut",
+          "clicks": 0,
+          "impressions": 182,
+          "ctr": "0%",
+          "position": 14.34
+        },
+        {
+          "query": "symptoms of leaky gut",
+          "clicks": 0,
+          "impressions": 178,
+          "ctr": "0%",
+          "position": 79.21
+        },
+        {
+          "query": "autoimmune disease and gut health",
+          "clicks": 0,
+          "impressions": 160,
+          "ctr": "0%",
+          "position": 63.53
+        },
+        {
+          "query": "chicken or beef bone broth for gut health",
+          "clicks": 0,
+          "impressions": 153,
+          "ctr": "0%",
+          "position": 69.7
+        },
+        {
+          "query": "gut health autoimmune",
+          "clicks": 0,
+          "impressions": 147,
+          "ctr": "0%",
+          "position": 58.58
+        },
+        {
+          "query": "what causes leaky gut",
+          "clicks": 0,
+          "impressions": 132,
+          "ctr": "0%",
+          "position": 89.2
+        },
+        {
+          "query": "beef bone broth gut health",
+          "clicks": 0,
+          "impressions": 112,
+          "ctr": "0%",
+          "position": 81.25
+        },
+        {
+          "query": "is chicken or beef bone broth better for gut health",
+          "clicks": 0,
+          "impressions": 110,
+          "ctr": "0%",
+          "position": 60.13
+        },
+        {
+          "query": "beef bone broth for gut health",
+          "clicks": 0,
+          "impressions": 104,
+          "ctr": "0%",
+          "position": 73.93
+        },
+        {
+          "query": "gut health and autoimmune diseases",
+          "clicks": 0,
+          "impressions": 101,
+          "ctr": "0%",
+          "position": 63.86
+        },
+        {
+          "query": "autoimmune and gut health",
+          "clicks": 0,
+          "impressions": 93,
+          "ctr": "0%",
+          "position": 60.29
+        },
+        {
+          "query": "gut health autoimmune disease",
+          "clicks": 0,
+          "impressions": 93,
+          "ctr": "0%",
+          "position": 61.11
+        },
+        {
+          "query": "what are the symptoms of leaky gut",
+          "clicks": 0,
+          "impressions": 93,
+          "ctr": "0%",
+          "position": 93.22
+        },
+        {
+          "query": "gut health and autoimmune",
+          "clicks": 0,
+          "impressions": 90,
+          "ctr": "0%",
+          "position": 60
+        },
+        {
+          "query": "symptoms of leaky gut syndrome",
+          "clicks": 0,
+          "impressions": 90,
+          "ctr": "0%",
+          "position": 89.17
+        },
+        {
+          "query": "zinc carnosine for leaky gut",
+          "clicks": 0,
+          "impressions": 83,
+          "ctr": "0%",
+          "position": 5.24
+        },
+        {
+          "query": "leaky gut specialist boulder",
+          "clicks": 0,
+          "impressions": 81,
+          "ctr": "0%",
+          "position": 13.74
+        },
+        {
+          "query": "autoimmune gut health",
+          "clicks": 0,
+          "impressions": 80,
+          "ctr": "0%",
+          "position": 56.25
+        },
+        {
+          "query": "gut health and autoimmune response",
+          "clicks": 0,
+          "impressions": 75,
+          "ctr": "0%",
+          "position": 80.49
+        },
+        {
+          "query": "autoimmune disease gut health",
+          "clicks": 0,
+          "impressions": 72,
+          "ctr": "0%",
+          "position": 65.79
+        }
+      ]
+    },
+    "ana-patterns": {
+      "totalQueries": 54,
+      "totalImpressions": 8983,
+      "topQueries": [
+        {
+          "query": "positive ana test",
+          "clicks": 0,
+          "impressions": 859,
+          "ctr": "0%",
+          "position": 73.51
+        },
+        {
+          "query": "ana positive",
+          "clicks": 0,
+          "impressions": 758,
+          "ctr": "0%",
+          "position": 77.06
+        },
+        {
+          "query": "ana test positive",
+          "clicks": 0,
+          "impressions": 648,
+          "ctr": "0%",
+          "position": 74.07
+        },
+        {
+          "query": "ana test positive symptoms",
+          "clicks": 0,
+          "impressions": 628,
+          "ctr": "0%",
+          "position": 76.98
+        },
+        {
+          "query": "positive ana",
+          "clicks": 0,
+          "impressions": 541,
+          "ctr": "0%",
+          "position": 73.64
+        },
+        {
+          "query": "what does a positive ana mean",
+          "clicks": 0,
+          "impressions": 520,
+          "ctr": "0%",
+          "position": 69.62
+        },
+        {
+          "query": "ana positive test",
+          "clicks": 0,
+          "impressions": 482,
+          "ctr": "0%",
+          "position": 73.12
+        },
+        {
+          "query": "ana test for celiac disease",
+          "clicks": 0,
+          "impressions": 400,
+          "ctr": "0%",
+          "position": 24.61
+        },
+        {
+          "query": "ana positive meaning",
+          "clicks": 0,
+          "impressions": 318,
+          "ctr": "0%",
+          "position": 71.69
+        },
+        {
+          "query": "positive ana meaning",
+          "clicks": 0,
+          "impressions": 244,
+          "ctr": "0%",
+          "position": 71.61
+        },
+        {
+          "query": "ana positive conditions",
+          "clicks": 0,
+          "impressions": 240,
+          "ctr": "0%",
+          "position": 84.41
+        },
+        {
+          "query": "ana positive means",
+          "clicks": 0,
+          "impressions": 201,
+          "ctr": "0%",
+          "position": 75.13
+        },
+        {
+          "query": "lupus ana pattern",
+          "clicks": 2,
+          "impressions": 194,
+          "ctr": "1.03%",
+          "position": 14.51
+        },
+        {
+          "query": "what diseases can cause a positive ana",
+          "clicks": 0,
+          "impressions": 190,
+          "ctr": "0%",
+          "position": 86.66
+        },
+        {
+          "query": "ana titer 1:320 multiple sclerosis",
+          "clicks": 0,
+          "impressions": 128,
+          "ctr": "0%",
+          "position": 53.35
+        },
+        {
+          "query": "ana blood test positive",
+          "clicks": 0,
+          "impressions": 120,
+          "ctr": "0%",
+          "position": 87.09
+        },
+        {
+          "query": "positive ana test meaning",
+          "clicks": 0,
+          "impressions": 112,
+          "ctr": "0%",
+          "position": 77.12
+        },
+        {
+          "query": "positive ana means",
+          "clicks": 0,
+          "impressions": 108,
+          "ctr": "0%",
+          "position": 67.29
+        },
+        {
+          "query": "ana positive indicates",
+          "clicks": 0,
+          "impressions": 106,
+          "ctr": "0%",
+          "position": 71.22
+        },
+        {
+          "query": "positive ana blood test",
+          "clicks": 0,
+          "impressions": 105,
+          "ctr": "0%",
+          "position": 86.75
+        },
+        {
+          "query": "ana pattern homogeneous",
+          "clicks": 1,
+          "impressions": 103,
+          "ctr": "0.97%",
+          "position": 50.12
+        },
+        {
+          "query": "what is a positive ana",
+          "clicks": 0,
+          "impressions": 102,
+          "ctr": "0%",
+          "position": 71.68
+        },
+        {
+          "query": "ana test positive meaning",
+          "clicks": 0,
+          "impressions": 100,
+          "ctr": "0%",
+          "position": 69.64
+        },
+        {
+          "query": "what does a positive ana test mean",
+          "clicks": 0,
+          "impressions": 83,
+          "ctr": "0%",
+          "position": 75
+        },
+        {
+          "query": "what is ana positive",
+          "clicks": 0,
+          "impressions": 82,
+          "ctr": "0%",
+          "position": 73.54
+        }
+      ]
+    },
+    "ferritin-anemia": {
+      "totalQueries": 77,
+      "totalImpressions": 14789,
+      "topQueries": [
+        {
+          "query": "low iron symptoms female",
+          "clicks": 1,
+          "impressions": 2059,
+          "ctr": "0.05%",
+          "position": 77.42
+        },
+        {
+          "query": "anemia symptoms in women",
+          "clicks": 0,
+          "impressions": 1487,
+          "ctr": "0%",
+          "position": 73.8
+        },
+        {
+          "query": "symptoms of anemia in women",
+          "clicks": 0,
+          "impressions": 1027,
+          "ctr": "0%",
+          "position": 77.7
+        },
+        {
+          "query": "high ferritin",
+          "clicks": 0,
+          "impressions": 820,
+          "ctr": "0%",
+          "position": 71.95
+        },
+        {
+          "query": "signs of low iron in women",
+          "clicks": 0,
+          "impressions": 818,
+          "ctr": "0%",
+          "position": 61.65
+        },
+        {
+          "query": "signs of anemia in women",
+          "clicks": 0,
+          "impressions": 532,
+          "ctr": "0%",
+          "position": 64.18
+        },
+        {
+          "query": "ferritin high",
+          "clicks": 0,
+          "impressions": 444,
+          "ctr": "0%",
+          "position": 73.07
+        },
+        {
+          "query": "what does high ferritin mean",
+          "clicks": 0,
+          "impressions": 333,
+          "ctr": "0%",
+          "position": 43.33
+        },
+        {
+          "query": "low iron symptoms women",
+          "clicks": 0,
+          "impressions": 327,
+          "ctr": "0%",
+          "position": 76.38
+        },
+        {
+          "query": "high ferritin level",
+          "clicks": 0,
+          "impressions": 319,
+          "ctr": "0%",
+          "position": 74.63
+        },
+        {
+          "query": "iron deficiency symptoms in women",
+          "clicks": 0,
+          "impressions": 287,
+          "ctr": "0%",
+          "position": 79.84
+        },
+        {
+          "query": "iron levels for women",
+          "clicks": 0,
+          "impressions": 285,
+          "ctr": "0%",
+          "position": 90.62
+        },
+        {
+          "query": "high ferritin levels",
+          "clicks": 0,
+          "impressions": 283,
+          "ctr": "0%",
+          "position": 76.36
+        },
+        {
+          "query": "what does high ferritin indicate",
+          "clicks": 0,
+          "impressions": 277,
+          "ctr": "0%",
+          "position": 16.38
+        },
+        {
+          "query": "low ferritin symptoms female",
+          "clicks": 1,
+          "impressions": 250,
+          "ctr": "0.4%",
+          "position": 77.23
+        },
+        {
+          "query": "what does a high ferritin level mean",
+          "clicks": 0,
+          "impressions": 208,
+          "ctr": "0%",
+          "position": 50.97
+        },
+        {
+          "query": "signs of iron deficiency in women",
+          "clicks": 0,
+          "impressions": 198,
+          "ctr": "0%",
+          "position": 74.41
+        },
+        {
+          "query": "anemia symptoms women",
+          "clicks": 0,
+          "impressions": 185,
+          "ctr": "0%",
+          "position": 68.52
+        },
+        {
+          "query": "women iron deficiency symptoms",
+          "clicks": 0,
+          "impressions": 185,
+          "ctr": "0%",
+          "position": 75.15
+        },
+        {
+          "query": "what is a low iron level for a woman",
+          "clicks": 0,
+          "impressions": 162,
+          "ctr": "0%",
+          "position": 90.63
+        },
+        {
+          "query": "iron deficiency symptoms in females",
+          "clicks": 0,
+          "impressions": 146,
+          "ctr": "0%",
+          "position": 78.12
+        },
+        {
+          "query": "elevated ferritin level",
+          "clicks": 0,
+          "impressions": 139,
+          "ctr": "0%",
+          "position": 68.53
+        },
+        {
+          "query": "symptoms of anaemia in females",
+          "clicks": 0,
+          "impressions": 138,
+          "ctr": "0%",
+          "position": 77.8
+        },
+        {
+          "query": "high ferritin causes",
+          "clicks": 0,
+          "impressions": 137,
+          "ctr": "0%",
+          "position": 74.73
+        },
+        {
+          "query": "symptoms of low iron in women",
+          "clicks": 0,
+          "impressions": 132,
+          "ctr": "0%",
+          "position": 76.11
+        }
+      ]
+    },
+    "autoimmune-skin": {
+      "totalQueries": 24,
+      "totalImpressions": 3706,
+      "topQueries": [
+        {
+          "query": "autoimmune skin disease",
+          "clicks": 0,
+          "impressions": 633,
+          "ctr": "0%",
+          "position": 89.05
+        },
+        {
+          "query": "autoimmune skin conditions",
+          "clicks": 0,
+          "impressions": 611,
+          "ctr": "0%",
+          "position": 84.84
+        },
+        {
+          "query": "autoimmune skin diseases",
+          "clicks": 0,
+          "impressions": 496,
+          "ctr": "0%",
+          "position": 87.31
+        },
+        {
+          "query": "autoimmune rash",
+          "clicks": 0,
+          "impressions": 226,
+          "ctr": "0%",
+          "position": 96.47
+        },
+        {
+          "query": "autoimmune skin disorders",
+          "clicks": 0,
+          "impressions": 207,
+          "ctr": "0%",
+          "position": 90.96
+        },
+        {
+          "query": "autoimmune skin condition",
+          "clicks": 0,
+          "impressions": 157,
+          "ctr": "0%",
+          "position": 87.29
+        },
+        {
+          "query": "autoimmune skin lesions",
+          "clicks": 0,
+          "impressions": 150,
+          "ctr": "0%",
+          "position": 84.65
+        },
+        {
+          "query": "autoimmune skin disorder",
+          "clicks": 0,
+          "impressions": 131,
+          "ctr": "0%",
+          "position": 91.65
+        },
+        {
+          "query": "autoimmune skin rash",
+          "clicks": 0,
+          "impressions": 115,
+          "ctr": "0%",
+          "position": 93.29
+        },
+        {
+          "query": "skin lesions autoimmune",
+          "clicks": 0,
+          "impressions": 95,
+          "ctr": "0%",
+          "position": 87.05
+        },
+        {
+          "query": "autoimmune rash legs",
+          "clicks": 0,
+          "impressions": 90,
+          "ctr": "0%",
+          "position": 82.24
+        },
+        {
+          "query": "autoimmune rash on legs",
+          "clicks": 0,
+          "impressions": 90,
+          "ctr": "0%",
+          "position": 85.89
+        },
+        {
+          "query": "auto immune skin disorder",
+          "clicks": 0,
+          "impressions": 85,
+          "ctr": "0%",
+          "position": 91.72
+        },
+        {
+          "query": "autoimmune rashes",
+          "clicks": 0,
+          "impressions": 73,
+          "ctr": "0%",
+          "position": 97.25
+        },
+        {
+          "query": "autoimmune rashes on face",
+          "clicks": 0,
+          "impressions": 66,
+          "ctr": "0%",
+          "position": 94.11
+        },
+        {
+          "query": "autoimmune rashes on legs",
+          "clicks": 0,
+          "impressions": 64,
+          "ctr": "0%",
+          "position": 82.53
+        },
+        {
+          "query": "autoimmune rash on face",
+          "clicks": 0,
+          "impressions": 64,
+          "ctr": "0%",
+          "position": 91.06
+        },
+        {
+          "query": "autoimmune disease skin rash",
+          "clicks": 0,
+          "impressions": 59,
+          "ctr": "0%",
+          "position": 92.14
+        },
+        {
+          "query": "autoimmune rash face",
+          "clicks": 0,
+          "impressions": 59,
+          "ctr": "0%",
+          "position": 94.41
+        },
+        {
+          "query": "autoimmune dry skin",
+          "clicks": 0,
+          "impressions": 54,
+          "ctr": "0%",
+          "position": 32.59
+        },
+        {
+          "query": "immune system skin disorders",
+          "clicks": 0,
+          "impressions": 53,
+          "ctr": "0%",
+          "position": 88.15
+        },
+        {
+          "query": "autoimmune skin symptoms",
+          "clicks": 0,
+          "impressions": 43,
+          "ctr": "0%",
+          "position": 83.12
+        },
+        {
+          "query": "autoimmune skin",
+          "clicks": 0,
+          "impressions": 43,
+          "ctr": "0%",
+          "position": 88.67
+        },
+        {
+          "query": "skin rash autoimmune",
+          "clicks": 0,
+          "impressions": 42,
+          "ctr": "0%",
+          "position": 94.12
+        }
+      ]
+    },
+    "pcos": {
+      "totalQueries": 15,
+      "totalImpressions": 2221,
+      "topQueries": [
+        {
+          "query": "vitamin b pcos",
+          "clicks": 0,
+          "impressions": 216,
+          "ctr": "0%",
+          "position": 38.32
+        },
+        {
+          "query": "vitamin b12 for pcos",
+          "clicks": 0,
+          "impressions": 216,
+          "ctr": "0%",
+          "position": 55.18
+        },
+        {
+          "query": "vitamin b12 and pcos",
+          "clicks": 0,
+          "impressions": 210,
+          "ctr": "0%",
+          "position": 53.33
+        },
+        {
+          "query": "pcos vitamin b",
+          "clicks": 0,
+          "impressions": 202,
+          "ctr": "0%",
+          "position": 43.28
+        },
+        {
+          "query": "b vitamins pcos",
+          "clicks": 0,
+          "impressions": 199,
+          "ctr": "0%",
+          "position": 37.75
+        },
+        {
+          "query": "vitamin b12 pcos",
+          "clicks": 0,
+          "impressions": 195,
+          "ctr": "0%",
+          "position": 52.91
+        },
+        {
+          "query": "vitamin b and pcos",
+          "clicks": 0,
+          "impressions": 194,
+          "ctr": "0%",
+          "position": 37.44
+        },
+        {
+          "query": "pcos vitamin b12",
+          "clicks": 0,
+          "impressions": 188,
+          "ctr": "0%",
+          "position": 55.65
+        },
+        {
+          "query": "vitamin b complex and pcos",
+          "clicks": 0,
+          "impressions": 186,
+          "ctr": "0%",
+          "position": 47.93
+        },
+        {
+          "query": "folate for pcos",
+          "clicks": 0,
+          "impressions": 119,
+          "ctr": "0%",
+          "position": 60.34
+        },
+        {
+          "query": "folate pcos",
+          "clicks": 0,
+          "impressions": 113,
+          "ctr": "0%",
+          "position": 62.2
+        },
+        {
+          "query": "pcos vitamin deficiency",
+          "clicks": 0,
+          "impressions": 62,
+          "ctr": "0%",
+          "position": 70.77
+        },
+        {
+          "query": "b complex for pcos",
+          "clicks": 0,
+          "impressions": 41,
+          "ctr": "0%",
+          "position": 49.68
+        },
+        {
+          "query": "pcos and mthfr",
+          "clicks": 0,
+          "impressions": 40,
+          "ctr": "0%",
+          "position": 31.55
+        },
+        {
+          "query": "mthfr pcos",
+          "clicks": 0,
+          "impressions": 40,
+          "ctr": "0%",
+          "position": 37.95
+        }
+      ]
+    },
+    "type-1-diabetes": {
+      "totalQueries": 0,
+      "totalImpressions": 0,
+      "topQueries": []
+    },
+    "eczema": {
+      "totalQueries": 3,
+      "totalImpressions": 1053,
+      "topQueries": [
+        {
+          "query": "functional medicine approach to eczema",
+          "clicks": 0,
+          "impressions": 506,
+          "ctr": "0%",
+          "position": 52.72
+        },
+        {
+          "query": "functional medicine eczema",
+          "clicks": 1,
+          "impressions": 498,
+          "ctr": "0.2%",
+          "position": 60.24
+        },
+        {
+          "query": "eczema functional medicine",
+          "clicks": 0,
+          "impressions": 49,
+          "ctr": "0%",
+          "position": 51.96
+        }
+      ]
+    },
+    "anxiety-depression": {
+      "totalQueries": 5,
+      "totalImpressions": 543,
+      "topQueries": [
+        {
+          "query": "cupping for anxiety",
+          "clicks": 0,
+          "impressions": 182,
+          "ctr": "0%",
+          "position": 68.29
+        },
+        {
+          "query": "can antibiotics cause depression",
+          "clicks": 0,
+          "impressions": 112,
+          "ctr": "0%",
+          "position": 56.55
+        },
+        {
+          "query": "do antibiotics cause depression",
+          "clicks": 0,
+          "impressions": 106,
+          "ctr": "0%",
+          "position": 60.54
+        },
+        {
+          "query": "antibiotics and depression",
+          "clicks": 0,
+          "impressions": 79,
+          "ctr": "0%",
+          "position": 50.65
+        },
+        {
+          "query": "cupping therapy for anxiety",
+          "clicks": 1,
+          "impressions": 64,
+          "ctr": "1.56%",
+          "position": 85.5
+        }
+      ]
+    },
+    "adhd": {
+      "totalQueries": 0,
+      "totalImpressions": 0,
+      "topQueries": []
+    }
+  },
+  "symptomQueries": [
+    {
+      "query": "bloating after meals",
+      "clicks": 0,
+      "impressions": 255,
+      "ctr": "0%",
+      "position": 86.71
+    },
+    {
+      "query": "stem cell for joint pain",
+      "clicks": 0,
+      "impressions": 247,
+      "ctr": "0%",
+      "position": 79.11
+    },
+    {
+      "query": "black seed oil and joint pain",
+      "clicks": 0,
+      "impressions": 191,
+      "ctr": "0%",
+      "position": 37.98
+    },
+    {
+      "query": "gas after eating",
+      "clicks": 0,
+      "impressions": 146,
+      "ctr": "0%",
+      "position": 80.77
+    },
+    {
+      "query": "autoimmune fatigue doctor boulder",
+      "clicks": 0,
+      "impressions": 145,
+      "ctr": "0%",
+      "position": 17.18
+    },
+    {
+      "query": "autoimmune disease stomach bloating",
+      "clicks": 0,
+      "impressions": 117,
+      "ctr": "0%",
+      "position": 31.55
+    },
+    {
+      "query": "hashimoto's stomach pain",
+      "clicks": 0,
+      "impressions": 83,
+      "ctr": "0%",
+      "position": 48.77
+    },
+    {
+      "query": "pots brain fog",
+      "clicks": 0,
+      "impressions": 81,
+      "ctr": "0%",
+      "position": 40.09
+    },
+    {
+      "query": "hashimoto's disease and stomach pain",
+      "clicks": 0,
+      "impressions": 80,
+      "ctr": "0%",
+      "position": 50.44
+    },
+    {
+      "query": "black seed oil joint pain",
+      "clicks": 0,
+      "impressions": 78,
+      "ctr": "0%",
+      "position": 39.62
+    },
+    {
+      "query": "brain fog and pots",
+      "clicks": 0,
+      "impressions": 65,
+      "ctr": "0%",
+      "position": 38.43
+    },
+    {
+      "query": "stem cells for joint pain",
+      "clicks": 0,
+      "impressions": 59,
+      "ctr": "0%",
+      "position": 69.14
+    },
+    {
+      "query": "hashimoto's and stomach pain",
+      "clicks": 0,
+      "impressions": 58,
+      "ctr": "0%",
+      "position": 47.03
+    },
+    {
+      "query": "stem cell treatment for joint pain",
+      "clicks": 0,
+      "impressions": 48,
+      "ctr": "0%",
+      "position": 84.75
+    },
+    {
+      "query": "gas and bloating after eating",
+      "clicks": 0,
+      "impressions": 42,
+      "ctr": "0%",
+      "position": 93.19
+    },
+    {
+      "query": "autoimmune bloating",
+      "clicks": 1,
+      "impressions": 35,
+      "ctr": "2.86%",
+      "position": 8.26
+    }
+  ],
+  "treatmentQueries": [
+    {
+      "query": "meat stock vs bone broth",
+      "clicks": 81,
+      "impressions": 3306,
+      "ctr": "2.45%",
+      "position": 5.23
+    },
+    {
+      "query": "n acetylcysteine",
+      "clicks": 0,
+      "impressions": 1824,
+      "ctr": "0%",
+      "position": 63.49
+    },
+    {
+      "query": "theia health",
+      "clicks": 21,
+      "impressions": 1535,
+      "ctr": "1.37%",
+      "position": 6.43
+    },
+    {
+      "query": "methylated vitamins",
+      "clicks": 0,
+      "impressions": 1231,
+      "ctr": "0%",
+      "position": 42.98
+    },
+    {
+      "query": "what is nac supplement",
+      "clicks": 0,
+      "impressions": 1228,
+      "ctr": "0%",
+      "position": 64.8
+    },
+    {
+      "query": "n-acetylcysteine",
+      "clicks": 2,
+      "impressions": 1227,
+      "ctr": "0.16%",
+      "position": 61.8
+    },
+    {
+      "query": "n acetyl cysteine",
+      "clicks": 0,
+      "impressions": 1208,
+      "ctr": "0%",
+      "position": 56.47
+    },
+    {
+      "query": "theia cgm",
+      "clicks": 42,
+      "impressions": 931,
+      "ctr": "4.51%",
+      "position": 3.03
+    },
+    {
+      "query": "methylated b vitamins",
+      "clicks": 1,
+      "impressions": 914,
+      "ctr": "0.11%",
+      "position": 43.57
+    },
+    {
+      "query": "pmf treatment",
+      "clicks": 2,
+      "impressions": 831,
+      "ctr": "0.24%",
+      "position": 10.55
+    },
+    {
+      "query": "what are methylated vitamins",
+      "clicks": 0,
+      "impressions": 775,
+      "ctr": "0%",
+      "position": 46.47
+    },
+    {
+      "query": "dirty dozen foods",
+      "clicks": 0,
+      "impressions": 736,
+      "ctr": "0%",
+      "position": 54.85
+    },
+    {
+      "query": "bone broth vs meat stock",
+      "clicks": 16,
+      "impressions": 723,
+      "ctr": "2.21%",
+      "position": 5.7
+    },
+    {
+      "query": "meat broth vs bone broth",
+      "clicks": 30,
+      "impressions": 660,
+      "ctr": "4.55%",
+      "position": 5.18
+    },
+    {
+      "query": "difference between meat stock and bone broth",
+      "clicks": 19,
+      "impressions": 616,
+      "ctr": "3.08%",
+      "position": 5.42
+    },
+    {
+      "query": "holistic autoimmune doctor",
+      "clicks": 0,
+      "impressions": 534,
+      "ctr": "0%",
+      "position": 41.23
+    },
+    {
+      "query": "theia glucose monitor",
+      "clicks": 33,
+      "impressions": 520,
+      "ctr": "6.35%",
+      "position": 2.65
+    },
+    {
+      "query": "functional medicine approach to eczema",
+      "clicks": 0,
+      "impressions": 506,
+      "ctr": "0%",
+      "position": 52.72
+    },
+    {
+      "query": "functional medicine eczema",
+      "clicks": 1,
+      "impressions": 498,
+      "ctr": "0.2%",
+      "position": 60.24
+    },
+    {
+      "query": "can birth control affect your thyroid",
+      "clicks": 0,
+      "impressions": 471,
+      "ctr": "0%",
+      "position": 42.85
+    },
+    {
+      "query": "dirty dozen list",
+      "clicks": 0,
+      "impressions": 455,
+      "ctr": "0%",
+      "position": 55.63
+    },
+    {
+      "query": "why are methylated vitamins better",
+      "clicks": 0,
+      "impressions": 416,
+      "ctr": "0%",
+      "position": 29.82
+    },
+    {
+      "query": "zinc carnosine benefits",
+      "clicks": 2,
+      "impressions": 395,
+      "ctr": "0.51%",
+      "position": 46.66
+    },
+    {
+      "query": "vitamin d immune system",
+      "clicks": 0,
+      "impressions": 394,
+      "ctr": "0%",
+      "position": 70.77
+    },
+    {
+      "query": "what is meat stock",
+      "clicks": 6,
+      "impressions": 372,
+      "ctr": "1.61%",
+      "position": 4.37
+    },
+    {
+      "query": "birth control and hypothyroidism",
+      "clicks": 0,
+      "impressions": 357,
+      "ctr": "0%",
+      "position": 42.99
+    },
+    {
+      "query": "vitamin d and immune system",
+      "clicks": 0,
+      "impressions": 355,
+      "ctr": "0%",
+      "position": 64.2
+    },
+    {
+      "query": "rheumatoid arthritis functional medicine",
+      "clicks": 0,
+      "impressions": 353,
+      "ctr": "0%",
+      "position": 61.99
+    },
+    {
+      "query": "black seed oil autoimmune disease",
+      "clicks": 11,
+      "impressions": 330,
+      "ctr": "3.33%",
+      "position": 6.23
+    },
+    {
+      "query": "black seed oil for immune system",
+      "clicks": 0,
+      "impressions": 323,
+      "ctr": "0%",
+      "position": 42.2
+    },
+    {
+      "query": "black seed oil for ms",
+      "clicks": 5,
+      "impressions": 303,
+      "ctr": "1.65%",
+      "position": 8.52
+    },
+    {
+      "query": "magnesium and autoimmune disease",
+      "clicks": 2,
+      "impressions": 297,
+      "ctr": "0.67%",
+      "position": 10.63
+    },
+    {
+      "query": "long term antihistamine use",
+      "clicks": 0,
+      "impressions": 297,
+      "ctr": "0%",
+      "position": 49.02
+    },
+    {
+      "query": "probiotics benefits",
+      "clicks": 0,
+      "impressions": 293,
+      "ctr": "0%",
+      "position": 88.82
+    },
+    {
+      "query": "what is nac used for",
+      "clicks": 0,
+      "impressions": 281,
+      "ctr": "0%",
+      "position": 70.73
+    },
+    {
+      "query": "black seed oil and ms",
+      "clicks": 1,
+      "impressions": 279,
+      "ctr": "0.36%",
+      "position": 8
+    },
+    {
+      "query": "birth control and thyroid",
+      "clicks": 0,
+      "impressions": 272,
+      "ctr": "0%",
+      "position": 46.18
+    },
+    {
+      "query": "black seed oil autoimmune",
+      "clicks": 11,
+      "impressions": 270,
+      "ctr": "4.07%",
+      "position": 5.54
+    },
+    {
+      "query": "gut health and autoimmune disease",
+      "clicks": 0,
+      "impressions": 265,
+      "ctr": "0%",
+      "position": 59.83
+    },
+    {
+      "query": "collagen power",
+      "clicks": 1,
+      "impressions": 261,
+      "ctr": "0.38%",
+      "position": 13.35
+    },
+    {
+      "query": "power collagen",
+      "clicks": 0,
+      "impressions": 260,
+      "ctr": "0%",
+      "position": 22.14
+    },
+    {
+      "query": "antihistamine side effects long term",
+      "clicks": 0,
+      "impressions": 258,
+      "ctr": "0%",
+      "position": 66.08
+    },
+    {
+      "query": "benefits of probiotics",
+      "clicks": 0,
+      "impressions": 250,
+      "ctr": "0%",
+      "position": 78.85
+    },
+    {
+      "query": "stem cell for joint pain",
+      "clicks": 0,
+      "impressions": 247,
+      "ctr": "0%",
+      "position": 79.11
+    },
+    {
+      "query": "gut health and autoimmune disorders",
+      "clicks": 0,
+      "impressions": 243,
+      "ctr": "0%",
+      "position": 57.63
+    },
+    {
+      "query": "black seed oil for auto immune",
+      "clicks": 6,
+      "impressions": 241,
+      "ctr": "2.49%",
+      "position": 6.01
+    },
+    {
+      "query": "holistic doctor for crohn's disease",
+      "clicks": 0,
+      "impressions": 241,
+      "ctr": "0%",
+      "position": 81.95
+    },
+    {
+      "query": "functional medicine and rheumatoid arthritis",
+      "clicks": 0,
+      "impressions": 230,
+      "ctr": "0%",
+      "position": 62.26
+    },
+    {
+      "query": "theia health cgm",
+      "clicks": 13,
+      "impressions": 227,
+      "ctr": "5.73%",
+      "position": 2.74
+    },
+    {
+      "query": "antihistamine side effects long-term",
+      "clicks": 0,
+      "impressions": 226,
+      "ctr": "0%",
+      "position": 65.44
+    },
+    {
+      "query": "holistic autoimmune doctor near me",
+      "clicks": 0,
+      "impressions": 224,
+      "ctr": "0%",
+      "position": 65.92
+    },
+    {
+      "query": "pmf therapy",
+      "clicks": 1,
+      "impressions": 218,
+      "ctr": "0.46%",
+      "position": 8.55
+    },
+    {
+      "query": "nac benefits",
+      "clicks": 0,
+      "impressions": 215,
+      "ctr": "0%",
+      "position": 81.76
+    },
+    {
+      "query": "autoimmune functional medicine",
+      "clicks": 0,
+      "impressions": 213,
+      "ctr": "0%",
+      "position": 45.08
+    },
+    {
+      "query": "does hashimoto's cause vitamin d deficiency",
+      "clicks": 0,
+      "impressions": 213,
+      "ctr": "0%",
+      "position": 50.45
+    },
+    {
+      "query": "can stem cells regrow cartilage",
+      "clicks": 0,
+      "impressions": 213,
+      "ctr": "0%",
+      "position": 67.12
+    },
+    {
+      "query": "difference between bone broth and meat stock",
+      "clicks": 2,
+      "impressions": 203,
+      "ctr": "0.99%",
+      "position": 5.07
+    },
+    {
+      "query": "long term use benadryl",
+      "clicks": 0,
+      "impressions": 203,
+      "ctr": "0%",
+      "position": 56.03
+    },
+    {
+      "query": "dhea for lupus",
+      "clicks": 5,
+      "impressions": 200,
+      "ctr": "2.5%",
+      "position": 7.09
+    },
+    {
+      "query": "dhea and lupus",
+      "clicks": 3,
+      "impressions": 200,
+      "ctr": "1.5%",
+      "position": 11.03
+    }
+  ],
+  "locationQueries": [
+    {
+      "query": "autoimmune specialist denver",
+      "clicks": 0,
+      "impressions": 1200,
+      "ctr": "0%",
+      "position": 37.7
+    },
+    {
+      "query": "autoimmune specialist near me",
+      "clicks": 0,
+      "impressions": 415,
+      "ctr": "0%",
+      "position": 12.37
+    },
+    {
+      "query": "autoimmune doctor near me",
+      "clicks": 0,
+      "impressions": 403,
+      "ctr": "0%",
+      "position": 56.69
+    },
+    {
+      "query": "holistic autoimmune doctor near me",
+      "clicks": 0,
+      "impressions": 224,
+      "ctr": "0%",
+      "position": 65.92
+    },
+    {
+      "query": "autoimmune nutritionist boulder co",
+      "clicks": 0,
+      "impressions": 200,
+      "ctr": "0%",
+      "position": 5.25
+    },
+    {
+      "query": "autoimmune protocol doctor boulder",
+      "clicks": 0,
+      "impressions": 197,
+      "ctr": "0%",
+      "position": 2.83
+    },
+    {
+      "query": "auto immune doctor near me",
+      "clicks": 0,
+      "impressions": 196,
+      "ctr": "0%",
+      "position": 45.54
+    },
+    {
+      "query": "autoimmune diet doctor boulder",
+      "clicks": 0,
+      "impressions": 195,
+      "ctr": "0%",
+      "position": 1.82
+    },
+    {
+      "query": "autoimmune doctor boulder colorado",
+      "clicks": 0,
+      "impressions": 193,
+      "ctr": "0%",
+      "position": 2.08
+    },
+    {
+      "query": "reverse autoimmune disease boulder",
+      "clicks": 0,
+      "impressions": 193,
+      "ctr": "0%",
+      "position": 2.27
+    },
+    {
+      "query": "holistic autoimmune treatment boulder",
+      "clicks": 0,
+      "impressions": 193,
+      "ctr": "0%",
+      "position": 6.34
+    },
+    {
+      "query": "rheumatoid arthritis functional medicine boulder",
+      "clicks": 0,
+      "impressions": 188,
+      "ctr": "0%",
+      "position": 2.37
+    },
+    {
+      "query": "autoimmune near me",
+      "clicks": 0,
+      "impressions": 187,
+      "ctr": "0%",
+      "position": 67.17
+    },
+    {
+      "query": "immunity chiropractor boulder co",
+      "clicks": 0,
+      "impressions": 149,
+      "ctr": "0%",
+      "position": 44.12
+    },
+    {
+      "query": "chiropractor for immunity boulder co",
+      "clicks": 0,
+      "impressions": 149,
+      "ctr": "0%",
+      "position": 61.13
+    },
+    {
+      "query": "autoimmune fatigue doctor boulder",
+      "clicks": 0,
+      "impressions": 145,
+      "ctr": "0%",
+      "position": 17.18
+    },
+    {
+      "query": "lupus specialist boulder co",
+      "clicks": 0,
+      "impressions": 118,
+      "ctr": "0%",
+      "position": 37.11
+    },
+    {
+      "query": "autoimmune doctors near me",
+      "clicks": 0,
+      "impressions": 104,
+      "ctr": "0%",
+      "position": 51.04
+    },
+    {
+      "query": "autoimmune disease treatment denver",
+      "clicks": 0,
+      "impressions": 92,
+      "ctr": "0%",
+      "position": 50.61
+    },
+    {
+      "query": "leaky gut specialist boulder",
+      "clicks": 0,
+      "impressions": 81,
+      "ctr": "0%",
+      "position": 13.74
+    },
+    {
+      "query": "auto immune help near me",
+      "clicks": 0,
+      "impressions": 71,
+      "ctr": "0%",
+      "position": 57.85
+    },
+    {
+      "query": "functional medicine thyroid specialist boulder",
+      "clicks": 0,
+      "impressions": 67,
+      "ctr": "0%",
+      "position": 24.66
+    },
+    {
+      "query": "multiple sclerosis specialist boulder co",
+      "clicks": 0,
+      "impressions": 59,
+      "ctr": "0%",
+      "position": 10.25
+    },
+    {
+      "query": "autoimmune disease fort collins",
+      "clicks": 0,
+      "impressions": 51,
+      "ctr": "0%",
+      "position": 15.67
+    },
+    {
+      "query": "boulder rheumatology",
+      "clicks": 0,
+      "impressions": 47,
+      "ctr": "0%",
+      "position": 67.19
+    },
+    {
+      "query": "rheumatologist boulder",
+      "clicks": 0,
+      "impressions": 45,
+      "ctr": "0%",
+      "position": 56.98
+    },
+    {
+      "query": "hashimoto's specialist boulder",
+      "clicks": 0,
+      "impressions": 42,
+      "ctr": "0%",
+      "position": 16.83
+    },
+    {
+      "query": "auto immune doctor buffalo near me",
+      "clicks": 0,
+      "impressions": 41,
+      "ctr": "0%",
+      "position": 73.24
+    },
+    {
+      "query": "top autoimmune doctors near me",
+      "clicks": 1,
+      "impressions": 36,
+      "ctr": "2.78%",
+      "position": 43.19
+    },
+    {
+      "query": "autoimmune holistic doctor near me",
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": "25%",
+      "position": 4.75
+    }
+  ],
+  "questionQueries": [
+    {
+      "query": "what is lupus",
+      "clicks": 0,
+      "impressions": 1383,
+      "ctr": "0%",
+      "position": 76.42
+    },
+    {
+      "query": "what is nac supplement",
+      "clicks": 0,
+      "impressions": 1228,
+      "ctr": "0%",
+      "position": 64.8
+    },
+    {
+      "query": "what is nac",
+      "clicks": 0,
+      "impressions": 824,
+      "ctr": "0%",
+      "position": 66.52
+    },
+    {
+      "query": "what are methylated vitamins",
+      "clicks": 0,
+      "impressions": 775,
+      "ctr": "0%",
+      "position": 46.47
+    },
+    {
+      "query": "what causes lupus",
+      "clicks": 0,
+      "impressions": 653,
+      "ctr": "0%",
+      "position": 89.48
+    },
+    {
+      "query": "what is clinical nutrition",
+      "clicks": 0,
+      "impressions": 629,
+      "ctr": "0%",
+      "position": 50.58
+    },
+    {
+      "query": "what does a positive ana mean",
+      "clicks": 0,
+      "impressions": 520,
+      "ctr": "0%",
+      "position": 69.62
+    },
+    {
+      "query": "can birth control affect your thyroid",
+      "clicks": 0,
+      "impressions": 471,
+      "ctr": "0%",
+      "position": 42.85
+    },
+    {
+      "query": "what is hashimoto's disease",
+      "clicks": 0,
+      "impressions": 438,
+      "ctr": "0%",
+      "position": 85.58
+    },
+    {
+      "query": "why are methylated vitamins better",
+      "clicks": 0,
+      "impressions": 416,
+      "ctr": "0%",
+      "position": 29.82
+    },
+    {
+      "query": "what is meat stock",
+      "clicks": 6,
+      "impressions": 372,
+      "ctr": "1.61%",
+      "position": 4.37
+    },
+    {
+      "query": "what does it mean when ana is positive",
+      "clicks": 0,
+      "impressions": 348,
+      "ctr": "0%",
+      "position": 76.53
+    },
+    {
+      "query": "how do you get lupus",
+      "clicks": 0,
+      "impressions": 346,
+      "ctr": "0%",
+      "position": 84.88
+    },
+    {
+      "query": "what does high ferritin mean",
+      "clicks": 0,
+      "impressions": 333,
+      "ctr": "0%",
+      "position": 43.33
+    },
+    {
+      "query": "is raynaud's syndrome an autoimmune disease",
+      "clicks": 0,
+      "impressions": 300,
+      "ctr": "0%",
+      "position": 67.92
+    },
+    {
+      "query": "can gluten free diet help hypothyroidism",
+      "clicks": 0,
+      "impressions": 294,
+      "ctr": "0%",
+      "position": 54.03
+    },
+    {
+      "query": "what is nac used for",
+      "clicks": 0,
+      "impressions": 281,
+      "ctr": "0%",
+      "position": 70.73
+    },
+    {
+      "query": "what does high ferritin indicate",
+      "clicks": 0,
+      "impressions": 277,
+      "ctr": "0%",
+      "position": 16.38
+    },
+    {
+      "query": "is pots an autoimmune disease",
+      "clicks": 0,
+      "impressions": 251,
+      "ctr": "0%",
+      "position": 45.95
+    },
+    {
+      "query": "does hashimoto's cause vitamin d deficiency",
+      "clicks": 0,
+      "impressions": 213,
+      "ctr": "0%",
+      "position": 50.45
+    },
+    {
+      "query": "can stem cells regrow cartilage",
+      "clicks": 0,
+      "impressions": 213,
+      "ctr": "0%",
+      "position": 67.12
+    },
+    {
+      "query": "is ibs an autoimmune disease",
+      "clicks": 0,
+      "impressions": 210,
+      "ctr": "0%",
+      "position": 43.31
+    },
+    {
+      "query": "what does a high ferritin level mean",
+      "clicks": 0,
+      "impressions": 208,
+      "ctr": "0%",
+      "position": 50.97
+    },
+    {
+      "query": "what is n acetylcysteine",
+      "clicks": 0,
+      "impressions": 200,
+      "ctr": "0%",
+      "position": 61.44
+    },
+    {
+      "query": "what is hashimotos disease",
+      "clicks": 0,
+      "impressions": 192,
+      "ctr": "0%",
+      "position": 84.3
+    },
+    {
+      "query": "is black seed oil good for rheumatoid arthritis",
+      "clicks": 0,
+      "impressions": 191,
+      "ctr": "0%",
+      "position": 18.01
+    },
+    {
+      "query": "what is methylated vitamin b",
+      "clicks": 0,
+      "impressions": 190,
+      "ctr": "0%",
+      "position": 38.55
+    },
+    {
+      "query": "what diseases can cause a positive ana",
+      "clicks": 0,
+      "impressions": 190,
+      "ctr": "0%",
+      "position": 86.66
+    },
+    {
+      "query": "what is lupus disease",
+      "clicks": 0,
+      "impressions": 185,
+      "ctr": "0%",
+      "position": 81.63
+    },
+    {
+      "query": "what is a low iron level for a woman",
+      "clicks": 0,
+      "impressions": 162,
+      "ctr": "0%",
+      "position": 90.63
+    },
+    {
+      "query": "what is methylated vitamins",
+      "clicks": 1,
+      "impressions": 153,
+      "ctr": "0.65%",
+      "position": 43.16
+    },
+    {
+      "query": "is black seed oil good for arthritis",
+      "clicks": 0,
+      "impressions": 151,
+      "ctr": "0%",
+      "position": 27.34
+    },
+    {
+      "query": "what is meat stock vs bone broth",
+      "clicks": 3,
+      "impressions": 145,
+      "ctr": "2.07%",
+      "position": 5.99
+    },
+    {
+      "query": "whats lupus",
+      "clicks": 0,
+      "impressions": 144,
+      "ctr": "0%",
+      "position": 74.76
+    },
+    {
+      "query": "what is n acetylcysteine used for",
+      "clicks": 0,
+      "impressions": 143,
+      "ctr": "0%",
+      "position": 59.22
+    },
+    {
+      "query": "what is a methylated vitamin",
+      "clicks": 0,
+      "impressions": 141,
+      "ctr": "0%",
+      "position": 43.13
+    },
+    {
+      "query": "what does lupus do",
+      "clicks": 0,
+      "impressions": 138,
+      "ctr": "0%",
+      "position": 77.48
+    },
+    {
+      "query": "does caffeine increase cortisol",
+      "clicks": 0,
+      "impressions": 137,
+      "ctr": "0%",
+      "position": 73.13
+    },
+    {
+      "query": "what causes leaky gut",
+      "clicks": 0,
+      "impressions": 132,
+      "ctr": "0%",
+      "position": 89.2
+    },
+    {
+      "query": "what does cold laser therapy do",
+      "clicks": 0,
+      "impressions": 131,
+      "ctr": "0%",
+      "position": 87.34
+    },
+    {
+      "query": "is magnesium good for autoimmune disease",
+      "clicks": 0,
+      "impressions": 129,
+      "ctr": "0%",
+      "position": 9.84
+    },
+    {
+      "query": "what does lupus do to the body",
+      "clicks": 0,
+      "impressions": 129,
+      "ctr": "0%",
+      "position": 83.12
+    },
+    {
+      "query": "can stem cells regenerate cartilage",
+      "clicks": 0,
+      "impressions": 126,
+      "ctr": "0%",
+      "position": 59.44
+    },
+    {
+      "query": "what is a nac",
+      "clicks": 0,
+      "impressions": 124,
+      "ctr": "0%",
+      "position": 65.22
+    },
+    {
+      "query": "what is hashimoto's",
+      "clicks": 0,
+      "impressions": 123,
+      "ctr": "0%",
+      "position": 82.01
+    },
+    {
+      "query": "what is n acetyl cysteine",
+      "clicks": 0,
+      "impressions": 122,
+      "ctr": "0%",
+      "position": 71.69
+    },
+    {
+      "query": "what is lupis",
+      "clicks": 0,
+      "impressions": 120,
+      "ctr": "0%",
+      "position": 75.47
+    },
+    {
+      "query": "is ibs autoimmune",
+      "clicks": 0,
+      "impressions": 119,
+      "ctr": "0%",
+      "position": 41.26
+    },
+    {
+      "query": "what's lupus",
+      "clicks": 0,
+      "impressions": 117,
+      "ctr": "0%",
+      "position": 76.09
+    },
+    {
+      "query": "can antibiotics cause depression",
+      "clicks": 0,
+      "impressions": 112,
+      "ctr": "0%",
+      "position": 56.55
+    },
+    {
+      "query": "is raynaud's an autoimmune disease",
+      "clicks": 0,
+      "impressions": 112,
+      "ctr": "0%",
+      "position": 66.82
+    },
+    {
+      "query": "what is neurofeedback training",
+      "clicks": 0,
+      "impressions": 111,
+      "ctr": "0%",
+      "position": 75.25
+    },
+    {
+      "query": "is chicken or beef bone broth better for gut health",
+      "clicks": 0,
+      "impressions": 110,
+      "ctr": "0%",
+      "position": 60.13
+    },
+    {
+      "query": "can mold cause autoimmune diseases",
+      "clicks": 0,
+      "impressions": 110,
+      "ctr": "0%",
+      "position": 61.45
+    },
+    {
+      "query": "what is dangerously high ferritin levels",
+      "clicks": 0,
+      "impressions": 109,
+      "ctr": "0%",
+      "position": 81.8
+    },
+    {
+      "query": "what is a methylated multivitamin",
+      "clicks": 0,
+      "impressions": 106,
+      "ctr": "0%",
+      "position": 40.5
+    },
+    {
+      "query": "do antibiotics cause depression",
+      "clicks": 0,
+      "impressions": 106,
+      "ctr": "0%",
+      "position": 60.54
+    },
+    {
+      "query": "what is the difference between meat stock and bone broth",
+      "clicks": 2,
+      "impressions": 105,
+      "ctr": "1.9%",
+      "position": 8.02
+    },
+    {
+      "query": "is irritable bowel syndrome an autoimmune disease",
+      "clicks": 0,
+      "impressions": 105,
+      "ctr": "0%",
+      "position": 36.16
+    },
+    {
+      "query": "what is lupus disease and symptoms",
+      "clicks": 0,
+      "impressions": 104,
+      "ctr": "0%",
+      "position": 84.35
+    },
+    {
+      "query": "does hashimoto's make your immune system weaker",
+      "clicks": 0,
+      "impressions": 103,
+      "ctr": "0%",
+      "position": 37.55
+    },
+    {
+      "query": "what are hashimoto",
+      "clicks": 0,
+      "impressions": 103,
+      "ctr": "0%",
+      "position": 78.25
+    },
+    {
+      "query": "what is the cause of hashimoto's disease",
+      "clicks": 0,
+      "impressions": 103,
+      "ctr": "0%",
+      "position": 94.38
+    },
+    {
+      "query": "what is a positive ana",
+      "clicks": 0,
+      "impressions": 102,
+      "ctr": "0%",
+      "position": 71.68
+    },
+    {
+      "query": "what is hashimoto disease",
+      "clicks": 0,
+      "impressions": 102,
+      "ctr": "0%",
+      "position": 90.79
+    },
+    {
+      "query": "can antibiotics make you depressed",
+      "clicks": 0,
+      "impressions": 99,
+      "ctr": "0%",
+      "position": 62.19
+    },
+    {
+      "query": "is hashimoto's an autoimmune disease",
+      "clicks": 0,
+      "impressions": 98,
+      "ctr": "0%",
+      "position": 86.63
+    },
+    {
+      "query": "what is the nac",
+      "clicks": 0,
+      "impressions": 97,
+      "ctr": "0%",
+      "position": 73.57
+    },
+    {
+      "query": "whats in nac",
+      "clicks": 0,
+      "impressions": 94,
+      "ctr": "0%",
+      "position": 61.85
+    },
+    {
+      "query": "is benadryl bad for you",
+      "clicks": 0,
+      "impressions": 94,
+      "ctr": "0%",
+      "position": 79.97
+    },
+    {
+      "query": "what are the symptoms of leaky gut",
+      "clicks": 0,
+      "impressions": 93,
+      "ctr": "0%",
+      "position": 93.22
+    },
+    {
+      "query": "are methylated vitamins better",
+      "clicks": 0,
+      "impressions": 90,
+      "ctr": "0%",
+      "position": 16.16
+    },
+    {
+      "query": "what is hashimoto",
+      "clicks": 0,
+      "impressions": 88,
+      "ctr": "0%",
+      "position": 81.02
+    },
+    {
+      "query": "is it safe to take benadryl every night",
+      "clicks": 0,
+      "impressions": 87,
+      "ctr": "0%",
+      "position": 94.24
+    },
+    {
+      "query": "is benadryl safe",
+      "clicks": 0,
+      "impressions": 86,
+      "ctr": "0%",
+      "position": 80.52
+    },
+    {
+      "query": "why is collagen important",
+      "clicks": 0,
+      "impressions": 85,
+      "ctr": "0%",
+      "position": 64.11
+    },
+    {
+      "query": "what does a positive ana test mean",
+      "clicks": 0,
+      "impressions": 83,
+      "ctr": "0%",
+      "position": 75
+    },
+    {
+      "query": "what is ana positive",
+      "clicks": 0,
+      "impressions": 82,
+      "ctr": "0%",
+      "position": 73.54
+    },
+    {
+      "query": "is high blood pressure an autoimmune disease",
+      "clicks": 0,
+      "impressions": 81,
+      "ctr": "0%",
+      "position": 20.96
+    },
+    {
+      "query": "what do methylated vitamins do",
+      "clicks": 0,
+      "impressions": 80,
+      "ctr": "0%",
+      "position": 45.25
+    },
+    {
+      "query": "what ana pattern is associated with lupus",
+      "clicks": 0,
+      "impressions": 78,
+      "ctr": "0%",
+      "position": 12.86
+    },
+    {
+      "query": "what causes high ferritin levels",
+      "clicks": 0,
+      "impressions": 78,
+      "ctr": "0%",
+      "position": 79.17
+    },
+    {
+      "query": "can birth control cause hypothyroidism",
+      "clicks": 0,
+      "impressions": 77,
+      "ctr": "0%",
+      "position": 42.27
+    },
+    {
+      "query": "does magnesium help with inflammation",
+      "clicks": 0,
+      "impressions": 75,
+      "ctr": "0%",
+      "position": 64.21
+    },
+    {
+      "query": "what's the difference between meat stock and bone broth",
+      "clicks": 0,
+      "impressions": 74,
+      "ctr": "0%",
+      "position": 6.69
+    },
+    {
+      "query": "what is n-acetyl-l-cysteine",
+      "clicks": 0,
+      "impressions": 74,
+      "ctr": "0%",
+      "position": 81.16
+    },
+    {
+      "query": "what autoimmune disease causes high blood pressure",
+      "clicks": 0,
+      "impressions": 73,
+      "ctr": "0%",
+      "position": 27.33
+    },
+    {
+      "query": "what is methylated vitamin",
+      "clicks": 0,
+      "impressions": 73,
+      "ctr": "0%",
+      "position": 44.99
+    },
+    {
+      "query": "are antihistamines bad for you",
+      "clicks": 0,
+      "impressions": 72,
+      "ctr": "0%",
+      "position": 90.61
+    },
+    {
+      "query": "how does cold laser therapy work",
+      "clicks": 0,
+      "impressions": 72,
+      "ctr": "0%",
+      "position": 92.31
+    },
+    {
+      "query": "what is n-acetylcysteine",
+      "clicks": 0,
+      "impressions": 71,
+      "ctr": "0%",
+      "position": 65.46
+    },
+    {
+      "query": "is beef or chicken bone broth better",
+      "clicks": 0,
+      "impressions": 71,
+      "ctr": "0%",
+      "position": 67.11
+    },
+    {
+      "query": "what does nac do",
+      "clicks": 0,
+      "impressions": 71,
+      "ctr": "0%",
+      "position": 72.2
+    },
+    {
+      "query": "what is the difference between bone broth and meat stock",
+      "clicks": 1,
+      "impressions": 70,
+      "ctr": "1.43%",
+      "position": 7.23
+    },
+    {
+      "query": "what does positive ana mean",
+      "clicks": 0,
+      "impressions": 69,
+      "ctr": "0%",
+      "position": 72.14
+    },
+    {
+      "query": "is nad good for autoimmune disease",
+      "clicks": 1,
+      "impressions": 67,
+      "ctr": "1.49%",
+      "position": 4.04
+    },
+    {
+      "query": "is black seed oil good for autoimmune",
+      "clicks": 0,
+      "impressions": 67,
+      "ctr": "0%",
+      "position": 6.85
+    },
+    {
+      "query": "what does it mean when you test positive for ana",
+      "clicks": 0,
+      "impressions": 67,
+      "ctr": "0%",
+      "position": 76.13
+    },
+    {
+      "query": "can autoimmune disease cause high blood pressure",
+      "clicks": 0,
+      "impressions": 66,
+      "ctr": "0%",
+      "position": 19.38
+    },
+    {
+      "query": "what autoimmune disorders attacks the digestive system",
+      "clicks": 0,
+      "impressions": 66,
+      "ctr": "0%",
+      "position": 65.11
+    },
+    {
+      "query": "what is dangerously high ferritin levels symptoms",
+      "clicks": 0,
+      "impressions": 66,
+      "ctr": "0%",
+      "position": 89.14
+    },
+    {
+      "query": "what are methylated b vitamins",
+      "clicks": 0,
+      "impressions": 65,
+      "ctr": "0%",
+      "position": 39.14
+    },
+    {
+      "query": "what is nonautologous tissue substitute",
+      "clicks": 0,
+      "impressions": 64,
+      "ctr": "0%",
+      "position": 6.69
+    },
+    {
+      "query": "what does a speckled ana pattern mean",
+      "clicks": 0,
+      "impressions": 63,
+      "ctr": "0%",
+      "position": 57.7
+    },
+    {
+      "query": "is raynaud's autoimmune",
+      "clicks": 0,
+      "impressions": 62,
+      "ctr": "0%",
+      "position": 54.11
+    },
+    {
+      "query": "what can cause a positive ana test",
+      "clicks": 0,
+      "impressions": 62,
+      "ctr": "0%",
+      "position": 69.31
+    },
+    {
+      "query": "can going gluten free help thyroid",
+      "clicks": 0,
+      "impressions": 62,
+      "ctr": "0%",
+      "position": 71.79
+    },
+    {
+      "query": "can birth control cause hyperthyroidism",
+      "clicks": 0,
+      "impressions": 60,
+      "ctr": "0%",
+      "position": 40.17
+    },
+    {
+      "query": "can hypothyroidism cause stomach ulcers",
+      "clicks": 0,
+      "impressions": 59,
+      "ctr": "0%",
+      "position": 18.19
+    },
+    {
+      "query": "how does cold laser work",
+      "clicks": 0,
+      "impressions": 58,
+      "ctr": "0%",
+      "position": 90.5
+    },
+    {
+      "query": "how much glutathione for autoimmune disease",
+      "clicks": 1,
+      "impressions": 57,
+      "ctr": "1.75%",
+      "position": 19.89
+    },
+    {
+      "query": "what environmental factors cause autoimmune diseases",
+      "clicks": 0,
+      "impressions": 56,
+      "ctr": "0%",
+      "position": 33.61
+    },
+    {
+      "query": "does zinc carnosine cause constipation",
+      "clicks": 0,
+      "impressions": 55,
+      "ctr": "0%",
+      "position": 31.56
+    },
+    {
+      "query": "can going gluten free affect your thyroid",
+      "clicks": 0,
+      "impressions": 55,
+      "ctr": "0%",
+      "position": 70.85
+    },
+    {
+      "query": "what does elevated ferritin mean",
+      "clicks": 0,
+      "impressions": 55,
+      "ctr": "0%",
+      "position": 73.2
+    },
+    {
+      "query": "what specialist treats autoimmune diseases",
+      "clicks": 0,
+      "impressions": 54,
+      "ctr": "0%",
+      "position": 95.74
+    },
+    {
+      "query": "what causes ferritin to be high",
+      "clicks": 0,
+      "impressions": 53,
+      "ctr": "0%",
+      "position": 80.51
+    },
+    {
+      "query": "what does methylated vitamins mean",
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": "0%",
+      "position": 37.1
+    },
+    {
+      "query": "what causes high ferritin",
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": "0%",
+      "position": 78.19
+    },
+    {
+      "query": "what is hashimoto's diseases",
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": "0%",
+      "position": 83.25
+    },
+    {
+      "query": "what is methyl b complex good for",
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": "0%",
+      "position": 84.6
+    },
+    {
+      "query": "what type of doctor treats autoimmune disease",
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": "0%",
+      "position": 92.81
+    },
+    {
+      "query": "what causes hashimoto disease",
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": "0%",
+      "position": 94.25
+    },
+    {
+      "query": "is glutathione good for autoimmune disease",
+      "clicks": 0,
+      "impressions": 50,
+      "ctr": "0%",
+      "position": 3.42
+    },
+    {
+      "query": "does birth control cause hypothyroidism",
+      "clicks": 0,
+      "impressions": 50,
+      "ctr": "0%",
+      "position": 35.64
+    },
+    {
+      "query": "what is positive ana",
+      "clicks": 0,
+      "impressions": 50,
+      "ctr": "0%",
+      "position": 66.16
+    },
+    {
+      "query": "can gluten free diet cause hypothyroidism",
+      "clicks": 0,
+      "impressions": 50,
+      "ctr": "0%",
+      "position": 69.98
+    },
+    {
+      "query": "what does it mean when ferritin is high",
+      "clicks": 0,
+      "impressions": 50,
+      "ctr": "0%",
+      "position": 71.4
+    },
+    {
+      "query": "can hypothyroidism cause ulcers",
+      "clicks": 0,
+      "impressions": 49,
+      "ctr": "0%",
+      "position": 36.71
+    },
+    {
+      "query": "is ibs an auto immune disease",
+      "clicks": 0,
+      "impressions": 49,
+      "ctr": "0%",
+      "position": 41.14
+    },
+    {
+      "query": "what causes a positive ana test",
+      "clicks": 0,
+      "impressions": 49,
+      "ctr": "0%",
+      "position": 68.63
+    },
+    {
+      "query": "is irritable bowel disease an autoimmune disease",
+      "clicks": 0,
+      "impressions": 47,
+      "ctr": "0%",
+      "position": 48.6
+    },
+    {
+      "query": "how to use black seed for immune system",
+      "clicks": 0,
+      "impressions": 47,
+      "ctr": "0%",
+      "position": 61.09
+    },
+    {
+      "query": "does magnesium help with immune system",
+      "clicks": 0,
+      "impressions": 47,
+      "ctr": "0%",
+      "position": 64.53
+    },
+    {
+      "query": "what is methylated b vitamins",
+      "clicks": 0,
+      "impressions": 46,
+      "ctr": "0%",
+      "position": 38.39
+    },
+    {
+      "query": "what are the dirty dozen foods",
+      "clicks": 0,
+      "impressions": 46,
+      "ctr": "0%",
+      "position": 60.65
+    },
+    {
+      "query": "how does n acetylcysteine work",
+      "clicks": 0,
+      "impressions": 46,
+      "ctr": "0%",
+      "position": 70.76
+    },
+    {
+      "query": "what is high ferritin in blood test",
+      "clicks": 0,
+      "impressions": 45,
+      "ctr": "0%",
+      "position": 78.47
+    },
+    {
+      "query": "what does methylated b vitamins mean",
+      "clicks": 0,
+      "impressions": 44,
+      "ctr": "0%",
+      "position": 9.52
+    },
+    {
+      "query": "what are nac supplements",
+      "clicks": 0,
+      "impressions": 44,
+      "ctr": "0%",
+      "position": 60
+    },
+    {
+      "query": "what is a positive ana test",
+      "clicks": 0,
+      "impressions": 44,
+      "ctr": "0%",
+      "position": 73.16
+    },
+    {
+      "query": "is ms an autoimmune disease",
+      "clicks": 0,
+      "impressions": 44,
+      "ctr": "0%",
+      "position": 91.95
+    },
+    {
+      "query": "what causes hashimoto's",
+      "clicks": 0,
+      "impressions": 44,
+      "ctr": "0%",
+      "position": 97
+    },
+    {
+      "query": "can you have inflammation with normal crp",
+      "clicks": 1,
+      "impressions": 43,
+      "ctr": "2.33%",
+      "position": 11.53
+    },
+    {
+      "query": "what does high ferritin levels indicate",
+      "clicks": 0,
+      "impressions": 43,
+      "ctr": "0%",
+      "position": 23.42
+    },
+    {
+      "query": "can birth control cause thyroid problems",
+      "clicks": 0,
+      "impressions": 43,
+      "ctr": "0%",
+      "position": 46.63
+    },
+    {
+      "query": "can mold cause autoimmune disease",
+      "clicks": 0,
+      "impressions": 43,
+      "ctr": "0%",
+      "position": 53.12
+    },
+    {
+      "query": "what is in nac",
+      "clicks": 0,
+      "impressions": 42,
+      "ctr": "0%",
+      "position": 59.19
+    },
+    {
+      "query": "does caffeine raise cortisol",
+      "clicks": 0,
+      "impressions": 42,
+      "ctr": "0%",
+      "position": 79.19
+    },
+    {
+      "query": "can you still have inflammation with normal crp",
+      "clicks": 0,
+      "impressions": 41,
+      "ctr": "0%",
+      "position": 9.9
+    }
+  ],
+  "topPages": [
+    {
+      "url": "https://drautoimmune.com/",
+      "clicks": 4966,
+      "impressions": 41438,
+      "position": 20.51
+    },
+    {
+      "url": "https://drautoimmune.com/blog/what-is-n-acetylcysteine/",
+      "clicks": 10,
+      "impressions": 17693,
+      "position": 64.23
+    },
+    {
+      "url": "https://drautoimmune.com/blog/bone-broth-vs-meat-stock-how-to-get-the-most-gut-healing/",
+      "clicks": 276,
+      "impressions": 16467,
+      "position": 20.38
+    },
+    {
+      "url": "https://drautoimmune.com/blog/importance-of-methylated-b-vitamins/",
+      "clicks": 30,
+      "impressions": 14478,
+      "position": 32.53
+    },
+    {
+      "url": "https://drautoimmune.com/services/",
+      "clicks": 217,
+      "impressions": 13974,
+      "position": 3.42
+    },
+    {
+      "url": "https://drautoimmune.com/blog/in-with-black-cumin-seed-oil-out-with-inflammation/",
+      "clicks": 216,
+      "impressions": 13786,
+      "position": 11.92
+    },
+    {
+      "url": "https://drautoimmune.com/blog/what-positive-ana-test-means/",
+      "clicks": 4,
+      "impressions": 13213,
+      "position": 72.28
+    },
+    {
+      "url": "https://drautoimmune.com/blog/signs-of-iron-deficiency-women/",
+      "clicks": 3,
+      "impressions": 12700,
+      "position": 74.48
+    },
+    {
+      "url": "https://drautoimmune.com/blog/what-is-hashimotos-disease/",
+      "clicks": 0,
+      "impressions": 9980,
+      "position": 89.35
+    },
+    {
+      "url": "https://drautoimmune.com/blog/how-autoimmune-diseases-can-affect-your-skin/",
+      "clicks": 1,
+      "impressions": 9742,
+      "position": 85.4
+    },
+    {
+      "url": "https://drautoimmune.com/products/",
+      "clicks": 256,
+      "impressions": 9703,
+      "position": 6.69
+    },
+    {
+      "url": "https://drautoimmune.com/about/",
+      "clicks": 198,
+      "impressions": 9526,
+      "position": 5.76
+    },
+    {
+      "url": "https://drautoimmune.com/about-us/",
+      "clicks": 346,
+      "impressions": 9082,
+      "position": 3.84
+    },
+    {
+      "url": "https://drautoimmune.com/blog/long-term-antihistamine-use-hidden-danger/",
+      "clicks": 11,
+      "impressions": 9082,
+      "position": 56.63
+    },
+    {
+      "url": "https://drautoimmune.com/conditions/",
+      "clicks": 50,
+      "impressions": 8835,
+      "position": 15.85
+    },
+    {
+      "url": "https://drautoimmune.com/blog/what-high-ferritin-levels-mean/",
+      "clicks": 2,
+      "impressions": 8298,
+      "position": 68.62
+    },
+    {
+      "url": "https://drautoimmune.com/blog/what-is-lupus/",
+      "clicks": 0,
+      "impressions": 7361,
+      "position": 82.56
+    },
+    {
+      "url": "https://drautoimmune.com/products/theia-cgm/",
+      "clicks": 199,
+      "impressions": 7271,
+      "position": 5.13
+    },
+    {
+      "url": "https://drautoimmune.com/blog/pmf-therapy-pulsed-electromagnetic-frequency/",
+      "clicks": 102,
+      "impressions": 6590,
+      "position": 13.1
+    },
+    {
+      "url": "https://drautoimmune.com/patient-stories/",
+      "clicks": 61,
+      "impressions": 6501,
+      "position": 3.19
+    },
+    {
+      "url": "https://drautoimmune.com/testimonials/",
+      "clicks": 123,
+      "impressions": 6307,
+      "position": 3.38
+    },
+    {
+      "url": "https://drautoimmune.com/blog/understanding-lupus-and-vasculitis-conditions-decoding-ana-patterns/",
+      "clicks": 48,
+      "impressions": 5688,
+      "position": 36.25
+    },
+    {
+      "url": "https://drautoimmune.com/blog/benefits-of-taking-magnesium/",
+      "clicks": 20,
+      "impressions": 5485,
+      "position": 14.13
+    },
+    {
+      "url": "https://drautoimmune.com/remote-new-patient/",
+      "clicks": 30,
+      "impressions": 5424,
+      "position": 6.51
+    },
+    {
+      "url": "https://drautoimmune.com/blog/10-ways-to-use-coconut-on-the-autoimmune-protocol/",
+      "clicks": 81,
+      "impressions": 5344,
+      "position": 8.02
+    },
+    {
+      "url": "https://drautoimmune.com/book-new-patient-evaluation/",
+      "clicks": 62,
+      "impressions": 4949,
+      "position": 2.9
+    },
+    {
+      "url": "https://drautoimmune.com/blog/should-you-be-gluten-free-if-you-suffer-from-hypothyroidism/",
+      "clicks": 0,
+      "impressions": 4825,
+      "position": 68.51
+    },
+    {
+      "url": "https://drautoimmune.com/conditions-we-support/",
+      "clicks": 64,
+      "impressions": 4808,
+      "position": 3.21
+    },
+    {
+      "url": "https://drautoimmune.com/signs-gut-may-be-driving-autoimmune-flares/",
+      "clicks": 33,
+      "impressions": 4645,
+      "position": 16.25
+    },
+    {
+      "url": "https://drautoimmune.com/products/theia-cgm-sensors/",
+      "clicks": 146,
+      "impressions": 4614,
+      "position": 5.16
+    },
+    {
+      "url": "https://drautoimmune.com/blog/dirty-dozen-list-popular-produce-full-of-pesticides/",
+      "clicks": 0,
+      "impressions": 4602,
+      "position": 56.51
+    },
+    {
+      "url": "https://drautoimmune.com/blog/the-power-of-zinc-carnosine-healing-intestinal-hyperpermeability-and-beyond/",
+      "clicks": 36,
+      "impressions": 4514,
+      "position": 18.13
+    },
+    {
+      "url": "https://drautoimmune.com/shop/",
+      "clicks": 79,
+      "impressions": 4415,
+      "position": 4.69
+    },
+    {
+      "url": "https://drautoimmune.com/contact-us/",
+      "clicks": 22,
+      "impressions": 4177,
+      "position": 5.38
+    },
+    {
+      "url": "https://drautoimmune.com/blog/lupus-and-dhea-a-new-approach/",
+      "clicks": 54,
+      "impressions": 4060,
+      "position": 10.56
+    },
+    {
+      "url": "https://drautoimmune.com/blog/things-to-know-nad-autoimmune-disease/",
+      "clicks": 56,
+      "impressions": 3795,
+      "position": 8.11
+    },
+    {
+      "url": "https://drautoimmune.com/blog/the-difference-between-autologous-and-non-autologous-stem-cells-what-you-need-to-know/",
+      "clicks": 8,
+      "impressions": 3641,
+      "position": 14
+    },
+    {
+      "url": "https://drautoimmune.com/blog/could-your-dry-skin-be-a-sign-of-autoimmune-disease/",
+      "clicks": 10,
+      "impressions": 3372,
+      "position": 10.9
+    },
+    {
+      "url": "https://drautoimmune.com/contact/",
+      "clicks": 24,
+      "impressions": 3368,
+      "position": 5.24
+    },
+    {
+      "url": "https://drautoimmune.com/raynauds-phenomenon/",
+      "clicks": 38,
+      "impressions": 3333,
+      "position": 23.31
+    },
+    {
+      "url": "https://drautoimmune.com/thyroid-conditions/",
+      "clicks": 2,
+      "impressions": 3270,
+      "position": 4.47
+    },
+    {
+      "url": "https://drautoimmune.com/blog/your-thyroid-and-birth-control-pills/",
+      "clicks": 5,
+      "impressions": 3232,
+      "position": 51.98
+    },
+    {
+      "url": "https://drautoimmune.com/blog/the-connection-between-gut-health-and-autoimmune-disease/",
+      "clicks": 0,
+      "impressions": 3139,
+      "position": 62.42
+    },
+    {
+      "url": "https://drautoimmune.com/blog/pcos-and-b-vitamins/",
+      "clicks": 1,
+      "impressions": 3131,
+      "position": 44.3
+    },
+    {
+      "url": "https://drautoimmune.com/blog/what-is-sjogrens-syndrome/",
+      "clicks": 0,
+      "impressions": 2988,
+      "position": 19.67
+    },
+    {
+      "url": "https://drautoimmune.com/blog/",
+      "clicks": 1,
+      "impressions": 2935,
+      "position": 5.77
+    },
+    {
+      "url": "https://drautoimmune.com/products/immuno-power/",
+      "clicks": 42,
+      "impressions": 2558,
+      "position": 14.01
+    },
+    {
+      "url": "https://drautoimmune.com/blog/what-is-clinical-nutrition/",
+      "clicks": 0,
+      "impressions": 2487,
+      "position": 70.04
+    },
+    {
+      "url": "https://drautoimmune.com/blog/nutritional-deficiencies-in-hashimotos-understanding-prevention-support/",
+      "clicks": 4,
+      "impressions": 2482,
+      "position": 23.34
+    },
+    {
+      "url": "https://drautoimmune.com/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/",
+      "clicks": 23,
+      "impressions": 2454,
+      "position": 8.91
+    },
+    {
+      "url": "https://drautoimmune.com/blog/hashimotos-and-h-pylori/",
+      "clicks": 26,
+      "impressions": 2438,
+      "position": 16.27
+    },
+    {
+      "url": "https://drautoimmune.com/blog/glutathione-autoimmune-disease-connection/",
+      "clicks": 15,
+      "impressions": 2292,
+      "position": 8.17
+    },
+    {
+      "url": "https://drautoimmune.com/blog/autoimmune-diseases-in-children/",
+      "clicks": 5,
+      "impressions": 2259,
+      "position": 65.25
+    },
+    {
+      "url": "https://drautoimmune.com/blog/hormones-101-part-1-cortisol-progesterone/",
+      "clicks": 19,
+      "impressions": 2043,
+      "position": 17.91
+    },
+    {
+      "url": "https://drautoimmune.com/blog/signs-of-leaky-gut-syndrome-what-to-do/",
+      "clicks": 0,
+      "impressions": 1931,
+      "position": 88.26
+    },
+    {
+      "url": "https://drautoimmune.com/blog/can-olive-oil-help-multiple-sclerosis-patients/",
+      "clicks": 48,
+      "impressions": 1923,
+      "position": 7.37
+    },
+    {
+      "url": "https://drautoimmune.com/blog/hypertension-and-autoimmune-disease-what-you-need-to-know/",
+      "clicks": 12,
+      "impressions": 1854,
+      "position": 17.32
+    },
+    {
+      "url": "https://drautoimmune.com/blog/birth-control-and-hypothyroidism/",
+      "clicks": 4,
+      "impressions": 1845,
+      "position": 44.6
+    },
+    {
+      "url": "https://drautoimmune.com/blog/vitamin-ds-role-on-the-immune-system/",
+      "clicks": 1,
+      "impressions": 1835,
+      "position": 63.89
+    },
+    {
+      "url": "https://drautoimmune.com/new-patient-exam/",
+      "clicks": 18,
+      "impressions": 1782,
+      "position": 4.36
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "pageTypeCounts": {
+    "other-migrated": 59,
+    "areas-hub": 1,
+    "state-hub": 50,
+    "state-condition": 400,
+    "front-range-city": 10,
+    "learn-hub": 1,
+    "learn": 10
+  },
+  "step1Technical": {
+    "nonOkStatus": [],
+    "missingCanonical": [],
+    "badCanonical": [],
+    "selfMismatchCanonical": 0,
+    "noindexed": []
+  },
+  "step2OnPage": {
+    "titleIssuesCount": 20,
+    "titleIssuesSample": [
+      {
+        "path": "/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/",
+        "issue": "title 71 chars (>60)",
+        "title": "If My ANA Is Positive Do I Have an Autoimmune Disease? - Dr. Autoimmune"
+      },
+      {
+        "path": "/the-hidden-link-between-gut-health-and-autoimmune-disease/",
+        "issue": "title 74 chars (>60)",
+        "title": "The Hidden Link Between Gut Health and Autoimmune Disease - Dr. Autoimmune"
+      },
+      {
+        "path": "/why-do-i-still-have-symptoms-when-my-tsh-is-normal/",
+        "issue": "title 68 chars (>60)",
+        "title": "Why Do I Still Have Symptoms When My TSH Is Normal? - Dr. Autoimmune"
+      },
+      {
+        "path": "/autoimmune-skin-clues-gut-health-trouble/",
+        "issue": "title 71 chars (>60)",
+        "title": "Autoimmune Skin Clues That Point to Gut Health Trouble - Dr. Autoimmune"
+      },
+      {
+        "path": "/are-you-testing-your-inflammatory-markers-heres-why-you-should-be/",
+        "issue": "title 85 chars (>60)",
+        "title": "Are You Testing Your Inflammatory Markers? Here’s Why You Should Be! - Dr. Autoimmune"
+      },
+      {
+        "path": "/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer/",
+        "issue": "title 100 chars (>60)",
+        "title": "What High TSH Levels Actually Mean & Why Thyroid Medication Isn’t Always the Answer - Dr. Autoimmune"
+      },
+      {
+        "path": "/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/",
+        "issue": "title 107 chars (>60)",
+        "title": "Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You - Dr. Autoimmune"
+      },
+      {
+        "path": "/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/",
+        "issue": "title 89 chars (>60)",
+        "title": "Understanding Gluten Disorders: Celiac Disease, Allergy, and Sensitivity - Dr. Autoimmune"
+      },
+      {
+        "path": "/nutritional-deficiencies-in-hashimotos-understanding-prevention-support/",
+        "issue": "title 94 chars (>60)",
+        "title": "Nutritional Deficiencies in Hashimoto's: Understanding, Prevention, & Support - Dr. Autoimmune"
+      },
+      {
+        "path": "/mold-illness-often-mimics-autoimmune-disease-symptoms/",
+        "issue": "title 74 chars (>60)",
+        "title": "Why Mold Illness Often Mimics Autoimmune Disease Symptoms - Dr. Autoimmune"
+      },
+      {
+        "path": "/functional-medicine-doctor-help-autoimmune-flares/",
+        "issue": "title 83 chars (>60)",
+        "title": "Could a Functional Medicine Doctor Help Reverse Autoimmune Flares? - Dr. Autoimmune"
+      },
+      {
+        "path": "/signs-gut-may-be-driving-autoimmune-flares/",
+        "issue": "title 64 chars (>60)",
+        "title": "Signs Your Gut May Be Driving Autoimmune Flares - Dr. Autoimmune"
+      },
+      {
+        "path": "/secrets-that-nourish-your-gut-ease-endometriosis/",
+        "issue": "title 68 chars (>60)",
+        "title": "Secrets That Nourish Your Gut & Ease Endometriosis  - Dr. Autoimmune"
+      },
+      {
+        "path": "/top-5-most-common-autoimmune-diseases-that-affect-women/",
+        "issue": "title 72 chars (>60)",
+        "title": "Top 5 Most Common Autoimmune Diseases That Affect Women - Dr. Autoimmune"
+      },
+      {
+        "path": "/subject-line-unveiling-the-hidden-effects-of-birth-control-pills/",
+        "issue": "title 67 chars (>60)",
+        "title": "How Birth Control Pills Affect Your Thyroid Health - Dr. Autoimmune"
+      },
+      {
+        "path": "/unmasking-the-link-between-covid-19-and-gut-issues/",
+        "issue": "title 67 chars (>60)",
+        "title": "Unmasking the Link Between COVID-19 and Gut Issues - Dr. Autoimmune"
+      },
+      {
+        "path": "/how-autoimmune-diseases-can-affect-your-skin/",
+        "issue": "title 61 chars (>60)",
+        "title": "How Autoimmune Diseases Can Affect Your Skin - Dr. Autoimmune"
+      },
+      {
+        "path": "/healing-crohns-disease-with-functional-medicine/",
+        "issue": "title 65 chars (>60)",
+        "title": "Healing Crohn’s Disease With Functional Medicine - Dr. Autoimmune"
+      },
+      {
+        "path": "/pots-treatment-looking-beyond-salt-and-medications-with-functional-medicine/",
+        "issue": "title 76 chars (>60)",
+        "title": "POTS Treatment: Looking Beyond Salt and Medications with Functional Medicine"
+      },
+      {
+        "path": "/learn/medications-that-can-cause-a-positive-ana-test/",
+        "issue": "title 63 chars (>60)",
+        "title": "Medications That Can Cause a Positive ANA Test | Dr. Autoimmune"
+      }
+    ],
+    "duplicateTitlesCount": 0,
+    "duplicateTitlesSample": [],
+    "descIssuesCount": 13,
+    "descIssuesSample": [
+      {
+        "path": "/contact-us/",
+        "issue": "meta description 159 chars (>155)"
+      },
+      {
+        "path": "/about-us/",
+        "issue": "meta description 157 chars (>155)"
+      },
+      {
+        "path": "/featured-interviews/",
+        "issue": "meta description 158 chars (>155)"
+      },
+      {
+        "path": "/conditions-we-support/",
+        "issue": "meta description 157 chars (>155)"
+      },
+      {
+        "path": "/other-autoimmune-conditions/",
+        "issue": "meta description 156 chars (>155)"
+      },
+      {
+        "path": "/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/",
+        "issue": "meta description 159 chars (>155)"
+      },
+      {
+        "path": "/why-do-i-still-have-symptoms-when-my-tsh-is-normal/",
+        "issue": "meta description 156 chars (>155)"
+      },
+      {
+        "path": "/are-you-testing-your-inflammatory-markers-heres-why-you-should-be/",
+        "issue": "meta description 156 chars (>155)"
+      },
+      {
+        "path": "/nutritional-deficiencies-in-hashimotos-understanding-prevention-support/",
+        "issue": "meta description 158 chars (>155)"
+      },
+      {
+        "path": "/functional-medicine-doctor-help-autoimmune-flares/",
+        "issue": "meta description 156 chars (>155)"
+      },
+      {
+        "path": "/secrets-that-nourish-your-gut-ease-endometriosis/",
+        "issue": "meta description 156 chars (>155)"
+      },
+      {
+        "path": "/top-5-most-common-autoimmune-diseases-that-affect-women/",
+        "issue": "meta description 160 chars (>155)"
+      },
+      {
+        "path": "/subject-line-unveiling-the-hidden-effects-of-birth-control-pills/",
+        "issue": "meta description 156 chars (>155)"
+      }
+    ],
+    "duplicateDescriptionsCount": 0,
+    "duplicateDescriptionsSample": [],
+    "h1IssuesCount": 1,
+    "h1IssuesSample": [
+      {
+        "path": "/hello-my-valued-subscriber/",
+        "issue": "2 H1s",
+        "h1s": [
+          "Free Hypothyroid Healing Webinar Invitation",
+          "Hello, my valued subscriber!"
+        ]
+      }
+    ],
+    "thinPagesCount": 476,
+    "thinPagesSample": [
+      {
+        "path": "/discovery-call/",
+        "pageType": "other-migrated",
+        "wordCount": 138,
+        "threshold": 300
+      },
+      {
+        "path": "/store/",
+        "pageType": "other-migrated",
+        "wordCount": 180,
+        "threshold": 300
+      },
+      {
+        "path": "/contact-us/",
+        "pageType": "other-migrated",
+        "wordCount": 148,
+        "threshold": 300
+      },
+      {
+        "path": "/patient-portal/",
+        "pageType": "other-migrated",
+        "wordCount": 173,
+        "threshold": 300
+      },
+      {
+        "path": "/live-webinar-schedule/",
+        "pageType": "other-migrated",
+        "wordCount": 213,
+        "threshold": 300
+      },
+      {
+        "path": "/services/",
+        "pageType": "other-migrated",
+        "wordCount": 217,
+        "threshold": 300
+      },
+      {
+        "path": "/areas-we-serve/",
+        "pageType": "areas-hub",
+        "wordCount": 407,
+        "threshold": 600
+      },
+      {
+        "path": "/areas-we-serve/alabama/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/alaska/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/arizona/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/colorado/",
+        "pageType": "state-hub",
+        "wordCount": 562,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/california/",
+        "pageType": "state-hub",
+        "wordCount": 509,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/arkansas/",
+        "pageType": "state-hub",
+        "wordCount": 508,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/florida/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/connecticut/",
+        "pageType": "state-hub",
+        "wordCount": 507,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/delaware/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/georgia/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/hawaii/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/illinois/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/idaho/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/kansas/",
+        "pageType": "state-hub",
+        "wordCount": 508,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/iowa/",
+        "pageType": "state-hub",
+        "wordCount": 508,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/indiana/",
+        "pageType": "state-hub",
+        "wordCount": 507,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/louisiana/",
+        "pageType": "state-hub",
+        "wordCount": 508,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/maine/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/kentucky/",
+        "pageType": "state-hub",
+        "wordCount": 507,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/maryland/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/massachusetts/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/michigan/",
+        "pageType": "state-hub",
+        "wordCount": 508,
+        "threshold": 700
+      },
+      {
+        "path": "/areas-we-serve/mississippi/",
+        "pageType": "state-hub",
+        "wordCount": 506,
+        "threshold": 700
+      }
+    ],
+    "missingAltImagesCount": 28,
+    "missingAltSample": [
+      {
+        "path": "/discovery-call/",
+        "imagesMissingAlt": 1,
+        "imageCount": 3
+      },
+      {
+        "path": "/wellness-services/",
+        "imagesMissingAlt": 1,
+        "imageCount": 4
+      },
+      {
+        "path": "/store/",
+        "imagesMissingAlt": 1,
+        "imageCount": 8
+      },
+      {
+        "path": "/contact-us/",
+        "imagesMissingAlt": 1,
+        "imageCount": 3
+      },
+      {
+        "path": "/about-us/",
+        "imagesMissingAlt": 1,
+        "imageCount": 5
+      },
+      {
+        "path": "/adhd-add/",
+        "imagesMissingAlt": 1,
+        "imageCount": 8
+      },
+      {
+        "path": "/featured-interviews/",
+        "imagesMissingAlt": 1,
+        "imageCount": 7
+      },
+      {
+        "path": "/anxiety-depression/",
+        "imagesMissingAlt": 1,
+        "imageCount": 8
+      },
+      {
+        "path": "/conditions-we-support/",
+        "imagesMissingAlt": 1,
+        "imageCount": 5
+      },
+      {
+        "path": "/book-an-appointment/",
+        "imagesMissingAlt": 1,
+        "imageCount": 4
+      }
+    ],
+    "missingOgCount": 0,
+    "brokenLinksCount": 0,
+    "brokenLinksSample": [],
+    "orphanPagesCount": 0,
+    "orphanPagesSample": []
+  },
+  "step3Content": {
+    "riskyPhrasePagesCount": 7,
+    "riskyPhrasePages": [
+      {
+        "path": "/inflammatory-bowel-disease/",
+        "riskyPhrases": [
+          "cure"
+        ]
+      },
+      {
+        "path": "/multiple-sclerosis/",
+        "riskyPhrases": [
+          "cure"
+        ]
+      },
+      {
+        "path": "/autoimmune-skin-clues-gut-health-trouble/",
+        "riskyPhrases": [
+          "cured"
+        ]
+      },
+      {
+        "path": "/first-autoimmune-functional-medicine-visit-guide/",
+        "riskyPhrases": [
+          "cure"
+        ]
+      },
+      {
+        "path": "/functional-medicine-doctor-help-autoimmune-flares/",
+        "riskyPhrases": [
+          "cure"
+        ]
+      },
+      {
+        "path": "/5-common-autoimmune-diseases-in-men/",
+        "riskyPhrases": [
+          "eliminate your symptoms"
+        ]
+      },
+      {
+        "path": "/leaky-gut-signs-causes-and-functional-fixes/",
+        "riskyPhrases": [
+          "miracle"
+        ]
+      }
+    ],
+    "noDisclaimerCount": 0,
+    "noDisclaimerSample": [],
+    "noDisclaimerAllAreas": 0,
+    "noCtaCount": 0,
+    "noPhoneCount": 0,
+    "topDuplicatePairs": [
+      {
+        "type": "front-range-city",
+        "a": "/areas-we-serve/colorado/lafayette/",
+        "b": "/areas-we-serve/colorado/broomfield/",
+        "similarity": 82
+      },
+      {
+        "type": "front-range-city",
+        "a": "/areas-we-serve/colorado/longmont/",
+        "b": "/areas-we-serve/colorado/westminster/",
+        "similarity": 81.4
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/virginia/",
+        "b": "/areas-we-serve/west-virginia/",
+        "similarity": 81.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/new-hampshire/",
+        "b": "/areas-we-serve/new-jersey/",
+        "similarity": 80.4
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/north-carolina/",
+        "b": "/areas-we-serve/north-dakota/",
+        "similarity": 80.4
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/massachusetts/",
+        "b": "/areas-we-serve/missouri/",
+        "similarity": 80.3
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/new-hampshire/",
+        "b": "/areas-we-serve/new-york/",
+        "similarity": 80.3
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/new-hampshire/",
+        "b": "/areas-we-serve/new-mexico/",
+        "similarity": 80.3
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/south-dakota/",
+        "b": "/areas-we-serve/south-carolina/",
+        "similarity": 80.3
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/alaska/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/arizona/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/florida/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/delaware/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/georgia/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/hawaii/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/illinois/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/idaho/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/maine/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/maryland/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/massachusetts/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/mississippi/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/montana/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/nebraska/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/ohio/",
+        "similarity": 80.2
+      },
+      {
+        "type": "state-hub",
+        "a": "/areas-we-serve/alabama/",
+        "b": "/areas-we-serve/pennsylvania/",
+        "similarity": 80.2
+      }
+    ],
+    "totalDuplicatePairsOver60": 21898
+  },
+  "step4Schema": {
+    "jsonLdIssuesCount": 0,
+    "jsonLdIssuesSample": [],
+    "napPhoneUsedInPseo": "+13038828447"
+  }
+}

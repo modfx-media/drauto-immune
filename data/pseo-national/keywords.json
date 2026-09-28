@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-09-29",
+  "methodology": "Step 1: re-scanned the full GSC Queries.csv/Pages.csv export (same 1001/383-row export used previously) for every US state name + top-40 US metro area, not just Colorado terms (scripts/pseo-national/analyze-gsc-national.mjs). Step 2: ran DataForSEO bulk keyword volume (mcp_dfs_bulk_keyword_volume, US database, Google Ads source) on 235 candidate keywords: (a) 15 conditions x 4 telehealth/virtual/online modifiers = 60 national condition+modifier keywords, (b) ~15 generic national telehealth/functional-medicine phrases, (c) all 50 states x 2 generic terms = 100 state-level keywords, (d) 20 major metros x 2-3 terms = 60 metro-level keywords.",
+  "gscFindings": {
+    "statesFoundInQueries": ["colorado"],
+    "metrosFoundInQueries": ["denver", "boulder", "fort collins", "indianapolis (single one-off query, low impressions)"],
+    "conclusion": "GSC shows essentially zero organic query signal for any state or metro outside the Boulder/Denver/Fort Collins area. This is an inherent GSC limitation for expansion planning (GSC can only show queries the site already gets some impressions for — it cannot reveal untapped nationwide demand), which is exactly why Step 2's independent keyword-volume research was run."
+  },
+  "mcpFindings": {
+    "keywordsChecked": 235,
+    "keywordsWithMeasurableVolume": 6,
+    "results": [
+      { "keyword": "online holistic doctor", "volume": 50, "note": "Generic, not condition- or geo-specific." },
+      { "keyword": "virtual holistic doctor", "volume": 20, "note": "Generic, not condition- or geo-specific." },
+      { "keyword": "functional medicine doctor in colorado", "volume": 20 },
+      { "keyword": "functional medicine doctor in michigan", "volume": 20 },
+      { "keyword": "functional medicine doctor in arkansas", "volume": 10 },
+      { "keyword": "functional medicine doctor in massachusetts", "volume": 10 }
+    ],
+    "zeroOrNullVolume": {
+      "allConditionXTelehealthModifierCombos": "All 60 combinations of [hashimoto's, graves', lupus, sjogren's, celiac, MS, RA, raynaud's, POTS, crohn's, ulcerative colitis, hypothyroidism, PCOS, psoriasis, eczema, chronic fatigue] x [online/virtual/telehealth doctor] returned null/zero US search volume.",
+      "stateLevel": "46 of 50 states returned null/zero for BOTH 'functional medicine doctor in [state]' and 'autoimmune doctor in [state]'. Only CO, MI, AR, MA showed any measurable volume, all at 10-20/month.",
+      "metroLevel": "All 20 major metros (NYC, LA, Chicago, Houston, Dallas, Phoenix, Atlanta, Miami, Seattle, Austin, Boston, SF, San Diego, Philadelphia, Charlotte, Nashville, Portland, Las Vegas, Minneapolis) returned null/zero for every combination tested (functional medicine doctor / autoimmune doctor / hashimoto's doctor in [metro])."
+    }
+  },
+  "conclusion": "There is no GSC evidence and no independent keyword-research evidence of real, measurable nationwide state- or metro-level search demand for autoimmune/functional-medicine + location combinations, nor for condition + telehealth/virtual/online modifiers. This rules out Page Types A (50 state hubs), B (condition x state), and C (condition x metro) from the original brief as data-supported at any meaningful scale — building them would be classic thin/unsupported pSEO, which is a real risk for a YMYL medical site (duplicate low-value pages, no organic traffic, potential Panic/Helpful-Content-style algorithmic risk to the whole domain). Real, confirmed demand (per data/pseo/keywords.json + data/pseo/gsc-analysis.json from the prior Colorado-focused batch) exists for: (1) Denver specifically as a location, (2) informational condition/root-cause/lab-result topics nationally (not state-specific) — already targeted by the 10 /learn pages built in the previous batch, and (3) generic non-condition-specific 'online/virtual holistic doctor' phrases at very low volume (50/mo and 20/mo) which could support ONE additional generic national landing page but not a 500-page matrix.",
+  "recommendation": "Do not build Page Types A/B/C (state hubs, condition x state, condition x metro) — the data does not support them, at any scale, let alone ~500 pages. Recommended scope instead: (1) reframe the existing /areas-we-serve hub to lead with 'nationwide telehealth' messaging (already partially done), (2) add ONE new national landing page at /online/functional-medicine (Type D, targeting the only generically-confirmed demand: 'online/virtual holistic doctor' + related terms, ~2,500-word comprehensive page), (3) continue building out /learn informational pages nationally-framed (no state/city angle needed) — this is where the real, GSC-confirmed demand actually lives. Awaiting user confirmation before any further content generation, per the brief's own 'if the data honestly supports fewer quality pages, stop there and tell me' instruction."
+}

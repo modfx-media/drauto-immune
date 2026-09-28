@@ -3,6 +3,8 @@ export const QUICK_LINKS = [
   { label: "About Us", href: "/about-us/" },
   { label: "Featured Interviews", href: "/featured-interviews/" },
   { label: "Blog", href: "/blog/" },
+  { label: "Learn", href: "/learn/" },
+  { label: "Areas We Serve", href: "/areas-we-serve/" },
   { label: "Live Webinar Schedule", href: "/live-webinar-schedule/" },
   { label: "Store", href: "/store/" },
   { label: "Contact Us", href: "/contact-us/" },

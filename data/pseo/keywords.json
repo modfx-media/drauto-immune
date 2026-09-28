@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-29",
+  "methodology": "Cross-referenced GSC query/page data (gsc-analysis.json) with DataForSEO keyword volume/difficulty lookups (dfs_keyword_research, dfs_bulk_keyword_volume), then filtered out any keyword already targeted by an existing page — the 13 condition pillar pages, the ~35 migrated blog posts (lib/blog-posts.ts), or the 208 live-but-unmigrated legacy blog posts (_unmigrated-blog-slugs.json). Only keywords with confirmed real demand AND no existing content anywhere (migrated or not) were selected for Batch 1.",
+  "criticalFinding": "The live production site (drautoimmune.com) has ~238 existing blog posts total; only ~35 have been migrated into this Next.js rebuild so far. The other 208 are live today and cover the large majority of high-volume informational keywords found in GSC (ANA patterns, leaky gut, ferritin/anemia, PCOS+B vitamins, dirty dozen, antihistamines, NAC, POTS, thyroid detox, etc.). This means the realistic net-new /learn page opportunity is much smaller than initially scoped, and migrating those 208 posts into this codebase is a separate, higher-priority workstream than new pSEO content (see final report).",
+  "batch1Keywords": [
+    { "keyword": "ana titer 1:80 / 1:160 / 1:320 meaning", "cluster": "ana-patterns", "intent": "informational", "targetPage": "/learn/ana-titer-levels-explained/" },
+    { "keyword": "medications that can cause a positive ana test", "volume": 110, "cluster": "ana-patterns", "intent": "informational", "targetPage": "/learn/medications-that-can-cause-a-positive-ana-test/" },
+    { "keyword": "false positive ana test causes", "volume": 90, "cluster": "ana-patterns", "intent": "informational", "targetPage": "/learn/false-positive-ana-test-causes/" },
+    { "keyword": "can stress trigger autoimmune disease flares", "cluster": "root-cause-education", "intent": "informational", "targetPage": "/learn/can-stress-trigger-autoimmune-disease-flares/" },
+    { "keyword": "mthfr gene mutation and autoimmune disease", "cluster": "root-cause-education", "intent": "informational", "targetPage": "/learn/mthfr-gene-mutation-and-autoimmune-disease/" },
+    { "keyword": "autoimmune hepatitis skin rash", "volume": 260, "cluster": "conditions-education", "intent": "informational", "targetPage": "/learn/autoimmune-hepatitis-symptoms-and-skin-rash/" },
+    { "keyword": "what type of doctor treats autoimmune disease", "gscImpressions": 52, "cluster": "provider-selection", "intent": "commercial-investigation", "targetPage": "/learn/what-type-of-doctor-treats-autoimmune-disease/" },
+    { "keyword": "how to choose an autoimmune disease specialist", "cluster": "provider-selection", "intent": "commercial-investigation", "targetPage": "/learn/how-to-choose-an-autoimmune-disease-specialist/" },
+    { "keyword": "functional medicine vs rheumatologist", "cluster": "provider-selection", "intent": "commercial-investigation", "targetPage": "/learn/functional-medicine-vs-rheumatologist-what-to-expect/" },
+    { "keyword": "is ibs an autoimmune disease", "gscImpressions": 210, "cluster": "conditions-education", "intent": "informational", "targetPage": "/learn/is-irritable-bowel-syndrome-an-autoimmune-disease/" },
+    { "keyword": "autoimmune specialist denver / autoimmune doctor denver", "gscImpressions": 1200, "gscPosition": 37.7, "cluster": "location", "intent": "commercial-investigation", "targetPage": "/areas-we-serve/denver/", "note": "Confirmed GSC content gap: real impressions, zero existing page, poor average position." }
+  ],
+  "excludedHighVolumeClusters": [
+    { "cluster": "leaky-gut", "reason": "Already covered by 3+ existing posts (migrated + unmigrated): what-is-leaky-gut, signs-of-leaky-gut-syndrome-what-to-do, understanding-leaky-gut-and-sjogrens-disease, there-is-nothing-sweet-about-artificial-sweeteners-and-leaky-gut." },
+    { "cluster": "ferritin-anemia", "reason": "Already covered: unusual-causes-of-anemia, signs-of-iron-deficiency-women, what-high-ferritin-levels-mean." },
+    { "cluster": "pcos", "reason": "Already covered: pcos-and-b-vitamins." },
+    { "cluster": "dirty-dozen", "reason": "Already covered: dirty-dozen-list-popular-produce-full-of-pesticides." },
+    { "cluster": "nac-antihistamine", "reason": "Already covered: what-is-n-acetylcysteine, long-term-antihistamine-use-hidden-danger." },
+    { "cluster": "pots", "reason": "Already covered by 3 existing posts: connection-between-pots-and-autoimmunity, pots-mysterious-condition-behind-dizziness-brain-fog, and a treatment-focused post." },
+    { "cluster": "hashimotos-vitamin-d", "reason": "Already covered: hashimotos-and-vitamin-d-supplementation, vitamin-d-to-fight-hashimotos-disease." },
+    { "cluster": "seropositive-vs-seronegative-ra", "reason": "Already covered: seropositive-versus-seronegative-arthritis-understanding-the-differences-and-similarities." },
+    { "cluster": "boulder-location", "reason": "Homepage/about-us already rank #1-3 for 'autoimmune doctor boulder' family terms per GSC; a competing dedicated page risks self-cannibalization." },
+    { "cluster": "city-matrix (25 cities)", "reason": "DataForSEO bulk volume check on 46 city+condition combos returned near-zero volume outside Boulder/Denver; GSC shows location signal limited to Boulder (thin, already ranking), Denver (real gap), Fort Collins (minimal). No data support for a large city matrix." }
+  ]
+}

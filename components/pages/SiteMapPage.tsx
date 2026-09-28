@@ -9,6 +9,8 @@ import Section from "@/components/ui/Section";
 import Reveal from "@/components/home/Reveal";
 import { CLINIC_LOCATION } from "@/components/layout/footer-links";
 import { DISCOVERY_CALL_HREF, SITE_CONTACT } from "@/components/layout/nav-links";
+import { LEARN_PAGES } from "@/content/learn-data";
+import { getStatesByRegion, FRONT_RANGE_CITIES } from "@/content/national-data";
 
 interface DirectoryLink {
   label: string;
@@ -104,11 +106,20 @@ const RESOURCE_LINKS: (DirectoryLink & { tag: string })[] = [
   },
 ];
 
+/** The `/learn/[slug]` educational article series (content/learn-data.ts). */
+const LEARN_LINKS: DirectoryLink[] = LEARN_PAGES.map((page) => ({
+  label: page.h1,
+  href: `/learn/${page.slug}/`,
+  description: page.heroSubhead,
+}));
+
 const QUICK_JUMP = [
   { id: "main", label: "Main Pages" },
   { id: "services", label: "Services" },
   { id: "conditions", label: "Conditions" },
   { id: "resources", label: "Resources" },
+  { id: "learn", label: "Learn" },
+  { id: "areas", label: "Areas We Serve" },
   { id: "visit", label: "Visit & Contact" },
 ];
 
@@ -300,6 +311,83 @@ export default function SiteMapPage() {
                 </li>
               ))}
             </ul>
+          </Reveal>
+        </Container>
+      </Section>
+
+      {/* Learn articles */}
+      <Section bg="white" id="learn">
+        <Container>
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,2.1fr)] lg:gap-16">
+            <Reveal className="lg:border-r lg:border-gray lg:pr-10">
+              <Badge className="mb-4 inline-flex">Education</Badge>
+              <h2>
+                Learn & <Accent>Explore</Accent>
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-ink-soft">
+                Plain-language explainers on lab results, root causes, and finding the right kind of care.
+              </p>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <ul>
+                {LEARN_LINKS.map((link) => (
+                  <DirectoryRow key={link.href} link={link} />
+                ))}
+              </ul>
+            </Reveal>
+          </div>
+        </Container>
+      </Section>
+
+      {/* Areas we serve */}
+      <Section bg="sage" id="areas" className="relative overflow-hidden">
+        <Container className="relative">
+          <Reveal className="mx-auto max-w-2xl text-center">
+            <Badge className="mb-4 inline-flex">Nationwide Care</Badge>
+            <h2>
+              Areas We <Accent>Serve</Accent>
+            </h2>
+            <p className="mt-4 text-base leading-relaxed text-ink-soft">
+              100% telehealth care for patients in all 50 states. Every state below has its own service-area page,
+              each linking out to condition-specific care for the eight conditions we cover most.
+            </p>
+            <Button href="/areas-we-serve/" variant="primary" size="md" className="mt-6 uppercase tracking-wide">
+              Visit the Areas We Serve Hub
+            </Button>
+          </Reveal>
+
+          <div className="mt-14 grid grid-cols-1 gap-x-10 gap-y-10 lg:grid-cols-2">
+            {Object.entries(getStatesByRegion()).map(([region, states], i) => (
+              <Reveal key={region} delay={i * 0.06}>
+                <h3 className="text-lg font-extrabold text-ink">{region}</h3>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {states.map((state) => (
+                    <Link
+                      key={state.slug}
+                      href={`/areas-we-serve/${state.slug}/`}
+                      className="inline-flex items-center rounded-pill bg-white/80 px-3 py-1 font-mono text-xs font-medium uppercase tracking-[0.08em] text-ink-soft transition-colors hover:bg-white hover:text-primary-active"
+                    >
+                      {state.name}
+                    </Link>
+                  ))}
+                </div>
+              </Reveal>
+            ))}
+          </div>
+
+          <Reveal delay={0.3} className="mt-14">
+            <h3 className="text-lg font-extrabold text-ink">Colorado Front Range Cities</h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {FRONT_RANGE_CITIES.map((city) => (
+                <Link
+                  key={city.slug}
+                  href={`/areas-we-serve/colorado/${city.slug}/`}
+                  className="inline-flex items-center rounded-pill bg-white/80 px-3 py-1 font-mono text-xs font-medium uppercase tracking-[0.08em] text-ink-soft transition-colors hover:bg-white hover:text-primary-active"
+                >
+                  {city.name}
+                </Link>
+              ))}
+            </div>
           </Reveal>
         </Container>
       </Section>

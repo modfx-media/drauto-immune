@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-29",
+  "status": "superseded",
+  "supersededNote": "This file documents the ORIGINAL Batch 1 scope (12 pages) approved at the time listed below. The pSEO program was later expanded to a nationwide state x condition matrix that is NOT reflected in the `pages` array below. Do not treat this file as the current page inventory — the current source of truth is content/national-data.ts (STATES, STATE_CONDITIONS, FRONT_RANGE_CITIES + buildStateHubContent/buildStateConditionContent/buildFrontRangeCityContent) and content/learn-data.ts (LEARN_PAGES), which together generate 472 pSEO routes as of the 2025 SEO audit (reports/pseo-audit.md): 1 areas-we-serve hub + 50 state hubs + 400 state x condition pages + 10 Front Range city pages + 1 learn hub + 10 learn articles. As of that audit, none of these 472 pages had been deployed to production yet — see reports/pseo-audit.md Finding 0-A before assuming they are live.",
+  "summary": {
+    "totalNewPages": 12,
+    "learnPages": 10,
+    "areaHubPages": 1,
+    "areaCityPages": 1,
+    "originalTarget": "~500 pages (25-city x condition matrix)",
+    "actualScope": "12 pages, data-led, approved by user after Step 0/2 findings showed (a) no real search-volume support for a 25-city matrix, and (b) 208 of the site's own existing blog posts are live but not yet migrated into this codebase, already covering most high-volume informational keyword clusters."
+  },
+  "pages": [
+    { "path": "/areas-we-serve/", "type": "area-hub", "priority": 0.8, "keyword": "areas we serve / telehealth service area" },
+    { "path": "/areas-we-serve/denver/", "type": "area-city", "priority": 0.7, "keyword": "autoimmune specialist denver", "note": "This flat route no longer exists — Denver is now covered at /areas-we-serve/colorado/denver/ as part of the nationwide state matrix. See supersededNote above." },
+    { "path": "/learn/", "type": "learn-hub", "priority": 0.6, "keyword": "n/a (index page)" },
+    { "path": "/learn/ana-titer-levels-explained/", "type": "learn", "priority": 0.6, "keyword": "ana titer 1:80 / 1:160 / 1:320 meaning" },
+    { "path": "/learn/medications-that-can-cause-a-positive-ana-test/", "type": "learn", "priority": 0.6, "keyword": "medications that can cause a positive ana test" },
+    { "path": "/learn/false-positive-ana-test-causes/", "type": "learn", "priority": 0.6, "keyword": "false positive ana test causes" },
+    { "path": "/learn/can-stress-trigger-autoimmune-disease-flares/", "type": "learn", "priority": 0.6, "keyword": "can stress trigger autoimmune disease flares" },
+    { "path": "/learn/mthfr-gene-mutation-and-autoimmune-disease/", "type": "learn", "priority": 0.6, "keyword": "mthfr gene mutation and autoimmune disease" },
+    { "path": "/learn/autoimmune-hepatitis-symptoms-and-skin-rash/", "type": "learn", "priority": 0.6, "keyword": "autoimmune hepatitis skin rash" },
+    { "path": "/learn/what-type-of-doctor-treats-autoimmune-disease/", "type": "learn", "priority": 0.6, "keyword": "what type of doctor treats autoimmune disease" },
+    { "path": "/learn/how-to-choose-an-autoimmune-disease-specialist/", "type": "learn", "priority": 0.6, "keyword": "how to choose an autoimmune disease specialist" },
+    { "path": "/learn/functional-medicine-vs-rheumatologist-what-to-expect/", "type": "learn", "priority": 0.6, "keyword": "functional medicine vs rheumatologist" },
+    { "path": "/learn/is-irritable-bowel-syndrome-an-autoimmune-disease/", "type": "learn", "priority": 0.6, "keyword": "is ibs an autoimmune disease" }
+  ],
+  "pagesSkippedAndWhy": "See data/pseo/keywords.json excludedHighVolumeClusters. In short: the ~500-page city x condition matrix and most broad informational topics were skipped because (1) DataForSEO showed no real search volume for a large city matrix beyond Boulder/Denver, and (2) 208 existing (unmigrated) live blog posts already cover nearly every other high-volume informational cluster found in GSC, so building near-duplicate new pages would have created keyword cannibalization risk against the site's own existing content.",
+  "recommendedFollowUp": "Migrate the 208 unmigrated legacy blog posts (data/pseo/_unmigrated-blog-slugs.json) into lib/blog-posts.ts using the existing scripts/migrate-content.mjs pipeline. This is a separate, higher-value workstream than further pSEO expansion, since those pages are already live and indexed but at risk of 404ing or losing SEO value once this rebuild replaces the current site."
+}
