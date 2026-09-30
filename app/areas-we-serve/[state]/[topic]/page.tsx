@@ -8,7 +8,6 @@ import {
   getStateCondition,
   getStateConditionSlugs,
   getFrontRangeCity,
-  getFrontRangeCitySlugs,
   buildStateConditionContent,
   buildFrontRangeCityContent,
 } from "@/content/national-data";
@@ -23,9 +22,7 @@ export async function generateStaticParams() {
       params.push({ state, topic: condition });
     }
     if (state === "colorado") {
-      for (const city of getFrontRangeCitySlugs()) {
-        params.push({ state, topic: city });
-      }
+      params.push({ state, topic: "denver" });
     }
   }
   return params;
@@ -62,7 +59,7 @@ export async function generateMetadata({
   }
 
   const city = state.slug === "colorado" ? getFrontRangeCity(topic) : undefined;
-  if (city) {
+  if (city?.slug === "denver") {
     const page = buildFrontRangeCityContent(city);
     const canonical = `${SITE_URL}/areas-we-serve/colorado/${city.slug}/`;
     return {
@@ -103,7 +100,9 @@ export default async function StateTopicPage({
             breadcrumb: [
               { label: "Home", href: "/" },
               { label: "Areas We Serve", href: "/areas-we-serve/" },
-              { label: state.name, href: `/areas-we-serve/${state.slug}/` },
+              ...(state.slug === "colorado"
+                ? [{ label: state.name, href: `/areas-we-serve/${state.slug}/` }]
+                : []),
               { label: condition.name },
             ],
           }}
@@ -113,7 +112,7 @@ export default async function StateTopicPage({
   }
 
   const city = state.slug === "colorado" ? getFrontRangeCity(topic) : undefined;
-  if (city) {
+  if (city?.slug === "denver") {
     const page = buildFrontRangeCityContent(city);
     return (
       <>

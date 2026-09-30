@@ -16,6 +16,8 @@
  * evaluation for personalized care.
  */
 
+import { LEARN_ENRICHMENT } from "./learn-enrichment";
+
 export interface LearnFaq {
   question: string;
   answer: string[];
@@ -25,6 +27,11 @@ export interface LearnSection {
   heading: string;
   paragraphs: string[];
   bullets?: string[];
+}
+
+export interface LearnCitation {
+  name: string;
+  url: string;
 }
 
 export interface LearnPageData {
@@ -42,15 +49,28 @@ export interface LearnPageData {
   faqs: LearnFaq[];
   /** Condition page slugs (from content/conditions-data.ts) to cross-link. */
   relatedConditionSlugs: string[];
+  /** Public references linked at the bottom of the article. */
+  citations: LearnCitation[];
   targetKeyword: string;
   cluster: string;
   datePublished: string;
+  dateModified: string;
 }
+
+/** Content version date for the September 2026 enrichment pass. */
+export const LEARN_DATE_MODIFIED = "2026-09-30";
+
+export const LEARN_AUTHOR = {
+  name: "Dr. Ian Hollaman",
+  credentials: "DC, MSc, FMCP",
+  href: "/about-us/",
+  note: "Board-certified chiropractic physician in Colorado, certified functional medicine practitioner through the Institute of Functional Medicine, and holder of a master's in nutrition and functional medicine. This article is general education reviewed for the practice. It is not a diagnosis.",
+} as const;
 
 export const MEDICAL_DISCLAIMER =
   "This article is for general educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Lab results and symptoms should always be reviewed with your own physician or qualified healthcare provider, who can evaluate your complete health history.";
 
-export const LEARN_PAGES: LearnPageData[] = [
+const RAW_LEARN_PAGES = [
   {
     slug: "ana-titer-levels-explained",
     title: "ANA Titer Levels Explained: What 1:80, 1:160 & 1:320 Mean",
@@ -717,6 +737,21 @@ export const LEARN_PAGES: LearnPageData[] = [
     datePublished: "2026-09-29",
   },
 ];
+
+export const LEARN_PAGES: LearnPageData[] = RAW_LEARN_PAGES.map((page) => {
+  const extra = LEARN_ENRICHMENT[page.slug];
+  if (!extra) {
+    throw new Error(`Missing learn enrichment for ${page.slug}`);
+  }
+  return {
+    ...page,
+    intro: [...page.intro, ...extra.intro],
+    sections: [...page.sections, ...extra.sections],
+    faqs: [...page.faqs, ...extra.faqs],
+    citations: extra.citations,
+    dateModified: LEARN_DATE_MODIFIED,
+  };
+});
 
 export function getLearnPage(slug: string): LearnPageData | undefined {
   return LEARN_PAGES.find((p) => p.slug === slug);

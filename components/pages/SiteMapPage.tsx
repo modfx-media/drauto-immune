@@ -10,7 +10,6 @@ import Reveal from "@/components/home/Reveal";
 import { CLINIC_LOCATION } from "@/components/layout/footer-links";
 import { DISCOVERY_CALL_HREF, SITE_CONTACT } from "@/components/layout/nav-links";
 import { LEARN_PAGES } from "@/content/learn-data";
-import { getStatesByRegion, FRONT_RANGE_CITIES } from "@/content/national-data";
 
 interface DirectoryLink {
   label: string;
@@ -348,45 +347,29 @@ export default function SiteMapPage() {
               Areas We <Accent>Serve</Accent>
             </h2>
             <p className="mt-4 text-base leading-relaxed text-ink-soft">
-              100% telehealth care for patients in all 50 states. Every state below has its own service-area page,
-              each linking out to condition-specific care for the eight conditions we cover most.
+              The practice is based in Boulder and sees patients by telehealth. Location pages are limited to
+              Colorado and Denver. Older state and Front Range city URLs redirect there.
             </p>
             <Button href="/areas-we-serve/" variant="primary" size="md" className="mt-6 uppercase tracking-wide">
               Visit the Areas We Serve Hub
             </Button>
           </Reveal>
 
-          <div className="mt-14 grid grid-cols-1 gap-x-10 gap-y-10 lg:grid-cols-2">
-            {Object.entries(getStatesByRegion()).map(([region, states], i) => (
-              <Reveal key={region} delay={i * 0.06}>
-                <h3 className="text-lg font-extrabold text-ink">{region}</h3>
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {states.map((state) => (
-                    <Link
-                      key={state.slug}
-                      href={`/areas-we-serve/${state.slug}/`}
-                      className="inline-flex items-center rounded-pill bg-white/80 px-3 py-1 font-mono text-xs font-medium uppercase tracking-[0.08em] text-ink-soft transition-colors hover:bg-white hover:text-primary-active"
-                    >
-                      {state.name}
-                    </Link>
-                  ))}
-                </div>
-              </Reveal>
-            ))}
-          </div>
-
-          <Reveal delay={0.3} className="mt-14">
-            <h3 className="text-lg font-extrabold text-ink">Colorado Front Range Cities</h3>
+          <Reveal delay={0.1} className="mt-14">
+            <h3 className="text-lg font-extrabold text-ink">Colorado and Denver</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              {FRONT_RANGE_CITIES.map((city) => (
-                <Link
-                  key={city.slug}
-                  href={`/areas-we-serve/colorado/${city.slug}/`}
-                  className="inline-flex items-center rounded-pill bg-white/80 px-3 py-1 font-mono text-xs font-medium uppercase tracking-[0.08em] text-ink-soft transition-colors hover:bg-white hover:text-primary-active"
-                >
-                  {city.name}
-                </Link>
-              ))}
+              <Link
+                href="/areas-we-serve/colorado/"
+                className="inline-flex items-center rounded-pill bg-white/80 px-3 py-1 font-mono text-xs font-medium uppercase tracking-[0.08em] text-ink-soft transition-colors hover:bg-white hover:text-primary-active"
+              >
+                Colorado
+              </Link>
+              <Link
+                href="/areas-we-serve/colorado/denver/"
+                className="inline-flex items-center rounded-pill bg-white/80 px-3 py-1 font-mono text-xs font-medium uppercase tracking-[0.08em] text-ink-soft transition-colors hover:bg-white hover:text-primary-active"
+              >
+                Denver
+              </Link>
             </div>
           </Reveal>
         </Container>

@@ -2,12 +2,12 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
 import AreaPageTemplate from "@/components/pages/areas/AreaPageTemplate";
-import { getState, getStateSlugs, buildStateHubContent, FRONT_RANGE_CITIES } from "@/content/national-data";
+import { getState, buildStateHubContent } from "@/content/national-data";
 import { buildStateHubJsonLd } from "@/lib/national-jsonld";
 import { SITE_URL } from "@/lib/site";
 
 export async function generateStaticParams() {
-  return getStateSlugs().map((state) => ({ state }));
+  return [{ state: "colorado" }];
 }
 
 export async function generateMetadata({
@@ -17,7 +17,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { state: stateSlug } = await params;
   const state = getState(stateSlug);
-  if (!state) return {};
+  if (!state || state.slug !== "colorado") return {};
   const page = buildStateHubContent(state);
   const canonical = `${SITE_URL}/areas-we-serve/${state.slug}/`;
   return {
@@ -39,7 +39,7 @@ const FRONT_RANGE_SECTION = {
   paragraphs: [
     "A large share of our patients live along the Front Range, from Boulder and Denver north through Longmont and Fort Collins, and south toward Colorado Springs. Because every visit is conducted by telehealth, there's no commute, no waiting room, and no need to take extra time off work for an in-office visit.",
   ],
-  links: FRONT_RANGE_CITIES.map((c) => ({ label: c.name, href: `/areas-we-serve/colorado/${c.slug}/` })),
+  links: [{ label: "Denver", href: "/areas-we-serve/colorado/denver/" }, { label: "About the Boulder practice", href: "/about-us/" }],
 };
 
 export default async function StateHubPage({
@@ -49,7 +49,7 @@ export default async function StateHubPage({
 }) {
   const { state: stateSlug } = await params;
   const state = getState(stateSlug);
-  if (!state) notFound();
+  if (!state || state.slug !== "colorado") notFound();
 
   const page = buildStateHubContent(state);
   const isColorado = state.slug === "colorado";

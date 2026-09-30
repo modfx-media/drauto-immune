@@ -18,6 +18,7 @@
  */
 
 import type { AreaFaq, AreaSection } from "./areas-data";
+import { COLORADO_PAGE, DENVER_PAGE } from "./location-longform";
 
 export interface StateData {
   slug: string;
@@ -207,6 +208,7 @@ export function getFrontRangeCitySlugs(): string[] {
 }
 
 export function buildFrontRangeCityContent(city: FrontRangeCity): GeneratedPage {
+  if (city.slug === "denver") return DENVER_PAGE;
   return {
     title: `${city.name}, CO Telehealth Care | Dr. Autoimmune`,
     metaDescription: `100% telehealth, root-cause functional medicine care for ${city.name}, Colorado patients. Book a Discovery Call today.`,
@@ -271,8 +273,8 @@ export function getStatesByRegion(): Record<StateData["region"], StateData[]> {
 }
 
 const WHY_FUNCTIONAL_MEDICINE_PARAGRAPHS = [
-  "It can be frustrating trying to find help with chronic and complex conditions, which is why our practice is dedicated to exactly that. Instead of only treating symptoms, our functional medicine approach focuses on finding the underlying causes.",
-  "All autoimmune diseases start in the gut. We design custom plans of dietary intervention, supplements, and lifestyle recommendations to help heal the gut and support the immune system — which can lead to real changes in how patients feel, not just temporary symptom relief.",
+  "It can be frustrating trying to find help with chronic and complex conditions, which is why our practice is dedicated to exactly that. Instead of only treating symptoms, our functional medicine approach focuses on finding the underlying contributors we can actually test and discuss with you.",
+  "Intestinal barrier function is one factor researchers study in some autoimmune conditions. It is not the cause of every autoimmune disease, and we do not treat it as one. Plans are built from your history, symptoms, and labs, and may include nutrition, supplements, and lifestyle changes your clinician thinks are relevant.",
 ];
 
 const TELEHEALTH_VISIT_PARAGRAPHS = [
@@ -293,6 +295,7 @@ export interface GeneratedPage {
 }
 
 export function buildStateHubContent(state: StateData): GeneratedPage {
+  if (state.slug === "colorado") return COLORADO_PAGE;
   const citiesList = state.majorCities.join(", ");
   return {
     title: `${state.name} Autoimmune Telehealth Care | Dr. Autoimmune`,

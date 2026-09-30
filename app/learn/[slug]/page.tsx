@@ -30,7 +30,7 @@ export async function generateMetadata({
       url: canonical,
       type: "article",
       publishedTime: page.datePublished,
-      modifiedTime: page.datePublished,
+      modifiedTime: page.dateModified,
     },
     twitter: {
       card: "summary_large_image",

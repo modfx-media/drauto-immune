@@ -4,7 +4,6 @@ import { isBlogPostSlug } from "@/lib/blog-posts";
 import { getPageContent } from "@/lib/content";
 import { SITE_URL } from "@/lib/site";
 import { LEARN_PAGES } from "@/content/learn-data";
-import { STATES, FRONT_RANGE_CITIES } from "@/content/national-data";
 
 const NATIONAL_DATE_PUBLISHED = new Date("2026-09-29");
 
@@ -37,29 +36,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
-    ...STATES.map((state) => ({
-      url: `${SITE_URL}/areas-we-serve/${state.slug}/`,
+    // The other 49 state hubs 308 to this hub. Only Colorado stays,
+    // because that is where the practice is based.
+    {
+      url: `${SITE_URL}/areas-we-serve/colorado/`,
       lastModified: NATIONAL_DATE_PUBLISHED,
       changeFrequency: "monthly" as const,
-      priority: 0.6,
-    })),
+      priority: 0.7,
+    },
     // Note: the 400 `/areas-we-serve/[state]/[condition]/` pages are
     // intentionally EXCLUDED from the sitemap — they're noindexed (see
-    // app/areas-we-serve/[state]/[topic]/page.tsx) per the 2025 SEO audit
-    // (reports/pseo-audit.md), so they shouldn't be submitted for indexing.
-    ...FRONT_RANGE_CITIES.map((city) => ({
-      url: `${SITE_URL}/areas-we-serve/colorado/${city.slug}/`,
+    // app/areas-we-serve/[state]/[topic]/page.tsx). The other Front Range
+    // city URLs 308 to Denver, the only city page with search demand.
+    {
+      url: `${SITE_URL}/areas-we-serve/colorado/denver/`,
       lastModified: NATIONAL_DATE_PUBLISHED,
       changeFrequency: "monthly" as const,
-      priority: 0.6,
-    })),
+      priority: 0.7,
+    },
   ];
 
   const learn: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/learn/`, changeFrequency: "weekly", priority: 0.6 },
     ...LEARN_PAGES.map((page) => ({
       url: `${SITE_URL}/learn/${page.slug}/`,
-      lastModified: new Date(page.datePublished),
+      lastModified: new Date(page.dateModified),
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),

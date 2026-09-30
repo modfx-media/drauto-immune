@@ -30,6 +30,8 @@
  * explicit confirmation.
  */
 
+import { HUB_SECTIONS } from "./location-longform";
+
 export interface AreaFaq {
   question: string;
   answer: string[];
@@ -52,15 +54,7 @@ export interface AreaSection {
 export const FRONT_RANGE_LINKS = [
   { label: "Boulder", href: "/about-us/" },
   { label: "Denver", href: "/areas-we-serve/colorado/denver/" },
-  { label: "Longmont", href: "/areas-we-serve/colorado/longmont/" },
-  { label: "Fort Collins", href: "/areas-we-serve/colorado/fort-collins/" },
-  { label: "Louisville", href: "/areas-we-serve/colorado/louisville/" },
-  { label: "Lafayette", href: "/areas-we-serve/colorado/lafayette/" },
-  { label: "Broomfield", href: "/areas-we-serve/colorado/broomfield/" },
-  { label: "Westminster", href: "/areas-we-serve/colorado/westminster/" },
-  { label: "Arvada", href: "/areas-we-serve/colorado/arvada/" },
-  { label: "Aurora", href: "/areas-we-serve/colorado/aurora/" },
-  { label: "Colorado Springs", href: "/areas-we-serve/colorado/colorado-springs/" },
+  { label: "Colorado", href: "/areas-we-serve/colorado/" },
 ];
 
 /** Rendered by AreaPageTemplate on every areas-we-serve page (hub, state, condition, and city). */
@@ -80,14 +74,14 @@ export const AREA_HUB: {
 } = {
   title: "Areas We Serve — Nationwide Telehealth Care | Dr. Autoimmune",
   metaDescription:
-    "Dr. Autoimmune provides 100% telehealth functional medicine care to patients in all 50 states. Find your state below.",
+    "Boulder-based telehealth functional medicine for autoimmune and chronic conditions. See how visits work in Colorado and Denver, and how to ask about care from another state.",
   h1: "Areas We Serve: Telehealth Care Nationwide",
   accent: "Telehealth Care",
   heroSubhead:
     "Based in Boulder, Colorado, and built to be 100% remote — so you can get root-cause autoimmune care no matter what state you live in.",
   intro: [
-    "Dr. Autoimmune is based in Boulder, Colorado, but our practice is built to be 100% telehealth. That means patients throughout the United States can work with our team without ever needing to drive to an office.",
-    "Find your state below for state-specific telehealth details, or read on for an overview of our Colorado Front Range roots and what to expect from a fully remote functional medicine evaluation.",
+    "Dr. Autoimmune is based in Boulder, Colorado. Appointments are telehealth, so the history, the lab review, and follow-up do not require a drive to an office. Whether the team can take you as a patient still has to be confirmed with the office. This page does not pretend that a copied state article is that confirmation.",
+    "The location pages that remain are Colorado and Denver. Older state URLs redirect here. Older Front Range city URLs redirect to Denver. Read the sections below for how a visit works, then use the condition pages when you need a disease overview.",
   ],
   sections: [
     {
@@ -103,6 +97,7 @@ export const AREA_HUB: {
         "Beyond Colorado, we work with patients across the country who are looking for a root-cause, functional medicine approach to autoimmune and chronic health conditions. Lab work is coordinated locally wherever you live, and every consultation, follow-up, and plan review happens over video.",
       ],
     },
+    ...HUB_SECTIONS,
   ],
   faqs: [
     {

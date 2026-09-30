@@ -11,7 +11,7 @@ import Reveal from "@/components/home/Reveal";
 import SectionAmbient from "@/components/home/SectionAmbient";
 import { DISCOVERY_CALL_HREF } from "@/components/layout/nav-links";
 import { getConditionData } from "@/content/conditions-data";
-import { MEDICAL_DISCLAIMER, type LearnPageData } from "@/content/learn-data";
+import { LEARN_AUTHOR, MEDICAL_DISCLAIMER, type LearnPageData } from "@/content/learn-data";
 
 const CARD_CLASSES = "rounded-card border border-gray bg-white shadow-card";
 
@@ -52,9 +52,17 @@ export default function LearnPageTemplate({ page }: { page: LearnPageData }) {
 
           <div className="mx-auto max-w-3xl space-y-6">
             <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
-              <div className="space-y-4 text-base leading-relaxed text-ink-soft">
+              <p className="text-sm leading-relaxed text-ink-soft">
+                Reviewed by{" "}
+                <Link href={LEARN_AUTHOR.href} className="font-semibold text-primary-active hover:text-primary">
+                  {LEARN_AUTHOR.name}, {LEARN_AUTHOR.credentials}
+                </Link>
+                <span className="text-ink-soft/70"> · Updated {page.dateModified}</span>
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-soft">{LEARN_AUTHOR.note}</p>
+              <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
                 {page.intro.map((p) => (
-                  <p key={p.slice(0, 40)}>{p}</p>
+                  <p key={p.slice(0, 48)}>{p}</p>
                 ))}
               </div>
             </Reveal>
@@ -122,6 +130,21 @@ export default function LearnPageTemplate({ page }: { page: LearnPageData }) {
                       >
                         {relatedLinkLabel(slug)}
                       </Link>
+                    </li>
+                  ))}
+                </ul>
+              </Reveal>
+            )}
+
+            {page.citations.length > 0 && (
+              <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
+                <h2 className="text-lg font-extrabold text-ink">Sources</h2>
+                <ul className="mt-3 space-y-2 text-sm leading-relaxed text-ink-soft">
+                  {page.citations.map((citation) => (
+                    <li key={citation.url}>
+                      <a href={citation.url} className="text-primary-active underline-offset-2 hover:underline" rel="noopener noreferrer">
+                        {citation.name}
+                      </a>
                     </li>
                   ))}
                 </ul>
