@@ -3,6 +3,7 @@ import { fileURLToPath } from "url";
 import { buildConfig } from "payload";
 import { lexicalEditor } from "@payloadcms/richtext-lexical";
 import { vercelPostgresAdapter } from "@payloadcms/db-vercel-postgres";
+import { searchPlugin } from "@payloadcms/plugin-search";
 import { seoPlugin } from "@payloadcms/plugin-seo";
 import { vercelBlobStorage } from "@payloadcms/storage-vercel-blob";
 import sharp from "sharp";
@@ -20,6 +21,8 @@ const dirname = path.dirname(filename);
 
 const pushSchema =
   process.env.VERCEL !== "1" && process.env.CMS_IMPORT_APPLY !== "1";
+
+const blobToken = process.env.BLOB_READ_WRITE_TOKEN;
 
 export default buildConfig({
   secret: process.env.PAYLOAD_SECRET || "",
@@ -66,12 +69,36 @@ export default buildConfig({
         return publicUrlFromCmsPath(pathValue);
       },
     }),
-    vercelBlobStorage({
-      enabled: Boolean(process.env.BLOB_READ_WRITE_TOKEN),
-      collections: {
-        media: true,
+    searchPlugin({
+      collections: ["pages", "posts"],
+      syncDrafts: true,
+      skipSync: () => process.env.CMS_IMPORT_APPLY === "1",
+      defaultPriorities: {
+        pages: 10,
+        posts: 40,
       },
-      token: process.env.BLOB_READ_WRITE_TOKEN || "",
+      searchOverrides: {
+        fields: ({ defaultFields }) => [
+          ...defaultFields,
+          { name: "excerpt", type: "textarea" },
+          { name: "path", type: "text" },
+        ],
+      },
+      beforeSync: ({ originalDoc, searchDoc }) => ({
+        ...searchDoc,
+        excerpt: typeof originalDoc.excerpt === "string" ? originalDoc.excerpt : "",
+        path: typeof originalDoc.path === "string" ? originalDoc.path : "",
+      }),
     }),
+    ...(blobToken
+      ? [
+          vercelBlobStorage({
+            collections: {
+              media: true,
+            },
+            token: blobToken,
+          }),
+        ]
+      : []),
   ],
 });

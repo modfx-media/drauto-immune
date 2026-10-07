@@ -18,14 +18,17 @@ function mapLinks(rows: LinkRow[] | null | undefined) {
 }
 
 export default async function SiteFooter() {
-  const footer = await withCMS(async () => {
-    const [{ getPayload }, { default: config }] = await Promise.all([
-      import("payload"),
-      import("@payload-config"),
-    ]);
-    const payload = await getPayload({ config });
-    return payload.findGlobal({ slug: "footer", draft: false });
-  }, null);
+  const footer =
+    process.env.DATABASE_URL && process.env.PAYLOAD_SECRET
+      ? await withCMS(async () => {
+          const [{ getPayload }, { default: config }] = await Promise.all([
+            import("payload"),
+            import("@payload-config"),
+          ]);
+          const payload = await getPayload({ config });
+          return payload.findGlobal({ slug: "footer", draft: false });
+        }, null)
+      : null;
 
   const quickLinks = mapLinks(footer?.quickLinks as LinkRow[] | undefined);
   const servicesLinks = mapLinks(footer?.servicesLinks as LinkRow[] | undefined);

@@ -8,6 +8,8 @@ export type RoutedDoc = {
 };
 
 export async function queryRoutedContentByPath(path: string): Promise<RoutedDoc | null> {
+  if (!process.env.DATABASE_URL || !process.env.PAYLOAD_SECRET) return null;
+
   return withCMS(async () => {
     const normalized = normalizeCmsPath(path);
     if (!normalized) return null;
@@ -48,6 +50,8 @@ export type SitemapDoc = {
 };
 
 export async function querySitemapEntries(): Promise<SitemapDoc[] | null> {
+  if (!process.env.DATABASE_URL || !process.env.PAYLOAD_SECRET) return null;
+
   return withCMS(async () => {
     const [{ getPayload }, { default: config }] = await Promise.all([
       import("payload"),

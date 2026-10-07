@@ -11,14 +11,17 @@ type NavRow = {
 };
 
 export default async function SiteHeader() {
-  const header = await withCMS(async () => {
-    const [{ getPayload }, { default: config }] = await Promise.all([
-      import("payload"),
-      import("@payload-config"),
-    ]);
-    const payload = await getPayload({ config });
-    return payload.findGlobal({ slug: "header", draft: false });
-  }, null);
+  const header =
+    process.env.DATABASE_URL && process.env.PAYLOAD_SECRET
+      ? await withCMS(async () => {
+          const [{ getPayload }, { default: config }] = await Promise.all([
+            import("payload"),
+            import("@payload-config"),
+          ]);
+          const payload = await getPayload({ config });
+          return payload.findGlobal({ slug: "header", draft: false });
+        }, null)
+      : null;
 
   const rows = (header?.nav as NavRow[] | undefined) ?? [];
   const navLinks: NavItem[] = rows

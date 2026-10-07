@@ -1,7 +1,12 @@
 import { draftMode } from "next/headers";
 import { LivePreviewListener } from "@/components/cms/LivePreviewListener";
+import { RenderRoutedContent } from "@/components/cms/RenderRoutedContent";
 import { queryRoutedContentByPath } from "@/lib/cms/queries";
 
+/**
+ * Query-first overlay: a published CMS document wins when RenderRoutedContent
+ * can map it; otherwise the designed page (`children`) stays.
+ */
 export async function CMSRoute({
   path,
   children,
@@ -14,8 +19,8 @@ export async function CMSRoute({
 
   return (
     <>
-      {draft.isEnabled && <LivePreviewListener />}
-      {children}
+      {draft.isEnabled ? <LivePreviewListener /> : null}
+      <RenderRoutedContent routed={routed} fallback={children} />
     </>
   );
 }

@@ -35,6 +35,13 @@ type ExportFile = {
   };
 };
 
+if (process.argv.includes("--publish")) {
+  console.error(
+    "Refusing --publish. Imports always write drafts. Publish one URL at a time in /admin after review.",
+  );
+  process.exit(1);
+}
+
 const apply = process.argv.includes("--apply") || process.env.CMS_IMPORT_APPLY === "1";
 const fileArg = process.argv.find((arg) => arg.endsWith(".json"));
 const filePath = fileArg
