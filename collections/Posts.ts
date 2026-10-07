@@ -1,6 +1,7 @@
 import type { CollectionConfig } from "payload";
 import { emptyToNull } from "@/lib/cms/empty-to-null";
 import { previewFromPath } from "@/lib/cms/preview";
+import { authenticated, authenticatedOrPublished } from "./access";
 import { generatePathFromSlug } from "./generatePath";
 import { identityFields, seoFields } from "./seoFields";
 
@@ -21,7 +22,10 @@ export const Posts: CollectionConfig = {
     maxPerDoc: 50,
   },
   access: {
-    read: () => true,
+    read: authenticatedOrPublished,
+    create: authenticated,
+    update: authenticated,
+    delete: authenticated,
   },
   hooks: {
     beforeChange: [generatePathFromSlug],

@@ -4,8 +4,9 @@ import { RenderRoutedContent } from "@/components/cms/RenderRoutedContent";
 import { queryRoutedContentByPath } from "@/lib/cms/queries";
 
 /**
- * Query-first overlay: a published CMS document wins when RenderRoutedContent
- * can map it; otherwise the designed page (`children`) stays.
+ * Query-first overlay (payload-cms-integration skill):
+ * published CMS doc wins; otherwise render hardcoded children.
+ * Drafts do not replace the public site (queries use draft only in draftMode).
  */
 export async function CMSRoute({
   path,
@@ -14,12 +15,15 @@ export async function CMSRoute({
   path: string;
   children: React.ReactNode;
 }) {
-  const [routed, draft] = await Promise.all([queryRoutedContentByPath(path), draftMode()]);
+  const [routed, draft] = await Promise.all([
+    queryRoutedContentByPath(path),
+    draftMode(),
+  ]);
   if (!routed) return children;
 
   return (
     <>
-      {draft.isEnabled ? <LivePreviewListener /> : null}
+      {draft.isEnabled && <LivePreviewListener />}
       <RenderRoutedContent routed={routed} fallback={children} />
     </>
   );
