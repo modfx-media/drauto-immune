@@ -9,8 +9,8 @@ const NATIONAL_DATE_PUBLISHED = new Date("2026-09-29");
 
 /**
  * Site-wide sitemap covering every migrated route in `content/data/index.json`
- * (home, all static/condition/utility pages, the `/blog/` hub, and all 27
- * blog posts), plus the pSEO `/learn/[slug]` articles and the nationwide
+ * (home, all static/condition/utility pages, the `/blog/` hub, and every
+ * blog post), plus the pSEO `/learn/[slug]` articles and the nationwide
  * `/areas-we-serve` hub + 50 state hubs + state x condition matrix (see
  * data/pseo-national/keywords.json). Blog posts use their captured
  * `dateModified` (from the live post's JSON-LD) as `lastModified`; other
