@@ -1,11 +1,13 @@
 /**
- * The 27 blog post slugs pulled from drautoimmune.com/post-sitemap.xml.
+ * Blog post slugs. The original set came from drautoimmune.com/post-sitemap.xml;
+ * newer posts are added here directly.
  * Backs the `app/[slug]` dynamic route so the URL structure matches 1:1.
  *
  * Kept free of any `node:fs`-backed imports (unlike `lib/blog-posts-server.ts`)
  * so it can be safely imported from client components too.
  */
 export const blogPostSlugs = [
+  "what-high-crp-reveals-about-chronic-inflammation",
   "root-causes-of-anemia-and-low-ferritin",
   "leaky-gut-signs-causes-and-functional-fixes",
   "pots-treatment-looking-beyond-salt-and-medications-with-functional-medicine",

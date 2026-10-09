@@ -45,17 +45,18 @@ export interface PageContent {
 }
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "data");
-const cache = new Map<string, PageContent | null>();
+const cache = new Map<string, { mtimeMs: number; record: PageContent | null }>();
 
-/** Reads the migrated content record for a route (see scripts/migrate-content.mjs). */
+/** Reads the migrated content record for a route (see scripts/migrate-content.mjs).
+ * Re-reads the JSON when the file changes so content edits show up without a restart. */
 export function getPageContent(key: string): PageContent | null {
-  if (cache.has(key)) return cache.get(key)!;
   const file = path.join(CONTENT_DIR, `${key}.json`);
-  let record: PageContent | null = null;
-  if (fs.existsSync(file)) {
-    record = JSON.parse(fs.readFileSync(file, "utf8")) as PageContent;
-  }
-  cache.set(key, record);
+  const mtimeMs = fs.existsSync(file) ? fs.statSync(file).mtimeMs : 0;
+  const cached = cache.get(key);
+  if (cached && cached.mtimeMs === mtimeMs) return cached.record;
+
+  const record = mtimeMs ? (JSON.parse(fs.readFileSync(file, "utf8")) as PageContent) : null;
+  cache.set(key, { mtimeMs, record });
   return record;
 }
 

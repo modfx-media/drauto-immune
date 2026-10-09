@@ -158,7 +158,7 @@ function RecentBlogsSidebar({ posts: recent }: { posts: BlogPostSummary[] }) {
 }
 
 /**
- * Shared bespoke template for all 27 migrated blog posts. Renders a dark
+ * Shared bespoke template for every blog post. Renders a dark
  * gradient title hero (date + reading time byline), a Ken-Burns featured
  * image, the post body (split into `##`-bounded sections, each its own
  * scroll-triggered fade-up), a "Recent Blogs" sidebar with a staggered
