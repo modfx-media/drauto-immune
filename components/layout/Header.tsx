@@ -217,7 +217,13 @@ function NavDropdown({
 }
 
 /** Full-screen mobile nav panel with accordion-style dropdowns. */
-function MobileMenu({ onClose }: { onClose: () => void }) {
+function MobileMenu({
+  onClose,
+  links,
+}: {
+  onClose: () => void;
+  links: readonly NavItem[];
+}) {
   const [openSection, setOpenSection] = useState<string | null>(null);
 
   return (
@@ -251,7 +257,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
         animate="visible"
         variants={{ visible: { transition: { staggerChildren: 0.05, delayChildren: 0.05 } } }}
       >
-        {NAV_LINKS.map((link) => {
+        {links.map((link) => {
           const hasChildren = !!link.children?.length;
           const sectionOpen = openSection === link.label;
           return (
@@ -338,7 +344,8 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
   );
 }
 
-export default function Header() {
+export default function Header({ navLinks }: { navLinks?: readonly NavItem[] }) {
+  const links = navLinks ?? NAV_LINKS;
   const [scrolled, setScrolled] = useState(false);
   const [utilityHidden, setUtilityHidden] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -460,7 +467,7 @@ export default function Header() {
 
             <nav aria-label="Primary" className="hidden min-[1180px]:flex">
               <ul className="flex shrink-0 items-center" onMouseLeave={() => setHoveredLabel(null)}>
-                {NAV_LINKS.map((link) =>
+                {links.map((link) =>
                   link.children?.length ? (
                     <NavDropdown
                       key={link.href}
@@ -566,7 +573,7 @@ export default function Header() {
         )}
       </AnimatePresence>
 
-      <AnimatePresence>{mobileOpen && <MobileMenu onClose={() => setMobileOpen(false)} />}</AnimatePresence>
+      <AnimatePresence>{mobileOpen && <MobileMenu links={links} onClose={() => setMobileOpen(false)} />}</AnimatePresence>
     </div>
   );
 }

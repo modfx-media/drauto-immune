@@ -1,22 +1,24 @@
 import type { MetadataRoute } from "next";
 import indexManifest from "@/content/data/index.json";
 import { isBlogPostSlug } from "@/lib/blog-posts";
+import { querySitemapEntries } from "@/lib/cms/queries";
+import { normalizeCmsPath, publicUrlFromCmsPath } from "@/lib/cms/url";
 import { getPageContent } from "@/lib/content";
 import { SITE_URL } from "@/lib/site";
 import { LEARN_PAGES } from "@/content/learn-data";
 
 const NATIONAL_DATE_PUBLISHED = new Date("2026-09-29");
 
-/**
- * Site-wide sitemap covering every migrated route in `content/data/index.json`
- * (home, all static/condition/utility pages, the `/blog/` hub, and every
- * blog post), plus the pSEO `/learn/[slug]` articles and the nationwide
- * `/areas-we-serve` hub + 50 state hubs + state x condition matrix (see
- * data/pseo-national/keywords.json). Blog posts use their captured
- * `dateModified` (from the live post's JSON-LD) as `lastModified`; other
- * migrated routes omit it since no modified-date was captured for them.
- */
-export default function sitemap(): MetadataRoute.Sitemap {
+function pathFromSitemapUrl(url: string): string | null {
+  try {
+    const parsed = new URL(url);
+    return normalizeCmsPath(parsed.pathname);
+  } catch {
+    return null;
+  }
+}
+
+function hardcodedSitemap(): MetadataRoute.Sitemap {
   const migrated: MetadataRoute.Sitemap = indexManifest.map((entry) => {
     const page = getPageContent(entry.key);
     const isPost = isBlogPostSlug(entry.key);
@@ -36,18 +38,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
-    // The other 49 state hubs 308 to this hub. Only Colorado stays,
-    // because that is where the practice is based.
     {
       url: `${SITE_URL}/areas-we-serve/colorado/`,
       lastModified: NATIONAL_DATE_PUBLISHED,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
-    // Note: the 400 `/areas-we-serve/[state]/[condition]/` pages are
-    // intentionally EXCLUDED from the sitemap — they're noindexed (see
-    // app/areas-we-serve/[state]/[topic]/page.tsx). The other Front Range
-    // city URLs 308 to Denver, the only city page with search demand.
     {
       url: `${SITE_URL}/areas-we-serve/colorado/denver/`,
       lastModified: NATIONAL_DATE_PUBLISHED,
@@ -67,4 +63,44 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   return [...migrated, ...areasHub, ...learn];
+}
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const fallback = hardcodedSitemap();
+  const cms = await querySitemapEntries();
+  if (!cms) return fallback;
+
+  const byPath = new Map(cms.map((doc) => [doc.path, doc]));
+  const kept = fallback.filter((entry) => {
+    const path = pathFromSitemapUrl(entry.url);
+    if (!path) return true;
+    const doc = byPath.get(path);
+    if (!doc) return true;
+    return !doc.noIndex && !doc.excludeFromSitemap;
+  });
+
+  const present = new Set(
+    kept.map((entry) => pathFromSitemapUrl(entry.url)).filter((path): path is string => Boolean(path)),
+  );
+
+  const merged = kept.map((entry) => {
+    const path = pathFromSitemapUrl(entry.url);
+    const doc = path ? byPath.get(path) : undefined;
+    const stamp = doc?.sourceUpdatedAt || doc?.updatedAt;
+    if (!stamp) return entry;
+    return { ...entry, lastModified: new Date(stamp) };
+  });
+
+  for (const doc of cms) {
+    if (doc.noIndex || doc.excludeFromSitemap) continue;
+    if (present.has(doc.path)) continue;
+    merged.push({
+      url: publicUrlFromCmsPath(doc.path),
+      lastModified: doc.sourceUpdatedAt || doc.updatedAt ? new Date(doc.sourceUpdatedAt || doc.updatedAt || "") : undefined,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    });
+  }
+
+  return merged;
 }
