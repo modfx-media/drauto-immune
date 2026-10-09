@@ -34,6 +34,9 @@ yarn-error.log*
 .env*
 !.env.example
 
+# local Payload uploads (Vercel Blob in production)
+/media
+
 # vercel
 .vercel
 

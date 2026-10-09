@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { withPayload } from "@payloadcms/next/withPayload";
 import { FRONT_RANGE_CITIES, STATES } from "./content/national-data";
 
 /** Thin state hubs fold into the national telehealth hub. Colorado stays. */
@@ -19,12 +20,16 @@ const nextConfig: NextConfig = {
   // drautoimmune.com serves every route with a trailing slash (WordPress/Rank Math
   // permalink style) — match that pattern exactly for SEO continuity.
   trailingSlash: true,
+  serverExternalPackages: [
+    "pg",
+    "@payloadcms/db-vercel-postgres",
+    "@neondatabase/serverless",
+    "@vercel/postgres",
+  ],
 
   async redirects() {
     return [
       {
-        // Renamed from /free-discovery-call/ to /discovery-call/. This was a
-        // live, indexed route — permanently redirect it to preserve SEO/backlinks.
         source: "/free-discovery-call/",
         destination: "/discovery-call/",
         permanent: true,
@@ -35,4 +40,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withPayload(nextConfig, { devBundleServerPackages: false });

@@ -1,0 +1,62 @@
+import type { Metadata } from "next";
+import Script from "next/script";
+import SiteFooter from "@/components/layout/SiteFooter";
+import SiteHeader from "@/components/layout/SiteHeader";
+import { SITE_URL } from "@/lib/site";
+import { openSans } from "../fonts";
+import "../globals.css";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Dr. Autoimmune",
+    template: "%s",
+  },
+  description:
+    "Functional medicine care for autoimmune conditions from Dr. Autoimmune.",
+};
+
+export default function SiteLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className={`${openSans.variable} h-full antialiased`}>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "yj6kjjgcgn");`,
+          }}
+        />
+      </head>
+      <body className="min-h-full flex flex-col bg-white text-ink font-sans" suppressHydrationWarning>
+        <SiteHeader />
+        <main className="flex-1">{children}</main>
+        <SiteFooter />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-MK4GCF2L9J"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-MK4GCF2L9J');`}
+        </Script>
+        <Script id="knock-knock-config" strategy="afterInteractive">
+          {`window.company_id = '6a872b568d06085e05e32947';`}
+        </Script>
+        <Script
+          id="knock-knock-widget"
+          src="https://api.knock-knockapp.com/widget/widget.js"
+          strategy="afterInteractive"
+        />
+      </body>
+    </html>
+  );
+}

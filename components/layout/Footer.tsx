@@ -90,7 +90,15 @@ function MailGlyph({ className = "" }: { className?: string }) {
  *   3. Bottom bar: copyright | Sitemap · Accessibility · Contact |
  *      Powered by MODFXMedia — one row at md+, three stacked at mobile.
  */
-export default function Footer() {
+export default function Footer({
+  quickLinks = QUICK_LINKS,
+  servicesLinks = SERVICES_LINKS,
+  conditionsLinks = CONDITIONS_LINKS,
+}: {
+  quickLinks?: readonly { label: string; href: string; external?: boolean }[];
+  servicesLinks?: readonly { label: string; href: string; external?: boolean }[];
+  conditionsLinks?: readonly { label: string; href: string; external?: boolean }[];
+}) {
   const year = new Date().getFullYear();
 
   return (
@@ -187,17 +195,17 @@ export default function Footer() {
 
           <div>
             <ColumnHeading>Quick Links</ColumnHeading>
-            <LinkList links={QUICK_LINKS} />
+            <LinkList links={quickLinks} />
           </div>
 
           <div>
             <ColumnHeading>Services</ColumnHeading>
-            <LinkList links={SERVICES_LINKS} />
+            <LinkList links={servicesLinks} />
           </div>
 
           <div>
             <ColumnHeading>Conditions</ColumnHeading>
-            <LinkList links={CONDITIONS_LINKS.slice(0, 8)} />
+            <LinkList links={conditionsLinks.slice(0, 8)} />
           </div>
         </div>
       </Container>
