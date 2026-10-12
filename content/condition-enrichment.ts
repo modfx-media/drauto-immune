@@ -180,11 +180,13 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
     displayName: "Graves’ Disease Functional Medicine Care",
     labs: {
       heading: "Labs Often Relevant in Graves’ Disease",
+      lead: "Hyperthyroid numbers and antibody patterns tell different parts of the story. We review what you already have and note gaps before ordering more:",
       items: [
-        "TSH, free T4, free T3",
+        "TSH, free T4, free T3 — and how they track with symptoms over time",
         "TSH receptor antibodies (TRAb) / thyroid-stimulating immunoglobulin (TSI)",
         "Eye symptom history and ophthalmology notes when orbitopathy is present",
-        "Nutrient and stress-related markers that may influence recovery",
+        "Nutrient and stress-related markers that may influence recovery (for example vitamin D, ferritin, B12 when clinically relevant)",
+        "Prior ECG or heart-rate notes if palpitations or tachycardia were documented",
       ],
     },
     conventional: {
@@ -192,12 +194,15 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
       paragraphs: [
         "Endocrinology manages hyperthyroidism with antithyroid medication, radioactive iodine, or surgery when indicated, and monitors for thyroid eye disease. Those decisions are critical when heart rate, weight loss, or eye changes are significant.",
         "Functional medicine support focuses on immune and gut drivers, nutrient status, and lifestyle stressors while you remain under endocrine supervision for hormone control.",
+        "Graves’ is driven by antibodies that stimulate the TSH receptor. That mechanism explains why people can feel wired, heat-intolerant, and anxious even after they understand the diagnosis — the immune signal and the hormone load are both part of the picture.",
       ],
     },
     approach: {
       heading: "Our Approach to Graves’ Disease",
       paragraphs: [
         "We review antibody results, symptom timeline, sleep, stress load, and digestive health. Care plans are individualized and coordinated with your prescribing clinician — we do not replace urgent endocrine management.",
+        "What testing looks like here: telehealth history from our Boulder-based practice, review of endocrine labs and notes, and local draw sites for any additional panel we agree is useful. What to expect after the first visits is a clearer map of what is endocrine-managed, what is worth investigating as a root-cause contributor, and which symptoms should trigger a same-week call to your endocrinologist or urgent care.",
+        "We will not ask you to stop antithyroid medication because a supplement plan sounds gentler. We will not promise a timeline for antibody decline. The useful outcome of a functional medicine evaluation is a written sense of next labs, lifestyle priorities, and how to keep your endocrine team in the loop.",
       ],
     },
     boulder: SHARED_BOULDER("Graves’"),
@@ -214,14 +219,28 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
           "We take eye symptoms seriously and encourage ophthalmology involvement when needed. Our role is supporting systemic drivers — not replacing specialty eye care.",
         ],
       },
+      {
+        question: "What should I bring to a Graves’ telehealth evaluation?",
+        answer: [
+          "Recent TSH/free T4/free T3 and TRAb or TSI results with reference ranges, a medication list with doses, eye or cardiology notes if you have them, and a timeline of when symptoms started relative to diagnosis and treatment changes.",
+        ],
+      },
+      {
+        question: "Is this different from the Hashimoto’s page?",
+        answer: [
+          "Yes. This page is Graves’-focused (typically hyperthyroid patterns and TSH-receptor antibodies). Hashimoto’s has its own guide covering hypothyroidism and TPO/TgAb patterns. Many people compare both; use the page that matches your diagnosis and labs.",
+        ],
+      },
     ],
     relatedLearn: [
       { href: "/learn/what-type-of-doctor-treats-autoimmune-disease/", label: "What type of doctor treats autoimmune disease?" },
+      { href: "/areas-we-serve/colorado/denver/", label: "Denver patients: how telehealth works" },
     ],
     relatedBlog: [
       { href: "/thyroid-conditions/", label: "Thyroid conditions hub" },
       { href: "/hashimotos-thyroiditis-graves/", label: "Hashimoto’s Thyroiditis" },
       { href: "/what-high-tsh-levels-actually-mean-why-thyroid-medication-isnt-always-the-answer/", label: "High TSH explained" },
+      { href: "/why-do-i-still-have-symptoms-when-my-tsh-is-normal/", label: "Symptoms when TSH looks normal" },
     ],
   },
 

@@ -96,12 +96,17 @@ export const BROKEN_BACKLINK_REDIRECTS: SeoRedirect[] = [
     source: "/category/gut-health/",
     destination: "/blog/",
   },
+];
+
+/**
+ * Case-only path fixes. Must NOT go through next.config redirects — Next
+ * matches those case-insensitively, which would 301-loop the live lowercase
+ * canonical (e.g. `/graves-disease/`). Applied in middleware.ts with exact
+ * pathname matching instead.
+ */
+export const CASE_VARIANT_REDIRECTS: SeoRedirect[] = [
   {
     source: "/Graves-disease/",
-    destination: "/graves-disease/",
-  },
-  {
-    source: "/graves-disease",
     destination: "/graves-disease/",
   },
 ];
@@ -123,12 +128,26 @@ export const ALL_SEO_REDIRECTS: SeoRedirect[] = [
   ...BROKEN_BACKLINK_REDIRECTS,
 ];
 
-/** Normalized paths (no trailing slash, leading slash) that must leave the sitemap. */
+function normalizeRedirectPath(path: string): string {
+  const trimmed = path.replace(/\/$/, "") || "/";
+  return trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+}
+
+/**
+ * Normalized paths (no trailing slash, leading slash) that must leave the
+ * sitemap. Slash-only normalization redirects (same path with/without a
+ * trailing slash) are skipped so live canonical pages like `/graves-disease/`
+ * are not dropped. Case-variant sources are excluded (wrong casing) without
+ * excluding the lowercase canonical destination.
+ */
 export function redirectedSitemapPaths(): Set<string> {
   const paths = new Set<string>();
-  for (const redirect of ALL_SEO_REDIRECTS) {
-    const normalized = redirect.source.replace(/\/$/, "") || "/";
-    paths.add(normalized.startsWith("/") ? normalized : `/${normalized}`);
+  for (const redirect of [...ALL_SEO_REDIRECTS, ...CASE_VARIANT_REDIRECTS]) {
+    const sourceNorm = normalizeRedirectPath(redirect.source);
+    const destNorm = normalizeRedirectPath(redirect.destination);
+    // Same path aside from trailing slash — keep the canonical in the sitemap.
+    if (sourceNorm === destNorm) continue;
+    paths.add(sourceNorm);
   }
   return paths;
 }
