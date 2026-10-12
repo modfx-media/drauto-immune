@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { CMSRoute } from "@/components/cms/CMSRoute";
 import { cmsMetadata } from "@/lib/cms/metadata";
 import JsonLd from "@/components/JsonLd";
+import { withUnifiedMedicalClinic } from "@/lib/organization-jsonld";
 import StorePage from "@/components/pages/StorePage";
 import { buildMetadata, getPageContent } from "@/lib/content";
 
@@ -15,7 +16,7 @@ export default function Page() {
   return (
     <CMSRoute path="/store">
     <>
-      {page && <JsonLd blocks={page.jsonLd} />}
+      {page && <JsonLd blocks={withUnifiedMedicalClinic(page.jsonLd)} />}
       <StorePage />
     </>
     </CMSRoute>

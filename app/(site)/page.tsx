@@ -17,6 +17,7 @@ import WellnessProducts from "@/components/home/WellnessProducts";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import { buildMetadata, getPageContent } from "@/lib/content";
 import { getDisplayedGoogleReviews, withGoogleReviewsSchema } from "@/lib/google-reviews";
+import { withUnifiedMedicalClinic } from "@/lib/organization-jsonld";
 
 export async function generateMetadata(): Promise<Metadata> {
   return cmsMetadata("/", () => buildMetadata("home"));
@@ -29,7 +30,11 @@ export default async function Home() {
   return (
     <CMSRoute path="/">
       <>
-        {page && <JsonLd blocks={withGoogleReviewsSchema(page.jsonLd, googleReviews)} />}
+        {page && (
+          <JsonLd
+            blocks={withUnifiedMedicalClinic(withGoogleReviewsSchema(page.jsonLd, googleReviews))}
+          />
+        )}
 
         <PotsAssessmentPopup />
 

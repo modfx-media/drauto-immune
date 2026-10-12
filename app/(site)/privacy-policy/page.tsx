@@ -4,7 +4,7 @@ import { cmsMetadata } from "@/lib/cms/metadata";
 import JsonLd from "@/components/JsonLd";
 import PrivacyPolicyPage from "@/components/pages/PrivacyPolicyPage";
 import { SITE_URL } from "@/lib/site";
-import { SITE_CONTACT } from "@/components/layout/nav-links";
+import { medicalClinicRef, withUnifiedMedicalClinic } from "@/lib/organization-jsonld";
 
 const TITLE = "Privacy Policy | Dr. Autoimmune";
 const DESCRIPTION =
@@ -25,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function Page() {
-  const blocks = [
+  const blocks = withUnifiedMedicalClinic([
     {
       source: null,
       data: {
@@ -45,21 +45,10 @@ export default function Page() {
         name: TITLE,
         url: `${SITE_URL}/privacy-policy/`,
         description: DESCRIPTION,
-        about: {
-          "@type": "MedicalClinic",
-          name: "Dr. Autoimmune",
-          telephone: SITE_CONTACT.phone,
-          email: SITE_CONTACT.email,
-          address: {
-            "@type": "PostalAddress",
-            addressLocality: "Boulder",
-            addressRegion: "CO",
-            addressCountry: "US",
-          },
-        },
+        about: medicalClinicRef(),
       },
     },
-  ];
+  ]);
 
   return (
     <CMSRoute path="/privacy-policy">

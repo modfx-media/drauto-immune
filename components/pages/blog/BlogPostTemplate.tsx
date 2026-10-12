@@ -16,6 +16,7 @@ import type { PageContent } from "@/lib/content";
 import { formatBlogDate, stripSiteSuffix, type BlogPostSummary } from "@/lib/blog-posts";
 import { splitMarkdownSections } from "@/lib/markdown-sections";
 import { DISCOVERY_CALL_HREF } from "@/components/layout/nav-links";
+import { withUnifiedMedicalClinic } from "@/lib/organization-jsonld";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
@@ -179,7 +180,7 @@ export default function BlogPostTemplate({
 
   return (
     <>
-      <JsonLd blocks={page.jsonLd} />
+      <JsonLd blocks={withUnifiedMedicalClinic(page.jsonLd)} />
       <ReadingProgressBar />
       <PostHero title={title} date={date} readingTime={readingTime} />
 
