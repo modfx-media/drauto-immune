@@ -3,7 +3,7 @@
   "path": "/about-us/",
   "liveUrl": "https://drautoimmune.com/about-us/",
   "isPost": false,
-  "title": "About Us - Dr. Autoimmune",
+  "title": "Meet Our Boulder Functional Medicine Team | Dr. Autoimmune",
   "metaDescription": "Meet our holistic doctors in Boulder, CO. We're here to support your health journey, focusing on the whole person and not just symptoms. Learn more about us!",
   "canonical": "https://drautoimmune.com/about-us/",
   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
@@ -17,7 +17,7 @@
       "article"
     ],
     "title": [
-      "About Us - Dr. Autoimmune",
+      "Meet Our Boulder Functional Medicine Team | Dr. Autoimmune",
       "Meet Your Functional Medicine Doctors in Boulder, CO"
     ],
     "description": [
@@ -44,7 +44,7 @@
     "card": "summary_large_image",
     "label1": "Time to read",
     "data1": "4 minutes",
-    "title": "Meet Your Functional Medicine Doctors in Boulder, CO",
+    "title": "Meet Our Boulder Functional Medicine Team | Dr. Autoimmune",
     "description": "Meet our holistic doctors in Boulder, CO. We're here to support your health journey, focusing on the whole person and not just symptoms. Learn more about us!",
     "image": "https://drautoimmune.com/images/og/about-us.jpg"
   },
@@ -58,7 +58,7 @@
             "@type": "WebPage",
             "@id": "https://drautoimmune.com/about-us/",
             "url": "https://drautoimmune.com/about-us/",
-            "name": "About Us - Dr. Autoimmune",
+            "name": "Meet Our Boulder Functional Medicine Team | Dr. Autoimmune",
             "isPartOf": {
               "@id": "https://drautoimmune.com/#website"
             },
@@ -140,7 +140,7 @@
       "data": {
         "@context": "https://schema.org",
         "@type": "AboutPage",
-        "name": "About Us - Dr. Autoimmune",
+        "name": "Meet Our Boulder Functional Medicine Team | Dr. Autoimmune",
         "url": "https://drautoimmune.com/about-us/",
         "description": "Learn about Dr. Autoimmune's functional medicine approach, our mission, and our dedicated team in Boulder, CO.",
         "mainEntity": {

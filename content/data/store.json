@@ -3,7 +3,7 @@
   "path": "/store/",
   "liveUrl": "https://drautoimmune.com/store/",
   "isPost": false,
-  "title": "Store - Dr. Autoimmune",
+  "title": "Shop Wellness Products | Boulder, CO | Dr. Autoimmune",
   "metaDescription": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Store page to learn about our wellness services.",
   "canonical": "https://drautoimmune.com/store/",
   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
@@ -17,8 +17,8 @@
       "article"
     ],
     "title": [
-      "Store - Dr. Autoimmune",
-      "Store | Boulder Autoimmune Specialist"
+      "Shop Wellness Products | Boulder, CO | Dr. Autoimmune",
+      "Wellness Store | Boulder Functional Medicine | Dr. Autoimmune"
     ],
     "url": [
       "https://drautoimmune.com/store/",
@@ -37,7 +37,7 @@
   },
   "twitter": {
     "card": "summary_large_image",
-    "title": "Store | Boulder Autoimmune Specialist",
+    "title": "Shop Wellness Products | Boulder, CO | Dr. Autoimmune",
     "description": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Store page to learn about our wellness services.",
     "label1": "Time to read",
     "data1": "Less than a minute",
@@ -53,7 +53,7 @@
             "@type": "WebPage",
             "@id": "https://drautoimmune.com/store/",
             "url": "https://drautoimmune.com/store/",
-            "name": "Store - Dr. Autoimmune",
+            "name": "Shop Wellness Products | Boulder, CO | Dr. Autoimmune",
             "isPartOf": {
               "@id": "https://drautoimmune.com/#website"
             },
