@@ -16,6 +16,7 @@ import { Footer } from "./globals/Footer";
 import { SiteSettings } from "./globals/SiteSettings";
 import { getCorsOrigins, getServerURL, publicUrlFromCmsPath } from "./lib/cms/url";
 
+import { scheduledPublishPlugin } from "./scheduled-publish";
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
@@ -57,6 +58,7 @@ export default buildConfig({
     outputFile: path.resolve(dirname, "payload-types.ts"),
   },
   plugins: [
+    scheduledPublishPlugin(),
     seoPlugin({
       collections: ["pages", "posts"],
       uploadsCollection: "media",
