@@ -5,6 +5,8 @@ import BlogHubPage from "@/components/pages/blog/BlogHubPage";
 import { buildMetadata } from "@/lib/content";
 import { getAllBlogPosts } from "@/lib/blog-posts-server";
 
+
+export const revalidate = 300;
 export async function generateMetadata(): Promise<Metadata> {
   return cmsMetadata("/blog", () => buildMetadata("blog"));
 }

@@ -7,6 +7,8 @@ import { getPageContent } from "@/lib/content";
 import { SITE_URL } from "@/lib/site";
 import { LEARN_PAGES } from "@/content/learn-data";
 
+
+export const revalidate = 300;
 const NATIONAL_DATE_PUBLISHED = new Date("2026-09-29");
 
 function pathFromSitemapUrl(url: string): string | null {
