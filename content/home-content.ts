@@ -18,11 +18,11 @@ export const HERO = {
   eyebrow: "Featuring 100% Remote Care",
   /** Real page/condition names from the site, used as the pill tag row above the headline. */
   tags: ["Wellness Services", "Conditions We Support", "Thyroid Conditions"],
-  headline: "We Are Autoimmune Wellness Specialists",
+  headline: "Autoimmune Doctor in Boulder, Colorado",
   mission:
-    "Our mission is to empower patients with chronic and complex autoimmune conditions by identifying the root cause and providing natural solutions that promote optimal health.",
+    "Dr. Autoimmune is a functional medicine practice helping patients with chronic and complex autoimmune conditions find root causes — with 100% telehealth care from Boulder, CO.",
   primaryCta: { label: "Book your Discovery Call", href: "/discovery-call/" },
-  secondaryCta: { label: "Explore Our Services", href: "/wellness-services/" },
+  secondaryCta: { label: "Explore Our Services", href: "/services/" },
   /** Proof/stat strip — real facts pulled from the site (address, credentials, tagline). */
   stats: [
     { value: "100%", label: "Remote Care" },

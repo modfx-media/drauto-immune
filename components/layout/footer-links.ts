@@ -8,13 +8,14 @@ export const QUICK_LINKS = [
   { label: "Live Webinar Schedule", href: "/live-webinar-schedule/" },
   { label: "Store", href: "/store/" },
   { label: "Contact Us", href: "/contact-us/" },
+  { label: "Privacy Policy", href: "/privacy-policy/" },
   { label: "Shop", href: "https://shop.drautoimmune.com/", external: true },
 ] as const;
 
 export const SERVICES_LINKS = [
   { label: "Book New Patient Evaluation", href: "/book-new-patient-evaluation/" },
   { label: "Conditions We Support", href: "/conditions-we-support/" },
-  { label: "Wellness Services", href: "/wellness-services/" },
+  { label: "Services", href: "/services/" },
   { label: "Patient Portal", href: "https://drautoimmune.md-hq.com/", external: true },
   { label: "Patient Stories", href: "/patient-stories/" },
   { label: "Book An Appointment", href: "/book-an-appointment/" },

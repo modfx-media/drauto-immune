@@ -374,11 +374,12 @@ export default function Hero() {
             animate="visible"
             variants={headlineContainer}
           >
-            <AnimatedWords text="We Are" />{" "}
             <Accent tone="sage" as="span">
-              <AnimatedWords text="Autoimmune Wellness" />
-            </Accent>{" "}
-            <AnimatedWords text="Specialists" />
+              <AnimatedWords text="Dr. Autoimmune" />
+            </Accent>
+            <span className="mt-2 block text-[0.85em] font-extrabold leading-tight sm:mt-3">
+              <AnimatedWords text="Autoimmune Doctor in Boulder, Colorado" />
+            </span>
           </motion.h1>
 
           <motion.p

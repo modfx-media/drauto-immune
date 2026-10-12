@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
@@ -10,6 +11,7 @@ import InnerPageHero from "@/components/ui/InnerPageHero";
 import Section from "@/components/ui/Section";
 import Reveal from "@/components/home/Reveal";
 import SectionAmbient from "@/components/home/SectionAmbient";
+import FaqAccordion from "@/components/ui/FaqAccordion";
 import { DISCOVERY_CALL_HREF } from "@/components/layout/nav-links";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
@@ -23,31 +25,77 @@ const SERVICE_PATHWAYS: {
 }[] = [
   {
     title: "Book New Patient Evaluation",
-    description: "Start with a comprehensive intake so our team can understand your full history before building your plan.",
+    description:
+      "A guided health review with Dr. Ian Hollaman’s clinical team covering history, symptoms, and lab patterns before a personalized plan.",
     href: "/book-new-patient-evaluation/",
     icon: "clipboard",
     image: "/images/services/new-patient-evaluation.jpg",
   },
   {
     title: "Conditions We Support",
-    description: "Explore the autoimmune, thyroid, and chronic conditions our functional medicine team regularly treats.",
+    description:
+      "Autoimmune, thyroid, gut, and complex chronic conditions we regularly evaluate with a root-cause functional medicine lens.",
     href: "/conditions-we-support/",
     icon: "shield",
     image: "/images/migrated/conditions-we-support/large-7.webp",
   },
   {
-    title: "Wellness Services",
-    description: "Ongoing nutrition, testing, and supplement support designed to keep your plan moving forward.",
-    href: "/wellness-services/",
+    title: "Patient Stories",
+    description: "Hear how patients describe working with the Dr. Autoimmune team on chronic and autoimmune concerns.",
+    href: "/patient-stories/",
     icon: "heart-pulse",
     image: "/images/services/wellness-services.jpg",
   },
   {
     title: "Patient Portal",
-    description: "Securely access your records, lab results, and care plan between visits.",
-    href: "/patient-portal/",
+    description: "Securely access records, lab results, and care-plan details between visits.",
+    href: "https://drautoimmune.md-hq.com/",
     icon: "users",
     image: "/images/approach/main.webp",
+  },
+];
+
+const CARE_DETAILS = [
+  {
+    title: "Discovery Call",
+    body: "A short, no-obligation conversation (about 20 minutes) with our New Patient Coordinator. You share your story; we explain how root-cause care works and whether it is a fit. USA patients only.",
+    href: "/discovery-call/",
+  },
+  {
+    title: "New Patient Evaluation",
+    body: "A thorough telehealth evaluation reviewing clinical history, symptom patterns, and blood analysis. Lab requisitions for an extensive marker panel can be coordinated through LabCorp locations near you.",
+    href: "/book-new-patient-evaluation/",
+  },
+  {
+    title: "Ongoing Functional Medicine Support",
+    body: "Follow-up visits, nutrition guidance, supplement recommendations when appropriate, and plan adjustments based on symptoms and labs — all by secure video from our Boulder-based practice.",
+    href: "/book-an-appointment/",
+  },
+  {
+    title: "Neurofeedback (when indicated)",
+    body: "For attention, mood, and brain-based symptoms, the team may incorporate neurofeedback brain training as part of a broader plan. Session needs are individualized.",
+    href: "/adhd-add/",
+  },
+];
+
+const FAQS = [
+  {
+    question: "Is care fully remote?",
+    answer: [
+      "Yes. Dr. Autoimmune delivers care through telehealth. Lab draws are done at facilities convenient to where you live, and visits happen by secure video.",
+    ],
+  },
+  {
+    question: "What is the difference between a discovery call and a new patient evaluation?",
+    answer: [
+      "The discovery call is a brief fit conversation. The new patient evaluation is a comprehensive clinical review used to understand drivers of your symptoms and outline next steps.",
+    ],
+  },
+  {
+    question: "Do you publish prices on this page?",
+    answer: [
+      "Package details are discussed during scheduling so they match the visit type you need. Start with a discovery call or the new patient evaluation page to begin.",
+    ],
   },
 ];
 
@@ -58,8 +106,11 @@ export default function ServicesPage() {
         eyebrow="Services"
         title="Personalized Functional Medicine Services"
         accent="Functional Medicine"
-        subhead="Every pathway into care, from your first evaluation to ongoing wellness support."
-        image={{ src: "/images/services/new-patient-evaluation.jpg", alt: "Doctor listening to a patient's heartbeat with a stethoscope" }}
+        subhead="Telehealth root-cause care from Boulder, Colorado — from your first conversation through ongoing autoimmune and wellness support."
+        image={{
+          src: "/images/services/new-patient-evaluation.jpg",
+          alt: "Doctor listening to a patient's heartbeat with a stethoscope",
+        }}
       />
 
       <Section bg="white" className="relative overflow-hidden">
@@ -68,10 +119,9 @@ export default function ServicesPage() {
           <Reveal className="mx-auto max-w-3xl text-center">
             <Badge className="mb-4 inline-flex">Our Services</Badge>
             <p className="text-lg leading-relaxed text-ink-soft">
-              Whether you&rsquo;re beginning your first evaluation or looking for ongoing wellness support, our
-              services are built around one goal: understanding what&rsquo;s really driving your symptoms and
-              giving you a clear, personalized plan to address it &mdash; all through secure, convenient
-              telehealth.
+              Whether you are beginning your first evaluation or looking for ongoing support, our services are built
+              around one goal: understanding what is driving your symptoms and giving you a clear, personalized plan
+              — delivered through secure, convenient telehealth.
             </p>
           </Reveal>
 
@@ -83,15 +133,78 @@ export default function ServicesPage() {
         </Container>
       </Section>
 
+      <Section bg="cream-wash" className="relative overflow-hidden">
+        <Container className="relative">
+          <Reveal className="mx-auto max-w-3xl">
+            <h2 className="text-center text-3xl font-extrabold text-ink sm:text-4xl">What Working With Us Includes</h2>
+            <p className="mt-4 text-center text-base text-ink-soft">
+              Drawn from how care actually runs at Dr. Autoimmune — not a menu of invented add-ons.
+            </p>
+          </Reveal>
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
+            {CARE_DETAILS.map((item) => (
+              <Reveal key={item.title} className="rounded-card border border-gray bg-white p-6 shadow-card sm:p-8">
+                <h3 className="text-xl font-extrabold text-ink">{item.title}</h3>
+                <p className="mt-3 text-base leading-relaxed text-ink-soft">{item.body}</p>
+                <Link href={item.href} className="mt-4 inline-flex font-semibold text-primary hover:underline">
+                  Learn more →
+                </Link>
+              </Reveal>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section bg="white" className="relative">
+        <Container className="relative mx-auto max-w-3xl">
+          <Reveal>
+            <h2 className="text-3xl font-extrabold text-ink">Testing &amp; Nutrition Support</h2>
+            <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
+              <p>
+                Evaluations often include review of an extensive blood panel (the practice describes an 83+ marker
+                panel coordinated through partners such as Evexia, with draws at LabCorp locations). Results are
+                interpreted in context of your history — not in isolation.
+              </p>
+              <p>
+                Nutrition guidance, gut-focused dietary strategies (including patterns such as the{" "}
+                <Link href="/learn/autoimmune-protocol-diet/" className="font-medium text-primary hover:underline">
+                  autoimmune protocol diet
+                </Link>{" "}
+                when appropriate), and supplement recommendations are individualized. Wellness products are also
+                available through our{" "}
+                <Link href="/store/" className="font-medium text-primary hover:underline">
+                  store
+                </Link>{" "}
+                and{" "}
+                <a
+                  href="https://shop.drautoimmune.com/"
+                  className="font-medium text-primary hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  online shop
+                </a>
+                .
+              </p>
+            </div>
+          </Reveal>
+
+          <Reveal className="mt-12">
+            <h2 className="text-3xl font-extrabold text-ink">Frequently Asked Questions</h2>
+            <div className="mt-6">
+              <FaqAccordion items={FAQS} />
+            </div>
+          </Reveal>
+        </Container>
+      </Section>
+
       <Section bg="primary" className="relative overflow-hidden">
         <div aria-hidden="true" className="pointer-events-none absolute -left-20 top-0 h-72 w-72 rounded-full bg-white/[0.06] blur-3xl" />
-        <div aria-hidden="true" className="pointer-events-none absolute -right-16 bottom-0 h-64 w-64 rounded-full bg-white/[0.05] blur-3xl" />
         <Container className="relative">
           <Reveal className="mx-auto max-w-2xl text-center">
             <h2 className="text-white">Not Sure Where to Start?</h2>
             <p className="mt-6 text-lg leading-relaxed text-white/85">
-              A discovery call is the easiest way to talk through your history and find the right starting
-              point for your care.
+              A discovery call is the easiest way to talk through your history and find the right starting point.
             </p>
             <div className="mt-8">
               <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg" className="uppercase tracking-wide">
@@ -113,10 +226,12 @@ function ServiceCard({
   index: number;
 }) {
   const reduce = useReducedMotion();
+  const external = item.href.startsWith("http");
   return (
     <Reveal delay={index * 0.1} y={28}>
       <a
         href={item.href}
+        {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
         className="group flex h-full flex-col overflow-hidden rounded-card border border-gray bg-white shadow-card transition-all duration-200 hover:-translate-y-1.5 hover:shadow-card-hover"
       >
         <div className="relative aspect-[16/10] w-full overflow-hidden">
@@ -146,7 +261,6 @@ function ServiceCard({
             <Icon name="arrow-right" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </span>
         </div>
-        {/* Bottom accent line drawn in on hover */}
         <span
           aria-hidden="true"
           className="h-1 origin-left scale-x-0 bg-primary transition-transform duration-300 group-hover:scale-x-100"

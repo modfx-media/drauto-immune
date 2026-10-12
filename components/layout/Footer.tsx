@@ -222,6 +222,10 @@ export default function Footer({
                 Sitemap
               </Link>
               <span aria-hidden="true" className="hidden h-1 w-1 rounded-full bg-white/30 sm:inline-block" />
+              <Link href="/privacy-policy/" className="transition-colors hover:text-white">
+                Privacy Policy
+              </Link>
+              <span aria-hidden="true" className="hidden h-1 w-1 rounded-full bg-white/30 sm:inline-block" />
               <Link href="/contact-us/" className="transition-colors hover:text-white">
                 Contact
               </Link>

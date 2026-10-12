@@ -62,6 +62,7 @@ const MARKETING_KEYS = new Set([
   "patient-portal",
   "patient-stories",
   "services",
+  "privacy-policy",
 ]);
 
 export function inventoryPublicUrls(): InventoryRecord[] {
@@ -96,6 +97,18 @@ export function inventoryPublicUrls(): InventoryRecord[] {
       sourceUrl: `https://drautoimmune.com${entry.path}`,
     });
   }
+
+  add({
+    collection: "pages",
+    legacyId: "privacy-policy",
+    path: "/privacy-policy",
+    slug: "privacy-policy",
+    title: "Privacy Policy | Dr. Autoimmune",
+    template: "marketing",
+    sourceUrl: "https://drautoimmune.com/privacy-policy/",
+    excerpt:
+      "How Dr. Autoimmune, a Boulder, Colorado functional medicine practice, collects, uses, and protects personal and health-related information.",
+  });
 
   add({
     collection: "pages",

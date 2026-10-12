@@ -736,6 +736,85 @@ const RAW_LEARN_PAGES = [
     cluster: "conditions-education",
     datePublished: "2026-09-29",
   },
+  {
+    slug: "autoimmune-protocol-diet",
+    title: "Autoimmune Protocol (AIP) Diet Guide | Dr. Autoimmune",
+    metaDescription:
+      "What the autoimmune protocol (AIP) diet is, foods commonly removed and reintroduced, who it may help, and how it fits functional medicine care in Boulder, CO.",
+    eyebrow: "Nutrition & Autoimmunity",
+    h1: "Autoimmune Protocol (AIP) Diet: A Practical Guide",
+    accent: "Autoimmune Protocol (AIP) Diet",
+    heroSubhead:
+      "A structured elimination-and-reintroduction approach used by many people with autoimmune disease — explained without hype or unverifiable cure claims.",
+    intro: [
+      "The autoimmune protocol diet, often called AIP, is an elimination-style eating pattern designed to reduce foods that commonly irritate the gut or immune system, then carefully reintroduce them while watching symptoms. It is not a medical cure, and it is not required for every autoimmune diagnosis.",
+      "People searching for an autoimmune diet doctor or autoimmune nutritionist in Boulder often want clarity on whether AIP is appropriate for them. This guide explains the structure of AIP, how it differs from a simple gluten-free diet, and how it can fit alongside specialty care and telehealth functional medicine.",
+    ],
+    sections: [
+      {
+        heading: "What AIP Usually Removes (and Why)",
+        paragraphs: [
+          "During the elimination phase, AIP typically removes grains, dairy, eggs, nightshades, nuts, seeds, refined sugar, alcohol, and ultra-processed foods. The intent is to lower dietary exposures that many clinicians and patients associate with gut irritation or immune activation — not to prove any single food is universally harmful.",
+          "The list is intentionally broad. That breadth is also why AIP should be time-limited and supervised when possible: long, unsupervised elimination can leave nutrient gaps and make social eating harder without a clear reintroduction plan.",
+        ],
+      },
+      {
+        heading: "Reintroduction: The Part Most Articles Skip",
+        paragraphs: [
+          "AIP is not meant to be permanent. After a period of elimination (often several weeks, individualized), foods are reintroduced one at a time while tracking energy, digestion, skin, joint pain, and sleep. The goal is the broadest diet you tolerate — not the strictest diet you can endure.",
+          "If symptoms return with a specific food, that item may stay out longer or be tried again later. If nothing changes, it can usually return to the rotation. This is clinical detective work, not a pass/fail purity test.",
+        ],
+      },
+      {
+        heading: "Who Might Consider AIP — and Who Should Pause",
+        paragraphs: [
+          "AIP is sometimes considered when autoimmune symptoms and gut issues overlap, or when a person has already tried simpler steps (such as reducing ultra-processed foods) without clarity. It is a poor first move during active eating-disorder recovery, unmanaged malnutrition, or when a clinician has advised against restrictive diets.",
+          "Celiac disease still requires lifelong gluten avoidance regardless of AIP. Food allergy emergencies need allergy care, not an elimination protocol alone.",
+        ],
+        bullets: [
+          "Pair dietary trials with a clinician who can watch labs and medications",
+          "Do not stop disease-modifying drugs because you started AIP",
+          "Use AIP as one tool inside a broader root-cause plan when appropriate",
+        ],
+      },
+      {
+        heading: "How AIP Fits Dr. Autoimmune’s Approach",
+        paragraphs: [
+          "Our Boulder-based telehealth practice uses nutrition as part of personalized functional medicine plans — sometimes including AIP-style elimination when the history fits, sometimes using a narrower trial. Discovery calls and evaluations help decide whether a structured diet trial belongs in your plan.",
+          "Related reading on this site includes our leaky gut guide, dysbiosis overview, and condition pages for gut-driven autoimmune disease.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is the autoimmune protocol diet the same as paleo?",
+        answer: [
+          "They overlap, but AIP is typically stricter during elimination (for example, nightshades, eggs, nuts, and seeds are often removed on AIP) and is paired with a deliberate reintroduction phase focused on autoimmune symptom tracking.",
+        ],
+      },
+      {
+        question: "Can AIP replace my rheumatologist or endocrinologist?",
+        answer: [
+          "No. AIP is a dietary framework. Specialty medications and monitoring remain essential when they are part of your care. Use AIP alongside — not instead of — the clinicians managing your diagnosis.",
+        ],
+      },
+      {
+        question: "How long should I stay in the elimination phase?",
+        answer: [
+          "There is no single correct number of weeks for every person. Plans should be individualized and followed by reintroduction. Staying in elimination indefinitely without guidance is not the goal.",
+        ],
+      },
+    ],
+    relatedConditionSlugs: [
+      "inflammatory-bowel-disease",
+      "celiac-disease-and-gluten-intolerance",
+      "rheumatoid-arthritis",
+      "hashimotos-thyroiditis-graves",
+    ],
+    targetKeyword: "autoimmune protocol diet",
+    cluster: "nutrition",
+    datePublished: "2026-10-12",
+  },
 ];
 
 export const LEARN_PAGES: LearnPageData[] = RAW_LEARN_PAGES.map((page) => {

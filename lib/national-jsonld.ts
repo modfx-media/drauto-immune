@@ -133,7 +133,12 @@ export function buildFrontRangeCityJsonLd(city: FrontRangeCity, page: GeneratedP
           { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
           { "@type": "ListItem", position: 2, name: "Areas We Serve", item: `${SITE_URL}/areas-we-serve/` },
           { "@type": "ListItem", position: 3, name: "Colorado", item: `${SITE_URL}/areas-we-serve/colorado/` },
-          { "@type": "ListItem", position: 4, name: city.name },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: city.name || "Denver",
+            item: url,
+          },
         ],
       },
     },
