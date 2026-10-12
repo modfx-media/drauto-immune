@@ -1,7 +1,7 @@
 import type { JsonLdBlock } from "@/lib/content";
 import { SITE_URL } from "@/lib/site";
-import { SITE_CONTACT } from "@/components/layout/nav-links";
 import { LEARN_PAGES, type LearnPageData } from "@/content/learn-data";
+import { medicalClinicEntity, medicalClinicRef } from "@/lib/organization-jsonld";
 
 /**
  * Builds the JSON-LD graph for the `/learn/` hub page: a BreadcrumbList
@@ -74,6 +74,13 @@ export function buildLearnJsonLd(page: LearnPageData): JsonLdBlock[] {
       source: null,
       data: {
         "@context": "https://schema.org",
+        ...medicalClinicEntity(),
+      },
+    },
+    {
+      source: null,
+      data: {
+        "@context": "https://schema.org",
         "@type": "MedicalWebPage",
         name: page.title,
         url,
@@ -100,21 +107,7 @@ export function buildLearnJsonLd(page: LearnPageData): JsonLdBlock[] {
           name: citation.name,
           url: citation.url,
         })),
-        publisher: {
-          "@type": "MedicalClinic",
-          name: "Dr. Autoimmune",
-          url: `${SITE_URL}/`,
-          telephone: SITE_CONTACT.phone,
-          location: {
-            "@type": "Place",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Boulder",
-              addressRegion: "CO",
-              addressCountry: "US",
-            },
-          },
-        },
+        publisher: medicalClinicRef(),
       },
     },
     {

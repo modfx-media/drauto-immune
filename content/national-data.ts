@@ -1,20 +1,12 @@
 /**
- * Nationwide pSEO data model + content builders for the `/areas-we-serve`
- * state hub pages and `/areas-we-serve/[state]/[condition]` pages.
+ * Nationwide geography helpers for `/areas-we-serve`.
  *
- * Scope note: GSC (gsc-report/Queries.csv) shows zero organic query signal
- * for any state/metro outside Boulder/Denver/Fort Collins, and an
- * independent 235-keyword DataForSEO check (data/pseo-national/keywords.json)
- * found no measurable US search volume for any condition x
- * online/virtual/telehealth combination and only trace (10-20/mo) volume
- * for a handful of states. This matrix was built at explicit user request
- * despite that finding — see conversation record — so every page combines
- * (a) genuinely substantive, already-reviewed condition education reused
- * from the site's own flagship condition pages (content/conditions-data.ts)
- * with (b) real, non-fabricated state geography/logistics content and (c) a
- * consistent, honest FAQ that never claims state-specific medical
- * licensure (see TODO in content/areas-data.ts) — to avoid classic
- * thin/duplicate pSEO patterns as much as possible at this scale.
+ * Indexable location pages: hub, Colorado, Denver only.
+ * Non-Colorado state hubs 301 → hub; other Front Range cities 301 → Denver;
+ * former state×condition matrix URLs 301 → flagship `/{condition}/` pages
+ * (see next.config.ts). STATE_CONDITIONS remains the slug map for those
+ * redirects. buildStateConditionContent is retained only for reference /
+ * offline tooling — it is no longer rendered.
  */
 
 import type { AreaFaq, AreaSection } from "./areas-data";
@@ -225,7 +217,7 @@ export function buildFrontRangeCityContent(city: FrontRangeCity): GeneratedPage 
         paragraphs: [
           `Our practice focuses on autoimmune and chronic conditions that respond well to a root-cause, functional medicine approach. Explore condition-specific information for Colorado patients below.`,
         ],
-        links: STATE_CONDITIONS.map((c) => ({ label: c.name, href: `/areas-we-serve/colorado/${c.slug}/` })),
+        links: STATE_CONDITIONS.map((c) => ({ label: c.name, href: `/${c.slug}/` })),
       },
       {
         heading: "What a Telehealth Visit Looks Like",
@@ -313,7 +305,7 @@ export function buildStateHubContent(state: StateData): GeneratedPage {
         paragraphs: [
           `Our practice focuses on autoimmune and chronic conditions that respond well to a root-cause, functional medicine approach. Explore condition-specific information for ${state.name} patients below.`,
         ],
-        links: STATE_CONDITIONS.map((c) => ({ label: c.name, href: `/areas-we-serve/${state.slug}/${c.slug}/` })),
+        links: STATE_CONDITIONS.map((c) => ({ label: c.name, href: `/${c.slug}/` })),
       },
       {
         heading: "What a Telehealth Visit Looks Like",

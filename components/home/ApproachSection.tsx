@@ -166,6 +166,14 @@ function ApproachContent() {
       <p className="text-base leading-relaxed text-ink-soft">{APPROACH.intro}</p>
 
       <p className="text-base leading-relaxed text-ink-soft">
+        {APPROACH.serving.before}
+        <Link href={APPROACH.serving.linkHref} className="font-medium text-primary hover:underline">
+          {APPROACH.serving.linkLabel}
+        </Link>
+        {APPROACH.serving.after}
+      </p>
+
+      <p className="text-base leading-relaxed text-ink-soft">
         Every plan starts with listening: a comprehensive look at your history,
         labs, and lifestyle, so care fits your biology, not a template. We
         translate advanced testing into a clear roadmap and stay alongside you

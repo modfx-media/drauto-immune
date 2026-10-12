@@ -46,7 +46,7 @@ const SHARED_BOULDER = (condition: string): ConditionEnrichment["boulder"] => ({
   heading: `${condition} Care in Boulder, Colorado — and Nationwide by Telehealth`,
   paragraphs: [
     `Dr. Autoimmune is based in Boulder, Colorado, and delivers care entirely by telehealth so patients across Colorado and the United States can work with the team without travel.`,
-    `Lab draws are coordinated at a facility convenient to where you live. Discovery calls and evaluations happen by secure video. If you are searching for a ${condition.toLowerCase()} specialist in Boulder or Denver, start with a discovery call to confirm whether root-cause functional medicine is the right next step alongside any specialists you already see.`,
+    `Lab draws are coordinated at a facility convenient to where you live. Discovery calls and evaluations happen by secure video. If you are searching for a ${condition.toLowerCase()} specialist in Boulder, start on this page and the homepage. Denver metro patients can read how visits work with the Boulder clinic on the Denver telehealth page, then book a discovery call to confirm fit alongside any specialists you already see.`,
   ],
 });
 
@@ -232,11 +232,13 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
     displayName: "Rheumatoid Arthritis Functional Medicine Care",
     labs: {
       heading: "RA-Related Labs We May Review",
+      lead: "We interpret rheumatology workups alongside broader patterns rather than treating any single antibody in isolation:",
       items: [
         "Rheumatoid factor (RF) and anti-CCP antibodies",
         "ESR and CRP inflammatory markers",
         "Complete blood count and metabolic panels from your rheumatologist",
         "Gut and nutrient markers when symptoms suggest deeper drivers",
+        "Prior imaging or joint exam notes that clarify which areas are actively inflamed",
       ],
     },
     conventional: {
@@ -244,12 +246,15 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
       paragraphs: [
         "Rheumatologists diagnose RA and prescribe disease-modifying medications that protect joints. That care saves function and should not be delayed when inflammatory arthritis is active.",
         "Functional medicine explores gut health, food triggers, infections, and lifestyle factors that may amplify inflammation while you continue rheumatology treatment.",
+        "RA is an immune-driven attack on synovial tissue. Understanding mechanisms — citrullinated protein antibodies, innate immune activation, and systemic inflammation — helps explain why joint swelling can travel with fatigue, brain fog, or digestive flares even when a single joint exam looks quieter.",
       ],
     },
     approach: {
       heading: "How We Support Rheumatoid Arthritis",
       paragraphs: [
         "Evaluations review joint patterns, fatigue, digestive symptoms, and prior labs. Plans emphasize root-cause investigation and practical lifestyle support — never as a substitute for DMARD or biologic therapy when those are indicated.",
+        "What testing looks like in our model: we review RF, anti-CCP, ESR/CRP, and the story your rheumatologist has already built, then fill gaps with gut, nutrient, and inflammatory context when clinically relevant. Draws for broader panels can be coordinated locally while visits remain telehealth from Boulder.",
+        "What to expect: a careful history of which joints flare, morning stiffness, food or stress triggers, and gut symptoms; a plan that respects your current medications; and follow-up that adjusts nutrition, lifestyle, and supportive therapies as markers and symptoms change. We do not promise remission or medication discontinuation.",
       ],
     },
     boulder: SHARED_BOULDER("Rheumatoid arthritis"),
@@ -266,10 +271,23 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
           "Many patients explore anti-inflammatory or elimination-style diets, including autoimmune protocol patterns. We individualize dietary guidance based on your history and labs rather than one generic plan.",
         ],
       },
+      {
+        question: "What does a functional medicine evaluation for RA usually cover?",
+        answer: [
+          "We map joint and systemic symptoms, review rheumatology labs and treatments, and look for modifiable drivers such as gut inflammation, nutrient gaps, and lifestyle stressors. Package and visit details are confirmed during scheduling.",
+        ],
+      },
+      {
+        question: "Can Denver patients with RA use telehealth?",
+        answer: [
+          "Yes. Care is delivered by telehealth from Boulder with local lab draws. Denver metro patients can read how Front Range visits work on our Denver page, then book a discovery call to confirm fit alongside rheumatology care.",
+        ],
+      },
     ],
     relatedLearn: [
       { href: "/learn/functional-medicine-vs-rheumatologist-what-to-expect/", label: "Functional medicine vs rheumatologist" },
       { href: "/learn/autoimmune-protocol-diet/", label: "Autoimmune protocol diet guide" },
+      { href: "/areas-we-serve/colorado/denver/", label: "Denver patients: Boulder telehealth for RA support" },
     ],
     relatedBlog: [
       { href: "/what-high-crp-reveals-about-chronic-inflammation/", label: "What high CRP reveals about inflammation" },
@@ -329,11 +347,13 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
     displayName: "Inflammatory Bowel Disease Functional Medicine Care",
     labs: {
       heading: "IBD Testing Context We Review",
+      lead: "GI specialty records remain the foundation; we add context that explains day-to-day symptoms between scopes:",
       items: [
         "Colonoscopy and pathology notes from your gastroenterologist",
         "Calprotectin and other stool inflammatory markers when available",
         "CRP, anemia panels, and nutrient deficiencies common in IBD",
         "Microbiome or SIBO-related testing when the clinical picture fits",
+        "Medication and flare history so supportive plans do not conflict with GI therapy",
       ],
     },
     conventional: {
@@ -341,12 +361,15 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
       paragraphs: [
         "Gastroenterologists diagnose Crohn’s and ulcerative colitis and manage anti-inflammatory or biologic therapies. Flare care, bleeding, and obstruction risks need specialty oversight.",
         "Functional medicine adds depth on diet, microbiome balance, and lifestyle stressors once the acute picture is stable — or while coordinating with your GI team.",
+        "Mechanistically, IBD reflects dysregulated mucosal immunity in genetically susceptible people. Barrier injury, microbial imbalance, and immune signaling can keep symptoms loud even when a treatment plan is otherwise appropriate — which is why root-cause support focuses on terrain, not on replacing biologics.",
       ],
     },
     approach: {
       heading: "How We Approach IBD",
       paragraphs: [
         "We map symptom patterns (diarrhea, constipation, bloating, pain), review prior scopes and labs, and build gut-focused plans that respect your GI medications and monitoring schedule.",
+        "What testing looks like: we start with what gastroenterology has already documented, then consider stool inflammation markers, nutrient status, and gut-focused labs when they clarify triggers. Broader blood panels used in the practice (including extensive marker panels coordinated through partners such as Evexia with LabCorp draws) are ordered thoughtfully — not as a substitute for colonoscopy when that is indicated.",
+        "What to expect: telehealth visits from our Boulder practice, coordination with your GI team, dietary strategies that may include autoimmune protocol patterns when appropriate, and honest limits — we do not claim to cure Crohn’s or ulcerative colitis.",
       ],
     },
     boulder: SHARED_BOULDER("IBD"),
@@ -363,10 +386,23 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
           "Yes. We support Crohn’s and ulcerative colitis patients with root-cause gut evaluation. Read our Crohn’s functional medicine article for a deeper dive.",
         ],
       },
+      {
+        question: "Can I use telehealth during an IBD flare?",
+        answer: [
+          "Telehealth can help with history, diet, and lab review, but severe pain, bleeding, fever, or obstruction symptoms need urgent in-person GI or emergency care. We coordinate support around specialty flare management — we do not replace it.",
+        ],
+      },
+      {
+        question: "Do Denver patients with IBD need to travel to Boulder?",
+        answer: [
+          "Visits are remote. Lab draws stay local. Denver metro patients can review Front Range telehealth details on our Denver page before booking a discovery call.",
+        ],
+      },
     ],
     relatedLearn: [
       { href: "/learn/is-irritable-bowel-syndrome-an-autoimmune-disease/", label: "Is IBS an autoimmune disease?" },
       { href: "/learn/autoimmune-protocol-diet/", label: "Autoimmune protocol diet guide" },
+      { href: "/areas-we-serve/colorado/denver/", label: "Denver patients: IBD telehealth from Boulder" },
     ],
     relatedBlog: [
       { href: "/healing-crohns-disease-with-functional-medicine/", label: "Healing Crohn’s with functional medicine" },
@@ -435,11 +471,13 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
     displayName: "Multiple Sclerosis Functional Medicine Support",
     labs: {
       heading: "Records We Review With MS Patients",
+      lead: "Neurology documentation anchors the diagnosis; we add systemic context that often shapes daily energy and gut symptoms:",
       items: [
         "Neurology notes and MRI summaries",
         "Vitamin D and related nutrient status",
         "Inflammatory and gut-related markers when clinically relevant",
         "Medication and relapse history from your neurology team",
+        "Thyroid and metabolic markers when fatigue or brain fog overlap with other patterns",
       ],
     },
     conventional: {
@@ -447,12 +485,15 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
       paragraphs: [
         "Neurologists diagnose MS and manage disease-modifying therapies. Functional medicine does not replace that specialty care.",
         "We support fatigue, gut symptoms, nutrient status, and lifestyle factors that affect day-to-day function while neurology directs MS-specific treatment.",
+        "MS involves immune-mediated injury to myelin in the central nervous system. Relapsing and progressive patterns differ, but both can be influenced by infection history, vitamin D status, gut-immune signaling, and lifestyle stressors — areas where root-cause evaluation can add complementary support without claiming to reverse MRI lesions.",
       ],
     },
     approach: {
       heading: "How We Support People With MS",
       paragraphs: [
         "Evaluations emphasize whole-person history, gut-immune connections, and practical plans that coordinate with your neurologist rather than conflicting with prescribed therapies.",
+        "What testing looks like: we review neurology records first, then consider nutrient panels, inflammatory markers, and gut-focused labs when symptoms point that direction. Extensive blood chemistry used elsewhere in the practice is applied selectively and interpreted alongside — not instead of — MRI and CSF findings from neurology.",
+        "What to expect: telehealth visits from Boulder, a clear discussion of what functional medicine can address (fatigue terrain, gut, nutrients, lifestyle) versus what belongs with neurology (DMT selection, relapse management), and follow-up that stays respectful of your existing prescriptions.",
       ],
     },
     boulder: SHARED_BOULDER("Multiple sclerosis"),
@@ -463,9 +504,28 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
           "We are a functional medicine practice supporting autoimmune and neurologic immune conditions, including MS, via telehealth from Boulder. Neurology remains essential for MS diagnosis and disease-modifying therapy.",
         ],
       },
+      {
+        question: "Can functional medicine replace my MS medication?",
+        answer: [
+          "No. Disease-modifying therapy decisions belong with your neurologist. We focus on supportive root-cause factors and never advise stopping MS medications without that specialist’s involvement.",
+        ],
+      },
+      {
+        question: "What symptoms do MS patients commonly want help with here?",
+        answer: [
+          "Fatigue, gut symptoms, nutrient questions, and lifestyle patterns that affect day-to-day function are common reasons people seek complementary support while neurology manages MS-specific treatment.",
+        ],
+      },
+      {
+        question: "Is MS support available to Denver patients by telehealth?",
+        answer: [
+          "Yes. Visits are remote with local lab draws. See our Denver patients page for Front Range logistics, then book a discovery call to discuss fit with your neurology plan.",
+        ],
+      },
     ],
     relatedLearn: [
       { href: "/learn/how-to-choose-an-autoimmune-disease-specialist/", label: "How to choose an autoimmune specialist" },
+      { href: "/areas-we-serve/colorado/denver/", label: "Denver patients: MS telehealth support from Boulder" },
     ],
     relatedBlog: [
       { href: "/what-chronic-fatigue-reveals-about-thyroid-health/", label: "Chronic fatigue and thyroid health" },
@@ -480,23 +540,28 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
     displayName: "Lupus Functional Medicine Support",
     labs: {
       heading: "Lupus-Related Labs We Commonly Discuss",
+      lead: "Antibody panels need clinical context. We review rheumatology results and fill systemic gaps that affect how you feel day to day:",
       items: [
         "ANA titer and pattern, plus reflex antibodies (dsDNA, Smith, RNP, SSA/SSB) when available",
         "Complement levels and inflammatory markers from rheumatology workups",
         "Kidney function and urinalysis notes when lupus nephritis is a concern",
         "Nutrient and gut markers that may influence fatigue and flares",
+        "Prior flare timelines so labs are interpreted against real symptom seasons, not isolated numbers",
       ],
     },
     conventional: {
       heading: "Rheumatology Remains Central for Lupus",
       paragraphs: [
         "Lupus diagnosis and medication management belong with rheumatology, especially when organs are involved. Functional medicine explores triggers — infections, gut health, sunlight sensitivity patterns, stress, and nutrient status — alongside that care.",
+        "Mechanistically, systemic lupus involves loss of immune tolerance with autoantibodies that can affect skin, joints, blood counts, kidneys, and other organs. That complexity is exactly why specialty oversight stays essential and why root-cause work focuses on modifiable drivers rather than promising to “clear” antibodies.",
       ],
     },
     approach: {
       heading: "Our Approach to Lupus Support",
       paragraphs: [
         "We review your antibody history, flare patterns, and digestive or skin clues, then build a root-cause plan that respects your rheumatologist’s treatment.",
+        "What testing looks like: ANA and reflex antibodies are interpreted carefully — a positive ANA alone is not a lupus diagnosis. We also review complements, inflammatory markers, kidney notes when relevant, and gut or nutrient labs that may explain fatigue between rheumatology visits.",
+        "What to expect: telehealth evaluation from Boulder, coordination with rheumatology, lifestyle and nutrition strategies tailored to your flares, and clear boundaries about emergencies or organ-threatening disease that need in-person specialty care.",
       ],
     },
     boulder: SHARED_BOULDER("Lupus"),
@@ -513,11 +578,24 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
           "Care is delivered by telehealth from our Boulder-based practice to patients across Colorado and nationwide, coordinated with local specialists when needed.",
         ],
       },
+      {
+        question: "What should I bring to a lupus-focused evaluation?",
+        answer: [
+          "Antibody reports, rheumatology notes, medication list, and a brief flare diary (skin, joints, fatigue, sun triggers) help us connect mechanisms to your lived pattern without repeating unnecessary testing.",
+        ],
+      },
+      {
+        question: "Can Denver patients with lupus work with Dr. Autoimmune remotely?",
+        answer: [
+          "Yes. Front Range patients use the same telehealth model with local labs. Read our Denver page for logistics, then book a discovery call to confirm fit alongside rheumatology care.",
+        ],
+      },
     ],
     relatedLearn: [
       { href: "/learn/false-positive-ana-test-causes/", label: "False positive ANA causes" },
       { href: "/learn/ana-titer-levels-explained/", label: "ANA titer levels explained" },
       { href: "/learn/medications-that-can-cause-a-positive-ana-test/", label: "Medications that can cause a positive ANA" },
+      { href: "/areas-we-serve/colorado/denver/", label: "Denver patients: lupus telehealth from Boulder" },
     ],
     relatedBlog: [
       { href: "/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/", label: "If my ANA is positive, do I have an autoimmune disease?" },
@@ -532,23 +610,28 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
     displayName: "Sjögren’s Syndrome Functional Medicine Care",
     labs: {
       heading: "Sjögren’s Workup Elements We Review",
+      lead: "Dryness evaluations and antibodies tell different parts of the story; we review both when available:",
       items: [
         "SSA/Ro and SSB/La antibodies when available",
         "ANA and related autoimmune panels",
         "Notes on dry eye/dry mouth evaluation from specialists",
         "Nutrient and gut markers that may accompany systemic symptoms",
+        "Inflammatory markers and overlapping autoimmune labs when joint pain or Raynaud’s is present",
       ],
     },
     conventional: {
       heading: "Specialty Care for Dryness and Systemic Features",
       paragraphs: [
         "Rheumatology, ophthalmology, and dental specialists often share Sjögren’s care. Functional medicine looks at immune triggers, gut health, and fatigue drivers while those teams manage dryness and organ involvement.",
+        "Sjögren’s involves autoimmune injury to moisture-producing glands and can extend to systemic features. Antibody-positive and antibody-negative presentations both exist, which is why dryness exams and clinical criteria matter as much as SSA/SSB results.",
       ],
     },
     approach: {
       heading: "How We Support Sjögren’s",
       paragraphs: [
         "We map dryness, joint pain, fatigue, and digestive symptoms, then build a plan focused on root-cause contributors without interrupting specialty treatments you already use.",
+        "What testing looks like: we review SSA/Ro, SSB/La, ANA, and specialist notes on dry eye or dry mouth, then consider nutrient and gut markers that may travel with fatigue or flares. We do not replace slit-lamp exams or dental monitoring.",
+        "What to expect: telehealth visits from Boulder, coordination with your rheumatology and eye/dental teams, and supportive strategies for systemic symptoms. Natural-support language on this site means root-cause lifestyle and nutrition work — not a claim that Sjögren’s can be cured without specialty care.",
       ],
     },
     boulder: SHARED_BOULDER("Sjögren’s"),
@@ -559,9 +642,28 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
           "Raynaud’s can occur with Sjögren’s and other autoimmune conditions. See our Raynaud’s page if cold-triggered color changes in fingers or toes are part of your story.",
         ],
       },
+      {
+        question: "Can I have Sjögren’s with negative SSA/SSB antibodies?",
+        answer: [
+          "Yes. Some people meet clinical criteria without those antibodies. Diagnosis belongs with clinicians who can integrate exam findings, symptoms, and the full lab picture — not with a single test result.",
+        ],
+      },
+      {
+        question: "What does functional medicine add if I already use eye drops and see a rheumatologist?",
+        answer: [
+          "We look at gut, nutrient, inflammatory, and lifestyle drivers that may amplify fatigue and systemic symptoms while you continue dryness and rheumatology care.",
+        ],
+      },
+      {
+        question: "Do Denver patients need in-person visits for Sjögren’s support?",
+        answer: [
+          "Clinical visits with our practice are telehealth. Specialty eye, dental, or rheumatology exams still happen locally as those clinicians recommend. See our Denver page for Front Range telehealth logistics.",
+        ],
+      },
     ],
     relatedLearn: [
       { href: "/learn/how-to-choose-an-autoimmune-disease-specialist/", label: "How to choose an autoimmune specialist" },
+      { href: "/areas-we-serve/colorado/denver/", label: "Denver patients: Sjögren’s telehealth from Boulder" },
     ],
     relatedBlog: [
       { href: "/raynauds-phenomenon/", label: "Raynaud’s Phenomenon" },
@@ -715,11 +817,13 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
     displayName: "Raynaud’s Phenomenon Functional Medicine Care",
     labs: {
       heading: "When Raynaud’s Needs an Autoimmune Workup",
+      lead: "Color-change episodes deserve a careful history; labs help sort primary patterns from secondary autoimmune links:",
       items: [
         "ANA and related antibodies if secondary Raynaud’s is suspected",
         "Evaluation for associated conditions such as Sjögren’s, scleroderma, or lupus",
         "Circulation and symptom triggers (cold, stress)",
         "Gut and inflammatory markers when systemic autoimmune disease is possible",
+        "Prior rheumatology notes when Raynaud’s appears with joint pain, dryness, or rashes",
       ],
     },
     conventional: {
@@ -727,12 +831,15 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
       paragraphs: [
         "Primary Raynaud’s occurs on its own. Secondary Raynaud’s can signal an underlying autoimmune disease and deserves a broader workup. Conventional care includes trigger avoidance, hand-warming strategies, and sometimes medication for severe cases.",
         "Functional medicine looks for immune and vascular contributors, especially when Raynaud’s appears with fatigue, joint pain, dryness, or positive antibodies.",
+        "Mechanistically, episodic vasospasm reduces blood flow to fingers or toes in response to cold or stress. When autoantibodies or connective-tissue disease are present, the same symptom can be a clue rather than an isolated circulation quirk — which is why we take overlapping autoimmune features seriously.",
       ],
     },
     approach: {
       heading: "Our Approach to Raynaud’s",
       paragraphs: [
         "We clarify primary vs secondary patterns, review autoimmune labs, and build a plan addressing inflammation, gut health, and lifestyle triggers while coordinating with specialists when connective-tissue disease is present.",
+        "What testing looks like: ANA and related antibodies when secondary disease is possible, review for Sjögren’s, lupus, or scleroderma features, and gut or inflammatory markers when the systemic picture suggests more than cold hands alone.",
+        "What to expect: telehealth history and trigger mapping from Boulder, practical lifestyle strategies, and clear escalation guidance — digital ulcers, severe asymmetric attacks, or new systemic symptoms need prompt in-person evaluation.",
       ],
     },
     boulder: SHARED_BOULDER("Raynaud’s"),
@@ -749,10 +856,23 @@ export const CONDITION_ENRICHMENT: Record<string, ConditionEnrichment> = {
           "History, trigger review, and lab interpretation work well by telehealth. Urgent color changes with severe pain or sores need prompt in-person care.",
         ],
       },
+      {
+        question: "Is Raynaud’s always autoimmune?",
+        answer: [
+          "No. Primary Raynaud’s can occur without an autoimmune disease. Secondary Raynaud’s is the pattern that raises concern for conditions such as Sjögren’s, lupus, or scleroderma and deserves a broader workup.",
+        ],
+      },
+      {
+        question: "Can Denver patients discuss Raynaud’s by telehealth?",
+        answer: [
+          "Yes. Most history and lab review can happen remotely from our Boulder practice with local draws. See our Denver page for Front Range logistics, and seek urgent local care for severe digital ischemia or ulcers.",
+        ],
+      },
     ],
     relatedLearn: [
       { href: "/learn/false-positive-ana-test-causes/", label: "False positive ANA causes" },
       { href: "/learn/how-to-choose-an-autoimmune-disease-specialist/", label: "Choosing an autoimmune specialist" },
+      { href: "/areas-we-serve/colorado/denver/", label: "Denver patients: Raynaud’s telehealth from Boulder" },
     ],
     relatedBlog: [
       { href: "/sjogrens-syndrome/", label: "Sjögren’s Syndrome" },

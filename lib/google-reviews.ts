@@ -154,7 +154,9 @@ export function withGoogleReviewsSchema(
     if (Array.isArray(node)) return node.map(scrub);
     if (!node || typeof node !== "object") return node;
     const obj = { ...(node as Record<string, unknown>) };
-    if (obj["@type"] === "MedicalBusiness") {
+    const type = obj["@type"];
+    const types = Array.isArray(type) ? type : [type];
+    if (types.includes("MedicalBusiness") || types.includes("MedicalClinic")) {
       delete obj.aggregateRating;
       delete obj.review;
     }

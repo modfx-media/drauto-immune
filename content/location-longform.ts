@@ -56,7 +56,7 @@ export const COLORADO_PAGE: LocationPage = {
     {
       heading: "Conditions the practice discusses most often",
       paragraphs: [
-        "The longer explanations live on the condition pages, not on a grid of Colorado-plus-diagnosis URLs. Those combination pages still exist for anyone who has an old link, and they are marked noindex because they repeated the same article fifty times. Use the pages below when you want the actual condition overview.",
+        "The longer explanations live on the condition pages, not on a grid of Colorado-plus-diagnosis URLs. Old combination URLs now redirect to the flagship condition guides below so patients land on one substantive article instead of a template.",
       ],
       links: CONDITIONS,
     },
@@ -97,25 +97,41 @@ export const COLORADO_PAGE: LocationPage = {
 };
 
 export const DENVER_PAGE: LocationPage = {
-  title: "Functional Medicine for Denver Patients | Dr. Autoimmune",
+  title: "Autoimmune Specialist Denver | Functional Medicine Telehealth | Dr. Autoimmune",
   metaDescription:
-    "Telehealth functional medicine for Denver patients from a Boulder practice about 30 minutes away. How labs, referrals, and video visits work in the metro area.",
-  h1: "Functional Medicine Care for Denver Patients",
+    "Denver patients: work with Dr. Autoimmune’s Boulder clinic by telehealth. How discovery calls, labs at local draw sites, specialist coordination, and follow-up actually work.",
+  h1: "Autoimmune & Functional Medicine Care for Denver Patients",
   accent: "Denver Patients",
   heroSubhead:
-    "Boulder is about 30 minutes from Denver in ordinary traffic. The visits are by video, so the drive is not part of getting a history and a lab plan.",
+    "Boulder is about 30 minutes from Denver in ordinary traffic. Visits are by video, so the drive is not required for history, lab review, or follow-up.",
   intro: [
-    "Denver patients looking for an autoimmune or functional medicine clinician are usually comparing a local specialist with a longer, root-cause visit. Dr. Autoimmune is based in Boulder, about 30 minutes from central Denver, and the appointments patients book are telehealth. You do not come to Boulder to sit in a waiting room for the history, the lab review, or the follow-up.",
-    "Dr. Ian Hollaman, DC, MSc, FMCP, is a board-certified chiropractic physician in Colorado and a certified functional medicine practitioner through the Institute of Functional Medicine. Denver is the city page because this is the metro area where people were searching and the site did not have a real answer. It is not one of fifty cloned state pages.",
+    "Denver patients looking for an autoimmune specialist or functional medicine clinician are usually comparing a local specialty clinic with a longer, root-cause visit. Dr. Autoimmune is based in Boulder, about 30 minutes from central Denver, and the appointments patients book are telehealth. You do not come to Boulder to sit in a waiting room for the history, the lab review, or the follow-up.",
+    "Dr. Ian Hollaman, DC, MSc, FMCP, is a board-certified chiropractic physician in Colorado and a certified functional medicine practitioner through the Institute of Functional Medicine. This Denver page exists because metro search demand needed a real logistics answer — not a cloned state template with the city name swapped.",
     "Call (303) 882-8447 or book a discovery call to confirm the team can see you. A page cannot know your insurance, your diagnoses, or whether a video visit is the right next step. A person at the practice can.",
   ],
   sections: [
+    {
+      heading: "How Denver patients work with the Boulder clinic",
+      paragraphs: [
+        "The relationship starts with a short discovery call with the New Patient Coordinator — about 20 minutes, USA patients only — to confirm fit before a full evaluation. That call is not a diagnosis. It is a fit check: what you have already tried, which Denver specialists you see, and whether a root-cause telehealth evaluation is a sensible next step.",
+        "If you move forward, the new patient evaluation is a thorough telehealth visit with Dr. Hollaman’s clinical team. It brings together clinical history, symptom patterns, and blood analysis. Lab requisitions for an extensive marker panel (the practice describes an 83+ marker panel coordinated through partners such as Evexia) can be completed at LabCorp or another commercial draw site near you in the Denver metro.",
+        "Follow-up stays on video. Nutrition guidance, plan adjustments, and lab interpretation happen remotely. Hands-on exams, imaging, endoscopy, and urgent care stay with Denver facilities and specialists. The Boulder clinic’s job is the longer history and the root-cause plan — not replacing your rheumatologist, endocrinologist, or gastroenterologist.",
+      ],
+    },
     {
       heading: "How a Denver visit actually runs",
       paragraphs: [
         "You meet by secure video. The first visit covers diagnoses you already have, specialists you already see in Denver, medicines, supplements, and the sequence of symptoms. Bring files, not summaries. A Denver rheumatology note, a thyroid ultrasound report, and an ANA report with the titer and pattern are more useful than a screenshot that only says positive.",
         "Labs are drawn in the metro area, not in our office. People in central Denver, Aurora, Lakewood, Arvada, Westminster, and the southeast suburbs generally have a commercial draw site within a short drive. The order should name where you will go. Results come back to the clinician and are reviewed on a second video visit. That review is where you hear what the numbers change and what they do not.",
         "Some questions cannot be finished on video. A swollen joint needs hands. A colonoscopy, a skin biopsy, and an urgent abdominal exam need local facilities. Denver has those facilities. The functional medicine visit should tell you when to use them instead of pretending a camera is an exam room.",
+      ],
+    },
+    {
+      heading: "What to expect: process from first call to follow-up",
+      paragraphs: [
+        "Before the discovery call: download PDFs of labs and specialty notes from the past year, list every medication and supplement with doses, and write the timeline from first symptom to current diagnoses. Hospital portals often split records across Boulder primary care and Denver specialty clinics — pull them into one folder.",
+        "During evaluation: expect a long history, not a seven-minute symptom list. The team will ask what changed before symptoms worsened, which specialists are already involved, and which questions those clinicians have left open. After the visit, you should leave with a written sense of next labs, what to ask your Denver specialist, and which symptoms mean you should call sooner or go to urgent care.",
+        "Between visits: use the patient portal for records and care-plan details when you are an established patient. Keep both charts honest — tell your Denver specialist about the functional medicine plan, and tell us about any medication changes they make. Coordination fails in secret.",
       ],
     },
     {
@@ -142,8 +158,7 @@ export const DENVER_PAGE: LocationPage = {
         "Denver traffic is the practical reason the visit is remote. A 30-minute drive from central Denver to Boulder becomes much longer at rush hour on US-36, and it is a poor use of a sick day if the appointment is a conversation and a lab order. Schedule the video visit from home or work. Schedule the blood draw near the neighborhood you are already in, whether that is Capitol Hill, the Highlands, Aurora, Lakewood, or the Tech Center. Tell the clinician which draw site is actually convenient. An order sent to a location you will not visit is an order that will not get done.",
         "If you already see a specialist at a Denver hospital, ask them for the last clinic note and the last lab set before you book with us. We would rather read that note than repeat the same antibody panel. If they are uncomfortable with a functional medicine consult, that is a conversation to have with them, not a reason to hide the visit. Coordination fails in secret. It works when both charts mention each other.",
         "Use the Colorado page if your question is about the rest of the state, including mountain towns and the Western Slope. Use this page if you live in the Denver metro and want the logistics of video care from a Boulder practice. Use the about page if you are looking for Dr. Hollaman's training in more detail. Three pages cover what fifty cloned pages were pretending to cover.",
-        "Parking and clinic buildings downtown are irrelevant to this appointment, which is the point. Block the video time the way you would block a specialist visit: a quiet room, the medication bottles in front of you, and the lab files downloaded. If a Denver employer needs a note about medical appointments, ask the office what documentation they can provide after you are an established patient. Do not assume a telehealth visit is invisible to the rest of your care team. It should be in the packet you hand the next specialist.",
-        "People searching for an autoimmune doctor in Denver are often trying to find someone who will look past a single normal TSH or a low-titer ANA. Bring those exact reports. The visit can explain what the number does and does not mean, and it can tell you whether a Denver rheumatologist, endocrinologist, or gastroenterologist is the missing exam. That answer is more useful than a page that only repeats the city name. If the report is from a hospital portal, download the PDF that includes the reference range and the performing lab. A cropped phone image drops the line a clinician needs. If you have two conflicting ANA results from two Denver labs, bring both and the dates. Different methods are a common reason the numbers do not match, and that is a solvable question rather than evidence that nobody knows what they are doing. Write down which lab drew each sample and whether you were ill that week. A low titer during a viral illness, followed by a negative repeat, is a different story from a high titer with joint swelling. The Denver visit is for sorting that story and deciding whether you also need a local exam. Bring both reports even if one of them looks less alarming.",
+        "People searching for an autoimmune doctor or autoimmune disease treatment in Denver are often trying to find someone who will look past a single normal TSH or a low-titer ANA. Bring those exact reports. The visit can explain what the number does and does not mean, and it can tell you whether a Denver rheumatologist, endocrinologist, or gastroenterologist is the missing exam.",
       ],
     },
   ],
@@ -166,6 +181,24 @@ export const DENVER_PAGE: LocationPage = {
         "No. Keep the specialist who manages disease-specific medication. This visit is a functional medicine evaluation that should be coordinated with that care, not swapped for it.",
       ],
     },
+    {
+      question: "What should I bring to my first Denver-area telehealth evaluation?",
+      answer: [
+        "PDFs of labs and specialty notes from the past year (including reference ranges and performing lab names), a medication and supplement list with doses, and a timeline from first symptom to current diagnoses. Screenshots that crop the reference range are less useful than full reports.",
+      ],
+    },
+    {
+      question: "Where do Denver patients get labs drawn?",
+      answer: [
+        "Orders are coordinated to commercial draw sites near you — often LabCorp locations in the Denver metro. The order should name a site you can actually reach. Results are reviewed on a follow-up video visit with the Boulder-based team.",
+      ],
+    },
+    {
+      question: "I searched for an autoimmune specialist in Denver. Is this the right page?",
+      answer: [
+        "If you want root-cause functional medicine by telehealth from a Boulder practice that already works with Front Range patients, yes. If you need an in-person rheumatology or GI exam first, start with a Denver specialist and use this practice alongside that care when appropriate.",
+      ],
+    },
   ],
   datePublished: "2026-09-30",
 };
@@ -175,21 +208,30 @@ export const HUB_SECTIONS: AreaSection[] = [
     heading: "Where the practice actually is",
     paragraphs: [
       "Dr. Autoimmune is a Boulder, Colorado practice. Dr. Ian Hollaman, DC, MSc, FMCP, is a board-certified chiropractic physician in Colorado, certified in functional medicine through the Institute of Functional Medicine, with a master's in nutrition and functional medicine. Patients meet by video. The phone number on the site is (303) 882-8447. Those are the facts a location page is allowed to repeat, because they do not change when the reader's town changes.",
-      "Colorado has a full page because that is the state where the practice is based and where patients along the Front Range actually live. Denver has its own page because that metro area was the location search with real demand. The other forty-nine state URLs redirect here. The other Front Range city URLs redirect to Denver or Colorado. If you followed an old link for Texas, Wyoming, or Fort Collins, you were sent to a page that has something to say instead of a copy of this one with the name swapped.",
+      "Colorado has a full page because that is the state where the practice is based and where patients along the Front Range actually live. Denver has its own page because that metro area was the location search with real demand. The other forty-nine state URLs redirect here. Former state-by-condition URLs redirect to the matching condition guide. Other Front Range city URLs redirect to Denver. If you followed an old link for Texas, Wyoming, or Fort Collins, you were sent to a page that has something to say instead of a copy of this one with the name swapped.",
+    ],
+  },
+  {
+    heading: "Nationwide telehealth: how care works outside Colorado",
+    paragraphs: [
+      "Beyond Colorado, the practice works with patients across the United States who are looking for root-cause functional medicine for autoimmune and chronic conditions — by secure video. Lab work is coordinated to a draw site near where you live. Consultations, follow-ups, and plan reviews happen over video from the Boulder-based team.",
+      "This hub does not publish a state-by-state license list. Licensure and scheduling change, and the practice has not provided a fifty-state table for the website. If you live outside Colorado, say which state you are calling from when you book a discovery call or call (303) 882-8447 so the team can tell you whether they can see you. A redirected old state URL is not a license. It only means the thin template page is gone.",
+      "What does not change by state is the shape of the visit: a long history, labs drawn near you, a follow-up to interpret them, and a referral when the problem needs hands-on care. What also does not change is the emergency rule. Chest pain, trouble breathing, black stools, new weakness, or confusion are not video-visit problems in any state — use local emergency services.",
+      "We will not invent a different disease story for each state. Condition education lives on the condition pages linked below. Logistics for Colorado and Denver live on those dedicated pages. Everyone else starts here, then confirms availability with the office before assuming a visit can be booked.",
     ],
   },
   {
     heading: "What a telehealth evaluation includes",
     paragraphs: [
-      "The first visit is a history: diagnoses, specialists, medications, supplements, surgeries, pregnancies, infections, sleep, and the order in which symptoms showed up. Lab PDFs are part of the history. A portal adjective such as high or normal is not. The clinician should be able to point at a value and say whether it answers the question you came with.",
+      "The first clinical visit is a history: diagnoses, specialists, medications, supplements, surgeries, pregnancies, infections, sleep, and the order in which symptoms showed up. Lab PDFs are part of the history. A portal adjective such as high or normal is not. The clinician should be able to point at a value and say whether it answers the question you came with.",
       "Orders go to a draw site near you. Results are reviewed on a follow-up video visit. Recommendations may include nutrition changes, a supplement tied to a lab, a referral, or reassurance that a frightening antibody does not mean a disease. You should leave with a written sense of what happens next and what symptom should make you call sooner.",
-      "Video does not include a hands-on joint exam, a skin biopsy, an endoscopy, or emergency care. If those are the next step, the plan should name the local clinician or the emergency department, not another supplement. People outside Colorado should confirm with the office that the team can see them before they book. This page does not publish a state-by-state license list, because the practice has not provided one to put on the site.",
+      "Video does not include a hands-on joint exam, a skin biopsy, an endoscopy, or emergency care. If those are the next step, the plan should name the local clinician or the emergency department, not another supplement.",
     ],
   },
   {
     heading: "Conditions, on the pages that actually explain them",
     paragraphs: [
-      "Read the condition page that matches your question. A state-by-condition URL is noindexed on purpose. It was the same short article with a state name inserted, and it did not help patients or search engines.",
+      "Read the condition page that matches your question. Old state-by-condition URLs now redirect to these flagship guides so patients and search engines land on one substantive article instead of hundreds of near-copies.",
     ],
     links: CONDITIONS,
   },
@@ -197,13 +239,10 @@ export const HUB_SECTIONS: AreaSection[] = [
     heading: "How to decide if this is the right next appointment",
     paragraphs: [
       "Book a discovery call if you want to know whether a functional medicine history would add something your current specialists are not covering. Do not book it as a substitute for emergency care, and do not book it as a way to avoid a rheumatologist when your joints are swollen, a gastroenterologist when you are bleeding, or a hepatologist when you are jaundiced.",
-      "Bring the records either way. The useful first month is a timeline plus the labs you already paid for, shared with every clinician on the team. Hidden supplements and hidden prescriptions are how two reasonable plans collide. If we are not the right fit, the call should say so. A location page that promises every state the same outcome is the page this hub used to be. It is not the page you are reading now.",
-      "People outside Colorado often ask whether a Boulder practice can see them by video. The honest answer is to ask the office, because licensure and scheduling change and this website does not keep a fifty-state license table. What does not change is the shape of the visit: a long history, labs drawn near you, a follow-up to interpret them, and a referral when the problem needs hands-on care. What also does not change is the emergency rule. Chest pain, trouble breathing, black stools, new weakness, or confusion are not video-visit problems in any state.",
-      "If you landed here from an old state link, you did not lose a local office. There was never a Texas clinic or a Wyoming clinic behind those URLs. There was a template. The Colorado page describes the state where the practice sits. The Denver page describes the metro area patients were searching. Condition questions belong on the condition pages linked above. That is the whole map.",
-      "A discovery call is a fit check, not a diagnosis. Bring the question you want answered and the record that prompted it. If the next step is a specialist you do not have yet, we would rather say that on the call than after you have paid for a plan that cannot examine a joint or scope a bowel. The phone number is (303) 882-8447. The booking link is the discovery call used across the rest of the site.",
-      "Old URLs for individual states now redirect to this hub in one step. Old URLs for Longmont, Fort Collins, Louisville, Lafayette, Broomfield, Westminster, Arvada, Aurora, and Colorado Springs redirect to the Denver page. Nothing on those addresses was a different clinic. Keeping them as separate articles would have left the site with hundreds of near-copies, which is the pattern this cleanup removed. If a bookmark lands you here, use the Colorado or Denver link in the sections above, or go straight to the condition page that matches your question.",
-      "Records that make the first month faster are a medication list with doses, the last specialty note, and labs from the past year as PDFs. Screenshots of a phone portal crop the reference range. If you have imaging, the report is more useful than the disc, unless a clinician has asked for the images. Send what you have before the visit when the office gives you a way to do that. Walking through a login on the call wastes the time you booked.",
-      "Functional medicine here means a longer look at contributors such as sleep, nutrition, medications, and overlapping symptoms. It does not mean a guarantee, a detox package, or a claim that one mechanism explains every autoimmune disease. If a sentence on another page of the internet sounds more certain than this one, compare it with your actual labs before you reorganize your treatment. Certainty that is not tied to your chart is advertising. When you are ready, start with the discovery call, keep your existing specialists in the loop, and use the Colorado and Denver pages for logistics rather than for a diagnosis. Diagnosis belongs in a visit, with your records open. If you are outside Colorado, say which state you are calling from so the team can tell you whether they can see you. A redirected state URL is not a license. It only means the thin page is gone. Start with Colorado if you want the statewide logistics, Denver if you live in that metro area, and the condition pages if you want the disease overview. The discovery call is where those pages turn into a plan for your own labs. Put the medication list, the last specialty note, and a year of labs in one folder before you call. Include the titer and pattern if you have an ANA report, and the laboratory name on each page. Two results from two labs are not a trend until someone checks the method. You should leave the visit able to name what was reassuring, what is still unknown, and who else needs to see you.",
+      "Bring the records either way. The useful first month is a timeline plus the labs you already paid for, shared with every clinician on the team. Hidden supplements and hidden prescriptions are how two reasonable plans collide. If we are not the right fit, the call should say so.",
+      "A discovery call is a fit check, not a diagnosis. Bring the question you want answered and the record that prompted it. The phone number is (303) 882-8447. Start with Colorado if you want statewide logistics, Denver if you live in that metro area, and the condition pages if you want the disease overview.",
+      "Records that make the first month faster are a medication list with doses, the last specialty note, and labs from the past year as PDFs. Screenshots of a phone portal crop the reference range. Send what you have before the visit when the office gives you a way to do that.",
+      "Functional medicine here means a longer look at contributors such as sleep, nutrition, medications, and overlapping symptoms. It does not mean a guarantee, a detox package, or a claim that one mechanism explains every autoimmune disease. Diagnosis belongs in a visit, with your records open.",
     ],
   },
 ];

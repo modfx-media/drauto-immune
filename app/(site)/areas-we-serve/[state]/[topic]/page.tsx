@@ -3,31 +3,17 @@ import type { Metadata } from "next";
 import { CMSRoute } from "@/components/cms/CMSRoute";
 import JsonLd from "@/components/JsonLd";
 import AreaPageTemplate from "@/components/pages/areas/AreaPageTemplate";
-import {
-  getState,
-  getStateSlugs,
-  getStateCondition,
-  getStateConditionSlugs,
-  getFrontRangeCity,
-  buildStateConditionContent,
-  buildFrontRangeCityContent,
-} from "@/content/national-data";
-import { buildStateConditionJsonLd, buildFrontRangeCityJsonLd } from "@/lib/national-jsonld";
+import { getState, getFrontRangeCity, buildFrontRangeCityContent } from "@/content/national-data";
+import { buildFrontRangeCityJsonLd } from "@/lib/national-jsonld";
 import { cmsMetadata } from "@/lib/cms/metadata";
 import { SITE_URL } from "@/lib/site";
 
-/** Colorado also serves Front Range city pages at this same route position (see content/national-data.ts FRONT_RANGE_CITIES). */
+/**
+ * Only Denver remains as a live [topic] page. Former state×condition URLs
+ * 301 to flagship condition pages via next.config.ts.
+ */
 export async function generateStaticParams() {
-  const params: { state: string; topic: string }[] = [];
-  for (const state of getStateSlugs()) {
-    for (const condition of getStateConditionSlugs()) {
-      params.push({ state, topic: condition });
-    }
-    if (state === "colorado") {
-      params.push({ state, topic: "denver" });
-    }
-  }
-  return params;
+  return [{ state: "colorado", topic: "denver" }];
 }
 
 export async function generateMetadata({
@@ -37,34 +23,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { state: stateSlug, topic } = await params;
   const state = getState(stateSlug);
-  if (!state) return {};
+  if (!state || state.slug !== "colorado") return {};
 
-  const condition = getStateCondition(topic);
-  if (condition) {
-    const page = buildStateConditionContent(state, condition);
-    const canonical = `${SITE_URL}/areas-we-serve/${state.slug}/${condition.slug}/`;
-    return cmsMetadata(`/areas-we-serve/${state.slug}/${condition.slug}`, {
-      title: page.title,
-      description: page.metaDescription,
-      alternates: { canonical },
-      openGraph: { title: page.title, description: page.metaDescription, url: canonical, type: "website" },
-      robots: { index: false, follow: true },
-    });
-  }
+  const city = getFrontRangeCity(topic);
+  if (city?.slug !== "denver") return {};
 
-  const city = state.slug === "colorado" ? getFrontRangeCity(topic) : undefined;
-  if (city?.slug === "denver") {
-    const page = buildFrontRangeCityContent(city);
-    const canonical = `${SITE_URL}/areas-we-serve/colorado/${city.slug}/`;
-    return cmsMetadata(`/areas-we-serve/colorado/${city.slug}`, {
-      title: page.title,
-      description: page.metaDescription,
-      alternates: { canonical },
-      openGraph: { title: page.title, description: page.metaDescription, url: canonical, type: "website" },
-    });
-  }
-
-  return {};
+  const page = buildFrontRangeCityContent(city);
+  const canonical = `${SITE_URL}/areas-we-serve/colorado/${city.slug}/`;
+  return cmsMetadata(`/areas-we-serve/colorado/${city.slug}`, {
+    title: page.title,
+    description: page.metaDescription,
+    alternates: { canonical },
+    openGraph: { title: page.title, description: page.metaDescription, url: canonical, type: "website" },
+  });
 }
 
 export default async function StateTopicPage({
@@ -74,44 +45,14 @@ export default async function StateTopicPage({
 }) {
   const { state: stateSlug, topic } = await params;
   const state = getState(stateSlug);
-  if (!state) notFound();
+  if (!state || state.slug !== "colorado") notFound();
 
-  const condition = getStateCondition(topic);
-  if (condition) {
-    const page = buildStateConditionContent(state, condition);
-    return (
-      <CMSRoute path={`/areas-we-serve/${state.slug}/${condition.slug}`}>
-      <>
-        <JsonLd blocks={buildStateConditionJsonLd(state, condition, page)} />
-        <AreaPageTemplate
-          content={{
-            eyebrow: "Telehealth Service Area",
-            h1: page.h1,
-            accent: page.accent,
-            heroSubhead: page.heroSubhead,
-            intro: page.intro,
-            sections: page.sections,
-            faqs: page.faqs,
-            breadcrumb: [
-              { label: "Home", href: "/" },
-              { label: "Areas We Serve", href: "/areas-we-serve/" },
-              ...(state.slug === "colorado"
-                ? [{ label: state.name, href: `/areas-we-serve/${state.slug}/` }]
-                : []),
-              { label: condition.name },
-            ],
-          }}
-        />
-      </>
-      </CMSRoute>
-    );
-  }
+  const city = getFrontRangeCity(topic);
+  if (city?.slug !== "denver") notFound();
 
-  const city = state.slug === "colorado" ? getFrontRangeCity(topic) : undefined;
-  if (city?.slug === "denver") {
-    const page = buildFrontRangeCityContent(city);
-    return (
-      <CMSRoute path={`/areas-we-serve/colorado/${city.slug}`}>
+  const page = buildFrontRangeCityContent(city);
+  return (
+    <CMSRoute path={`/areas-we-serve/colorado/${city.slug}`}>
       <>
         <JsonLd blocks={buildFrontRangeCityJsonLd(city, page)} />
         <AreaPageTemplate
@@ -132,10 +73,6 @@ export default async function StateTopicPage({
           }}
         />
       </>
-      </CMSRoute>
-    );
-  }
-
-  notFound();
+    </CMSRoute>
+  );
 }
-

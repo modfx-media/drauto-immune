@@ -20,7 +20,7 @@ export const HERO = {
   tags: ["Wellness Services", "Conditions We Support", "Thyroid Conditions"],
   headline: "Autoimmune Doctor in Boulder, Colorado",
   mission:
-    "Dr. Autoimmune is a functional medicine practice helping patients with chronic and complex autoimmune conditions find root causes — with 100% telehealth care from Boulder, CO.",
+    "Dr. Autoimmune is Boulder’s telehealth functional medicine practice for chronic and complex autoimmune conditions — root-cause care for Boulder, Denver, and patients nationwide.",
   primaryCta: { label: "Book your Discovery Call", href: "/discovery-call/" },
   secondaryCta: { label: "Explore Our Services", href: "/services/" },
   /** Proof/stat strip — real facts pulled from the site (address, credentials, tagline). */
@@ -36,6 +36,18 @@ export const APPROACH = {
   heading: "Where Medical Expertise Meets Personalized Healing",
   intro:
     "The Dr. Autoimmune team works with a wide range of complex medical concerns, including conditions that have not improved with standard care. Our mission is to identify the underlying drivers of symptoms and guide patients toward meaningful, lasting improvement.",
+  /**
+   * Serving blurb rendered under the approach intro with an internal link
+   * to the Denver area page (Boulder-based telehealth for Front Range patients).
+   */
+  serving: {
+    before:
+      "Serving Boulder & Denver: our practice is based in Boulder, Colorado, and delivers care by telehealth across the United States. Front Range patients — including those in ",
+    linkLabel: "Denver",
+    linkHref: "/areas-we-serve/colorado/denver/",
+    after:
+      " — can work with the team by secure video while lab draws stay local. Nationwide patients follow the same remote model.",
+  },
   /** Short feature pills shown as a 2x2 grid alongside the collage. */
   pills: [
     { icon: "heart-pulse", label: "Personalized care plans" },

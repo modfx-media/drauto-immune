@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
@@ -9,7 +10,8 @@ import Section from "@/components/ui/Section";
 import AnimatedCheckmark from "@/components/ui/AnimatedCheckmark";
 import Reveal from "@/components/home/Reveal";
 import SectionAmbient from "@/components/home/SectionAmbient";
-import { DISCOVERY_CALL_HREF } from "@/components/layout/nav-links";
+import FaqAccordion from "@/components/ui/FaqAccordion";
+import { DISCOVERY_CALL_HREF, SITE_CONTACT } from "@/components/layout/nav-links";
 
 const CARD_CLASSES = "rounded-card border border-gray bg-white shadow-card";
 
@@ -56,6 +58,48 @@ const TESTIMONIALS: { quote: string; name: string }[] = [
   { quote: "Coming Here Has Given Me My Life Back", name: "Robin C." },
 ];
 
+const BEFORE_YOU_BOOK = [
+  {
+    title: "Confirm USA telehealth eligibility",
+    body: "Discovery calls and clinical telehealth visits are described across the site for USA patients. If you are outside the United States, contact the practice before assuming a calendar slot will apply.",
+  },
+  {
+    title: "Know what this calendar schedules",
+    body: "This page uses the same discovery-call booking widget as our dedicated discovery call page — a short, no-obligation fit conversation with the New Patient Coordinator (about 20 minutes).",
+  },
+  {
+    title: "Bring a concise history",
+    body: "Symptom timeline, current medications or supplements, and whether you already see a rheumatologist, endocrinologist, neurologist, or gastroenterologist help the conversation stay focused.",
+  },
+];
+
+const FAQS = [
+  {
+    question: "Is booking here the same as a full new patient evaluation?",
+    answer: [
+      "This calendar schedules a discovery call. A comprehensive new patient evaluation is a separate clinical visit that reviews history, symptom patterns, and blood analysis in more depth. Many people start with the discovery call to confirm fit.",
+    ],
+  },
+  {
+    question: "What is the $399 new patient package mentioned on this page?",
+    answer: [
+      "The package offer displayed here reflects the live site’s new patient package CTA. Package details and what is included are confirmed during scheduling so they match the visit type you need. Ask on your discovery call if you want the current package explained.",
+    ],
+  },
+  {
+    question: "Do lab draws happen at your Boulder office?",
+    answer: [
+      "Care is telehealth. When an extensive panel is ordered — the practice describes an 83+ marker panel coordinated through partners such as Evexia — blood draws are arranged at LabCorp locations convenient to you, with requisitions available through the patient portal.",
+    ],
+  },
+  {
+    question: "Can Denver patients book this way?",
+    answer: [
+      "Yes. Boulder-based telehealth serves Denver metro and Front Range patients with local lab draws. See our Denver patients page for how Front Range care works, then use this calendar or call +1 (303) 882-8447.",
+    ],
+  },
+];
+
 /**
  * `/book-an-appointment/` — clones the live page's marketing copy (90-min
  * consultation breakdown, "Finest Autoimmune Care" feature grid, $399
@@ -84,7 +128,9 @@ export default function BookAnAppointmentPage() {
           <Reveal className={`mx-auto max-w-3xl ${CARD_CLASSES} overflow-hidden p-6 sm:p-10`}>
             <h2 className="text-xl font-extrabold text-ink sm:text-2xl">Book Your Discovery Call</h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-              Take the first step toward healing, wherever you may be.
+              Take the first step toward healing, wherever you may be.{" "}
+              <strong className="text-ink">USA patients only.</strong> This calendar schedules a short discovery call
+              with our New Patient Coordinator.
             </p>
             <div className="mt-6">
               <GhlBookingWidget
@@ -96,8 +142,54 @@ export default function BookAnAppointmentPage() {
         </Container>
       </Section>
 
+      <Section bg="cream-wash" className="relative">
+        <Container className="relative mx-auto max-w-3xl">
+          <Reveal>
+            <h2 className="text-3xl font-extrabold text-ink">How Booking Works at Dr. Autoimmune</h2>
+            <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
+              <p>
+                Dr. Autoimmune delivers nationwide functional medicine care by telehealth from Boulder, Colorado,
+                under the clinical leadership of Dr. Ian Hollaman, DC, MSc, FMCP. This appointment page is the practical
+                starting point for people who are ready to talk — whether you arrived from a condition page, a blog
+                article, a webinar, or a referral.
+              </p>
+              <p>
+                The calendar above books a discovery call: about 20 minutes, no obligation, focused on whether
+                root-cause care is a fit. After that conversation, many patients move into a comprehensive new patient
+                evaluation — a deeper clinical review of history, symptom patterns, and blood analysis that helps shape
+                an individualized plan. Ongoing care then includes clinical check-ins, Metabolic Coordinator visits,
+                and plan adjustments over time.
+              </p>
+              <p>
+                Prefer the dedicated discovery-call page copy and FAQs? Visit{" "}
+                <Link href={DISCOVERY_CALL_HREF} className="font-medium text-primary hover:underline">
+                  /discovery-call/
+                </Link>
+                . Ready for the evaluation path specifically? See{" "}
+                <Link href="/book-new-patient-evaluation/" className="font-medium text-primary hover:underline">
+                  book a new patient evaluation
+                </Link>
+                . Questions before you choose a time? Call{" "}
+                <a href={SITE_CONTACT.phoneHref} className="font-medium text-primary hover:underline">
+                  {SITE_CONTACT.phone}
+                </a>
+                .
+              </p>
+            </div>
+          </Reveal>
+          <div className="mt-8 space-y-4">
+            {BEFORE_YOU_BOOK.map((item) => (
+              <Reveal key={item.title} className={`${CARD_CLASSES} p-6`}>
+                <h3 className="text-lg font-extrabold text-ink">{item.title}</h3>
+                <p className="mt-2 text-base leading-relaxed text-ink-soft">{item.body}</p>
+              </Reveal>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
       {/* 90-minute consultation step indicator */}
-      <Section bg="cream-wash">
+      <Section bg="white">
         <Container>
           <Reveal className="mx-auto max-w-2xl text-center">
             <Badge className="mb-4 inline-flex">Nationwide Care</Badge>
@@ -107,7 +199,8 @@ export default function BookAnAppointmentPage() {
             <p className="mt-4 text-base leading-relaxed text-ink-soft">
               At Dr. Autoimmune, we believe in accessible, compassionate care for all individuals seeking healing and
               support. No matter where you live, we offer remote telehealth consultations so you can receive expert
-              guidance from the comfort of your home.
+              guidance from the comfort of your home. The steps below describe the deeper evaluation visit that often
+              follows a successful discovery call.
             </p>
           </Reveal>
 
@@ -131,14 +224,22 @@ export default function BookAnAppointmentPage() {
       </Section>
 
       {/* The Finest Autoimmune Care */}
-      <Section bg="white">
+      <Section bg="cream-wash">
         <Container>
           <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-14">
             <Reveal>
               <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">The Finest Autoimmune Care</h2>
               <p className="mt-4 text-base leading-relaxed text-ink-soft">
                 No matter where you live, remote care is now available. We also have telehealth options available. We
-                are here to offer help to anyone, including those who are unable to come into the office.
+                are here to offer help to anyone, including those who are unable to come into the office. Denver metro
+                and Front Range patients can learn how Boulder-based telehealth visits work on our{" "}
+                <Link
+                  href="/areas-we-serve/colorado/denver/"
+                  className="font-medium text-primary hover:underline"
+                >
+                  Denver patients page
+                </Link>
+                .
               </p>
             </Reveal>
             <Reveal delay={0.1} className="relative aspect-[4/3] overflow-hidden rounded-card bg-sage">
@@ -218,6 +319,58 @@ export default function BookAnAppointmentPage() {
               </Reveal>
             ))}
           </div>
+          <Reveal className="mx-auto mt-8 max-w-3xl text-center text-base leading-relaxed text-ink-soft">
+            <p>
+              Read more experiences on our{" "}
+              <Link href="/patient-stories/" className="font-medium text-primary hover:underline">
+                patient stories
+              </Link>{" "}
+              page. Individual results vary; stories describe personal journeys, not guaranteed outcomes.
+            </p>
+          </Reveal>
+        </Container>
+      </Section>
+
+      <Section bg="cream-wash" className="relative">
+        <Container className="relative mx-auto max-w-3xl">
+          <Reveal>
+            <h2 className="text-3xl font-extrabold text-ink">After You Book</h2>
+            <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
+              <p>
+                Once your discovery call is on the calendar, you will speak with the New Patient Coordinator about your
+                history and whether a full evaluation makes sense. If you proceed, the clinical team reviews your case
+                in depth, coordinates lab requisitions when indicated, and builds a personalized plan. Between visits,
+                the{" "}
+                <Link href="/patient-portal/" className="font-medium text-primary hover:underline">
+                  patient portal
+                </Link>{" "}
+                is where messaging, results, and paperwork live.
+              </p>
+              <p>
+                Want education while you wait? Browse{" "}
+                <Link href="/services/" className="font-medium text-primary hover:underline">
+                  services
+                </Link>
+                ,{" "}
+                <Link href="/conditions-we-support/" className="font-medium text-primary hover:underline">
+                  conditions we support
+                </Link>
+                , or the{" "}
+                <Link href="/blog/" className="font-medium text-primary hover:underline">
+                  blog
+                </Link>
+                . Neurofeedback may be discussed later for ADHD, anxiety, or related brain-based symptoms when it fits
+                a broader plan — it is not scheduled through this discovery-call calendar.
+              </p>
+            </div>
+          </Reveal>
+
+          <Reveal className="mt-12">
+            <h2 className="text-3xl font-extrabold text-ink">Booking FAQ</h2>
+            <div className="mt-6">
+              <FaqAccordion items={FAQS} />
+            </div>
+          </Reveal>
         </Container>
       </Section>
     </>

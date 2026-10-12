@@ -1,25 +1,6 @@
 import type { JsonLdBlock } from "@/lib/content";
 import { SITE_URL } from "@/lib/site";
-import { SITE_CONTACT } from "@/components/layout/nav-links";
-
-function medicalBusinessBase() {
-  return {
-    "@type": "MedicalBusiness",
-    "@id": `${SITE_URL}/#medicalbusiness`,
-    name: "Dr. Autoimmune",
-    url: `${SITE_URL}/`,
-    telephone: SITE_CONTACT.phone,
-    image: `${SITE_URL}/images/og/default.jpg`,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Boulder",
-      addressRegion: "CO",
-      addressCountry: "US",
-    },
-    description:
-      "Dr. Autoimmune provides expert functional medicine and telehealth services focusing on chronic and autoimmune conditions for patients in Boulder and nationwide.",
-  };
-}
+import { medicalClinicEntity, medicalClinicRef, MEDICAL_CLINIC_ID } from "@/lib/organization-jsonld";
 
 function breadcrumb(items: { name: string; path?: string }[]): JsonLdBlock {
   return {
@@ -55,23 +36,19 @@ export function buildBlogHubJsonLd(
       source: null,
       data: {
         "@context": "https://schema.org",
+        ...medicalClinicEntity(),
+      },
+    },
+    {
+      source: null,
+      data: {
+        "@context": "https://schema.org",
         "@type": ["CollectionPage", "Blog"],
         name: "Blog | Autoimmune Disease and Functional Health Insights",
         url,
         description:
           "Read our latest insights on immune and gut health. We share simple ways to help you feel better every day. Check out our blog for helpful health advice.",
-        publisher: {
-          "@type": "MedicalClinic",
-          name: "Dr. Autoimmune",
-          url: `${SITE_URL}/`,
-          telephone: SITE_CONTACT.phone,
-          address: {
-            "@type": "PostalAddress",
-            addressLocality: "Boulder",
-            addressRegion: "CO",
-            addressCountry: "US",
-          },
-        },
+        publisher: medicalClinicRef(),
         hasPart: {
           "@type": "ItemList",
           itemListElement: posts.slice(0, 20).map((post, i) => ({
@@ -107,28 +84,28 @@ function buildBookingJsonLd(config: BookingPageConfig): JsonLdBlock[] {
       source: null,
       data: {
         "@context": "https://schema.org",
-        ...medicalBusinessBase(),
-        url,
-        name: "Dr. Autoimmune",
-        makesOffer: {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: config.serviceName,
-            description: config.serviceDescription,
-            provider: { "@id": `${SITE_URL}/#medicalbusiness` },
-            areaServed: [
-              { "@type": "City", name: "Boulder" },
-              { "@type": "State", name: "Colorado" },
-              { "@type": "Country", name: "United States" },
-            ],
-            availableChannel: {
-              "@type": "ServiceChannel",
-              serviceUrl: url,
-              serviceType: "Telehealth",
+        ...medicalClinicEntity({
+          makesOffer: {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: config.serviceName,
+              description: config.serviceDescription,
+              provider: medicalClinicRef(),
+              areaServed: [
+                { "@type": "City", name: "Boulder" },
+                { "@type": "City", name: "Denver" },
+                { "@type": "State", name: "Colorado" },
+                { "@type": "Country", name: "United States" },
+              ],
+              availableChannel: {
+                "@type": "ServiceChannel",
+                serviceUrl: url,
+                serviceType: "Telehealth",
+              },
             },
           },
-        },
+        }),
       },
     },
     {
@@ -139,7 +116,7 @@ function buildBookingJsonLd(config: BookingPageConfig): JsonLdBlock[] {
         name: config.name,
         url,
         description: config.description,
-        about: { "@id": `${SITE_URL}/#medicalbusiness` },
+        about: { "@id": MEDICAL_CLINIC_ID },
       },
     },
   ];

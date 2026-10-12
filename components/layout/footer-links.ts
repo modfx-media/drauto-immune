@@ -5,6 +5,7 @@ export const QUICK_LINKS = [
   { label: "Blog", href: "/blog/" },
   { label: "Learn", href: "/learn/" },
   { label: "Areas We Serve", href: "/areas-we-serve/" },
+  { label: "Denver Patients", href: "/areas-we-serve/colorado/denver/" },
   { label: "Live Webinar Schedule", href: "/live-webinar-schedule/" },
   { label: "Store", href: "/store/" },
   { label: "Contact Us", href: "/contact-us/" },

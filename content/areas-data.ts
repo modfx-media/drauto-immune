@@ -91,12 +91,6 @@ export const AREA_HUB: {
       ],
       links: FRONT_RANGE_LINKS,
     },
-    {
-      heading: "Nationwide Telehealth Care",
-      paragraphs: [
-        "Beyond Colorado, we work with patients across the country who are looking for a root-cause, functional medicine approach to autoimmune and chronic health conditions. Lab work is coordinated locally wherever you live, and every consultation, follow-up, and plan review happens over video.",
-      ],
-    },
     ...HUB_SECTIONS,
   ],
   faqs: [
