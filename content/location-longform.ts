@@ -208,14 +208,14 @@ export const HUB_SECTIONS: AreaSection[] = [
     heading: "Where the practice actually is",
     paragraphs: [
       "Dr. Autoimmune is a Boulder, Colorado practice. Dr. Ian Hollaman, DC, MSc, FMCP, is a board-certified chiropractic physician in Colorado, certified in functional medicine through the Institute of Functional Medicine, with a master's in nutrition and functional medicine. Patients meet by video. The phone number on the site is (303) 882-8447. Those are the facts a location page is allowed to repeat, because they do not change when the reader's town changes.",
-      "Colorado has a full page because that is the state where the practice is based and where patients along the Front Range actually live. Denver has its own page because that metro area was the location search with real demand. The other forty-nine state URLs redirect here. Former state-by-condition URLs redirect to the matching condition guide. Other Front Range city URLs redirect to Denver. If you followed an old link for Texas, Wyoming, or Fort Collins, you were sent to a page that has something to say instead of a copy of this one with the name swapped.",
+      "Colorado has a full page because that is the state where the practice is based and where patients along the Front Range actually live. Denver has its own page because that metro area was the location search with real demand. The other forty-nine state hub URLs redirect here. Condition-by-state pages stay live as dedicated telehealth guides. Other Front Range city URLs redirect to Denver. If you followed an old link for a state hub, you land here; if you followed a condition-by-state URL, you land on that enriched guide.",
     ],
   },
   {
     heading: "Nationwide telehealth: how care works outside Colorado",
     paragraphs: [
       "Beyond Colorado, the practice works with patients across the United States who are looking for root-cause functional medicine for autoimmune and chronic conditions — by secure video. Lab work is coordinated to a draw site near where you live. Consultations, follow-ups, and plan reviews happen over video from the Boulder-based team.",
-      "This hub does not publish a state-by-state license list. Licensure and scheduling change, and the practice has not provided a fifty-state table for the website. If you live outside Colorado, say which state you are calling from when you book a discovery call or call (303) 882-8447 so the team can tell you whether they can see you. A redirected old state URL is not a license. It only means the thin template page is gone.",
+      "This hub does not publish a state-by-state license list. Licensure and scheduling change, and the practice has not provided a fifty-state table for the website. If you live outside Colorado, say which state you are calling from when you book a discovery call or call (303) 882-8447 so the team can tell you whether they can see you. A redirected old state hub URL is not a license — it only points you here to start.",
       "What does not change by state is the shape of the visit: a long history, labs drawn near you, a follow-up to interpret them, and a referral when the problem needs hands-on care. What also does not change is the emergency rule. Chest pain, trouble breathing, black stools, new weakness, or confusion are not video-visit problems in any state — use local emergency services.",
       "We will not invent a different disease story for each state. Condition education lives on the condition pages linked below. Logistics for Colorado and Denver live on those dedicated pages. Everyone else starts here, then confirms availability with the office before assuming a visit can be booked.",
     ],
@@ -231,7 +231,7 @@ export const HUB_SECTIONS: AreaSection[] = [
   {
     heading: "Conditions, on the pages that actually explain them",
     paragraphs: [
-      "Read the condition page that matches your question. Old state-by-condition URLs now redirect to these flagship guides so patients and search engines land on one substantive article instead of hundreds of near-copies.",
+      "Start with the national condition guide that matches your question. Then open the state-specific telehealth page for your location from the directory below — each pairs the condition with how video visits and local lab draws work where you live.",
     ],
     links: CONDITIONS,
   },

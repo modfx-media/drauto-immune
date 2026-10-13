@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 import { withPayload } from "@payloadcms/next/withPayload";
-import { FRONT_RANGE_CITIES, STATE_CONDITIONS, STATES } from "./content/national-data";
+import { FRONT_RANGE_CITIES, STATES } from "./content/national-data";
 import { ALL_SEO_REDIRECTS } from "./lib/seo-redirects";
 
 /** Thin state hubs fold into the national telehealth hub. Colorado stays. */
@@ -16,19 +16,6 @@ const cityRedirects = FRONT_RANGE_CITIES.filter((city) => city.slug !== "denver"
   destination: "/areas-we-serve/colorado/denver/",
   statusCode: 301 as const,
 }));
-
-/**
- * Drop the 400 state×condition matrix pages. Each URL 301s to the matching
- * flagship condition page (same slug). Denver is a city topic, not a
- * condition, so it is never included in STATE_CONDITIONS.
- */
-const stateConditionRedirects = STATES.flatMap((state) =>
-  STATE_CONDITIONS.map((condition) => ({
-    source: `/areas-we-serve/${state.slug}/${condition.slug}/`,
-    destination: `/${condition.slug}/`,
-    statusCode: 301 as const,
-  })),
-);
 
 function withOptionalTrailingSlash(source: string): string[] {
   if (source.endsWith("/")) {
@@ -75,7 +62,6 @@ const nextConfig: NextConfig = {
       ...seoRedirects,
       ...stateHubRedirects,
       ...cityRedirects,
-      ...stateConditionRedirects,
     ];
   },
 };

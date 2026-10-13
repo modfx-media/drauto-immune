@@ -17,6 +17,8 @@ import FaqAccordion from "@/components/ui/FaqAccordion";
 import { DISCOVERY_CALL_HREF } from "@/components/layout/nav-links";
 import { getConditionData, getRelatedConditions, type ConditionImage } from "@/content/conditions-data";
 import { getConditionEnrichment } from "@/content/condition-enrichment";
+import FindCareByState from "@/components/pages/conditions/FindCareByState";
+import { STATE_CONDITIONS } from "@/content/national-data";
 
 const ROOT_CAUSE_ITEMS = [
   "Genetic predisposition",
@@ -289,6 +291,12 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
                   </div>
                 </Reveal>
               )}
+
+              {STATE_CONDITIONS.some((c) => c.slug === slug) ? (
+                <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
+                  <FindCareByState conditionSlug={slug} />
+                </Reveal>
+              ) : null}
 
               <p className="border-t border-gray pt-8 text-center text-sm text-ink-soft">
                 At <strong className="text-ink">Dr. Autoimmune</strong>, we provide personalized, root-cause care to

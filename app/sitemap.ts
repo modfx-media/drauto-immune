@@ -7,6 +7,7 @@ import { getPageContent } from "@/lib/content";
 import { redirectedSitemapPaths } from "@/lib/seo-redirects";
 import { SITE_URL } from "@/lib/site";
 import { LEARN_PAGES } from "@/content/learn-data";
+import { STATE_CONDITIONS, STATES } from "@/content/national-data";
 
 const NATIONAL_DATE_PUBLISHED = new Date("2026-09-29");
 const REDIRECTED = redirectedSitemapPaths();
@@ -106,6 +107,20 @@ function hardcodedSitemap(): MetadataRoute.Sitemap {
     },
     "/areas-we-serve/colorado/denver",
   );
+
+  for (const state of STATES) {
+    for (const condition of STATE_CONDITIONS) {
+      push(
+        {
+          url: `${SITE_URL}/areas-we-serve/${state.slug}/${condition.slug}/`,
+          lastModified: NATIONAL_DATE_PUBLISHED,
+          changeFrequency: "monthly",
+          priority: 0.55,
+        },
+        `/areas-we-serve/${state.slug}/${condition.slug}`,
+      );
+    }
+  }
 
   push({ url: `${SITE_URL}/learn/`, changeFrequency: "weekly", priority: 0.6 }, "/learn");
   for (const page of LEARN_PAGES) {

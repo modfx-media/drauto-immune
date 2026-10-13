@@ -1,6 +1,7 @@
 import indexManifest from "../../content/data/index.json";
 import { isBlogPostSlug } from "../blog-posts";
 import { LEARN_PAGES } from "../../content/learn-data";
+import { STATE_CONDITIONS, STATES } from "../../content/national-data";
 import { normalizeCmsPath } from "./url";
 
 export type CmsTemplate =
@@ -163,8 +164,19 @@ export function inventoryPublicUrls(): InventoryRecord[] {
     sourceUrl: "https://drautoimmune.com/areas-we-serve/colorado/denver/",
   });
 
-  // Former state×condition matrix pages are 301'd to flagship condition
-  // routes in next.config.ts and are intentionally not inventoried.
+  for (const state of STATES) {
+    for (const condition of STATE_CONDITIONS) {
+      add({
+        collection: "pages",
+        legacyId: `areas-we-serve:${state.slug}:${condition.slug}`,
+        path: `/areas-we-serve/${state.slug}/${condition.slug}`,
+        slug: `${state.slug}-${condition.slug}`,
+        title: `${condition.name} care in ${state.name} | Dr. Autoimmune`,
+        template: "area-matrix",
+        sourceUrl: `https://drautoimmune.com/areas-we-serve/${state.slug}/${condition.slug}/`,
+      });
+    }
+  }
 
   add({
     collection: "pages",
