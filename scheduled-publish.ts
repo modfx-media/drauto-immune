@@ -25,13 +25,27 @@ function findDateField(fields: Field[]): string | null {
   return null;
 }
 
+/**
+ * Public reads hide posts until `publishedAt` has passed.
+ *
+ * `publishedAt` uses dayAndTime and is stored as UTC (timestamptz). Compare with
+ * a UTC ISO instant from `Date` — never format with the serverless local zone
+ * (Vercel regions are not America/Denver). Unset/null dates stay visible so
+ * older imported posts without a publish time are not wiped out.
+ */
 function hideFuturePosts(field: string): CollectionBeforeOperationHook {
   return ({ args, operation, req }) => {
     if (operation !== "read" && operation !== "count") return args;
     const a = args as { where?: Where; draft?: boolean; overrideAccess?: boolean };
     if (req?.user || a.draft === true) return args;
+
+    const nowIso = new Date().toISOString();
     const notFuture: Where = {
-      or: [{ [field]: { exists: false } }, { [field]: { less_than_equal: new Date().toISOString() } }],
+      or: [
+        { [field]: { exists: false } },
+        { [field]: { equals: null } },
+        { [field]: { less_than_equal: nowIso } },
+      ],
     };
     a.where = a.where ? { and: [a.where, notFuture] } : notFuture;
     return args;

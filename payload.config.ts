@@ -17,13 +17,15 @@ import { SiteSettings } from "./globals/SiteSettings";
 import { getCorsOrigins, getServerURL, publicUrlFromCmsPath } from "./lib/cms/url";
 
 import { scheduledPublishPlugin } from "./scheduled-publish";
+import { migrations } from "./migrations";
+
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 const pushSchema =
   process.env.VERCEL !== "1" && process.env.CMS_IMPORT_APPLY !== "1";
 
-const blobToken = process.env.BLOB_READ_WRITE_TOKEN;
+const blobToken = process.env.BLOB_READ_WRITE_TOKEN?.trim() || "";
 
 export default buildConfig({
   secret: process.env.PAYLOAD_SECRET || "",
@@ -50,6 +52,8 @@ export default buildConfig({
     },
     forceUseVercelPostgres: true,
     push: pushSchema,
+    // Adds media.prefix when missing (push is off on Vercel).
+    prodMigrations: migrations,
   }),
   collections: [Users, Media, Pages, Posts],
   globals: [Header, Footer, SiteSettings],
@@ -92,15 +96,20 @@ export default buildConfig({
         path: typeof originalDoc.path === "string" ? originalDoc.path : "",
       }),
     }),
-    ...(blobToken
-      ? [
-          vercelBlobStorage({
-            collections: {
-              media: true,
-            },
-            token: blobToken,
-          }),
-        ]
-      : []),
+    // Always register so `prefix` stays in the schema across envs (alwaysInsertFields).
+    // Without BLOB_READ_WRITE_TOKEN the adapter is disabled and uploads stay local
+    // (404 on Vercel) — set the token in Vercel Project → Settings → Environment Variables.
+    vercelBlobStorage({
+      enabled: Boolean(blobToken),
+      token: blobToken,
+      clientUploads: true,
+      addRandomSuffix: true,
+      alwaysInsertFields: true,
+      collections: {
+        media: {
+          prefix: "media",
+        },
+      },
+    }),
   ],
 });

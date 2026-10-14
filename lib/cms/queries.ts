@@ -7,6 +7,16 @@ export type RoutedDoc = {
   doc: Record<string, unknown>;
 };
 
+export type CmsPostSummary = {
+  slug: string;
+  path: string;
+  title: string;
+  excerpt: string;
+  publishedAt: string | null;
+  metaImageUrl: string | null;
+  metaImageAlt: string | null;
+};
+
 export async function queryRoutedContentByPath(path: string): Promise<RoutedDoc | null> {
   if (!process.env.DATABASE_URL || !process.env.PAYLOAD_SECRET) return null;
 
@@ -48,6 +58,73 @@ export type SitemapDoc = {
   noIndex: boolean;
   excludeFromSitemap: boolean;
 };
+
+/** Published posts for the blog hub + generateStaticParams (future-dated filtered by plugin). */
+export async function queryPublishedPosts(): Promise<CmsPostSummary[] | null> {
+  if (!process.env.DATABASE_URL || !process.env.PAYLOAD_SECRET) return null;
+
+  return withCMS(async () => {
+    const [{ getPayload }, { default: config }] = await Promise.all([
+      import("payload"),
+      import("@payload-config"),
+    ]);
+    const payload = await getPayload({ config });
+    const result = await payload.find({
+      collection: "posts",
+      where: {
+        and: [{ path: { exists: true } }, { _status: { equals: "published" } }],
+      },
+      sort: "-publishedAt",
+      limit: 1000,
+      pagination: false,
+      draft: false,
+      depth: 1,
+      overrideAccess: false,
+    });
+
+    return result.docs
+      .map((raw) => {
+        const doc = raw as unknown as Record<string, unknown>;
+        const path = normalizeCmsPath(typeof doc.path === "string" ? doc.path : null);
+        if (!path || path === "/") return null;
+        const slug =
+          (typeof doc.slug === "string" && doc.slug.trim()) ||
+          path.split("/").filter(Boolean).pop() ||
+          "";
+        if (!slug) return null;
+
+        const meta =
+          doc.meta && typeof doc.meta === "object"
+            ? (doc.meta as Record<string, unknown>)
+            : {};
+        const image = meta.image;
+        let metaImageUrl: string | null = null;
+        let metaImageAlt: string | null = null;
+        if (image && typeof image === "object") {
+          const media = image as Record<string, unknown>;
+          metaImageUrl = typeof media.url === "string" ? media.url : null;
+          metaImageAlt = typeof media.alt === "string" ? media.alt : null;
+        }
+
+        return {
+          slug,
+          path,
+          title: typeof doc.title === "string" ? doc.title : slug,
+          excerpt: typeof doc.excerpt === "string" ? doc.excerpt : "",
+          publishedAt: typeof doc.publishedAt === "string" ? doc.publishedAt : null,
+          metaImageUrl,
+          metaImageAlt,
+        } satisfies CmsPostSummary;
+      })
+      .filter((entry): entry is CmsPostSummary => Boolean(entry));
+  }, null);
+}
+
+export async function queryPublishedPostSlugs(): Promise<string[]> {
+  const posts = await queryPublishedPosts();
+  if (!posts) return [];
+  return posts.map((post) => post.slug);
+}
 
 export async function querySitemapEntries(): Promise<SitemapDoc[] | null> {
   if (!process.env.DATABASE_URL || !process.env.PAYLOAD_SECRET) return null;

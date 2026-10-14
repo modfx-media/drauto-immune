@@ -1,6 +1,10 @@
 import type { CollectionConfig } from "payload";
 import { emptyToNull } from "@/lib/cms/empty-to-null";
 import { previewFromPath } from "@/lib/cms/preview";
+import {
+  revalidatePostAfterChange,
+  revalidatePostAfterDelete,
+} from "@/lib/cms/revalidate";
 import { authenticated, authenticatedOrPublished } from "./access";
 import { generatePathFromSlug } from "./generatePath";
 import { identityFields, seoFields } from "./seoFields";
@@ -29,6 +33,8 @@ export const Posts: CollectionConfig = {
   },
   hooks: {
     beforeChange: [generatePathFromSlug],
+    afterChange: [revalidatePostAfterChange],
+    afterDelete: [revalidatePostAfterDelete],
   },
   fields: [
     {
@@ -73,7 +79,12 @@ export const Posts: CollectionConfig = {
     {
       name: "publishedAt",
       type: "date",
-      admin: { position: "sidebar", date: { pickerAppearance: "dayAndTime" } },
+      admin: {
+        position: "sidebar",
+        date: { pickerAppearance: "dayAndTime" },
+        description:
+          "Public site shows the post once this instant has passed. Stored as UTC (Vercel is not America/Denver).",
+      },
     },
     ...identityFields,
     ...seoFields,
