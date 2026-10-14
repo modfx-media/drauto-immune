@@ -71,10 +71,14 @@ export default function InnerPageHero({ eyebrow, title, accent, subhead, image, 
   return (
     <section className="relative overflow-hidden py-section-xl md:py-section-2xl">
       {image && (
-        <div aria-hidden="true" className="absolute inset-0">
+        <div
+          // Decorative when alt is empty; otherwise expose the image to AT/SEO.
+          aria-hidden={image.alt ? undefined : true}
+          className="absolute inset-0"
+        >
           <Image
             src={image.src}
-            alt=""
+            alt={image.alt}
             fill
             sizes="100vw"
             className="object-cover"

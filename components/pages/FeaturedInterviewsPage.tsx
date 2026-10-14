@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
 import Accent from "@/components/ui/Accent";
 import Badge from "@/components/ui/Badge";
@@ -11,6 +12,7 @@ import InnerPageHero from "@/components/ui/InnerPageHero";
 import Section from "@/components/ui/Section";
 import Reveal from "@/components/home/Reveal";
 import SectionAmbient from "@/components/home/SectionAmbient";
+import FaqAccordion from "@/components/ui/FaqAccordion";
 import { DISCOVERY_CALL_HREF } from "@/components/layout/nav-links";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
@@ -63,6 +65,42 @@ const FOCUS_AREAS: { title: string; icon: IconName }[] = [
   { title: "Hormone and adrenal imbalances", icon: "compass" },
 ];
 
+const WHY_LISTEN = [
+  {
+    title: "Hear the clinical reasoning out loud",
+    body: "Podcasts let Dr. Hollaman walk through how gut permeability, food triggers, toxins, mold, blood sugar, and stress physiology can stack into autoimmune expression — the same themes that shape evaluations at the practice.",
+  },
+  {
+    title: "Connect education to care options",
+    body: "Listening is not a substitute for personalized care. When a conversation resonates, use our condition pages, blog articles, or a discovery call to translate ideas into a fit conversation with the New Patient Coordinator.",
+  },
+  {
+    title: "Learn without committing yet",
+    body: "These episodes are free to stream from their original hosts. You can explore root-cause thinking before you book telehealth care from our Boulder-based practice.",
+  },
+];
+
+const FAQS = [
+  {
+    question: "Are these interviews medical advice?",
+    answer: [
+      "No. They are educational conversations. Individual care requires a clinical evaluation. USA patients can start with a discovery call if they want to explore working with Dr. Autoimmune.",
+    ],
+  },
+  {
+    question: "Where can I listen?",
+    answer: [
+      "Each card links to the original podcast host or audio file. Open the episode in a new tab and play it there; this page is a curated index, not an embedded player for every show.",
+    ],
+  },
+  {
+    question: "Who is Dr. Ian Hollaman?",
+    answer: [
+      "Dr. Ian Hollaman, DC, MSc, FMCP, leads Dr. Autoimmune. He is a board-certified chiropractic physician in Colorado, an Institute of Functional Medicine–certified practitioner, holds a Master’s in Nutrition and Functional Medicine, and has functional neurology/neurofeedback credentials through the American Functional Neurology Institute.",
+    ],
+  },
+];
+
 export default function FeaturedInterviewsPage() {
   return (
     <>
@@ -88,6 +126,49 @@ export default function FeaturedInterviewsPage() {
             </p>
             <p className="text-base italic text-ink-soft">All interviews are available to listen to directly from this page.</p>
           </Reveal>
+        </Container>
+      </Section>
+
+      <Section bg="cream-wash" className="relative">
+        <Container className="relative mx-auto max-w-3xl">
+          <Reveal>
+            <h2 className="text-3xl font-extrabold text-ink">Why These Conversations Matter</h2>
+            <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
+              <p>
+                Patients often arrive at Dr. Autoimmune after years of fragmented advice. Podcast interviews give Dr.
+                Hollaman room to explain — in everyday language — how intestinal hyperpermeability, microbiome
+                imbalance, thyroid autoimmunity, hormone and adrenal stress, and inflammatory patterns can interact.
+                That storytelling complements the structured process of discovery calls, evaluations, and ongoing
+                telehealth care.
+              </p>
+              <p>
+                The shows listed here include The Evan Brand Show, The Autoimmune Hour with Sharon Sayler, The Perfect
+                Stool with Lindsey Parsons, and Christian Natural Health with Dr. Lauren Deville. Topics range from
+                top influencers of leaky gut and autoimmunity to gluten sensitivity, estrogen detox, anemia, and
+                natural strategies for supporting thyroid, gut, and immune balance.
+              </p>
+              <p>
+                Dr. Autoimmune remains a Boulder-based telehealth practice serving USA patients. Educational media
+                does not enroll you as a patient; it prepares you to decide whether root-cause care is worth a deeper
+                look. Front Range listeners can also read how visits work for{" "}
+                <Link
+                  href="/areas-we-serve/colorado/denver/"
+                  className="font-medium text-primary hover:underline"
+                >
+                  Denver patients
+                </Link>
+                .
+              </p>
+            </div>
+          </Reveal>
+          <div className="mt-8 space-y-4">
+            {WHY_LISTEN.map((item) => (
+              <Reveal key={item.title} className="rounded-card border border-gray bg-white p-6 shadow-card">
+                <h3 className="text-lg font-extrabold text-ink">{item.title}</h3>
+                <p className="mt-2 text-base leading-relaxed text-ink-soft">{item.body}</p>
+              </Reveal>
+            ))}
+          </div>
         </Container>
       </Section>
 
@@ -137,6 +218,54 @@ export default function FeaturedInterviewsPage() {
           <Reveal className="mx-auto mt-10 max-w-xl rounded-card border border-gray bg-sage p-6 text-center">
             <p className="font-mono text-xs font-medium uppercase tracking-[0.08em] text-primary">Our Methodology</p>
             <p className="mt-2 text-base font-medium text-ink">Nutrition, lifestyle and root-cause strategies</p>
+          </Reveal>
+        </Container>
+      </Section>
+
+      <Section bg="cream-wash" className="relative">
+        <Container className="relative mx-auto max-w-3xl">
+          <Reveal>
+            <h2 className="text-3xl font-extrabold text-ink">From Podcast Insights to Clinical Next Steps</h2>
+            <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
+              <p>
+                If an episode clarifies why “normal” labs can coexist with real symptoms, dig into related reading on
+                our{" "}
+                <Link href="/blog/" className="font-medium text-primary hover:underline">
+                  blog
+                </Link>{" "}
+                and{" "}
+                <Link href="/learn/" className="font-medium text-primary hover:underline">
+                  learn library
+                </Link>
+                . Condition hubs — including thyroid, gut, and autoimmune pages under{" "}
+                <Link href="/conditions-we-support/" className="font-medium text-primary hover:underline">
+                  conditions we support
+                </Link>{" "}
+                — translate those themes into what evaluation and telehealth care look like at the practice.
+              </p>
+              <p>
+                Clinical services remain separate from media appearances. Evaluations may include review of an
+                extensive blood panel (the practice describes an 83+ marker panel coordinated through partners such as
+                Evexia, with draws at LabCorp near you). Ongoing care can include Metabolic Coordinator visits,
+                nutrition guidance, and, when indicated for brain-based symptoms, neurofeedback as part of a broader
+                plan.
+              </p>
+              <p>
+                Ready to talk through your own history? A discovery call is about 20 minutes, no obligation, and
+                available to USA patients. Prefer written questions first? Use the{" "}
+                <Link href="/contact-us/" className="font-medium text-primary hover:underline">
+                  contact form
+                </Link>
+                .
+              </p>
+            </div>
+          </Reveal>
+
+          <Reveal className="mt-12">
+            <h2 className="text-3xl font-extrabold text-ink">Interview FAQ</h2>
+            <div className="mt-6">
+              <FaqAccordion items={FAQS} />
+            </div>
           </Reveal>
         </Container>
       </Section>

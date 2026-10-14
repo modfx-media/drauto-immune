@@ -80,8 +80,8 @@ export const AREA_HUB: {
   heroSubhead:
     "Based in Boulder, Colorado, and built to be 100% remote — so you can get root-cause autoimmune care no matter what state you live in.",
   intro: [
-    "Dr. Autoimmune is based in Boulder, Colorado. Appointments are telehealth, so the history, the lab review, and follow-up do not require a drive to an office. Whether the team can take you as a patient still has to be confirmed with the office. This page does not pretend that a copied state article is that confirmation.",
-    "The location pages that remain are Colorado and Denver. Older state URLs redirect here. Older Front Range city URLs redirect to Denver. Read the sections below for how a visit works, then use the condition pages when you need a disease overview.",
+    "Dr. Autoimmune is based in Boulder, Colorado. Appointments are telehealth, so the history, the lab review, and follow-up do not require a drive to an office. Whether the team can take you as a patient still has to be confirmed with the office — this page is not a license list.",
+    "Colorado and Denver have dedicated location pages. Every other state hub URL redirects here. Condition-by-state telehealth guides stay live so patients can read how care works for their condition where they live. Use the directory below, then book a discovery call to confirm availability.",
   ],
   sections: [
     {
@@ -92,9 +92,10 @@ export const AREA_HUB: {
       links: FRONT_RANGE_LINKS,
     },
     {
-      heading: "Nationwide Telehealth Care",
+      heading: "Find care by state and condition",
       paragraphs: [
-        "Beyond Colorado, we work with patients across the country who are looking for a root-cause, functional medicine approach to autoimmune and chronic health conditions. Lab work is coordinated locally wherever you live, and every consultation, follow-up, and plan review happens over video.",
+        "Use the state directory on this page to open a telehealth guide written for your condition and state — video visits, time zones, local lab draws, condition depth, and FAQs. Availability is always confirmed with the office; these pages do not claim licensure in every state.",
+        "Conditions covered: Hashimoto's, thyroid conditions, lupus, celiac and gluten intolerance, Sjögren's, rheumatoid arthritis, inflammatory bowel disease, and Raynaud's.",
       ],
     },
     ...HUB_SECTIONS,

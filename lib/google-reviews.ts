@@ -142,48 +142,32 @@ export const getDisplayedGoogleReviews = cache(
 );
 
 /**
- * Injects the live (or fallback) Google review data into the migrated
- * MedicalBusiness JSON-LD block: `aggregateRating` from `meta`, and
- * `review[]` limited to the exact 5-star reviews actually rendered on the
- * page. Every other migrated block (WebPage/WebSite/BreadcrumbList graph,
- * etc.) passes through untouched.
- *
- * - Omits `aggregateRating` entirely when `meta.rating` is 0 (unverified).
- * - Omits `review` entirely when there are no five-star reviews to show.
+ * Strips self-serving AggregateRating / Review nodes from MedicalBusiness
+ * JSON-LD. Google does not treat practice-published review markup as eligible
+ * review stars; the on-page Testimonials UI remains unchanged.
  */
 export function withGoogleReviewsSchema(
   blocks: JsonLdBlock[],
-  payload: GoogleReviewsPayload,
+  _payload: GoogleReviewsPayload,
 ): JsonLdBlock[] {
-  const visible = payload.reviews.filter(isFiveStarReview);
+  const scrub = (node: unknown): unknown => {
+    if (Array.isArray(node)) return node.map(scrub);
+    if (!node || typeof node !== "object") return node;
+    const obj = { ...(node as Record<string, unknown>) };
+    const type = obj["@type"];
+    const types = Array.isArray(type) ? type : [type];
+    if (types.includes("MedicalBusiness") || types.includes("MedicalClinic")) {
+      delete obj.aggregateRating;
+      delete obj.review;
+    }
+    if (Array.isArray(obj["@graph"])) {
+      obj["@graph"] = (obj["@graph"] as unknown[]).map(scrub);
+    }
+    return obj;
+  };
 
   return blocks.map((block) => {
-    if (!block.data || block.data["@type"] !== "MedicalBusiness") return block;
-
-    const data = { ...block.data };
-
-    if (payload.meta.rating > 0) {
-      data.aggregateRating = {
-        "@type": "AggregateRating",
-        ratingValue: String(payload.meta.rating),
-        reviewCount: String(payload.meta.reviewCount || visible.length),
-        bestRating: "5",
-      };
-    }
-
-    if (visible.length > 0) {
-      data.review = visible.map((review) => ({
-        "@type": "Review",
-        author: { "@type": "Person", name: review.name },
-        reviewRating: {
-          "@type": "Rating",
-          ratingValue: "5",
-          bestRating: "5",
-        },
-        reviewBody: review.quote,
-      }));
-    }
-
-    return { ...block, data };
+    if (!block.data) return block;
+    return { ...block, data: scrub(block.data) as Record<string, unknown> };
   });
 }

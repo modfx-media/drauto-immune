@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getPageContent } from "@/lib/content";
 import JsonLd from "@/components/JsonLd";
 import MigratedContent from "@/components/MigratedContent";
+import { withUnifiedMedicalClinic } from "@/lib/organization-jsonld";
 
 /**
  * Renders a migrated route: injects every JSON-LD block captured from the
@@ -14,7 +15,7 @@ export default function ContentRoute({ routeKey }: { routeKey: string }) {
 
   return (
     <>
-      <JsonLd blocks={page.jsonLd} />
+      <JsonLd blocks={withUnifiedMedicalClinic(page.jsonLd)} />
       <MigratedContent markdown={page.bodyMarkdown} videos={page.videos} />
     </>
   );

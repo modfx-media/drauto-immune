@@ -1,22 +1,27 @@
 import type { Metadata } from "next";
-import { CMSRoute } from "@/components/cms/CMSRoute";
+import ConditionRoute from "@/components/pages/conditions/ConditionRoute";
 import { cmsMetadata } from "@/lib/cms/metadata";
-import JsonLd from "@/components/JsonLd";
-import ConditionPageTemplate from "@/components/pages/conditions/ConditionPageTemplate";
-import { buildMetadata, getPageContent } from "@/lib/content";
+import { buildMetadata } from "@/lib/content";
+import { getConditionEnrichment } from "@/content/condition-enrichment";
 
 export async function generateMetadata(): Promise<Metadata> {
+  const enrichment = getConditionEnrichment("hashimotos-thyroiditis-graves");
+  const fallback = buildMetadata("hashimotos-thyroiditis-graves");
+  if (enrichment?.pageTitle || enrichment?.metaDescription) {
+    return cmsMetadata("/hashimotos-thyroiditis-graves", {
+      ...fallback,
+      title: enrichment.pageTitle ?? fallback.title,
+      description: enrichment.metaDescription ?? fallback.description,
+      openGraph: {
+        ...fallback.openGraph,
+        title: enrichment.pageTitle ?? fallback.openGraph?.title,
+        description: enrichment.metaDescription ?? fallback.openGraph?.description,
+      },
+    });
+  }
   return cmsMetadata("/hashimotos-thyroiditis-graves", () => buildMetadata("hashimotos-thyroiditis-graves"));
 }
 
 export default function Page() {
-  const page = getPageContent("hashimotos-thyroiditis-graves");
-  return (
-    <CMSRoute path="/hashimotos-thyroiditis-graves">
-    <>
-      {page && <JsonLd blocks={page.jsonLd} />}
-      <ConditionPageTemplate slug="hashimotos-thyroiditis-graves" />
-    </>
-    </CMSRoute>
-  );
+  return <ConditionRoute slug="hashimotos-thyroiditis-graves" />;
 }

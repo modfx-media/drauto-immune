@@ -3,15 +3,15 @@
   "path": "/",
   "liveUrl": "https://drautoimmune.com/",
   "isPost": false,
-  "title": "Dr. Autoimmune: Top Autoimmune Doctor in Boulder, Colorado",
-  "metaDescription": "Learn the root cause of your symptoms with help from Dr. Autoimmune. Our Boulder immune health doctor provides wellness services to help you feel better.",
+  "title": "Autoimmune Doctor Boulder CO | Telehealth Functional Medicine | Dr. Autoimmune",
+  "metaDescription": "Looking for an autoimmune doctor in Boulder, CO? Dr. Autoimmune offers root-cause functional medicine by telehealth for Hashimoto’s, gut, and chronic autoimmune concerns — Boulder-based, serving Denver and patients nationwide.",
   "canonical": "https://drautoimmune.com/",
   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
   "openGraph": {
     "locale": "en_US",
     "type": "website",
-    "title": "Dr. Autoimmune: Top Autoimmune Doctor in Boulder, Colorado",
-    "description": "Learn the root cause of your symptoms with help from Dr. Autoimmune. Our Boulder immune health doctor provides wellness services to help you feel better.",
+    "title": "Autoimmune Doctor Boulder CO | Telehealth Functional Medicine | Dr. Autoimmune",
+    "description": "Looking for an autoimmune doctor in Boulder, CO? Dr. Autoimmune offers root-cause functional medicine by telehealth for Hashimoto’s, gut, and chronic autoimmune concerns — Boulder-based, serving Denver and patients nationwide.",
     "url": "https://drautoimmune.com/",
     "site_name": "Dr. Autoimmune",
     "updated_time": "2026-05-20T22:16:59+00:00",
@@ -23,8 +23,8 @@
   },
   "twitter": {
     "card": "summary_large_image",
-    "title": "Dr. Autoimmune: Top Autoimmune Doctor in Boulder, Colorado",
-    "description": "Learn the root cause of your symptoms with help from Dr. Autoimmune. Our Boulder immune health doctor provides wellness services to help you feel better.",
+    "title": "Autoimmune Doctor Boulder CO | Telehealth Functional Medicine | Dr. Autoimmune",
+    "description": "Looking for an autoimmune doctor in Boulder, CO? Dr. Autoimmune offers root-cause functional medicine by telehealth for Hashimoto’s, gut, and chronic autoimmune concerns — Boulder-based, serving Denver and patients nationwide.",
     "label1": "Written by",
     "data1": "developer",
     "label2": "Time to read",
@@ -72,7 +72,7 @@
             "@type": "WebPage",
             "@id": "https://drautoimmune.com/#webpage",
             "url": "https://drautoimmune.com/",
-            "name": "Dr. Autoimmune: Top Autoimmune Doctor in Boulder, Colorado",
+            "name": "Autoimmune Doctor Boulder CO | Telehealth Functional Medicine | Dr. Autoimmune",
             "datePublished": "2025-11-11T21:26:19+00:00",
             "dateModified": "2026-05-20T22:16:59+00:00",
             "about": {
@@ -93,20 +93,29 @@
       "source": null,
       "data": {
         "@context": "https://schema.org",
-        "@type": "MedicalBusiness",
+        "@type": "MedicalClinic",
+        "@id": "https://drautoimmune.com/#medicalclinic",
         "name": "Dr. Autoimmune",
         "image": "https://drautoimmune.com/images/og/default.jpg",
-        "@id": "https://drautoimmune.com/",
         "url": "https://drautoimmune.com/",
         "telephone": "+1 (303) 882-8447",
-        "priceRange": "$",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Boulder",
           "addressRegion": "CO",
           "addressCountry": "US"
         },
-        "description": "Dr. Autoimmune provides expert functional medicine and telehealth services focusing on chronic and autoimmune conditions for patients in Boulder and nationwide.",
+        "areaServed": [
+          { "@type": "City", "name": "Boulder" },
+          { "@type": "City", "name": "Denver" },
+          { "@type": "State", "name": "Colorado" },
+          { "@type": "Country", "name": "United States" }
+        ],
+        "availableService": {
+          "@type": "MedicalTherapy",
+          "name": "Telehealth Functional Medicine Consultation"
+        },
+        "description": "Boulder-based functional medicine practice offering telehealth care for autoimmune and chronic conditions.",
         "knowsAbout": [
           "Functional Medicine",
           "Autoimmune Health",

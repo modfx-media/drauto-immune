@@ -3,8 +3,8 @@
   "path": "/contact-us/",
   "liveUrl": "https://drautoimmune.com/contact-us/",
   "isPost": false,
-  "title": "Contact Us - Dr. Autoimmune",
-  "metaDescription": "Need to talk to a gut health expert in Boulder? We are here to answer your questions and help you heal. Reach out to our friendly staff to book an appointment.",
+  "title": "Contact Us | Boulder Autoimmune Clinic | Dr. Autoimmune",
+  "metaDescription": "Contact Dr. Autoimmune in Boulder, CO. Call, email, or send a message — telehealth functional medicine for Boulder, Denver, Colorado, and nationwide patients.",
   "canonical": "https://drautoimmune.com/contact-us/",
   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
   "openGraph": {
@@ -17,8 +17,8 @@
       "article"
     ],
     "title": [
-      "Contact Us - Dr. Autoimmune",
-      "Contact Our Leaky Gut Specialist Boulder | Dr. Autoimmune"
+      "Contact Us | Boulder Autoimmune Clinic | Dr. Autoimmune",
+      "Contact Us | Boulder Autoimmune Clinic | Dr. Autoimmune"
     ],
     "description": [
       "Contact Us Contact Now We’re Here to Help Send us a message using this form and our team will get back to you within 1 business day. Whether you have a question about our services, the discovery call, or how functional medicine works, we’re here to support you. Share whatever you’d like us to know, and a member of our care team will respond personally. 303-882-8447 npc@drautoimmune.com Contact Now We’re Here to Help Send us a message using this form and our team will get back to you within 1 business day. Whether you have a question about our services, the discovery call, or how functional medicine works, we’re here to support you. Share whatever you’d like us to know, and a member of our care team will respond personally. 303-882-8447 npc@drautoimmune.com",
@@ -43,7 +43,7 @@
     "card": "summary_large_image",
     "label1": "Time to read",
     "data1": "Less than a minute",
-    "title": "Contact Our Leaky Gut Specialist Boulder | Dr. Autoimmune",
+    "title": "Contact Us | Boulder Autoimmune Clinic | Dr. Autoimmune",
     "description": "Need to talk to a gut health expert in Boulder? We are here to answer your questions and help you heal. Reach out to our friendly staff to book an appointment.",
     "image": "https://drautoimmune.com/images/og/default.jpg"
   },
@@ -57,7 +57,7 @@
             "@type": "WebPage",
             "@id": "https://drautoimmune.com/contact-us/",
             "url": "https://drautoimmune.com/contact-us/",
-            "name": "Contact Us - Dr. Autoimmune",
+            "name": "Contact Us | Boulder Autoimmune Clinic | Dr. Autoimmune",
             "isPartOf": {
               "@id": "https://drautoimmune.com/#website"
             },
@@ -123,7 +123,7 @@
       "data": {
         "@context": "https://schema.org",
         "@type": "ContactPage",
-        "name": "Contact Us - Dr. Autoimmune",
+        "name": "Contact Us | Boulder Autoimmune Clinic | Dr. Autoimmune",
         "url": "https://drautoimmune.com/contact-us/",
         "description": "Get in touch with Dr. Autoimmune. Reach out via phone or email, and find our clinic location in Boulder, CO.",
         "mainEntity": {

@@ -1,22 +1,27 @@
 import type { Metadata } from "next";
-import { CMSRoute } from "@/components/cms/CMSRoute";
+import ConditionRoute from "@/components/pages/conditions/ConditionRoute";
 import { cmsMetadata } from "@/lib/cms/metadata";
-import JsonLd from "@/components/JsonLd";
-import ConditionPageTemplate from "@/components/pages/conditions/ConditionPageTemplate";
-import { buildMetadata, getPageContent } from "@/lib/content";
+import { buildMetadata } from "@/lib/content";
+import { getConditionEnrichment } from "@/content/condition-enrichment";
 
 export async function generateMetadata(): Promise<Metadata> {
+  const enrichment = getConditionEnrichment("type-1-diabetes");
+  const fallback = buildMetadata("type-1-diabetes");
+  if (enrichment?.pageTitle || enrichment?.metaDescription) {
+    return cmsMetadata("/type-1-diabetes", {
+      ...fallback,
+      title: enrichment.pageTitle ?? fallback.title,
+      description: enrichment.metaDescription ?? fallback.description,
+      openGraph: {
+        ...fallback.openGraph,
+        title: enrichment.pageTitle ?? fallback.openGraph?.title,
+        description: enrichment.metaDescription ?? fallback.openGraph?.description,
+      },
+    });
+  }
   return cmsMetadata("/type-1-diabetes", () => buildMetadata("type-1-diabetes"));
 }
 
 export default function Page() {
-  const page = getPageContent("type-1-diabetes");
-  return (
-    <CMSRoute path="/type-1-diabetes">
-    <>
-      {page && <JsonLd blocks={page.jsonLd} />}
-      <ConditionPageTemplate slug="type-1-diabetes" />
-    </>
-    </CMSRoute>
-  );
+  return <ConditionRoute slug="type-1-diabetes" />;
 }

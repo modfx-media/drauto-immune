@@ -2,6 +2,7 @@ import BlogPostTemplate from "@/components/pages/blog/BlogPostTemplate";
 import type { RoutedDoc } from "@/lib/cms/queries";
 import { getRecentBlogPosts } from "@/lib/blog-posts-server";
 import { getPageContent, type PageContent } from "@/lib/content";
+import { resolveSeoDescription, resolveSeoTitle } from "@/lib/cms/seo-resolve";
 import { normalizeCmsPath } from "@/lib/cms/url";
 
 function slugFromDoc(doc: Record<string, unknown>): string | null {
@@ -24,9 +25,15 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
   if (!bodyMarkdown?.trim()) return null;
 
   const title =
-    (typeof doc.title === "string" && doc.title) || hardcoded?.title || slug;
+    resolveSeoTitle(
+      typeof doc.title === "string" ? doc.title : null,
+      hardcoded?.title,
+    ) || slug;
   const excerpt =
-    (typeof doc.excerpt === "string" && doc.excerpt) || hardcoded?.metaDescription || null;
+    resolveSeoDescription(
+      typeof doc.excerpt === "string" ? doc.excerpt : null,
+      hardcoded?.metaDescription,
+    ) || null;
   const path = normalizeCmsPath(typeof doc.path === "string" ? doc.path : `/${slug}`) ?? `/${slug}`;
   const publishedAt =
     (typeof doc.publishedAt === "string" && doc.publishedAt) ||

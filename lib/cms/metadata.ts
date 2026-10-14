@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { queryRoutedContentByPath } from "@/lib/cms/queries";
 import { publicUrlFromCmsPath } from "@/lib/cms/url";
+import { resolveSeoDescription, resolveSeoTitle } from "@/lib/cms/seo-resolve";
 
 function metaFromDoc(doc: Record<string, unknown>, fallback: Metadata): Metadata {
   const title = typeof doc.title === "string" ? doc.title : undefined;
@@ -15,8 +16,16 @@ function metaFromDoc(doc: Record<string, unknown>, fallback: Metadata): Metadata
   const noIndex = Boolean(doc.noIndex);
   const noFollow = Boolean(doc.noFollow);
   const seo = doc.meta && typeof doc.meta === "object" ? (doc.meta as Record<string, unknown>) : {};
-  const seoTitle = typeof seo.title === "string" ? seo.title : title;
-  const seoDescription = typeof seo.description === "string" ? seo.description : excerpt;
+  const rawTitle = typeof seo.title === "string" ? seo.title : title;
+  const rawDescription = typeof seo.description === "string" ? seo.description : excerpt;
+  const seoTitle = resolveSeoTitle(
+    rawTitle,
+    typeof fallback.title === "string" ? fallback.title : undefined,
+  );
+  const seoDescription = resolveSeoDescription(
+    rawDescription,
+    typeof fallback.description === "string" ? fallback.description : undefined,
+  );
 
   return {
     ...fallback,

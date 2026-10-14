@@ -1,24 +1,15 @@
 /**
- * Nationwide pSEO data model + content builders for the `/areas-we-serve`
- * state hub pages and `/areas-we-serve/[state]/[condition]` pages.
+ * Nationwide geography helpers for `/areas-we-serve`.
  *
- * Scope note: GSC (gsc-report/Queries.csv) shows zero organic query signal
- * for any state/metro outside Boulder/Denver/Fort Collins, and an
- * independent 235-keyword DataForSEO check (data/pseo-national/keywords.json)
- * found no measurable US search volume for any condition x
- * online/virtual/telehealth combination and only trace (10-20/mo) volume
- * for a handful of states. This matrix was built at explicit user request
- * despite that finding — see conversation record — so every page combines
- * (a) genuinely substantive, already-reviewed condition education reused
- * from the site's own flagship condition pages (content/conditions-data.ts)
- * with (b) real, non-fabricated state geography/logistics content and (c) a
- * consistent, honest FAQ that never claims state-specific medical
- * licensure (see TODO in content/areas-data.ts) — to avoid classic
- * thin/duplicate pSEO patterns as much as possible at this scale.
+ * Indexable location pages: hub, Colorado, Denver only.
+ * Non-Colorado state hubs 301 → hub; other Front Range cities 301 → Denver
+ * (see next.config.ts). The 400 state×condition matrix pages are live,
+ * indexable, and built by ./matrix-page-builder (unique ≥900-word pages).
  */
 
 import type { AreaFaq, AreaSection } from "./areas-data";
 import { COLORADO_PAGE, DENVER_PAGE } from "./location-longform";
+import { buildEnrichedStateConditionContent } from "./matrix-page-builder";
 
 export interface StateData {
   slug: string;
@@ -225,7 +216,7 @@ export function buildFrontRangeCityContent(city: FrontRangeCity): GeneratedPage 
         paragraphs: [
           `Our practice focuses on autoimmune and chronic conditions that respond well to a root-cause, functional medicine approach. Explore condition-specific information for Colorado patients below.`,
         ],
-        links: STATE_CONDITIONS.map((c) => ({ label: c.name, href: `/areas-we-serve/colorado/${c.slug}/` })),
+        links: STATE_CONDITIONS.map((c) => ({ label: c.name, href: `/${c.slug}/` })),
       },
       {
         heading: "What a Telehealth Visit Looks Like",
@@ -313,7 +304,7 @@ export function buildStateHubContent(state: StateData): GeneratedPage {
         paragraphs: [
           `Our practice focuses on autoimmune and chronic conditions that respond well to a root-cause, functional medicine approach. Explore condition-specific information for ${state.name} patients below.`,
         ],
-        links: STATE_CONDITIONS.map((c) => ({ label: c.name, href: `/areas-we-serve/${state.slug}/${c.slug}/` })),
+        links: STATE_CONDITIONS.map((c) => ({ label: c.name, href: `/${c.slug}/` })),
       },
       {
         heading: "What a Telehealth Visit Looks Like",
@@ -349,56 +340,5 @@ export function buildStateHubContent(state: StateData): GeneratedPage {
 }
 
 export function buildStateConditionContent(state: StateData, condition: StateConditionSummary): GeneratedPage {
-  const citiesList = state.majorCities.join(", ");
-  return {
-    title: `${condition.name} in ${state.abbr} | Dr. Autoimmune`,
-    metaDescription: `${condition.name} telehealth care for ${state.name} patients — 100% virtual. Book a Discovery Call.`,
-    h1: `${condition.name} Care for ${state.name} Patients`,
-    accent: `${state.name} · ${condition.name}`,
-    heroSubhead: `A root-cause, telehealth approach to ${condition.name} for patients throughout ${state.name} — no office visit required.`,
-    intro: [
-      condition.shortOverview,
-      `If you live in ${state.name} — whether in ${citiesList}, or anywhere else in the state — you can work with Dr. Autoimmune's team entirely by video visit. Read our full ${condition.name} guide for a deeper look at symptoms, triggers, and treatment approach, or continue below for what telehealth care looks like for ${state.name} patients specifically.`,
-    ],
-    sections: [
-      {
-        heading: `${condition.name} Symptoms`,
-        paragraphs: [`Patients with ${condition.name} commonly report symptoms such as:`],
-        bullets: condition.symptomBadges,
-      },
-      {
-        heading: "What a Telehealth Visit Looks Like",
-        paragraphs: TELEHEALTH_VISIT_PARAGRAPHS,
-      },
-      {
-        heading: `Getting Care in ${state.name}`,
-        paragraphs: [
-          `Patients from across ${state.name} — including ${citiesList} — work with our practice by video, with lab testing coordinated at a facility near where you live.`,
-        ],
-        links: [
-          { label: `${state.name} Service Area`, href: `/areas-we-serve/${state.slug}/` },
-          { label: `Full ${condition.name} Guide`, href: `/${condition.slug}/` },
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: `Is telehealth care effective for ${condition.name}?`,
-        answer: [
-          `Our telehealth visits are built around a comprehensive review of your history, symptoms, and labs, using the same root-cause approach used across our practice. Some hands-on evaluations may still require a local in-person provider, which we can help you identify if needed.`,
-        ],
-      },
-      {
-        question: `Is Dr. Autoimmune able to treat ${condition.name} patients located in ${state.name}?`,
-        answer: [
-          `Telehealth practice availability can vary by state and change over time. Please contact our team directly to confirm current availability for ${state.name} before booking, so we can make sure we're able to see you.`,
-        ],
-      },
-      {
-        question: `Do I need to travel to Boulder, Colorado for ${condition.name} care?`,
-        answer: [`No — every visit is conducted by video, so ${state.name} patients never need to travel for an appointment.`],
-      },
-    ],
-    datePublished: "2026-09-29",
-  };
+  return buildEnrichedStateConditionContent(state, condition);
 }

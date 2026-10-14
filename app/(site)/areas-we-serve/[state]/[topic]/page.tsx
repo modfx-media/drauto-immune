@@ -16,7 +16,7 @@ import { buildStateConditionJsonLd, buildFrontRangeCityJsonLd } from "@/lib/nati
 import { cmsMetadata } from "@/lib/cms/metadata";
 import { SITE_URL } from "@/lib/site";
 
-/** Colorado also serves Front Range city pages at this same route position (see content/national-data.ts FRONT_RANGE_CITIES). */
+/** Colorado also serves Denver at this route position; all states serve condition pages. */
 export async function generateStaticParams() {
   const params: { state: string; topic: string }[] = [];
   for (const state of getStateSlugs()) {
@@ -48,7 +48,6 @@ export async function generateMetadata({
       description: page.metaDescription,
       alternates: { canonical },
       openGraph: { title: page.title, description: page.metaDescription, url: canonical, type: "website" },
-      robots: { index: false, follow: true },
     });
   }
 
@@ -81,28 +80,25 @@ export default async function StateTopicPage({
     const page = buildStateConditionContent(state, condition);
     return (
       <CMSRoute path={`/areas-we-serve/${state.slug}/${condition.slug}`}>
-      <>
-        <JsonLd blocks={buildStateConditionJsonLd(state, condition, page)} />
-        <AreaPageTemplate
-          content={{
-            eyebrow: "Telehealth Service Area",
-            h1: page.h1,
-            accent: page.accent,
-            heroSubhead: page.heroSubhead,
-            intro: page.intro,
-            sections: page.sections,
-            faqs: page.faqs,
-            breadcrumb: [
-              { label: "Home", href: "/" },
-              { label: "Areas We Serve", href: "/areas-we-serve/" },
-              ...(state.slug === "colorado"
-                ? [{ label: state.name, href: `/areas-we-serve/${state.slug}/` }]
-                : []),
-              { label: condition.name },
-            ],
-          }}
-        />
-      </>
+        <>
+          <JsonLd blocks={buildStateConditionJsonLd(state, condition, page)} />
+          <AreaPageTemplate
+            content={{
+              eyebrow: "Telehealth Service Area",
+              h1: page.h1,
+              accent: page.accent,
+              heroSubhead: page.heroSubhead,
+              intro: page.intro,
+              sections: page.sections,
+              faqs: page.faqs,
+              breadcrumb: [
+                { label: "Home", href: "/" },
+                { label: "Areas We Serve", href: "/areas-we-serve/" },
+                { label: condition.name },
+              ],
+            }}
+          />
+        </>
       </CMSRoute>
     );
   }
@@ -112,30 +108,29 @@ export default async function StateTopicPage({
     const page = buildFrontRangeCityContent(city);
     return (
       <CMSRoute path={`/areas-we-serve/colorado/${city.slug}`}>
-      <>
-        <JsonLd blocks={buildFrontRangeCityJsonLd(city, page)} />
-        <AreaPageTemplate
-          content={{
-            eyebrow: "Telehealth Service Area",
-            h1: page.h1,
-            accent: page.accent,
-            heroSubhead: page.heroSubhead,
-            intro: page.intro,
-            sections: page.sections,
-            faqs: page.faqs,
-            breadcrumb: [
-              { label: "Home", href: "/" },
-              { label: "Areas We Serve", href: "/areas-we-serve/" },
-              { label: state.name, href: `/areas-we-serve/${state.slug}/` },
-              { label: city.name },
-            ],
-          }}
-        />
-      </>
+        <>
+          <JsonLd blocks={buildFrontRangeCityJsonLd(city, page)} />
+          <AreaPageTemplate
+            content={{
+              eyebrow: "Telehealth Service Area",
+              h1: page.h1,
+              accent: page.accent,
+              heroSubhead: page.heroSubhead,
+              intro: page.intro,
+              sections: page.sections,
+              faqs: page.faqs,
+              breadcrumb: [
+                { label: "Home", href: "/" },
+                { label: "Areas We Serve", href: "/areas-we-serve/" },
+                { label: state.name, href: `/areas-we-serve/${state.slug}/` },
+                { label: city.name },
+              ],
+            }}
+          />
+        </>
       </CMSRoute>
     );
   }
 
   notFound();
 }
-

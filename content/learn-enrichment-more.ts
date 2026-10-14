@@ -402,4 +402,43 @@ export const LEARN_ENRICHMENT_MORE: Record<string, LearnExtra> = {
       },
     ],
   ),
+  "autoimmune-protocol-diet": {
+    intro: [
+      "If you already eat “clean” and still feel inflamed, AIP is sometimes proposed as a structured next experiment — not because clean eating failed as a moral category, but because residual triggers can hide in foods that look healthy on a label.",
+    ],
+    sections: [
+      {
+        heading: "Nutrient density still matters on AIP",
+        paragraphs: [
+          "Removing food groups only helps if the remaining plate still covers protein, minerals, and calories. Organ meats, quality seafood, colorful vegetables that are allowed in your phase, and adequate fat are common building blocks. A diet that leaves you under-fueled will muddy symptom tracking.",
+          "Work with a clinician or nutrition-aware practitioner if you have a history of restrictive eating, significant weight loss, or complex medication schedules. Telehealth visits at Dr. Autoimmune can help decide whether AIP-style structure belongs in your plan or whether a narrower trial is smarter.",
+        ],
+      },
+      {
+        heading: "Connect diet changes to the rest of your workup",
+        paragraphs: [
+          "Diet trials answer different questions than antibody panels or stool tests. Use them together. A positive response to AIP does not diagnose leaky gut by itself, and a lack of response does not prove food is irrelevant — timing, adherence, and coexisting infections or stressors all matter.",
+          "Internal guides worth reading next: leaky gut signs and fixes, dysbiosis and autoimmunity, and the gut-autoimmune flare article on this site.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Do I need labs before starting AIP?",
+        answer: [
+          "Baseline labs are not mandatory for every dietary trial, but they help when fatigue, anemia, thyroid disease, or nutrient deficiency is already in the story. Ask your clinician what to check before a long elimination.",
+        ],
+      },
+    ],
+    citations: [
+      {
+        name: "NIAMS: Autoimmune diseases",
+        url: "https://www.niams.nih.gov/health-topics/autoimmune-diseases",
+      },
+      {
+        name: "MedlinePlus: Healthy eating",
+        url: "https://medlineplus.gov/healthyeating.html",
+      },
+    ],
+  },
 };

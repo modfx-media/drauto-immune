@@ -1,30 +1,7 @@
 import type { JsonLdBlock } from "@/lib/content";
 import { SITE_URL } from "@/lib/site";
-import { SITE_CONTACT } from "@/components/layout/nav-links";
 import { AREA_HUB } from "@/content/areas-data";
-
-function medicalClinicBlock() {
-  return {
-    "@type": "MedicalClinic",
-    name: "Dr. Autoimmune",
-    url: `${SITE_URL}/`,
-    telephone: SITE_CONTACT.phone,
-    location: {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Boulder",
-        addressRegion: "CO",
-        addressCountry: "US",
-      },
-    },
-    // Telehealth-first: no physical office is open to walk-in patients.
-    availableService: {
-      "@type": "MedicalTherapy",
-      name: "Telehealth Functional Medicine Consultation",
-    },
-  };
-}
+import { medicalClinicEntity, medicalClinicRef } from "@/lib/organization-jsonld";
 
 export function buildAreaHubJsonLd(): JsonLdBlock[] {
   const url = `${SITE_URL}/areas-we-serve/`;
@@ -44,11 +21,18 @@ export function buildAreaHubJsonLd(): JsonLdBlock[] {
       source: null,
       data: {
         "@context": "https://schema.org",
+        ...medicalClinicEntity(),
+      },
+    },
+    {
+      source: null,
+      data: {
+        "@context": "https://schema.org",
         "@type": "WebPage",
         name: AREA_HUB.title,
         url,
         description: AREA_HUB.metaDescription,
-        about: medicalClinicBlock(),
+        about: medicalClinicRef(),
       },
     },
     {
