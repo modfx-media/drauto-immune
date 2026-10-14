@@ -3,19 +3,16 @@ import type { Metadata } from "next";
 import { CMSRoute } from "@/components/cms/CMSRoute";
 import BlogPostTemplate from "@/components/pages/blog/BlogPostTemplate";
 import { cmsMetadata } from "@/lib/cms/metadata";
-import { queryPublishedPostSlugs } from "@/lib/cms/queries";
 import { buildMetadata, getPageContent } from "@/lib/content";
 import { blogPostSlugs, isBlogPostSlug } from "@/lib/blog-posts";
 import { getRecentBlogPosts } from "@/lib/blog-posts-server";
 
-/** CMS-only posts must resolve at request time (not only generateStaticParams). */
+/** CMS-only posts resolve at request time — do not hit the DB in generateStaticParams (Vercel build). */
 export const dynamicParams = true;
 export const revalidate = 300;
 
 export async function generateStaticParams() {
-  const cmsSlugs = await queryPublishedPostSlugs();
-  const slugs = new Set<string>([...blogPostSlugs, ...cmsSlugs]);
-  return [...slugs].map((slug) => ({ slug }));
+  return blogPostSlugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({

@@ -25,7 +25,11 @@ const dirname = path.dirname(filename);
 const pushSchema =
   process.env.VERCEL !== "1" && process.env.CMS_IMPORT_APPLY !== "1";
 
-const blobToken = process.env.BLOB_READ_WRITE_TOKEN?.trim() || "";
+const blobTokenRaw = process.env.BLOB_READ_WRITE_TOKEN?.trim() || "";
+/** Reject placeholders that would throw Invalid token format during config load. */
+const blobToken = /^vercel_blob_rw_[a-z\d]+_[a-z\d]+$/i.test(blobTokenRaw)
+  ? blobTokenRaw
+  : "";
 
 export default buildConfig({
   secret: process.env.PAYLOAD_SECRET || "",
@@ -96,20 +100,22 @@ export default buildConfig({
         path: typeof originalDoc.path === "string" ? originalDoc.path : "",
       }),
     }),
-    // Always register so `prefix` stays in the schema across envs (alwaysInsertFields).
-    // Without BLOB_READ_WRITE_TOKEN the adapter is disabled and uploads stay local
-    // (404 on Vercel) — set the token in Vercel Project → Settings → Environment Variables.
-    vercelBlobStorage({
-      enabled: Boolean(blobToken),
-      token: blobToken,
-      clientUploads: true,
-      addRandomSuffix: true,
-      alwaysInsertFields: true,
-      collections: {
-        media: {
-          prefix: "media",
-        },
-      },
-    }),
+    // Requires a real Vercel Blob token. Placeholders throw at config load and break deploys.
+    // Without BLOB_READ_WRITE_TOKEN, uploads stay on local /media (404 on Vercel).
+    ...(blobToken
+      ? [
+          vercelBlobStorage({
+            token: blobToken,
+            clientUploads: true,
+            addRandomSuffix: true,
+            alwaysInsertFields: true,
+            collections: {
+              media: {
+                prefix: "media",
+              },
+            },
+          }),
+        ]
+      : []),
   ],
 });
