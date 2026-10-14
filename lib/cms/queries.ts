@@ -47,6 +47,29 @@ export async function queryRoutedContentByPath(path: string): Promise<RoutedDoc 
     const post = posts.docs[0];
     if (post) return { collection: "posts", doc: post as unknown as Record<string, unknown> };
 
+    // Public blog URLs are /blog/:slug, but some CMS docs still store path as /:slug.
+    const blogSlug = normalized.match(/^\/blog\/([^/]+)$/)?.[1];
+    if (blogSlug) {
+      const aliased = await payload.find({
+        collection: "posts",
+        where: {
+          or: [
+            { slug: { equals: blogSlug } },
+            { path: { equals: `/${blogSlug}` } },
+            { path: { equals: `/blog/${blogSlug}` } },
+          ],
+        },
+        limit: 1,
+        pagination: false,
+        draft: isEnabled,
+        overrideAccess: isEnabled,
+      });
+      const aliasedPost = aliased.docs[0];
+      if (aliasedPost) {
+        return { collection: "posts", doc: aliasedPost as unknown as Record<string, unknown> };
+      }
+    }
+
     return null;
   }, null);
 }

@@ -19,9 +19,12 @@ async function revalidateCmsPaths(paths: string[]) {
 
 function pathsForDoc(doc: Record<string, unknown> | undefined | null): string[] {
   const paths = new Set<string>(["/blog", "/sitemap.xml"]);
-  const raw =
-    (typeof doc?.path === "string" && doc.path) ||
-    (typeof doc?.slug === "string" && doc.slug ? `/${doc.slug}` : null);
+  const slug = typeof doc?.slug === "string" ? doc.slug.trim() : "";
+  if (slug) {
+    paths.add(`/blog/${slug}`);
+    paths.add(`/${slug}`);
+  }
+  const raw = typeof doc?.path === "string" ? doc.path : null;
   const normalized = normalizeCmsPath(raw);
   if (normalized && normalized !== "/") {
     paths.add(normalized);

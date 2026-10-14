@@ -5,9 +5,30 @@ import {
   revalidatePostAfterChange,
   revalidatePostAfterDelete,
 } from "@/lib/cms/revalidate";
+import type { CollectionBeforeChangeHook } from "payload";
 import { authenticated, authenticatedOrPublished } from "./access";
-import { generatePathFromSlug } from "./generatePath";
 import { identityFields, seoFields } from "./seoFields";
+import { normalizeCmsPath } from "@/lib/cms/url";
+
+/** Blog posts publish under `/blog/:slug` (public hub links + sitemap). */
+const generateBlogPathFromSlug: CollectionBeforeChangeHook = ({ data }) => {
+  const next = data ?? {};
+  const existing = normalizeCmsPath(typeof next.path === "string" ? next.path : null);
+  if (existing) {
+    // Normalize legacy `/:slug` paths up to `/blog/:slug` when slug matches.
+    const slug = typeof next.slug === "string" ? next.slug.trim() : "";
+    if (slug && (existing === `/${slug}` || existing === `/blog/${slug}`)) {
+      next.path = `/blog/${slug}`;
+      return next;
+    }
+    next.path = existing;
+    return next;
+  }
+  const slug = typeof next.slug === "string" ? next.slug.trim() : "";
+  if (!slug) return next;
+  next.path = `/blog/${slug}`;
+  return next;
+};
 
 export const Posts: CollectionConfig = {
   slug: "posts",
@@ -32,7 +53,7 @@ export const Posts: CollectionConfig = {
     delete: authenticated,
   },
   hooks: {
-    beforeChange: [generatePathFromSlug],
+    beforeChange: [generateBlogPathFromSlug],
     afterChange: [revalidatePostAfterChange],
     afterDelete: [revalidatePostAfterDelete],
   },
