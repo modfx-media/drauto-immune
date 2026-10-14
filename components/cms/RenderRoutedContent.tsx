@@ -33,6 +33,23 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
     hardcoded?.datePublished ||
     null;
 
+  const meta =
+    doc.meta && typeof doc.meta === "object" ? (doc.meta as Record<string, unknown>) : {};
+  const metaImage =
+    meta.image && typeof meta.image === "object" ? (meta.image as Record<string, unknown>) : null;
+  const cmsFeatured =
+    metaImage && typeof metaImage.url === "string"
+      ? {
+          src: metaImage.url,
+          alt:
+            (typeof metaImage.alt === "string" && metaImage.alt) ||
+            title,
+          originalUrl: metaImage.url,
+          originalFilename:
+            (typeof metaImage.filename === "string" && metaImage.filename) || "cms-image",
+        }
+      : null;
+
   return {
     key: slug,
     path: path === "/" ? "/" : `${path}/`,
@@ -51,7 +68,7 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
     videos: hardcoded?.videos ?? [],
     images: hardcoded?.images ?? [],
     bodyMarkdown,
-    featuredImage: hardcoded?.featuredImage ?? null,
+    featuredImage: cmsFeatured ?? hardcoded?.featuredImage ?? null,
     datePublished: publishedAt,
     dateModified:
       (typeof doc.sourceUpdatedAt === "string" && doc.sourceUpdatedAt) ||
@@ -66,7 +83,7 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
  * Otherwise keep the hardcoded `fallback` so bespoke React pages never get
  * swapped for a generic markdown shell.
  */
-export function RenderRoutedContent({
+export async function RenderRoutedContent({
   routed,
   fallback,
 }: {
@@ -79,7 +96,7 @@ export function RenderRoutedContent({
   if (collection === "posts" || template === "blog") {
     const page = pageFromCmsDoc(doc);
     if (!page) return fallback;
-    const recentPosts = getRecentBlogPosts(page.key, 4);
+    const recentPosts = await getRecentBlogPosts(page.key, 4);
     return <BlogPostTemplate page={page} recentPosts={recentPosts} />;
   }
 
