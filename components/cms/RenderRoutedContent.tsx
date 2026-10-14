@@ -34,7 +34,10 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
       typeof doc.excerpt === "string" ? doc.excerpt : null,
       hardcoded?.metaDescription,
     ) || null;
-  const path = normalizeCmsPath(typeof doc.path === "string" ? doc.path : `/${slug}`) ?? `/${slug}`;
+  const rawPath = normalizeCmsPath(typeof doc.path === "string" ? doc.path : null);
+  // Public canonical for posts is always /blog/:slug (legacy CMS paths may be /:slug).
+  const path =
+    rawPath?.startsWith("/blog/") ? rawPath : `/blog/${slug}`;
   const publishedAt =
     (typeof doc.publishedAt === "string" && doc.publishedAt) ||
     hardcoded?.datePublished ||
@@ -59,15 +62,15 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
 
   return {
     key: slug,
-    path: path === "/" ? "/" : `${path}/`,
-    liveUrl: hardcoded?.liveUrl ?? `https://drautoimmune.com${path === "/" ? "/" : `${path}/`}`,
+    path: `${path}/`,
+    liveUrl: hardcoded?.liveUrl ?? `https://drautoimmune.com${path}/`,
     isPost: true,
     title,
     metaDescription: excerpt,
     canonical:
       (typeof doc.canonicalUrl === "string" && doc.canonicalUrl) ||
       hardcoded?.canonical ||
-      `https://drautoimmune.com${path === "/" ? "/" : `${path}/`}`,
+      `https://drautoimmune.com${path}/`,
     robots: hardcoded?.robots ?? null,
     openGraph: hardcoded?.openGraph ?? {},
     twitter: hardcoded?.twitter ?? {},
