@@ -17,7 +17,6 @@ import { SiteSettings } from "./globals/SiteSettings";
 import { getCorsOrigins, getServerURL, publicUrlFromCmsPath } from "./lib/cms/url";
 
 import { scheduledPublishPlugin } from "./scheduled-publish";
-import { migrations } from "./migrations";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -56,8 +55,7 @@ export default buildConfig({
     },
     forceUseVercelPostgres: true,
     push: pushSchema,
-    // Adds media.prefix when missing (push is off on Vercel).
-    prodMigrations: migrations,
+    // Schema changes are applied as additive SQL by hand (push is off on Vercel). Do not set prodMigrations: the payload_migrations table has a dev-push row, so Payload prompts interactively and hangs serverless requests.
   }),
   collections: [Users, Media, Pages, Posts],
   globals: [Header, Footer, SiteSettings],
