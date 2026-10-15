@@ -61,7 +61,8 @@ export function stripSiteSuffix(title: string): string {
 }
 
 export interface BlogPostSummary {
-  slug: BlogPostSlug;
+  /** Hardcoded or CMS slug — CMS-only posts are plain strings. */
+  slug: string;
   title: string;
   excerpt: string;
   image: { src: string; alt: string } | null;

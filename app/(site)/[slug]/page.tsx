@@ -7,6 +7,10 @@ import { buildMetadata, getPageContent } from "@/lib/content";
 import { blogPostSlugs, isBlogPostSlug } from "@/lib/blog-posts";
 import { getRecentBlogPosts } from "@/lib/blog-posts-server";
 
+/** CMS-only posts resolve at request time — do not hit the DB in generateStaticParams (Vercel build). */
+export const dynamicParams = true;
+export const revalidate = 300;
+
 export async function generateStaticParams() {
   return blogPostSlugs.map((slug) => ({ slug }));
 }
@@ -17,8 +21,12 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  if (!isBlogPostSlug(slug)) return {};
-  return cmsMetadata(`/${slug}`, () => buildMetadata(slug));
+  return cmsMetadata(`/${slug}`, () => (isBlogPostSlug(slug) ? buildMetadata(slug) : {}));
+}
+
+/** Fallback when CMS overlay has nothing — forces a real 404 for unknown slugs. */
+function PostNotFound(): never {
+  notFound();
 }
 
 export default async function BlogPostPage({
@@ -27,9 +35,16 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const path = `/${slug}`;
 
+  // CMS-only published posts (not in the hardcoded slug list) must still render.
+  // CMSRoute overlays published CMS docs; PostNotFound runs only when CMS misses.
   if (!isBlogPostSlug(slug)) {
-    notFound();
+    return (
+      <CMSRoute path={path}>
+        <PostNotFound />
+      </CMSRoute>
+    );
   }
 
   const page = getPageContent(slug);
@@ -37,10 +52,10 @@ export default async function BlogPostPage({
     notFound();
   }
 
-  const recentPosts = getRecentBlogPosts(slug, 4);
+  const recentPosts = await getRecentBlogPosts(slug, 4);
 
   return (
-    <CMSRoute path={`/${slug}`}>
+    <CMSRoute path={path}>
       <BlogPostTemplate page={page} recentPosts={recentPosts} />
     </CMSRoute>
   );

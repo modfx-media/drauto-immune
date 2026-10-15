@@ -34,23 +34,43 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
       typeof doc.excerpt === "string" ? doc.excerpt : null,
       hardcoded?.metaDescription,
     ) || null;
-  const path = normalizeCmsPath(typeof doc.path === "string" ? doc.path : `/${slug}`) ?? `/${slug}`;
+  const rawPath = normalizeCmsPath(typeof doc.path === "string" ? doc.path : null);
+  // Public canonical for posts is always /blog/:slug (legacy CMS paths may be /:slug).
+  const path =
+    rawPath?.startsWith("/blog/") ? rawPath : `/blog/${slug}`;
   const publishedAt =
     (typeof doc.publishedAt === "string" && doc.publishedAt) ||
     hardcoded?.datePublished ||
     null;
 
+  const meta =
+    doc.meta && typeof doc.meta === "object" ? (doc.meta as Record<string, unknown>) : {};
+  const metaImage =
+    meta.image && typeof meta.image === "object" ? (meta.image as Record<string, unknown>) : null;
+  const cmsFeatured =
+    metaImage && typeof metaImage.url === "string"
+      ? {
+          src: metaImage.url,
+          alt:
+            (typeof metaImage.alt === "string" && metaImage.alt) ||
+            title,
+          originalUrl: metaImage.url,
+          originalFilename:
+            (typeof metaImage.filename === "string" && metaImage.filename) || "cms-image",
+        }
+      : null;
+
   return {
     key: slug,
-    path: path === "/" ? "/" : `${path}/`,
-    liveUrl: hardcoded?.liveUrl ?? `https://drautoimmune.com${path === "/" ? "/" : `${path}/`}`,
+    path: `${path}/`,
+    liveUrl: hardcoded?.liveUrl ?? `https://drautoimmune.com${path}/`,
     isPost: true,
     title,
     metaDescription: excerpt,
     canonical:
       (typeof doc.canonicalUrl === "string" && doc.canonicalUrl) ||
       hardcoded?.canonical ||
-      `https://drautoimmune.com${path === "/" ? "/" : `${path}/`}`,
+      `https://drautoimmune.com${path}/`,
     robots: hardcoded?.robots ?? null,
     openGraph: hardcoded?.openGraph ?? {},
     twitter: hardcoded?.twitter ?? {},
@@ -58,7 +78,7 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
     videos: hardcoded?.videos ?? [],
     images: hardcoded?.images ?? [],
     bodyMarkdown,
-    featuredImage: hardcoded?.featuredImage ?? null,
+    featuredImage: cmsFeatured ?? hardcoded?.featuredImage ?? null,
     datePublished: publishedAt,
     dateModified:
       (typeof doc.sourceUpdatedAt === "string" && doc.sourceUpdatedAt) ||
@@ -73,7 +93,7 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
  * Otherwise keep the hardcoded `fallback` so bespoke React pages never get
  * swapped for a generic markdown shell.
  */
-export function RenderRoutedContent({
+export async function RenderRoutedContent({
   routed,
   fallback,
 }: {
@@ -86,7 +106,7 @@ export function RenderRoutedContent({
   if (collection === "posts" || template === "blog") {
     const page = pageFromCmsDoc(doc);
     if (!page) return fallback;
-    const recentPosts = getRecentBlogPosts(page.key, 4);
+    const recentPosts = await getRecentBlogPosts(page.key, 4);
     return <BlogPostTemplate page={page} recentPosts={recentPosts} />;
   }
 

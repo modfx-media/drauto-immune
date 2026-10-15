@@ -40,6 +40,18 @@ const nextConfig: NextConfig = {
   // drautoimmune.com serves every route with a trailing slash (WordPress/Rank Math
   // permalink style) — match that pattern exactly for SEO continuity.
   trailingSlash: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "*.public.blob.vercel-storage.com",
+      },
+      {
+        protocol: "https",
+        hostname: "*.blob.vercel-storage.com",
+      },
+    ],
+  },
   serverExternalPackages: [
     "pg",
     "@payloadcms/db-vercel-postgres",

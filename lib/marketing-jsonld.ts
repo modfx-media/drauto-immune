@@ -55,7 +55,7 @@ export function buildBlogHubJsonLd(
             "@type": "ListItem",
             position: i + 1,
             name: post.title,
-            url: `${SITE_URL}/${post.slug}/`,
+            url: `${SITE_URL}/blog/${post.slug}/`,
           })),
         },
       },

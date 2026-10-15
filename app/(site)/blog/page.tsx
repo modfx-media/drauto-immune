@@ -7,14 +7,14 @@ import { buildMetadata } from "@/lib/content";
 import { getAllBlogPosts } from "@/lib/blog-posts-server";
 import { buildBlogHubJsonLd } from "@/lib/marketing-jsonld";
 
-
 export const revalidate = 300;
+
 export async function generateMetadata(): Promise<Metadata> {
   return cmsMetadata("/blog", () => buildMetadata("blog"));
 }
 
-export default function Page() {
-  const posts = getAllBlogPosts();
+export default async function Page() {
+  const posts = await getAllBlogPosts();
   return (
     <CMSRoute path="/blog">
       <>

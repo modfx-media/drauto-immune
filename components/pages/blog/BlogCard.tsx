@@ -17,7 +17,7 @@ export default function BlogCard({
   variant?: "grid" | "compact";
 }) {
   const date = formatBlogDate(post.datePublished);
-  const href = `/${post.slug}/`;
+  const href = `/blog/${post.slug}/`;
 
   if (variant === "compact") {
     return (
