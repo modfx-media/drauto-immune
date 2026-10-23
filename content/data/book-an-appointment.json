@@ -3,7 +3,7 @@
   "path": "/book-an-appointment/",
   "liveUrl": "https://drautoimmune.com/book-an-appointment/",
   "isPost": false,
-  "title": "Book An Appointment - Dr. Autoimmune",
+  "title": "Schedule Your Telehealth Appointment | Dr. Autoimmune",
   "metaDescription": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Book An Appointment page to learn about our wellness services.",
   "canonical": "https://drautoimmune.com/book-an-appointment/",
   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
@@ -17,8 +17,8 @@
       "article"
     ],
     "title": [
-      "Book An Appointment - Dr. Autoimmune",
-      "Book An Appointment | Boulder Autoimmune Specialist"
+      "Schedule Your Telehealth Appointment | Dr. Autoimmune",
+      "Schedule Your Telehealth Appointment | Dr. Autoimmune"
     ],
     "description": [
       "The Dr. Autoimmune Solution Nationwide Functional Medicine Care — from the Privacy of Your Own Home At Dr. Autoimmune, we believe in accessible, compassionate care for all individuals seeking healing and support. No matter where you live, we now offer remote telehealth consultations so that you can receive expert guidance from the comfort of your home. What to Expect During Your Initial 90-Minute Zoom Consultation: Comprehensive Case Review: We’ll carefully review your symptoms, medical history, and timeline to understand your unique health situation. In-Depth Blood Panel Analysis: We’ll interpret your 83+ marker blood panel results from Evexia. You can easily get your blood drawn at any LabCorp location near you, and the requisition will be provided directly through your secure patient portal. Custom Care Plan: After a thorough evaluation, Dr. Autoimmune will create a personalized care plan tailored to your specific needs, guiding you on your path toward better health. Take the first step toward healing—wherever you may be. Book your discovery call today.   The Finest Autoimmune Care No matter where you live, remote care is now available. We also have telehealth options available. We are here to offer help to anyone, including those who are unable to come into the office. Autoimmune Specialists Our unique approach: No stone is left unturned to determine the true cause of your autoimmune condition. Discover the Root Cause Many of our patients come to us as a last resort … By identifying the root cause of your condition, we develop a plan that finally gets results. Comprehensive Approach Using the latest in neuro-feedback, clinical nutrition, functional medicine and a variety of different avenues, we work with you to customize your care and minimize symptoms. We Measure Over 83 Unique Blood Markers to Find Conditions Missed by Most Standard Blood Panels… These are just a few of the hundreds of success stories we’ve helped amazing individuals create… You deserve to let your health soar! Claim Your $399 New Patient Package NOW! Are you ready to get the answers you deserve to all your health questions? Turn to Dr. Autoimmune for solutions tailored specifically to you and your health needs. – Sarah M. “I came in 4 months ago for Fibromyalgia and all I can say is I wish I came 9 years ago… ” – Robin C. “Coming Here Has Given Me My Life Back”",
@@ -43,7 +43,7 @@
     "card": "summary_large_image",
     "label1": "Time to read",
     "data1": "1 minute",
-    "title": "Book An Appointment | Boulder Autoimmune Specialist",
+    "title": "Schedule Your Telehealth Appointment | Dr. Autoimmune",
     "description": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Book An Appointment page to learn about our wellness services.",
     "image": "https://drautoimmune.com/images/og/book-an-appointment.jpg"
   },
@@ -57,7 +57,7 @@
             "@type": "WebPage",
             "@id": "https://drautoimmune.com/book-an-appointment/",
             "url": "https://drautoimmune.com/book-an-appointment/",
-            "name": "Book An Appointment - Dr. Autoimmune",
+            "name": "Schedule Your Telehealth Appointment | Dr. Autoimmune",
             "isPartOf": {
               "@id": "https://drautoimmune.com/#website"
             },

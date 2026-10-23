@@ -125,7 +125,7 @@ function buildBookingJsonLd(config: BookingPageConfig): JsonLdBlock[] {
 export function buildBookAnAppointmentJsonLd(): JsonLdBlock[] {
   return buildBookingJsonLd({
     path: "/book-an-appointment/",
-    name: "Book An Appointment - Dr. Autoimmune",
+    name: "Schedule Your Telehealth Appointment | Dr. Autoimmune",
     description:
       "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Book An Appointment page to learn about our wellness services.",
     crumbName: "Book An Appointment",
@@ -138,7 +138,7 @@ export function buildBookAnAppointmentJsonLd(): JsonLdBlock[] {
 export function buildBookNewPatientEvaluationJsonLd(): JsonLdBlock[] {
   return buildBookingJsonLd({
     path: "/book-new-patient-evaluation/",
-    name: "Book New Patient Evaluation - Dr. Autoimmune",
+    name: "Schedule Your New Patient Evaluation | Dr. Autoimmune",
     description:
       "Start your recovery with a full health review. Our team is ready to listen and help you feel like yourself again. Reserve your appointment online!",
     crumbName: "Book New Patient Evaluation",
