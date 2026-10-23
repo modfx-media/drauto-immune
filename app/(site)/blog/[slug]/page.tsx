@@ -4,6 +4,7 @@ import { CMSRoute } from "@/components/cms/CMSRoute";
 import BlogPostTemplate from "@/components/pages/blog/BlogPostTemplate";
 import { cmsMetadata } from "@/lib/cms/metadata";
 import { buildMetadata, getPageContent } from "@/lib/content";
+import { withUnifiedMedicalClinic } from "@/lib/organization-jsonld";
 import { blogPostSlugs, isBlogPostSlug } from "@/lib/blog-posts";
 import { getRecentBlogPosts } from "@/lib/blog-posts-server";
 
@@ -57,10 +58,11 @@ export default async function BlogSlugPage({
   }
 
   const recentPosts = await getRecentBlogPosts(slug, 4);
+  const safePage = { ...page, jsonLd: withUnifiedMedicalClinic(page.jsonLd) };
 
   return (
     <CMSRoute path={path}>
-      <BlogPostTemplate page={page} recentPosts={recentPosts} />
+      <BlogPostTemplate page={safePage} recentPosts={recentPosts} />
     </CMSRoute>
   );
 }

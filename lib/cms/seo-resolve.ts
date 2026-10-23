@@ -10,9 +10,31 @@ const GENERIC_BLOG_DESCRIPTION =
 const SHORT_TITLE_RE =
   /^(Store|About Us|Contact Us|ADHD\s*\/\s*ADD)\s*[-–—]\s*Dr\.?\s*Autoimmune\s*$/i;
 
+/**
+ * Titles already published in Payload from the WordPress migration. Code
+ * fallbacks replace them until an editor saves a different title. Matched
+ * loosely so curly apostrophes and the optional brand suffix still count.
+ */
+const STALE_TITLE_RES = [
+  /^patient stories(\s*&\s*testimonials)?\s*[-–—|]\s*dr\.?\s*autoimmune$/,
+  /^signs your gut may be driving autoimmune flares(\s*[-–—|]\s*dr\.?\s*autoimmune)?$/,
+  /^why your pots symptoms still don't make sense and what your body may be trying to tell you(\s*[-–—|]\s*dr\.?\s*autoimmune)?$/,
+];
+
+function normalizeTitle(value: string): string {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/\s+/g, " ");
+}
+
 export function isBoilerplateSeoTitle(value: string | null | undefined): boolean {
   if (!value) return true;
-  return SHORT_TITLE_RE.test(value.trim());
+  const trimmed = value.trim();
+  if (SHORT_TITLE_RE.test(trimmed)) return true;
+  const normalized = normalizeTitle(trimmed);
+  return STALE_TITLE_RES.some((pattern) => pattern.test(normalized));
 }
 
 export function isBoilerplateSeoDescription(value: string | null | undefined): boolean {

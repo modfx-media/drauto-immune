@@ -3,7 +3,7 @@
   "path": "/patient-stories/",
   "liveUrl": "https://drautoimmune.com/patient-stories/",
   "isPost": false,
-  "title": "Patient Stories - Dr. Autoimmune",
+  "title": "Real Patient Stories and Testimonials | Dr. Autoimmune",
   "metaDescription": "Read how our patients regained their health and energy. These stories show what is possible with the right care. Read their full testimonials here.",
   "canonical": "https://drautoimmune.com/patient-stories/",
   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
@@ -17,7 +17,7 @@
       "article"
     ],
     "title": [
-      "Patient Stories - Dr. Autoimmune",
+      "Real Patient Stories and Testimonials | Dr. Autoimmune",
       "Real Patient Stories and Testimonials | Dr. Autoimmune"
     ],
     "description": [
@@ -58,7 +58,7 @@
             "@type": "WebPage",
             "@id": "https://drautoimmune.com/patient-stories/",
             "url": "https://drautoimmune.com/patient-stories/",
-            "name": "Patient Stories - Dr. Autoimmune",
+            "name": "Real Patient Stories and Testimonials | Dr. Autoimmune",
             "isPartOf": {
               "@id": "https://drautoimmune.com/#website"
             },
@@ -140,7 +140,7 @@
       "data": {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "Patient Stories & Testimonials - Dr. Autoimmune",
+        "name": "Real Patient Stories and Testimonials | Dr. Autoimmune",
         "url": "https://drautoimmune.com/patient-stories/",
         "description": "Read success stories and testimonials from real patients who have transformed their health through functional medicine at Dr. Autoimmune.",
         "publisher": {

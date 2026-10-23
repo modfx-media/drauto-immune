@@ -3,6 +3,7 @@ import type { RoutedDoc } from "@/lib/cms/queries";
 import { getRecentBlogPosts } from "@/lib/blog-posts-server";
 import { getPageContent, type PageContent } from "@/lib/content";
 import { resolveSeoDescription, resolveSeoTitle } from "@/lib/cms/seo-resolve";
+import { withUnifiedMedicalClinic } from "@/lib/organization-jsonld";
 import { normalizeCmsPath } from "@/lib/cms/url";
 
 function slugFromDoc(doc: Record<string, unknown>): string | null {
@@ -74,7 +75,7 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
     robots: hardcoded?.robots ?? null,
     openGraph: hardcoded?.openGraph ?? {},
     twitter: hardcoded?.twitter ?? {},
-    jsonLd: hardcoded?.jsonLd ?? [],
+    jsonLd: withUnifiedMedicalClinic(hardcoded?.jsonLd ?? []),
     videos: hardcoded?.videos ?? [],
     images: hardcoded?.images ?? [],
     bodyMarkdown,
