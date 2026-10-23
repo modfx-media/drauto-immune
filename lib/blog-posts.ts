@@ -82,5 +82,10 @@ export function formatBlogDate(iso: string | null): string | null {
   if (!iso) return null;
   const date = new Date(iso);
   if (Number.isNaN(date.getTime())) return null;
-  return date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    timeZone: "America/Denver",
+  });
 }

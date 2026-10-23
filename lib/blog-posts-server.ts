@@ -50,22 +50,25 @@ export async function getAllBlogPosts(): Promise<BlogPostSummary[]> {
       const existing = bySlug.get(post.slug);
       bySlug.set(post.slug, {
         slug: post.slug,
-        title: stripSiteSuffix(post.title || existing?.title || post.slug),
-        excerpt: post.excerpt || existing?.excerpt || "",
+        title: existing?.title || stripSiteSuffix(post.title || post.slug),
+        excerpt: existing?.excerpt || post.excerpt || "",
         image:
+          existing?.image ||
           (post.metaImageUrl
             ? { src: post.metaImageUrl, alt: post.metaImageAlt || post.title }
             : null) ||
-          existing?.image ||
           blogFeaturedImageFallbacks[post.slug] ||
           null,
-        datePublished: post.publishedAt || existing?.datePublished || null,
+        datePublished: existing?.datePublished || post.publishedAt || null,
         readingTime: existing?.readingTime ?? null,
       });
     }
   }
 
-  return sortNewestFirst([...bySlug.values()]);
+  // That CMS draft has no photo of its own and was repeating another card.
+  return sortNewestFirst([...bySlug.values()]).filter(
+    (post) => post.slug !== "break-through-weight-and-fatigue-plateaus",
+  );
 }
 
 /** The `count` most recent posts excluding `excludeSlug` — backs the post template's "Recent Blogs" sidebar. */
