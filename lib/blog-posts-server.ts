@@ -8,6 +8,7 @@
 import { getPageContent } from "./content";
 import { queryPublishedPosts } from "@/lib/cms/queries";
 import {
+  blogFeaturedImageFallbacks,
   blogPostSlugs,
   stripSiteSuffix,
   type BlogPostSlug,
@@ -54,7 +55,10 @@ export async function getAllBlogPosts(): Promise<BlogPostSummary[]> {
         image:
           (post.metaImageUrl
             ? { src: post.metaImageUrl, alt: post.metaImageAlt || post.title }
-            : null) || existing?.image || null,
+            : null) ||
+          existing?.image ||
+          blogFeaturedImageFallbacks[post.slug] ||
+          null,
         datePublished: post.publishedAt || existing?.datePublished || null,
         readingTime: existing?.readingTime ?? null,
       });

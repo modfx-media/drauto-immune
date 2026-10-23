@@ -70,6 +70,14 @@ export interface BlogPostSummary {
   readingTime: string | null;
 }
 
+/** Local stand-ins when a published CMS post has no meta image. */
+export const blogFeaturedImageFallbacks: Record<string, { src: string; alt: string }> = {
+  "break-through-weight-and-fatigue-plateaus": {
+    src: "/images/migrated/break-through-weight-and-fatigue-plateaus/featured.png",
+    alt: "Woman at home with highlighted joints, illustrating inflammation behind Hashimoto's weight and fatigue plateaus",
+  },
+};
+
 export function formatBlogDate(iso: string | null): string | null {
   if (!iso) return null;
   const date = new Date(iso);

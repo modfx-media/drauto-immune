@@ -5,6 +5,7 @@ import { getPageContent, type PageContent } from "@/lib/content";
 import { resolveSeoDescription, resolveSeoTitle } from "@/lib/cms/seo-resolve";
 import { withUnifiedMedicalClinic } from "@/lib/organization-jsonld";
 import { normalizeCmsPath } from "@/lib/cms/url";
+import { blogFeaturedImageFallbacks } from "@/lib/blog-posts";
 
 function slugFromDoc(doc: Record<string, unknown>): string | null {
   if (typeof doc.slug === "string" && doc.slug.trim()) return doc.slug.trim();
@@ -48,6 +49,7 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
     doc.meta && typeof doc.meta === "object" ? (doc.meta as Record<string, unknown>) : {};
   const metaImage =
     meta.image && typeof meta.image === "object" ? (meta.image as Record<string, unknown>) : null;
+  const fallbackImage = blogFeaturedImageFallbacks[slug];
   const cmsFeatured =
     metaImage && typeof metaImage.url === "string"
       ? {
@@ -59,7 +61,14 @@ function pageFromCmsDoc(doc: Record<string, unknown>): PageContent | null {
           originalFilename:
             (typeof metaImage.filename === "string" && metaImage.filename) || "cms-image",
         }
-      : null;
+      : fallbackImage
+        ? {
+            src: fallbackImage.src,
+            alt: fallbackImage.alt,
+            originalUrl: fallbackImage.src,
+            originalFilename: "featured.png",
+          }
+        : null;
 
   return {
     key: slug,
