@@ -1,10 +1,9 @@
 import type { JsonLdBlock } from "@/lib/content";
 
 /**
- * Renders every JSON-LD block captured from the live page verbatim (Rank
- * Math's WebPage/WebSite/BreadcrumbList graph, the homepage's MedicalBusiness
- * block, leftover Yoast graphs on older posts, etc.) so structured data
- * parity matches drautoimmune.com exactly.
+ * Renders JSON-LD blocks. Callers should pass blocks through
+ * `withUnifiedMedicalClinic`, which drops scraped Rank Math / Yoast graphs
+ * and emits one MedicalClinic.
  */
 export default function JsonLd({ blocks }: { blocks: JsonLdBlock[] }) {
   return (

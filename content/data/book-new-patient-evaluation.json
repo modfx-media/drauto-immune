@@ -3,7 +3,7 @@
   "path": "/book-new-patient-evaluation/",
   "liveUrl": "https://drautoimmune.com/book-new-patient-evaluation/",
   "isPost": false,
-  "title": "Book New Patient Evaluation - Dr. Autoimmune",
+  "title": "Schedule Your New Patient Evaluation | Dr. Autoimmune",
   "metaDescription": "Start your recovery with a full health review. Our team is ready to listen and help you feel like yourself again. Reserve your appointment online!",
   "canonical": "https://drautoimmune.com/book-new-patient-evaluation/",
   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
@@ -17,7 +17,7 @@
       "article"
     ],
     "title": [
-      "Book New Patient Evaluation - Dr. Autoimmune",
+      "Schedule Your New Patient Evaluation | Dr. Autoimmune",
       "Schedule Your New Patient Evaluation | Dr. Autoimmune"
     ],
     "description": [
@@ -58,7 +58,7 @@
             "@type": "WebPage",
             "@id": "https://drautoimmune.com/book-new-patient-evaluation/",
             "url": "https://drautoimmune.com/book-new-patient-evaluation/",
-            "name": "Book New Patient Evaluation - Dr. Autoimmune",
+            "name": "Schedule Your New Patient Evaluation | Dr. Autoimmune",
             "isPartOf": {
               "@id": "https://drautoimmune.com/#website"
             },
@@ -141,7 +141,7 @@
       "data": {
         "@context": "https://schema.org",
         "@type": "ContactPage",
-        "name": "Book New Patient Evaluation - Dr. Autoimmune",
+        "name": "Schedule Your New Patient Evaluation | Dr. Autoimmune",
         "url": "https://drautoimmune.com/book-new-patient-evaluation/",
         "description": "Schedule a new patient evaluation with Dr. Autoimmune to start your functional medicine journey.",
         "mainEntity": {

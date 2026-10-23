@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 import indexManifest from "@/content/data/index.json";
 import { blogPostSlugs, isBlogPostSlug } from "@/lib/blog-posts";
-import { querySitemapEntries } from "@/lib/cms/queries";
+import { isCodeOwnedMatrixPath } from "@/lib/cms/matrix-paths";
+import { querySitemapEntries, type SitemapDoc } from "@/lib/cms/queries";
 import { normalizeCmsPath, publicUrlFromCmsPath } from "@/lib/cms/url";
 import { getPageContent } from "@/lib/content";
 import { redirectedSitemapPaths } from "@/lib/seo-redirects";
@@ -140,18 +141,23 @@ function hardcodedSitemap(): MetadataRoute.Sitemap {
   return entries;
 }
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const fallback = hardcodedSitemap();
-  const cms = await querySitemapEntries();
+export function mergeSitemapEntries(
+  fallback: MetadataRoute.Sitemap,
+  cms: SitemapDoc[] | null,
+): MetadataRoute.Sitemap {
   if (!cms) return fallback;
 
-  const byPath = new Map(cms.map((doc) => [doc.path, doc]));
+  const byPath = new Map(cms.map((doc) => [normalizeCmsPath(doc.path) ?? doc.path, doc]));
   const kept = fallback.filter((entry) => {
     const path = pathFromSitemapUrl(entry.url);
     if (isRedirectedPath(path)) return false;
     if (!path) return true;
     const doc = byPath.get(path);
     if (!doc) return true;
+    // Production stubs for these URLs are flagged noIndex + excludeFromSitemap.
+    // The rendered pages are the code templates (200, self-canonical, indexable),
+    // so the flags must not remove them. Other CMS flags still apply.
+    if (isCodeOwnedMatrixPath(path)) return true;
     return !doc.noIndex && !doc.excludeFromSitemap;
   });
 
@@ -168,11 +174,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   });
 
   for (const doc of cms) {
-    if (doc.noIndex || doc.excludeFromSitemap) continue;
-    if (isRedirectedPath(doc.path)) continue;
-    if (present.has(doc.path)) continue;
+    const path = normalizeCmsPath(doc.path);
+    if (!path) continue;
+    if ((doc.noIndex || doc.excludeFromSitemap) && !isCodeOwnedMatrixPath(path)) continue;
+    if (isRedirectedPath(path)) continue;
+    if (present.has(path)) continue;
     merged.push({
-      url: publicUrlFromCmsPath(doc.path),
+      url: publicUrlFromCmsPath(path),
       lastModified:
         doc.sourceUpdatedAt || doc.updatedAt
           ? new Date(doc.sourceUpdatedAt || doc.updatedAt || "")
@@ -183,4 +191,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   return merged;
+}
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  return mergeSitemapEntries(hardcodedSitemap(), await querySitemapEntries());
 }

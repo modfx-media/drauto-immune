@@ -107,9 +107,13 @@ async function main() {
         legacyId: record.legacyId || null,
         sourceUrl: record.sourceUrl,
         sourceUpdatedAt: record.sourceUpdatedAt ?? undefined,
-        noIndex: Boolean(record.noIndex),
+        // Area-matrix rows in the export were bulk-flagged noindex while the
+        // pages were considered thin. The code templates are indexable; do not
+        // re-apply those flags on a future import.
+        noIndex: record.template === "area-matrix" ? false : Boolean(record.noIndex),
         noFollow: Boolean(record.noFollow),
-        excludeFromSitemap: Boolean(record.excludeFromSitemap),
+        excludeFromSitemap:
+          record.template === "area-matrix" ? false : Boolean(record.excludeFromSitemap),
         canonicalUrl: record.canonicalUrl,
         _status: "draft" as const,
       };

@@ -14,7 +14,7 @@ import {
 } from "@/content/national-data";
 import { buildStateConditionJsonLd, buildFrontRangeCityJsonLd } from "@/lib/national-jsonld";
 import { cmsMetadata } from "@/lib/cms/metadata";
-import { SITE_URL } from "@/lib/site";
+import { areaOgImage, SITE_URL } from "@/lib/site";
 
 /** Colorado also serves Denver at this route position; all states serve condition pages. */
 export async function generateStaticParams() {
@@ -47,7 +47,19 @@ export async function generateMetadata({
       title: page.title,
       description: page.metaDescription,
       alternates: { canonical },
-      openGraph: { title: page.title, description: page.metaDescription, url: canonical, type: "website" },
+      openGraph: {
+        title: page.title,
+        description: page.metaDescription,
+        url: canonical,
+        type: "website",
+        images: [areaOgImage(condition.slug, page.title)],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: page.title,
+        description: page.metaDescription,
+        images: [areaOgImage(condition.slug).url],
+      },
     });
   }
 
@@ -59,7 +71,19 @@ export async function generateMetadata({
       title: page.title,
       description: page.metaDescription,
       alternates: { canonical },
-      openGraph: { title: page.title, description: page.metaDescription, url: canonical, type: "website" },
+      openGraph: {
+        title: page.title,
+        description: page.metaDescription,
+        url: canonical,
+        type: "website",
+        images: [areaOgImage(undefined, page.title)],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: page.title,
+        description: page.metaDescription,
+        images: [areaOgImage().url],
+      },
     });
   }
 

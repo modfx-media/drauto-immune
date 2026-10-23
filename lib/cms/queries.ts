@@ -182,7 +182,7 @@ export async function querySitemapEntries(): Promise<SitemapDoc[] | null> {
     ]);
 
     const mapDoc = (doc: Record<string, unknown>): SitemapDoc | null => {
-      const path = typeof doc.path === "string" ? doc.path : null;
+      const path = normalizeCmsPath(typeof doc.path === "string" ? doc.path : null);
       if (!path) return null;
       return {
         path,

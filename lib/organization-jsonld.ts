@@ -7,6 +7,7 @@
 
 import type { JsonLdBlock } from "@/lib/content";
 import { SITE_CONTACT } from "@/components/layout/nav-links";
+import { stripLegacyWordPressSchema } from "@/lib/legacy-schema";
 import { SITE_URL } from "@/lib/site";
 
 export const MEDICAL_CLINIC_ID = `${SITE_URL}/#medicalclinic`;
@@ -83,7 +84,7 @@ function collapseNestedClinics(node: unknown, depth = 0): unknown {
 export function withUnifiedMedicalClinic(blocks: JsonLdBlock[]): JsonLdBlock[] {
   const collapsed: JsonLdBlock[] = [];
 
-  for (const block of blocks) {
+  for (const block of stripLegacyWordPressSchema(blocks)) {
     if (!block.data) {
       collapsed.push(block);
       continue;

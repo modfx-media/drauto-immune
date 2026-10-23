@@ -6,7 +6,7 @@ import AreaPageTemplate from "@/components/pages/areas/AreaPageTemplate";
 import { getState, buildStateHubContent } from "@/content/national-data";
 import { cmsMetadata } from "@/lib/cms/metadata";
 import { buildStateHubJsonLd } from "@/lib/national-jsonld";
-import { SITE_URL } from "@/lib/site";
+import { areaOgImage, SITE_URL } from "@/lib/site";
 
 export async function generateStaticParams() {
   return [{ state: "colorado" }];
@@ -31,6 +31,13 @@ export async function generateMetadata({
       description: page.metaDescription,
       url: canonical,
       type: "website",
+      images: [areaOgImage(undefined, page.title)],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: page.title,
+      description: page.metaDescription,
+      images: [areaOgImage().url],
     },
   });
 }

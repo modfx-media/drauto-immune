@@ -8,7 +8,7 @@ import Section from "@/components/ui/Section";
 import { AREA_HUB } from "@/content/areas-data";
 import { buildAreaHubJsonLd } from "@/lib/areas-jsonld";
 import { cmsMetadata } from "@/lib/cms/metadata";
-import { SITE_URL } from "@/lib/site";
+import { areaOgImage, SITE_URL } from "@/lib/site";
 
 const CANONICAL = `${SITE_URL}/areas-we-serve/`;
 
@@ -21,6 +21,13 @@ const AREA_HUB_METADATA: Metadata = {
     description: AREA_HUB.metaDescription,
     url: CANONICAL,
     type: "website",
+    images: [areaOgImage(undefined, AREA_HUB.title)],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: AREA_HUB.title,
+    description: AREA_HUB.metaDescription,
+    images: [areaOgImage().url],
   },
 };
 

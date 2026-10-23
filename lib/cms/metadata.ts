@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
+import { isCodeOwnedMatrixPath } from "@/lib/cms/matrix-paths";
 import { queryRoutedContentByPath } from "@/lib/cms/queries";
-import { publicUrlFromCmsPath } from "@/lib/cms/url";
+import { normalizeCmsPath, publicUrlFromCmsPath } from "@/lib/cms/url";
 import { resolveSeoDescription, resolveSeoTitle } from "@/lib/cms/seo-resolve";
 
-function metaFromDoc(doc: Record<string, unknown>, fallback: Metadata): Metadata {
+function metaFromDoc(
+  doc: Record<string, unknown>,
+  fallback: Metadata,
+  requestPath: string,
+): Metadata {
   const title = typeof doc.title === "string" ? doc.title : undefined;
   const excerpt = typeof doc.excerpt === "string" ? doc.excerpt : undefined;
   const path = typeof doc.path === "string" ? doc.path : undefined;
@@ -13,7 +18,11 @@ function metaFromDoc(doc: Record<string, unknown>, fallback: Metadata): Metadata
       : path
         ? publicUrlFromCmsPath(path)
         : undefined;
-  const noIndex = Boolean(doc.noIndex);
+  const docPath = typeof doc.path === "string" ? doc.path : requestPath;
+  // Empty area-matrix stubs were imported noindex. The live page is the
+  // code template, which stays indexable. A real CMS title can still win.
+  const indexableMatrix = isCodeOwnedMatrixPath(normalizeCmsPath(docPath) ?? requestPath);
+  const noIndex = indexableMatrix ? false : Boolean(doc.noIndex);
   const noFollow = Boolean(doc.noFollow);
   const seo = doc.meta && typeof doc.meta === "object" ? (doc.meta as Record<string, unknown>) : {};
   const rawTitle = typeof seo.title === "string" ? seo.title : title;
@@ -55,5 +64,5 @@ export async function cmsMetadata(
   const resolved = typeof fallback === "function" ? await fallback() : fallback;
   const routed = await queryRoutedContentByPath(path);
   if (!routed) return resolved;
-  return metaFromDoc(routed.doc, resolved);
+  return metaFromDoc(routed.doc, resolved, path);
 }
