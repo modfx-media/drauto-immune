@@ -73,8 +73,8 @@ export interface BlogPostSummary {
 /** Local stand-ins when a published CMS post has no meta image. */
 export const blogFeaturedImageFallbacks: Record<string, { src: string; alt: string }> = {
   "break-through-weight-and-fatigue-plateaus": {
-    src: "/images/migrated/break-through-weight-and-fatigue-plateaus/featured.png",
-    alt: "Woman at home with highlighted joints, illustrating inflammation behind Hashimoto's weight and fatigue plateaus",
+    src: "/images/migrated/hashimotos-thyroiditis-graves/iStock-931369150-e1763140495912.jpg",
+    alt: "Person holding an inflamed thyroid area, illustrating Hashimoto's weight and fatigue plateaus",
   },
 };
 

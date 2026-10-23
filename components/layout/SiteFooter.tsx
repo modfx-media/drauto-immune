@@ -1,4 +1,5 @@
 import Footer from "@/components/layout/Footer";
+import { QUICK_LINKS } from "@/components/layout/footer-links";
 import { withCMS } from "@/lib/cms/safe";
 
 type LinkRow = {
@@ -6,6 +7,29 @@ type LinkRow = {
   href?: string | null;
   external?: boolean | null;
 };
+
+const CAREERS_LINK = QUICK_LINKS.find((link) => link.label === "Careers");
+
+/** CMS footer snapshots predate the Careers PDF link. Keep a single copy in Quick Links. */
+function withCareersLink(
+  links: { label: string; href: string; external?: boolean }[] | undefined,
+) {
+  if (!links?.length || !CAREERS_LINK) return links;
+  const already = links.some(
+    (link) =>
+      link.label.toLowerCase() === "careers" ||
+      link.href.includes("metabolic-coordinator"),
+  );
+  if (already) return links;
+  const item = {
+    label: CAREERS_LINK.label,
+    href: CAREERS_LINK.href,
+    external: true as const,
+  };
+  const shopAt = links.findIndex((link) => link.label === "Shop");
+  if (shopAt === -1) return [...links, item];
+  return [...links.slice(0, shopAt), item, ...links.slice(shopAt)];
+}
 
 function mapLinks(rows: LinkRow[] | null | undefined) {
   return rows
@@ -30,7 +54,7 @@ export default async function SiteFooter() {
         }, null)
       : null;
 
-  const quickLinks = mapLinks(footer?.quickLinks as LinkRow[] | undefined);
+  const quickLinks = withCareersLink(mapLinks(footer?.quickLinks as LinkRow[] | undefined));
   const servicesLinks = mapLinks(footer?.servicesLinks as LinkRow[] | undefined);
   const conditionsLinks = mapLinks(footer?.conditionsLinks as LinkRow[] | undefined);
 
