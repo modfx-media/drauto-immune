@@ -10,11 +10,7 @@ export const QUICK_LINKS = [
   { label: "Store", href: "/store/" },
   { label: "Contact Us", href: "/contact-us/" },
   { label: "Privacy Policy", href: "/privacy-policy/" },
-  {
-    label: "Careers",
-    href: "/documents/metabolic-coordinator.pdf",
-    external: true,
-  },
+  { label: "Careers", href: "/careers/" },
   { label: "Shop", href: "https://shop.drautoimmune.com/", external: true },
 ] as const;
 

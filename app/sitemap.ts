@@ -86,6 +86,15 @@ function hardcodedSitemap(): MetadataRoute.Sitemap {
 
   push(
     {
+      url: `${SITE_URL}/careers/`,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    "/careers",
+  );
+
+  push(
+    {
       url: `${SITE_URL}/areas-we-serve/`,
       changeFrequency: "monthly",
       priority: 0.8,

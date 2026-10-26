@@ -10,25 +10,26 @@ type LinkRow = {
 
 const CAREERS_LINK = QUICK_LINKS.find((link) => link.label === "Careers");
 
-/** CMS footer snapshots predate the Careers PDF link. Keep a single copy in Quick Links. */
+/** CMS footer snapshots still point Careers at the PDF. Keep one Quick Link to the page. */
 function withCareersLink(
   links: { label: string; href: string; external?: boolean }[] | undefined,
 ) {
   if (!links?.length || !CAREERS_LINK) return links;
-  const already = links.some(
+  const item = { label: CAREERS_LINK.label, href: CAREERS_LINK.href };
+  const index = links.findIndex(
     (link) =>
       link.label.toLowerCase() === "careers" ||
-      link.href.includes("metabolic-coordinator"),
+      link.href.includes("metabolic-coordinator") ||
+      link.href.includes("/careers"),
   );
-  if (already) return links;
-  const item = {
-    label: CAREERS_LINK.label,
-    href: CAREERS_LINK.href,
-    external: true as const,
-  };
-  const shopAt = links.findIndex((link) => link.label === "Shop");
-  if (shopAt === -1) return [...links, item];
-  return [...links.slice(0, shopAt), item, ...links.slice(shopAt)];
+  if (index === -1) {
+    const shopAt = links.findIndex((link) => link.label === "Shop");
+    if (shopAt === -1) return [...links, item];
+    return [...links.slice(0, shopAt), item, ...links.slice(shopAt)];
+  }
+  const next = [...links];
+  next[index] = item;
+  return next;
 }
 
 function mapLinks(rows: LinkRow[] | null | undefined) {

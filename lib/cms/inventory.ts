@@ -63,6 +63,7 @@ const MARKETING_KEYS = new Set([
   "patient-stories",
   "services",
   "privacy-policy",
+  "careers",
 ]);
 
 export function inventoryPublicUrls(): InventoryRecord[] {
@@ -108,6 +109,18 @@ export function inventoryPublicUrls(): InventoryRecord[] {
     sourceUrl: "https://drautoimmune.com/privacy-policy/",
     excerpt:
       "How Dr. Autoimmune, a Boulder, Colorado functional medicine practice, collects, uses, and protects personal and health-related information.",
+  });
+
+  add({
+    collection: "pages",
+    legacyId: "careers",
+    path: "/careers",
+    slug: "careers",
+    title: "Career Opportunities at Dr. Autoimmune",
+    template: "marketing",
+    sourceUrl: "https://drautoimmune.com/careers/",
+    excerpt:
+      "Dr. Autoimmune is hiring a full-time, 100% remote Metabolic Coordinator (clinical nutritionist).",
   });
 
   add({
