@@ -7,6 +7,8 @@
  * so it can be safely imported from client components too.
  */
 export const blogPostSlugs = [
+  "what-the-new-ferritin-cutoff-of-16-may-mean-for-health",
+  "how-sibo-iron-pills-and-birth-control-affect-iron",
   "what-high-crp-reveals-about-chronic-inflammation",
   "root-causes-of-anemia-and-low-ferritin",
   "leaky-gut-signs-causes-and-functional-fixes",
